@@ -1,13 +1,35 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Global Variables */
+
+/* Global TW  */
+@layer base {
+  * {
+    @apply z-10 text-black  font-normal m-0 p-0 box-border;
+  }
+
+  body {
+    font-family: "Merriweather", serif;
+    background-color: #fdf5e6;
+    font-family: "Merriweather", serif;
+    letter-spacing: normal;
+    line-height: 27px;
+  }
+
+  h1 {
+    @apply text-2xl font-bold;
+  }
+  li {
+    @apply p-4;
+  }
+
+  p {
+    @apply m-4 text-[18px];
+  }
+
+  button {
+    @apply bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] py-3 px-7 rounded-3xl min-w-[150px];
+  }
 }

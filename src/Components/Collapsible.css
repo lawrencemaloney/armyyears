@@ -1,0 +1,46 @@
+.collapsible .toggle {
+  background: white;
+  border: unset;
+  cursor: pointer;
+  color: black;
+  font: unset;
+  font-size: 16px;
+  padding: 2px;
+  font-weight: bold;
+  /* border-radius: 5px; */
+  margin: 0;
+  margin-bottom: 1rem;
+  vertical-align: super;
+  width: 20px;
+}
+
+.toggle {
+  /* min-width: 0px; */
+
+  width: 10px;
+}
+/* button {
+  min-width: 0px;
+
+  width: 10px;
+} */
+
+.collapsible .content {
+  border: 1px solid black;
+  color: black;
+  /* width: 20px; */
+  padding: 1px;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  /* margin-left: -25vw; */
+}
+.collapsible .content-parent {
+  height: 0px;
+  /* font-size: 10px; */
+  background: white;
+  width: 40ch;
+  overflow: hidden;
+  /* outline: solid pink; */
+  /* margin-left: -10vw; */
+  transition: height ease 0.4s;
+}

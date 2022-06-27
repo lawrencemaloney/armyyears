@@ -1,0 +1,24 @@
+import {
+  AiFillCaretDown,
+  AiFillDownSquare,
+  AiFillQuestionCircle,
+  AiFillControl,
+  AiFillDiff,
+  AiOutlineAliyun,
+  AiOutlineArrowDown,
+  AiOutlineArrowUp,
+  AiOutlineCloseSquare,
+  AiOutlineInfo,
+} from "react-icons/ai";
+
+
+      <AiFillCaretDown size={40} />
+      <AiFillDownSquare size={40} />
+      <AiFillQuestionCircle size={40} />
+      <AiFillControl size={40} />
+      <AiFillDiff size={40} />
+      <AiOutlineAliyun size={40} />
+      <AiOutlineCloseSquare size={40} />
+      <AiOutlineInfo size={40} />
+      <AiOutlineArrowDown size={20} />
+      <AiOutlineArrowUp size={20} />
