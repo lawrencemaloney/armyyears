@@ -14,8 +14,8 @@
     font-family: "Merriweather", serif;
     background-color: #fdf5e6;
     font-family: "Merriweather", serif;
-    letter-spacing: normal;
-    line-height: 27px;
+    letter-spacing: 0.02rem;
+    /* line-height: 27px; */
   }
 
   h1 {
@@ -26,7 +26,7 @@
   }
 
   p {
-    @apply m-4 text-[18px];
+    @apply mb-2 text-xl w-[64ch];
   }
 
   button {

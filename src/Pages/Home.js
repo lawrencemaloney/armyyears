@@ -9,7 +9,7 @@ function BackStory() {
       <div className='  mt-[250px] mx-auto  flex flex-col items-center '>
         <h1 className=' text-center text-4xl  mb-3'>My Story</h1>
 
-        <p className='max-w-[64ch]'>
+        <p>
           From June 28, 1970, to December 29, 1971, I served as the Public Information Office
           (PIO) clerk for the 2<sup>nd</sup> Battalion, 6<sup>th</sup> Infantry (the "2/6")
           Regiment of the Berlin Brigade, U.S. Army Berlin (USAB) in Berlin, Germany. My
@@ -28,14 +28,14 @@ function BackStory() {
             Ku-damm Strasse & Kaiser Wilhelm Memorial, Berlin Germany c. 1970 taken by me
           </span>
         </div>
-        <p className='max-w-[64ch]'>
+        <p>
           In February 2020, I discovered an online archive of over 900 complete editions of the
           Observer preserving Brigade-related events (many of significant historical
           importance) from the first issue on September 25, 1945 (just five and a half months
           after Germany surrendered) through the final publication on July 15, 1994. (See the
           Berlin Observer Archives page to access all PDFs).
         </p>
-        <p className='max-w-[64ch]'>
+        <p>
           My wife suggested that I preserve my work contained in that archive along with some
           context so that my family, particularly my sons and grandchildren, would know a
           little of what my life in the Army was like. This website is the result of that
@@ -43,7 +43,7 @@ function BackStory() {
         </p>
         <h1 className=' text-center text-4xl  mb-3'>The Backstory - How I Got to Berlin.</h1>
 
-        <p className='max-w-[64ch]'>
+        <p>
           On December 3, 1969, at the height of American involvement in the Vietnam War, I
           joined the U.S. Army. As with most decisions, my choices were remarkably few. I could
           enlist, live with the uncertainty of the draft, or evade military service altogether.
@@ -51,7 +51,7 @@ function BackStory() {
           mostly out of my control.
         </p>
         <h2 className=' text-center text-3xl  mb-1'>The Draft Lottery</h2>
-        <p className='max-w-[64ch]'>
+        <p>
           The timing of my decision was determined primarily by the outcome of a lottery. On
           December 1, 1969, at Selective Service National Headquarters in Washington, D.C., a
           nationally televised lottery determined the "order of call" for induction into
@@ -67,13 +67,13 @@ function BackStory() {
           <span className='text-sm leading-none'>(Library of Congress)</span>
         </div>
         <h3 className='text-center  underline text-2xl  mb-1'>The Process</h3>
-        <p className='max-w-[64ch]'>
+        <p>
           366 opaque plastic capsules, each containing a slip of paper with a number from 1 to
           366 representing each day of the year (366 to account for those born on February 29th
           during leap years), were placed in a large glass container and drawn by hand. The
           number in each capsule represented the birth date of each eligible registrant.
         </p>
-        <p className='max-w-[64ch]'>
+        <p>
           The sequence in which a person’s birth date was drawn determined the order in which
           young men between 18 and 26 were to be called to serve. The event was covered live on
           TV and radio. I remember watching it with rapt attention. The first capsule drawn by
@@ -83,7 +83,7 @@ function BackStory() {
           days of the year had been paired with a sequence number.
         </p>
         <h3 className='text-center  underline text-2xl mb-1'>The Results</h3>
-        <p className='max-w-[64ch]'>
+        <p>
           My birth date, November 27, 1947, was on the 47th capsule chosen. (See results card.)
         </p>
         <div className=' max-w-[55ch] mt-4'>
@@ -96,7 +96,7 @@ function BackStory() {
           <span className='text-sm leading-none mr-8 '>1970 Results.</span>
         </div>
         <h3 className='text-center underline text-2xl  mb-3'>Seeking Advice</h3>
-        <p className='max-w-[64ch]'>
+        <p>
           I decided to get an expert opinion on how long I had until I was likely to be
           drafted. So, on December 3rd, I visited the local Army recruitment office in Midland
           Park, NJ, "You might make it to February." the Recruitment Officer said after I told
@@ -111,13 +111,13 @@ function BackStory() {
           />
           <span className='text-sm leading-none'>U.S. Army Recruiter</span>
         </div>
-        <p className='max-w-[64ch]'>
+        <p>
           I asked him if there was any benefit in volunteering rather than waiting to be
           drafted. He said that my military records would show that I was "RA" (Regular Army
           volunteer) rather than "US," indicating draftee status. He suggested that the Drill
           Instructors (DI) at Basic Training might treat volunteers better than draftees.
         </p>
-        <p className='max-w-[64ch]'>
+        <p>
           He also said that enlisting would allow me to schedule my induction rather than be in
           a constant state of anticipation. If my RA status had a positive impact during my
           Army career, it certainly wasn't obvious during Basic Training.
@@ -137,7 +137,7 @@ function BackStory() {
             width='980px'
           />
         </div>
-        <p className='text-[16px] w-[28ch] ml-[285px] leading-6	 -mt-[440px]'>
+        <p className='text-[18px] w-[29ch] ml-[260px] leading-4	 -mt-[420px]'>
           `Would you tell me, please, which way I ought to go from here?' <br />
           <br />
           `That depends a good deal on where you want to get to,' said the Cat. <br />
@@ -149,7 +149,7 @@ function BackStory() {
           <br />
           `Oh, you're sure to do that,' said the Cat, `if you only walk long enough
           <span className='  w-[60ch] 	font-bold '>
-            <Collapsible label='&#8224;'>
+            <Collapsible label='[&#8224;]'>
               <p className=' w-[12chr] text-[12px] leading-4'>
                 Carroll, Lewis. Alice’s Adventures in Wonderland. With illustrations by John
                 Tenniel. Alice-in-wonderland.net Page 30.
@@ -268,7 +268,7 @@ function BackStory() {
           us. The proliferation of television sets across the United States brought news of
           these events into our homes every night.
         </p>
-        <h3 className=' text-center underline text-2xl  mb-3'>
+        <h3 className=' text-center underline text-2xl '>
           Off to College -September 1964 through May 1969
         </h3>
         <p className=' max-w-[64ch]'>
@@ -323,7 +323,7 @@ function BackStory() {
           had to find a new degree program.
         </p>
 
-        <h3 className=' text-center underline text-2xl  mb-3'>A change in direction</h3>
+        <h3 className=' text-center underline text-2xl '>A Change in Direction</h3>
         <p className=' max-w-[64ch]'>
           Happily, some friends had asked me to join the staff of the student-run WVSU-AM radio
           station, which broadcast to the campus over telephone lines (carrier current) from
@@ -337,7 +337,7 @@ function BackStory() {
             className='
                   text-blue-600
                   visited:text-purple-600'>
-            https://en.wikipedia.org/wiki/Crescent_City_Radio
+            WOLF
           </a>{" "}
           . (Wolf Pack being the mascot of Loyola’s sports teams).
         </p>
@@ -346,7 +346,7 @@ function BackStory() {
           program in Communications (later named Bachelor of Arts in Mass Communications) at
           Loyola. I transferred to that program.
         </p>
-        <div className='	mx-auto  max-w-[55ch] my-6 '>
+        <div className='	mx-auto  max-w-[55ch] my-2'>
           <img
             className='border-2 border-black '
             src='images/Me on camera yearbook 1968.webp'
@@ -389,7 +389,7 @@ function BackStory() {
           I also joined the ROTC was a member of the competitive rifle team, and the Drill
           Team. As far as I know, neither one of these activities.
         </p>
-        <div className='	mx-auto  max-w-[55ch] my-6 '>
+        <div className='	mx-auto  max-w-[55ch] my-4 '>
           <img
             className='border-2 border-black '
             src='images/loyola-cadet-battalion-marches-back-to-campus-from-audubon-park-1966.webp'
@@ -502,7 +502,7 @@ function BackStory() {
             Eventually, the two nations negotiated the total removal of missiles and the
             destruction of the launch facilities
             <span className='  w-[60ch] 	font-bold '>
-              <Collapsible label='&#8224;'>
+              <Collapsible label='[&#8224;]'>
                 <p className=' w-[12chr] text-[12px] leading-4'>
                   “CUBAN MISSILE CRISIS” Accessed February 11, 2022.
                   <br />
@@ -572,7 +572,7 @@ function BackStory() {
             month in 1957, four black churches and at least seven private residences were
             bombed.
             <span className='  w-[60ch] 	font-bold '>
-              <Collapsible label='&#8224;'>
+              <Collapsible label='[&#8224;]'>
                 <p className=' w-[12chr] text-[12px] leading-4'>
                   Gado, Mark (2007). "Bombingham". CrimeLibrary.com/Court TV Online. Archived
                   from the original on August 18, 2007.
@@ -610,7 +610,7 @@ function BackStory() {
             Klavern #13 chapter of the Ku Klux Klan. It took until May 1, 2001, until three of
             the four suspected bombers were convicted
             <span className='  w-[60ch] 	font-bold '>
-              <Collapsible label='&#8224;'>
+              <Collapsible label='[&#8224;]'>
                 <p className=' w-[12chr] text-[12px] leading-4'>
                   16th Street Baptist Church Bombing, National Parks Service.
                   <a
@@ -659,7 +659,7 @@ function BackStory() {
             could suddenly be heard over the PA system reporting that the President had been
             shot. There was a stunned silence as we all tried to make sense of what we heard
             <span className='  w-[60ch] 	font-bold '>
-              <Collapsible label='&#8224;'>
+              <Collapsible label=']&#8224;]'>
                 <p className=' w-[12chr] text-[12px] leading-4'>
                   Robert Siegel, "Walter Cronkite On The Assassination Of John F. Kennedy," NPR
                   News All Things Considered, Washington, DC, November 22, 2013 4:22 PM ET.
