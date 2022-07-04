@@ -7,9 +7,10 @@ function InBerlin() {
       <div className='  mt-[250px] mx-auto  flex flex-col items-center '>
         <h1 className=' text-center text-4xl  mb-3'>Hot War/Cold War - Vietnam/Germany</h1>
         <h2 className=' text-center text-3xl  mb-1'>What was I getting into?</h2>
-        <p>
+        <p className='max-w-[64ch]'>
           When I arrived in Germany in early July 1970, the world's attention was firmly
-          focused on the war in Vietnam. At that time, the casualty figures exceeded 1.5
+          focused on the war in Vietnam. y
+          At that time, the casualty figures exceeded 1.5
           million people killed (50,000 U.S., 254,000 South Vietnamese, 849,000 North
           Vietnamese military personnel, and 400,000 North and South Vietnamese civilians).
 
@@ -40,7 +41,7 @@ function InBerlin() {
           earlier made manifest to the world in post-war Berlin.
           
         </p>
-        <p>
+        <p className='max-w-[64ch]'>
           Immediately after Germany's unconditional surrender on May 7, 1945, the Soviet Union
           focused on exacting punishment and reparations for atrocities suffered during the
           German invasion of Russia. The Soviet plan included moving skilled workers and other
@@ -53,7 +54,7 @@ function InBerlin() {
           reasoned that a strong West Germany would provide a buffer between the
           Soviet-controlled countries and the rest of Europe.
         </p>
-        <p>
+        <p className='max-w-[64ch]'>
           {" "}
           These conflicting philosophies and ambitions had their focal point in Berlin. For
           civilians and military personnel living in Berlin, the potential for armed conflict
@@ -63,7 +64,7 @@ function InBerlin() {
           100 Miles Behind Enemy Lines!
         </h3>
 
-        <p>
+        <p className='max-w-[64ch]'>
           Before arriving in Berlin, I hadn't given much thought to the "Cold War" or the
           precarious position that the Western Allies' military personnel, their families, and
           other civilians found themselves in, living 100 miles inside the Soviet-controlled
@@ -73,7 +74,7 @@ function InBerlin() {
 
         <h3 className=' text-center underline text-2xl  mb-3'>The Berlin Blockade</h3>
 
-        <p>
+        <p className='max-w-[64ch]'>
           By mid-1970, the Soviets had already made several concerted efforts to isolate and
           eventually take sole control of Berlin. The first was the Berlin Blockade
           <span >
@@ -99,12 +100,12 @@ function InBerlin() {
           impossible to get food, fuel, and supplies using those modes of transportation.
         </p>
 
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
+        <p className='max-w-[64ch]'></p>
+        <p className='max-w-[64ch]'></p>
+        <p className='max-w-[64ch]'></p>
+        <p className='max-w-[64ch]'></p>
+        <p className='max-w-[64ch]'></p>
+        <p className='max-w-[64ch]'></p>
       </div>
     </>
   );
