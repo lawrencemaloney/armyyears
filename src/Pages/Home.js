@@ -9,7 +9,7 @@ function BackStory() {
       <div className='  mt-[250px] mx-auto  flex flex-col items-center '>
         <h1 className=' text-center text-4xl  mb-3'>My Story</h1>
 
-        <p>
+        <p className='max-w-[64ch]'>
           From June 28, 1970, to December 29, 1971, I served as the Public Information Office
           (PIO) clerk for the 2<sup>nd</sup> Battalion, 6<sup>th</sup> Infantry (the "2/6")
           Regiment of the Berlin Brigade, U.S. Army Berlin (USAB) in Berlin, Germany. My
@@ -28,14 +28,14 @@ function BackStory() {
             Ku-damm Strasse & Kaiser Wilhelm Memorial, Berlin Germany c. 1970 taken by me
           </span>
         </div>
-        <p>
+        <p className='max-w-[64ch]'>
           In February 2020, I discovered an online archive of over 900 complete editions of the
           Observer preserving Brigade-related events (many of significant historical
           importance) from the first issue on September 25, 1945 (just five and a half months
           after Germany surrendered) through the final publication on July 15, 1994. (See the
           Berlin Observer Archives page to access all PDFs).
         </p>
-        <p>
+        <p className='max-w-[64ch]'>
           My wife suggested that I preserve my work contained in that archive along with some
           context so that my family, particularly my sons and grandchildren, would know a
           little of what my life in the Army was like. This website is the result of that
@@ -43,7 +43,7 @@ function BackStory() {
         </p>
         <h1 className=' text-center text-4xl  mb-3'>The Backstory - How I Got to Berlin.</h1>
 
-        <p>
+        <p className='max-w-[64ch]'>
           On December 3, 1969, at the height of American involvement in the Vietnam War, I
           joined the U.S. Army. As with most decisions, my choices were remarkably few. I could
           enlist, live with the uncertainty of the draft, or evade military service altogether.
@@ -51,7 +51,7 @@ function BackStory() {
           mostly out of my control.
         </p>
         <h2 className=' text-center text-3xl  mb-1'>The Draft Lottery</h2>
-        <p>
+        <p className='max-w-[64ch]'>
           The timing of my decision was determined primarily by the outcome of a lottery. On
           December 1, 1969, at Selective Service National Headquarters in Washington, D.C., a
           nationally televised lottery determined the "order of call" for induction into
@@ -68,13 +68,13 @@ function BackStory() {
         </div>
 
         <h3 className='text-center  underline text-2xl  mb-1'>The Process</h3>
-        <p>
+        <p className='max-w-[64ch]'>
           366 opaque plastic capsules, each containing a slip of paper with a number from 1 to
           366 representing each day of the year (366 to account for those born on February 29th
           during leap years), were placed in a large glass container and drawn by hand. The
           number in each capsule represented the birth date of each eligible registrant.
         </p>
-        <p>
+        <p className='max-w-[64ch]'>
           The sequence in which a person’s birth date was drawn determined the order in which
           young men between 18 and 26 were to be called to serve. The event was covered live on
           TV and radio. I remember watching it with rapt attention. The first capsule drawn by
@@ -84,7 +84,7 @@ function BackStory() {
           days of the year had been paired with a sequence number.
         </p>
         <h3 className='text-center  underline text-2xl mb-1'>The Results</h3>
-        <p>
+        <p className='max-w-[64ch]'>
           My birth date, November 27, 1947, was on the 47th capsule chosen. (See results card.)
         </p>
         <div className=' max-w-[55ch] mt-4'>
@@ -97,7 +97,7 @@ function BackStory() {
           <span className='text-sm leading-none mr-8 '>1970 Results.</span>
         </div>
         <h3 className='text-center underline text-2xl  mb-3'>Seeking Advice</h3>
-        <p>
+        <p className='max-w-[64ch]'>
           I decided to get an expert opinion on how long I had until I was likely to be
           drafted. So, on December 3rd, I visited the local Army recruitment office in Midland
           Park, NJ, "You might make it to February." the Recruitment Officer said after I told
@@ -113,13 +113,13 @@ function BackStory() {
           <span className='text-sm leading-none'>U.S. Army Recruiter</span>
         </div>
 
-        <p>
+        <p className='max-w-[64ch]'>
           I asked him if there was any benefit in volunteering rather than waiting to be
           drafted. He said that my military records would show that I was "RA" (Regular Army
           volunteer) rather than "US," indicating draftee status. He suggested that the Drill
           Instructors (DI) at Basic Training might treat volunteers better than draftees.
         </p>
-        <p>
+        <p className='max-w-[64ch]'>
           He also said that enlisting would allow me to schedule my induction rather than be in
           a constant state of anticipation. If my RA status had a positive impact during my
           Army career, it certainly wasn't obvious during Basic Training.
@@ -128,7 +128,7 @@ function BackStory() {
           <span className='font-bold'>The Decision:</span> I signed up and scheduled my
           induction for February 2, 1970.
         </p>
-        <img className='max-w-[35vw] ' src={sectionDiv} alt='divider' />
+        {/* <img className='max-w-[35vw] ' src={sectionDiv} alt='divider' /> */}
 
         <h2 className=' text-center text-3xl  mb-1'>How did I Get Here?</h2>
         <div className=' max-w-[55ch] mt-4'>
@@ -139,7 +139,7 @@ function BackStory() {
             width='980px'
           />
         </div>
-        <p className='text-[16px] mh-[340px] w-[26ch] ml-[200px] leading-4	 -mt-[340px]'>
+        <div className='text-[16px] mh-[340px] w-[26ch] ml-[200px] leading-4	 -mt-[340px]'>
           `Would you tell me, please, which way I ought to go from here?' <br />
           <br />
           `That depends a good deal on where you want to get to,' said the Cat. <br />
@@ -171,7 +171,7 @@ function BackStory() {
                 {/* <br /> */}
               </div>
             </Collapsible>
-          </p>
+          </div>
 
         <p className=' max-w-[64ch] my-[30px] '>
           Like Alice, I had no clear idea of where I wanted to "get to" in the years and months
@@ -180,8 +180,6 @@ function BackStory() {
           enlistment decision were not planned,
           <b>at least not by me</b>.
         </p>
-      </div>
-      <div className='  mx-auto  flex flex-col items-center '>
         <h3 className=' text-center underline text-2xl  mb-3'>The Influencers</h3>
         <p className=' max-w-[64ch]'>
           How we make sense of what we see happening in the world around us is greatly
@@ -412,7 +410,6 @@ function BackStory() {
           Timeline 1960 through 1969 - Outside my Bubble
         </h1>
 
-        <div className=' max-w-[65vw]	'>
           <p className='text-align-left font-serif text-[26px]  mb-8'>
             May 1, 1960 - U.S. Spy Plane Shot Down over USSR
           </p>
@@ -501,7 +498,7 @@ function BackStory() {
               cargo ship. (Public Domain))
             </span>
           </div>
-          <p className=' max-w-[64ch]'>
+          <div className=' max-w-[64ch]'>
             President Kennedy decided on a plan based upon McNamara's advice and ordered a
             total naval "quarantine" of Cuba, declaring that the U.S. would prevent any ship
             carrying offensive weapons from reaching Cuba. There was a real possibility that
@@ -572,12 +569,12 @@ function BackStory() {
 
                 </div>
               </Collapsible>
-            </p>
+            </div>
           <p className=' text-center text-xl border-2 border-black mb-3	'>
             May 11 and September 15, 1963 - Three bombings in Birmingham Alabama ignite a
             decade of racial violence.
           </p>
-          <p className=' max-w-[64ch]'>
+          <div className=' max-w-[64ch]'>
             The city of Birmingham, Alabama was no stranger to racially-motivated bombings.
             There were 48 such bombings reported in Birmingham between 1948 in 1957. In one
             month in 1957, four black churches and at least seven private residences were
@@ -601,7 +598,8 @@ function BackStory() {
                   </p>
                 </div>
               </Collapsible>
-          </p>
+          </div>
+
           <div className='	mx-auto  max-w-[55ch] mt-4 '>
             <img
               className='border-2 border-black '
@@ -614,7 +612,8 @@ function BackStory() {
               Press)
             </span>
           </div>
-          <p className=' max-w-[64ch]'>
+
+          <div className=' max-w-[64ch]'>
             On Sunday, September 15, 1963, at the 16th street Baptist Church in Birmingham, AL,
             four young girls, 14-year-olds Addie Mae Collins, Denise McNair, Carole Robertson,
             and 11-year-old Cynthia Wesley, were murdered by a bomb planted under the steps of
@@ -622,7 +621,7 @@ function BackStory() {
             Klavern #13 chapter of the Ku Klux Klan. It took until May 1, 2001, until three of
             the four suspected bombers were convicted.
               <Collapsible icon='[&#8224;]'>
-              <div className="ml-8 w-[300px] break-words">
+              <div className="mt-[3-px] w-[300px] break-words">
               [&#8224;]
                 <p>
                   16th Street Baptist Church Bombing, National Parks Service.
@@ -640,19 +639,20 @@ function BackStory() {
                 </p>
                 </div>
               </Collapsible>
-          </p>
+          </div>
 
           <div className='	mx-auto  max-w-[55ch] mt-4 '>
             <img
               className='border-2 border-black '
               src='images/16th street church birminghamLOC BW.jpg'
-              alt='Four Girls  Nurdered in Birmingham 1963'
+              alt='Four Girls Murdered in Birmingham 1963'
               width='980px'
             />
             <span className='text-sm  leading-none'>
               (16th Street Church, Birminham, AL (Librarry of Congress) )
             </span>
           </div>
+          
           <div className='	mx-auto  max-w-[55ch] mt-4 '>
             <img
               className='border-2 border-black '
@@ -665,10 +665,12 @@ function BackStory() {
               Baptist Church, which killed four African-American girls. AP Photo. )
             </span>
           </div>
+
+
           <p className=' text-center text-xl border-2 border-black mb-3	'>
             November 22, 1963 - President John F. Kennedy Assassinated in Dallas, TX,
           </p>
-          <p className=' max-w-[64ch]'>
+          <div className=' max-w-[64ch]'>
             On November 22, 1963, President John F. Kennedy was assassinated in Dallas, TX. I
             remember being in the Ridgewood, NJ Highschool cafeteria when a news broadcast
             could suddenly be heard over the PA system reporting that the President had been
@@ -693,7 +695,7 @@ function BackStory() {
                 </p>
                   </div>
               </Collapsible>
-          </p>
+          </div>
           <div className='	mx-auto  max-w-[55ch] mt-4 '>
             <img
               className='border-2 border-black '
@@ -707,7 +709,6 @@ function BackStory() {
             </span>
           </div>
         </div>
-      </div>
     </>
   );
 }
