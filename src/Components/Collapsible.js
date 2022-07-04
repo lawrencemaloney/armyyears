@@ -7,30 +7,30 @@ function Collapsible(props) {
   const parentRef = useRef();
 
   if (parentRef.current) 
-  console.log(parentRef.current.scrollWidth);
+  console.log(parentRef.current.scrollHeight);
   return (
-    <span className='collapsible '>
+    <span className='collapsible  '>
       <span className='toggle' onClick={() => setIsOpen(!isOpen)}>
-        {props.label}
-      </span>
+        {props.icon} </span>
       <div
         className='content-parent '
         ref={parentRef}
         style={
           isOpen
             ? {
-                height: parentRef.current.scrollHeight + "px",
-                // fontSize: "16px",
-                width: 700 + "px",
-                border: "1px solid black",
+                height: (parentRef.current.scrollHeight +10) + "px",
+                display: "inline-block",
+              // marginBottom: "60px",
+
               }
             : {
-                height: 0 + "px",
+                // width: 0 + "px",
+              display: "none",
 
-                // width: "0px",
               }
         }>
-        <div className='content w-0 '>{props.children}</div>
+        <div className='content '>{props.children}
+        </div>
       </div>
     </span>
   );

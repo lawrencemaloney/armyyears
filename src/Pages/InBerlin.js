@@ -11,13 +11,13 @@ function InBerlin() {
           When I arrived in Germany in early July 1970, the world's attention was firmly
           focused on the war in Vietnam. At that time, the casualty figures exceeded 1.5
           million people killed (50,000 U.S., 254,000 South Vietnamese, 849,000 North
-          Vietnamese military personnel, and 400,000 North and South Vietnamese civilians)
-          <span className='  w-[60ch] 	font-bold '>
-            <Collapsible label='&#8224;'>
-              <p className=' w-[12chr] text-[12px] leading-4 	'>
-                Wikipedia contributors, "Vietnam War casualties," Wikipedia, The Free
-                Encyclopedia,
-                <br />
+          Vietnamese military personnel, and 400,000 North and South Vietnamese civilians).
+
+            <Collapsible icon='[&#8224;]'>
+              <div className="mx-8">
+              [&#8224;]
+                Wikipedia contributors, "Vietnam War casualties," <span className='italic'>Wikipedia, The Free
+                Encyclopedia,</span>
                 <a
                   target='blank'
                   rel='noopener noreferrer'
@@ -26,16 +26,19 @@ function InBerlin() {
                   text-blue-600
                   visited:text-purple-600'>
                   https://en.wikipedia.org/w/index.php?title=Vietnam_War_casualties&oldid=1062906270
+                <br/>
+                <br/>
                 </a>
-                <br />
-              </p>
-            </Collapsible>
-          </span>{" "}
-          . The conflicting world views and political ambitions of the U.S. and the Soviet
+              </div>
+              
+              </Collapsible>
+
+          The conflicting world views and political ambitions of the U.S. and the Soviet
           Union, which contributed to the escalating involvement of the U.S. in the Vietnam
           War, had their genesis in post-war Germany. Fundamental philosophical differences
           regarding how people should be governed, at the root of the conflict in Vietnam, were
           earlier made manifest to the world in post-war Berlin.
+          
         </p>
         <p>
           Immediately after Germany's unconditional surrender on May 7, 1945, the Soviet Union
@@ -74,7 +77,7 @@ function InBerlin() {
           By mid-1970, the Soviets had already made several concerted efforts to isolate and
           eventually take sole control of Berlin. The first was the Berlin Blockade
           <span >
-            <Collapsible label='[&#8224;]'>
+            <Collapsible icon='[&#8224;]'>
               <p >
                 Carroll, Lewis. Alice’s Adventures in Wonderland. With illustrations by John
                 Tenniel. Alice-in-wonderland.net Page 30.

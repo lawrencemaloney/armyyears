@@ -66,6 +66,7 @@ function BackStory() {
           />
           <span className='text-sm leading-none'>(Library of Congress)</span>
         </div>
+
         <h3 className='text-center  underline text-2xl  mb-1'>The Process</h3>
         <p>
           366 opaque plastic capsules, each containing a slip of paper with a number from 1 to
@@ -111,6 +112,7 @@ function BackStory() {
           />
           <span className='text-sm leading-none'>U.S. Army Recruiter</span>
         </div>
+
         <p>
           I asked him if there was any benefit in volunteering rather than waiting to be
           drafted. He said that my military records would show that I was "RA" (Regular Army
@@ -137,7 +139,7 @@ function BackStory() {
             width='980px'
           />
         </div>
-        <p className='text-[18px] w-[29ch] ml-[260px] leading-4	 -mt-[420px]'>
+        <p className='text-[16px] mh-[340px] w-[26ch] ml-[200px] leading-4	 -mt-[340px]'>
           `Would you tell me, please, which way I ought to go from here?' <br />
           <br />
           `That depends a good deal on where you want to get to,' said the Cat. <br />
@@ -148,12 +150,12 @@ function BackStory() {
           `--so long as I get SOMEWHERE,' Alice added as an explanation. <br />
           <br />
           `Oh, you're sure to do that,' said the Cat, `if you only walk long enough
-          <span className='  w-[60ch] 	font-bold '>
-            <Collapsible label='[&#8224;]'>
-              <p className=' w-[12chr] text-[12px] leading-4'>
+          
+            <Collapsible icon='[&#8224;]'>
+            <div className="-ml-10 w-[300px] mt-[32px] break-words">
+              [&#8224;]
                 Carroll, Lewis. Alice’s Adventures in Wonderland. With illustrations by John
                 Tenniel. Alice-in-wonderland.net Page 30.
-                <br />
                 <a
                   target='blank'
                   rel='noopener noreferrer'
@@ -162,14 +164,16 @@ function BackStory() {
                   text-blue-600
                   visited:text-purple-600'>
                   https://www.alice-in-wonderland.net/wp-content/uploads/alice-in-wonderland.pdf
+                  <br/>
+                  <br/>
+           
                 </a>
                 {/* <br /> */}
-              </p>
+              </div>
             </Collapsible>
-          </span>
-        </p>
+          </p>
 
-        <p className=' max-w-[64ch] mt-14'>
+        <p className=' max-w-[64ch] my-[30px] '>
           Like Alice, I had no clear idea of where I wanted to "get to" in the years and months
           leading to my enlistment. The war in Vietnam, the university I attended, the courses
           I took, the interests I developed, and the experiences I had that led directly to my
@@ -177,7 +181,7 @@ function BackStory() {
           <b>at least not by me</b>.
         </p>
       </div>
-      <div className='  mt-[25px] mx-auto  flex flex-col items-center '>
+      <div className='  mx-auto  flex flex-col items-center '>
         <h3 className=' text-center underline text-2xl  mb-3'>The Influencers</h3>
         <p className=' max-w-[64ch]'>
           How we make sense of what we see happening in the world around us is greatly
@@ -389,6 +393,8 @@ function BackStory() {
           I also joined the ROTC was a member of the competitive rifle team, and the Drill
           Team. As far as I know, neither one of these activities.
         </p>
+
+
         <div className='	mx-auto  max-w-[55ch] my-4 '>
           <img
             className='border-2 border-black '
@@ -401,20 +407,21 @@ function BackStory() {
           </span>
         </div>
 
+
         <h1 className=' text-center text-4xl  mb-3'>
           Timeline 1960 through 1969 - Outside my Bubble
         </h1>
 
         <div className=' max-w-[65vw]	'>
-          <p className='text-align-left font-serif	 text-[26px]  p-6  mb-8'>
+          <p className='text-align-left font-serif text-[26px]  mb-8'>
             May 1, 1960 - U.S. Spy Plane Shot Down over USSR
-          </p>{" "}
+          </p>
           <p className=' max-w-[64ch]'>
             The ongoing Cold War between the Soviet Union and the western allies, three major
             political assassinations, the nation-wide racial violence, and the escalation of
             the Vietnam War all played a major role in my decision.
           </p>
-          <div className='	mx-auto  max-w-[55ch] mt-4 '>
+          <div className='	mx-auto  max-w-[55ch] my-4 '>
             <img
               className='border-2 border-black '
               src='images/First-U-2.jpg'
@@ -501,9 +508,10 @@ function BackStory() {
             the U.S. Navy would forcibly stop and board Soviet ships and that war would ensue.
             Eventually, the two nations negotiated the total removal of missiles and the
             destruction of the launch facilities
-            <span className='  w-[60ch] 	font-bold '>
-              <Collapsible label='[&#8224;]'>
-                <p className=' w-[12chr] text-[12px] leading-4'>
+              <Collapsible icon='[&#8224;]'>
+              <div className="mx-8 w-[500px]">
+              [&#8224;]
+              <p>
                   “CUBAN MISSILE CRISIS” Accessed February 11, 2022.
                   <br />
                   <a
@@ -517,7 +525,7 @@ function BackStory() {
                     https://www.jfklibrary.org/learn/about-jfk/jfk-in-history/cuban-missile-crisis
                   </a>
                 </p>
-                <p className=' w-[12chr] text-[12px] leading-4'>
+                <p>
                   Britannica, T. Editors of Encyclopaedia. "Cuban missile crisis." Encyclopedia
                   Britannica, December 20, 2021.
                   <br />
@@ -531,7 +539,7 @@ function BackStory() {
                     https://www.britannica.com/event/Cuban-missile-crisis
                   </a>
                 </p>
-                <p className=' w-[12chr] text-[12px] leading-4'>
+                <p>
                   Schwarz, Benjamin, Janury/February 2013 Issue, The Real Cuban Missile
                   Crisis.The Atlantic.
                   <br />
@@ -545,7 +553,7 @@ function BackStory() {
                     https://www.theatlantic.com/magazine/archive/2013/01/the-real-cuban-mssile-crisis/309190/
                   </a>
                 </p>
-                <p className=' w-[12chr] text-[12px] leading-4'>
+                <p>
                   Arnold, Mark, May 5, 2013 Issue, JFK and the Road to Dallas: The Cuban
                   Missile Crisis-Part II.
                   <br />
@@ -557,11 +565,14 @@ function BackStory() {
                   text-blue-600
                   visited:text-purple-600'>
                     http://fromanativeson.com/?s=The+Cuban+Missile+Crisis-Part+II
+                    <br />
+                    <br />
                   </a>
-                </p>
+                  </p>
+
+                </div>
               </Collapsible>
-            </span>
-          </p>
+            </p>
           <p className=' text-center text-xl border-2 border-black mb-3	'>
             May 11 and September 15, 1963 - Three bombings in Birmingham Alabama ignite a
             decade of racial violence.
@@ -571,9 +582,9 @@ function BackStory() {
             There were 48 such bombings reported in Birmingham between 1948 in 1957. In one
             month in 1957, four black churches and at least seven private residences were
             bombed.
-            <span className='  w-[60ch] 	font-bold '>
-              <Collapsible label='[&#8224;]'>
-                <p className=' w-[12chr] text-[12px] leading-4'>
+              <Collapsible icon='[&#8224;]'>
+                <div className="ml-8 w-[300px] break-words">
+                  <p>
                   Gado, Mark (2007). "Bombingham". CrimeLibrary.com/Court TV Online. Archived
                   from the original on August 18, 2007.
                   <a
@@ -584,11 +595,12 @@ function BackStory() {
                   text-blue-600
                   visited:text-purple-600'>
                     https://web.archive.org/web/20070818222057/http://www.crimelibrary.com/terrorists_spies/terrorists/birmingham_church/3.html
+                 <br />
+                 <br />
                   </a>
-                  {/* <br /> */}
-                </p>
+                  </p>
+                </div>
               </Collapsible>
-            </span>
           </p>
           <div className='	mx-auto  max-w-[55ch] mt-4 '>
             <img
@@ -608,10 +620,11 @@ function BackStory() {
             and 11-year-old Cynthia Wesley, were murdered by a bomb planted under the steps of
             the church by members of Cahaba River Group, a splinter group of the Eastview
             Klavern #13 chapter of the Ku Klux Klan. It took until May 1, 2001, until three of
-            the four suspected bombers were convicted
-            <span className='  w-[60ch] 	font-bold '>
-              <Collapsible label='[&#8224;]'>
-                <p className=' w-[12chr] text-[12px] leading-4'>
+            the four suspected bombers were convicted.
+              <Collapsible icon='[&#8224;]'>
+              <div className="ml-8 w-[300px] break-words">
+              [&#8224;]
+                <p>
                   16th Street Baptist Church Bombing, National Parks Service.
                   <a
                     target='blank'
@@ -621,12 +634,14 @@ function BackStory() {
                   text-blue-600
                   visited:text-purple-600'>
                     https://www.nps.gov/articles/16thstreetbaptist.htm
+                    <br />
+                    <br />
                   </a>
-                  {/* <br /> */}
                 </p>
+                </div>
               </Collapsible>
-            </span>
           </p>
+
           <div className='	mx-auto  max-w-[55ch] mt-4 '>
             <img
               className='border-2 border-black '
@@ -658,8 +673,8 @@ function BackStory() {
             remember being in the Ridgewood, NJ Highschool cafeteria when a news broadcast
             could suddenly be heard over the PA system reporting that the President had been
             shot. There was a stunned silence as we all tried to make sense of what we heard
-            <span className='  w-[60ch] 	font-bold '>
-              <Collapsible label=']&#8224;]'>
+              <Collapsible icon=']&#8224;]'>
+              <div className="ml-8 w-[300px] break-words">
                 <p className=' w-[12chr] text-[12px] leading-4'>
                   Robert Siegel, "Walter Cronkite On The Assassination Of John F. Kennedy," NPR
                   News All Things Considered, Washington, DC, November 22, 2013 4:22 PM ET.
@@ -671,11 +686,13 @@ function BackStory() {
                   text-blue-600
                   visited:text-purple-600'>
                     https://www.npr.org/transcripts/246628793
+                    <br />
+                    <br />
                   </a>
                   {/* <br /> */}
                 </p>
+                  </div>
               </Collapsible>
-            </span>
           </p>
           <div className='	mx-auto  max-w-[55ch] mt-4 '>
             <img
