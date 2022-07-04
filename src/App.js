@@ -7,7 +7,6 @@ import InBerlin from "./Pages/InBerlin";
 import PhotoJ from "./Pages/PhotoJ";
 import Archives from "./Pages/Archives";
 import About from "./Pages/About";
-import OpenCloseFootnote from "./Components/OpenCloseFootnote";
 
 function App() {
   return (

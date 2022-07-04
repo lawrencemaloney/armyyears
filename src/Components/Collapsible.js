@@ -1,5 +1,4 @@
 import React, { useState, useRef } from "react";
-// import Footnote from "../Assets/Icons/Footnote";
 import "./Collapsible.css";
 
 function Collapsible(props) {
