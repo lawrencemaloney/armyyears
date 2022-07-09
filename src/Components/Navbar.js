@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-// import { MenuOutlined } from "@material-ui/icons";
 import { Link } from "react-router-dom";
+import MenuItems from "./MenuItems";
 // import { FaBeer } from "react-icons/fa";
 
 const Navbar = () => {
@@ -13,7 +13,13 @@ const Navbar = () => {
   return (
     <>
       <nav>
-        <ul className='hidden md:flex border border-black gap-3 lg:gap-8 p-[2px] bg-white/10 text-[18px] lg:text-[22px]   italic justify-center '>
+      <div className="absolute left-[50%] top-[45px] -translate-x-1/2	-translate-y-1/2 ">
+          <AiOutlineMenu className="h-[42px] w-[42px]"  onClick={showMenu}>
+            </AiOutlineMenu>
+
+    </div>
+
+        <ul className='hidden h-[55px]  fixed top-[185px] border w-[95vw] ml-[2.5vw] border-black gap-x-1  p-[2px] bg-amber-50 text-[22px]  italic justify-center z-[1000] items-center lg:flex lg:text-[26px]'>
           <li className=' hover:text-black  hover:scale-[1.25]'>
             <Link to='/Home'>Home</Link>
           </li>
@@ -34,33 +40,11 @@ const Navbar = () => {
             <Link to='/About'>About</Link>
           </li>
         </ul>
+        <MenuItems showMenu={showMenu} active={active}/>
       </nav>
-      <div className='flex md:hidden  absolute top-[130px]  flex-col right-[50%] translate-x-1/2 cursor-pointer  '>
-        <AiOutlineMenu size={40} />
-      </div>
 
-      <div>
-        <ul className=' md:hidden absolute top-[240px] flex flex-col left-[10%] translate-x-1/2 text-white bg-black/40 backdrop-blur-lg gap-8 uppercase p-8 justify-center   '>
-          <li className=' hover:text-black  '>
-            <Link to='/Home'>Home</Link>
-          </li>
-          <li>
-            <Link to='/Training'>Training</Link>
-          </li>
-          <li>
-            <Link to='/InBerlin'>In Berlin</Link>
-          </li>
-          <li>
-            <Link to='/PhotoJ'>Photo Journalism</Link>
-          </li>
-          <li>
-            <Link to='/Archives'>Archives</Link>
-          </li>
-          <li>
-            <Link to='/About'>About</Link>
-          </li>
-        </ul>
-      </div>
+
+    
     </>
   );
 };

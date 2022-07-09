@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 // import { AiOutlineCloseSquare, AiFillDownSquare } from "react-icons/ai";
 import Collapsible from "../Components/Collapsible";
-import sectionDiv from "../Assets/Icons/section divider.svg";
+// import sectionDiv from "../Assets/Icons/section divider.svg";
 
 function BackStory() {
   return (
@@ -9,7 +9,7 @@ function BackStory() {
       <div className='  mt-[250px] mx-auto  flex flex-col items-center '>
         <h1 className=' text-center text-4xl  mb-3'>My Story</h1>
 
-        <p className='max-w-[64ch]'>
+        <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
           From June 28, 1970, to December 29, 1971, I served as the Public Information Office
           (PIO) clerk for the 2<sup>nd</sup> Battalion, 6<sup>th</sup> Infantry (the "2/6")
           Regiment of the Berlin Brigade, U.S. Army Berlin (USAB) in Berlin, Germany. My
