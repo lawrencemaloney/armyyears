@@ -6,9 +6,9 @@
 
 /* Global TW  */
 @layer base {
-  * {
+  /* * {
     @apply z-10 text-black  font-normal m-0 p-0 box-border;
-  }
+  } */
 
   body {
     font-family: "Merriweather", serif;
@@ -17,7 +17,7 @@
     letter-spacing: 0.02rem;
     /* line-height: 27px; */
   }
-
+/* 
   h1 {
     @apply text-2xl font-bold;
   }
@@ -27,7 +27,7 @@
 
   p {
     @apply mb-2 text-xl ;
-  }
+  } */
 
   /* button {
     @apply bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] py-3 px-7 rounded-3xl min-w-[150px];
