@@ -6,8 +6,8 @@ import Collapsible from "../Components/Collapsible";
 function BackStory() {
   return (
     <>
-      <div className='  mt-[250px] mx-auto  flex flex-col items-center '>
-        <h1 className=' text-center text-4xl  mb-3'>My Story</h1>
+      <div className='  mt-[320px] mx-auto  flex flex-col items-center '>
+        <h1 className=' text-center text-3xl md:text-4xl  mb-3'>My Story</h1>
 
         <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
           From June 28, 1970, to December 29, 1971, I served as the Public Information Office
