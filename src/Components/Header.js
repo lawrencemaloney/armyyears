@@ -33,7 +33,7 @@ function Header() {
           alt={"Pin"}
         />
 
-          <div className="  absolute top-32 md:right-16 md:top-12  cursor-pointer z-100 lg:hidden	 ">
+          <div className="  absolute top-[200px] md:right-16 md:top-12  cursor-pointer z-100 lg:hidden	 ">
 
           <AiOutlineMenu className="h-[42px] w-[42px]"  onClick={showMenu}>
           </AiOutlineMenu>
