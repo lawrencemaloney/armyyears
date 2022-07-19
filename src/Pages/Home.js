@@ -6,7 +6,7 @@ import Collapsible from "../Components/Collapsible";
 function BackStory() {
   return (
     <>
-      <div className='  mt-[320px] mx-auto  flex flex-col items-center '>
+      <div className='  mt-[240px] mx-auto  flex flex-col items-center '>
         <h1 className=' text-center text-3xl md:text-4xl  mb-3'>My Story</h1>
 
         <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
@@ -17,7 +17,7 @@ function BackStory() {
           photos of Batallion accomplishments published in the Brigade's weekly newspaper, the
           Berlin Observer.
         </p>
-        <div className=' max-w-[55ch]'>
+        <div className=' max-w-[36ch] md:max-w-[65ch]'>
           <img
             className=' mt-4'
             src='images/Berlin scenes 41  resized.webp'
@@ -28,14 +28,15 @@ function BackStory() {
             Ku-damm Strasse & Kaiser Wilhelm Memorial, Berlin Germany c. 1970 taken by me
           </span>
         </div>
-        <p className='max-w-[64ch]'>
+        <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
           In February 2020, I discovered an online archive of over 900 complete editions of the
           Observer preserving Brigade-related events (many of significant historical
           importance) from the first issue on September 25, 1945 (just five and a half months
           after Germany surrendered) through the final publication on July 15, 1994. (See the
           Berlin Observer Archives page to access all PDFs).
         </p>
-        <p className='max-w-[64ch]'>
+        <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+
           My wife suggested that I preserve my work contained in that archive along with some
           context so that my family, particularly my sons and grandchildren, would know a
           little of what my life in the Army was like. This website is the result of that
@@ -43,7 +44,8 @@ function BackStory() {
         </p>
         <h1 className=' text-center text-4xl  mb-3'>The Backstory - How I Got to Berlin.</h1>
 
-        <p className='max-w-[64ch]'>
+        <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+
           On December 3, 1969, at the height of American involvement in the Vietnam War, I
           joined the U.S. Army. As with most decisions, my choices were remarkably few. I could
           enlist, live with the uncertainty of the draft, or evade military service altogether.
@@ -51,14 +53,16 @@ function BackStory() {
           mostly out of my control.
         </p>
         <h2 className=' text-center text-3xl  mb-1'>The Draft Lottery</h2>
-        <p className='max-w-[64ch]'>
+                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+
           The timing of my decision was determined primarily by the outcome of a lottery. On
           December 1, 1969, at Selective Service National Headquarters in Washington, D.C., a
           nationally televised lottery determined the "order of call" for induction into
           military service for 1970. The lottery was established to address perceived
           inequities in the "oldest man first" method for conscripting civilians.
         </p>
-        <div className=' max-w-[55ch]  mt-4'>
+        
+        <div className=' max-w-[36ch] md:max-w-[65ch]'>
           <img
             src='images/Draft Lottery glass bowl Pirnie.jpg'
             width='940px'
@@ -68,13 +72,15 @@ function BackStory() {
         </div>
 
         <h3 className='text-center  underline text-2xl  mb-1'>The Process</h3>
-        <p className='max-w-[64ch]'>
+                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+
           366 opaque plastic capsules, each containing a slip of paper with a number from 1 to
           366 representing each day of the year (366 to account for those born on February 29th
           during leap years), were placed in a large glass container and drawn by hand. The
           number in each capsule represented the birth date of each eligible registrant.
         </p>
-        <p className='max-w-[64ch]'>
+                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+
           The sequence in which a person’s birth date was drawn determined the order in which
           young men between 18 and 26 were to be called to serve. The event was covered live on
           TV and radio. I remember watching it with rapt attention. The first capsule drawn by
@@ -84,10 +90,11 @@ function BackStory() {
           days of the year had been paired with a sequence number.
         </p>
         <h3 className='text-center  underline text-2xl mb-1'>The Results</h3>
-        <p className='max-w-[64ch]'>
+                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+
           My birth date, November 27, 1947, was on the 47th capsule chosen. (See results card.)
         </p>
-        <div className=' max-w-[55ch] mt-4'>
+        <div className=' max-w-[36ch] md:max-w-[65ch]'>
           <img
             className='border-2 border-black'
             src='images/lottery-card-1970-marked.jpg'
@@ -97,13 +104,14 @@ function BackStory() {
           <span className='text-sm leading-none mr-8 '>1970 Results.</span>
         </div>
         <h3 className='text-center underline text-2xl  mb-3'>Seeking Advice</h3>
-        <p className='max-w-[64ch]'>
+                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+
           I decided to get an expert opinion on how long I had until I was likely to be
           drafted. So, on December 3rd, I visited the local Army recruitment office in Midland
           Park, NJ, "You might make it to February." the Recruitment Officer said after I told
           him that my lottery number was 47.
         </p>
-        <div className=' max-w-[55ch] mt-4'>
+        <div className=' max-w-[36ch] md:max-w-[65ch]'>
           <img
             className='border-2 border-black'
             src='images/Enlisting.webp'
@@ -113,13 +121,15 @@ function BackStory() {
           <span className='text-sm leading-none'>U.S. Army Recruiter</span>
         </div>
 
-        <p className='max-w-[64ch]'>
+                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+
           I asked him if there was any benefit in volunteering rather than waiting to be
           drafted. He said that my military records would show that I was "RA" (Regular Army
           volunteer) rather than "US," indicating draftee status. He suggested that the Drill
           Instructors (DI) at Basic Training might treat volunteers better than draftees.
         </p>
-        <p className='max-w-[64ch]'>
+                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+
           He also said that enlisting would allow me to schedule my induction rather than be in
           a constant state of anticipation. If my RA status had a positive impact during my
           Army career, it certainly wasn't obvious during Basic Training.
@@ -131,7 +141,8 @@ function BackStory() {
         {/* <img className='max-w-[35vw] ' src={sectionDiv} alt='divider' /> */}
 
         <h2 className=' text-center text-3xl  mb-1'>How did I Get Here?</h2>
-        <div className=' max-w-[55ch] mt-4'>
+      
+        <div className=' w-[42ch] md:max-w-[65ch]'>
           <img
             className='border-2 border-black'
             src='images/JTAlicewithCCat500.webp'
@@ -139,16 +150,12 @@ function BackStory() {
             width='980px'
           />
         </div>
-        <div className='text-[16px] mh-[340px] w-[26ch] ml-[200px] leading-4	 -mt-[340px]'>
+        <div className='text-[14px] md:text-[16px]  w-[32ch] ml-[165px] md:ml[200px] mb-[6px]  md:leading-4	leading-1  -mt-[340px]'>
           `Would you tell me, please, which way I ought to go from here?' <br />
-          <br />
           `That depends a good deal on where you want to get to,' said the Cat. <br />
           `I don't much care where--' said Alice. <br />
-          <br />
           `Then it doesn't matter which way you go,' said the Cat. <br />
-          <br />
           `--so long as I get SOMEWHERE,' Alice added as an explanation. <br />
-          <br />
           `Oh, you're sure to do that,' said the Cat, `if you only walk long enough
           
             <Collapsible icon='[&#8224;]'>
@@ -173,7 +180,9 @@ function BackStory() {
             </Collapsible>
           </div>
 
-        <p className=' max-w-[64ch] my-[30px] '>
+      
+        <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] ,y=[30px]'>
+
           Like Alice, I had no clear idea of where I wanted to "get to" in the years and months
           leading to my enlistment. The war in Vietnam, the university I attended, the courses
           I took, the interests I developed, and the experiences I had that led directly to my
@@ -181,7 +190,9 @@ function BackStory() {
           <b>at least not by me</b>.
         </p>
         <h3 className=' text-center underline text-2xl  mb-3'>The Influencers</h3>
-        <p className=' max-w-[64ch]'>
+        
+        <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+
           How we make sense of what we see happening in the world around us is greatly
           influenced by our family, friends, and the various communities in which we live.
           These influences significantly impact our decisions, but there is also always a
@@ -189,7 +200,8 @@ function BackStory() {
           well as physical creatures. Whether we accept, reject, or ignore the spiritual input,
           its influence and impact remain.
         </p>
-        <p className=' max-w-[64ch]'>
+                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+
           Since I can’t possibly understand, much less record here, all the things that
           influenced my decision to join the Army, I thought it would be interesting, maybe
           even helpful, to capture some of the significant political, social, cultural, and
@@ -198,7 +210,8 @@ function BackStory() {
         <h3 className=' text-center underline text-2xl  mb-3'>
           My Personal life and the World Around me
         </h3>
-        <p className=' max-w-[64ch]'>
+                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+
           For nearly the entire decade of the 1960s, from September 1960 to May 1969, my
           personal life focused on high school and college and all the interests, activities,
           and social “angst” like every other teenager in the 60s. While I was focused on my
@@ -207,7 +220,8 @@ function BackStory() {
           time. But the impact was there, and, for the purposes of the story, they
           significantly impacted my decision to join the Army.
         </p>
-        <p className=' max-w-[64ch]'>
+                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+
           Unlike many typical high schools in northern New Jersey, Ridgewood high school only
           covered grades 10 through 12. Grades nine through 11 were housed in two middle school
           buildings: the Benjamin Franklin school, and the George Washington school. Having
@@ -225,7 +239,8 @@ function BackStory() {
             George Washington Middle School, Ridgewood, NJ
           </span>
         </div>
-        <p className=' max-w-[64ch]  '>
+<p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+
           From September 1962 to June 1965, I attended Ridgewood high school in Ridgewood, New
           Jersey. I had an unremarkable career there. I could get by with minimum effort, and,
           to my later shame, a minimum effort is what I gave. I was more interested in my
@@ -242,7 +257,8 @@ function BackStory() {
           />
           <span className='text-sm leading-none'>Ridgewood Highschool, Ridgewood, NJ</span>
         </div>
-        <p className=' max-w-[64ch]  '>
+        <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+
           While I attended the public school in Ridgewood, Dick attended a private military
           high school in Manhattan. As we moved on in our high school careers, we began
           spending weekends and summers mainly playing sports. If I remember correctly, Dick
@@ -264,7 +280,8 @@ function BackStory() {
             Belaire Tennis Courts Ridgewwod NJ
           </a>
         </div>
-        <p className=' max-w-[64ch]'>
+                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+
           While we were able to enjoy a great deal of freedom without much responsibility, we
           were certainly aware of the political, social, and cultural events going on around
           us. The proliferation of television sets across the United States brought news of
@@ -273,12 +290,14 @@ function BackStory() {
         <h3 className=' text-center underline text-2xl '>
           Off to College -September 1964 through May 1969
         </h3>
-        <p className=' max-w-[64ch]'>
+                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+
           As an example of how little control we have over our lives, I attended Loyola
           University in New Orleans because I had received an acceptance letter from them in
           the spring of 1965, even though I had never officially applied.
         </p>
-        <p className=' max-w-[64ch]'>
+                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+
           It turned out that Loyola was looking to expand the geographic scope of its student
           base in 1964, and New Jersey was in their target zone. They accepted me because I
           lived in New Jersey and had scored well on my SATs. (It certainly was not due to my
@@ -311,7 +330,8 @@ function BackStory() {
           </span>
         </div>
 
-        <p className=' max-w-[64ch]'>
+                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+
           With a student deferment in hand, I was not concerned about being drafted into
           military service as I arrived at Loyola for my first year. During registration, I had
           to declare a major field of study. I approached this decision with a vague notion
@@ -326,7 +346,8 @@ function BackStory() {
         </p>
 
         <h3 className=' text-center underline text-2xl '>A Change in Direction</h3>
-        <p className=' max-w-[64ch]'>
+                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+
           Happily, some friends had asked me to join the staff of the student-run WVSU-AM radio
           station, which broadcast to the campus over telephone lines (carrier current) from
           the balcony in the theatre in Marquette Hall. By the end of my freshman year, the
@@ -343,7 +364,8 @@ function BackStory() {
           </a>{" "}
           . (Wolf Pack being the mascot of Loyola’s sports teams).
         </p>
-        <p className=' max-w-[64ch]'>
+                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+
           During this same time, Loyola worked with WWL executives to introduce a new BA
           program in Communications (later named Bachelor of Arts in Mass Communications) at
           Loyola. I transferred to that program.
@@ -359,7 +381,8 @@ function BackStory() {
             That's me on the headset, upper right - from 1968 Loyola Yearbook
           </span>
         </div>
-        <p className=' max-w-[64ch]'>
+                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+
           I worked as an early morning DJ, a play-by-play radio announcer at the Loyola
           Basketball games, the PA announcer at a few Loyola Baseball team and football club
           games. As a reporter, I had the opportunity to interview many notable musical artists
@@ -381,13 +404,15 @@ function BackStory() {
             Loyola University Field House, New Orleans, LA
           </span>
         </div>
-        <p className=' max-w-[64ch]'>
+                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+
           After the Department of Communications and changing my major, I was able to take
           courses in TV writing, directing, announcing, and camera operation. At the start of
           my senior year, I was named Senior Operations Director for the radio station now
           named WLDC . These skills were to come in handy when I finally got to Berlin.
         </p>
-        <p className=' max-w-[64ch]'>
+                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+
           I also joined the ROTC was a member of the competitive rifle team, and the Drill
           Team. As far as I know, neither one of these activities.
         </p>
@@ -410,10 +435,12 @@ function BackStory() {
           Timeline 1960 through 1969 - Outside my Bubble
         </h1>
 
-          <p className='text-align-left font-serif text-[26px]  mb-8'>
+                    <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+
             May 1, 1960 - U.S. Spy Plane Shot Down over USSR
           </p>
-          <p className=' max-w-[64ch]'>
+                  <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+
             The ongoing Cold War between the Soviet Union and the western allies, three major
             political assassinations, the nation-wide racial violence, and the escalation of
             the Vietnam War all played a major role in my decision.
@@ -429,7 +456,7 @@ function BackStory() {
               U2 Spy Plane Photo credit: U.S. Air Force
             </span>
           </div>
-          <p className=' max-w-[64ch]  '>
+              <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
             On May 1, 1960, four months before I started high school, a CIA U-2 Spy Plane,
             flown by Francis Gary Powers, was shot down by the Soviet air defense forces while
             performing photographic aerial reconnaissance deep inside Soviet territory. This
@@ -437,7 +464,7 @@ function BackStory() {
             came at a very sensitive time in the developing Cold War between the United States
             and the Soviet Union.
           </p>
-          <p className='  max-w-[64ch] '>
+          <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
             The single-seated aircraft had successfully evaded Soviet air defense capabilities
             on several previous missions. Powers had taken off from Peshawar, Pakistan, and
             crashed near Sverdlovsk after being hit by an S-75 Dvina surface-to-air missile.
@@ -446,10 +473,11 @@ function BackStory() {
             labor but was released two years later in February 1962 in a prisoner exchange for
             Soviet intelligence officer Rudolf Abel.
           </p>
-          <p className=' text-center text-xl border-2 border-black mb-3	'>
+          <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
             October 16 to November 20, 1962 - Cuban missile crisis
           </p>
-          <p className=' max-w-[64ch]'>
+                  <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+
             On October 17, 1962, every network brought news that a U.S. U2 spy plane
             photographed evidence that as many as 32 Soviet-built medium-range ballistic
             missiles capable of delivering a nuclear warhead to any location within a
@@ -470,7 +498,8 @@ function BackStory() {
               (Public Domain))
             </span>
           </div>
-          <p className=' max-w-[64ch]'>
+                  <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+
             The President received advice on the most appropriate response ranging from a
             direct attack on the missile sites to a blockade of the island nation. Arguing for
             the direct attack approach, Air Force Chief General Curtis LeMay stated, “They'll
@@ -479,7 +508,8 @@ function BackStory() {
             their missiles and kill a lot of Russians and then do nothing? If they don't do
             anything in Cuba they'll certainly do something in Berlin."
           </p>
-          <p className=' max-w-[64ch]'>
+                  <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+
             Secretary of Defense Robert McNamara proposed that a blockade of Cuba would put
             pressure on the Soviets but give them time to reconsider and deescalate. It would
             also provide the U.S. with time to prepare for more aggressive action if warranted.
@@ -499,6 +529,7 @@ function BackStory() {
             </span>
           </div>
           <div className=' max-w-[64ch]'>
+          <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
             President Kennedy decided on a plan based upon McNamara's advice and ordered a
             total naval "quarantine" of Cuba, declaring that the U.S. would prevent any ship
             carrying offensive weapons from reaching Cuba. There was a real possibility that
@@ -569,12 +600,14 @@ function BackStory() {
 
                 </div>
               </Collapsible>
+              </p>
             </div>
           <p className=' text-center text-xl border-2 border-black mb-3	'>
             May 11 and September 15, 1963 - Three bombings in Birmingham Alabama ignite a
             decade of racial violence.
           </p>
           <div className=' max-w-[64ch]'>
+          <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
             The city of Birmingham, Alabama was no stranger to racially-motivated bombings.
             There were 48 such bombings reported in Birmingham between 1948 in 1957. In one
             month in 1957, four black churches and at least seven private residences were
@@ -598,6 +631,7 @@ function BackStory() {
                   </p>
                 </div>
               </Collapsible>
+              </p>
           </div>
 
           <div className='	mx-auto  max-w-[55ch] mt-4 '>
@@ -614,6 +648,7 @@ function BackStory() {
           </div>
 
           <div className=' max-w-[64ch]'>
+          <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
             On Sunday, September 15, 1963, at the 16th street Baptist Church in Birmingham, AL,
             four young girls, 14-year-olds Addie Mae Collins, Denise McNair, Carole Robertson,
             and 11-year-old Cynthia Wesley, were murdered by a bomb planted under the steps of
@@ -639,6 +674,7 @@ function BackStory() {
                 </p>
                 </div>
               </Collapsible>
+              </p>
           </div>
 
           <div className='	mx-auto  max-w-[55ch] mt-4 '>
