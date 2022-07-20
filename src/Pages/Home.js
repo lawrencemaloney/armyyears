@@ -9,9 +9,9 @@ function BackStory() {
       <div className='  mt-[240px] mx-auto  flex flex-col items-center '>
         <h1 className=' text-center text-3xl md:text-4xl  mb-3'>My Story</h1>
 
-        <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+        <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] z-110'>
           From June 28, 1970, to December 29, 1971, I served as the Public Information Office
-          (PIO) clerk for the 2<sup>nd</sup> Battalion, 6<sup>th</sup> Infantry (the "2/6")
+          (PIO) clerk for the 2nd Battalion, 6th Infantry (the "2/6")
           Regiment of the Berlin Brigade, U.S. Army Berlin (USAB) in Berlin, Germany. My
           primary duty was to promote the 2/6 by getting vignettes, feature articles, and
           photos of Batallion accomplishments published in the Brigade's weekly newspaper, the

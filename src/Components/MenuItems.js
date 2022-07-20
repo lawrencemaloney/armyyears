@@ -7,7 +7,7 @@ function MenuItems({showHideMenu, active}) {
   return (
     <>
 
-        <ul className={active ?'absolute left-1/2 -translate-x-1/2  fixed z-20 top-[325px] w-[22ch] h-[25rem] flex-col  bg-zinc-700/90 text-left	rounded  text-[32px] 	lg:hidden ' : 'hidden' }>
+        <ul className={active ?'absolute left-1/2 -translate-x-1/2  fixed z-20 top-[325px] w-[18ch] h-[25rem] flex-col  bg-zinc-700/90 text-left	rounded  text-[32px] 	lg:hidden ' : 'hidden' }>
 
           <li onClick={() => showHideMenu()} className=' hover:scale-[1.25] 	 text-white m-4  '>
             <Link to='/Home'>Home</Link>
