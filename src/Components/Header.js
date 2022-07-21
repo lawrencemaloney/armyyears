@@ -17,7 +17,7 @@ export default function Header() {
   return (
     <>
 
-      <div className=' top-0 left-0 right-0 m-0 h-[230px] w-[100vw] md:ml-[2vw] bg-amber-50  justify-center border-b	md:border-none border-black  md:ml-[1vw] z-[100] md:w-[95vw]  md:h-[176px] lg:space-x-36 flex text-center'>
+      <div className=' top-0 left-0 right-0 m-0 h-[230px] w-[100vw] md:ml-[2vw] bg-amber-50  justify-center border-b	md:border-none border-black  md:ml-[1vw] z-[100]  md:h-[186px] lg:space-x-36 flex text-center'>
  
         <img
           className='  hidden md:w-[50px] md:h-[53px] md:flex absolute left-16 top-12 '
@@ -28,11 +28,11 @@ export default function Header() {
         />
 
         <h1 className=' text-[38px] mt-5 absolute right-[50%] translate-x-[50%] flex-col w-[100%]  xl:text-[56px] '>
-          A Soldier in Berlin <p className='text-[36px] mt-[15px]'>1969 to 1972</p>
+          A Soldier in Berlin <p className='text-[36px] mt-[0px]'>1969 to 1972</p>
         </h1>
 
         <img
-          className='  hidden w-[50px] h-[53px] md:flex absolute right-16 lg:top-12 '
+          className='  hidden w-[50px] h-[53px] md:flex absolute right-16 md:top-12 '
           src='images/6thINfnatryPin.gif'
           height={60}
           width={60}
@@ -53,7 +53,7 @@ export default function Header() {
     <div className=' nav sticky  top-0 left-0 right-0 m-0 bg-[#fdf5e6]    '>
 
     <nav>
-        <ul className='hidden h-[55px]  border w-[100vw]  border-black gap-x-1 space-x-10 p-[2px] bg-amber-50 text-[22px]  italic justify-center z-[1000] items-center md:flex lg:text-[26px]'>
+        <ul className='hidden h-[55px]  border w-[100vw]  border-black md:gap-x-12 mmd:space-x-12 p-[2px] lg:gap-x-6 lg:space-x-12 p-[2px] bg-amber-50 text-[18px] lg:text-[24px] italic justify-center z-[1000] items-center md:flex lg:text-[26px]'>
 
 
           <li className=' hover:text-black hover:scale-[1.25] '>
