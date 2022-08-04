@@ -5,9 +5,9 @@ import Collapsible from "../Components/Collapsible";
 function Training() {
   return (
     <>
-      <div className='  mt-[250px] mx-auto  flex flex-col items-center '>
-        <h1 className=' text-center text-4xl  mb-3'>Welcome to the Army</h1>
-        <h2 className=' text-center text-3xl  mb-1'>Fort Dix - Basic Training</h2>
+      <div className='  mt-[40px] mx-auto  flex flex-col items-center '>
+        <h1 className=' text-center text-3xl  mb-3'>Welcome to the Army</h1>
+        <h2 className=' text-center text-2xl  mb-1'>Fort Dix - Basic Training</h2>
         <p className='max-w-[64ch]'>
           On Monday, February 2, 1970, I was one of about 40 young men inducted into the U. S.
           Army at the Induction Center in Hackensack, NJ. After receiving physical exams, we

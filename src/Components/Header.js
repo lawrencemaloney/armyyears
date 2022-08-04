@@ -27,7 +27,7 @@ export default function Header() {
           alt={"Pin"}
         />
 
-        <h1 className=' text-[38px] mt-5 absolute right-[50%] translate-x-[50%] flex-col w-[100%]  xl:text-[56px] '>
+        <h1 className=' text-4xl mt-5 absolute right-[50%] translate-x-[50%] flex-col w-[100%]  xl:text-[56px] '>
           A Soldier in Berlin <p className='text-[36px] mt-[0px]'>1969 to 1972</p>
         </h1>
 
@@ -57,7 +57,7 @@ export default function Header() {
 
 
           <li className=' hover:text-black hover:scale-[1.25] '>
-            <CustomLink to='/Home'>Home</CustomLink>
+            <CustomLink to='/Home'>My Story</CustomLink>
             {/* <Link to='/Home'>Home</Link> */}
           </li>
           <li className=' hover:text-black  hover:scale-[1.25]'>
