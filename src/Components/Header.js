@@ -38,9 +38,9 @@ export default function Header() {
           width={60}
           alt={"Pin"}
         />
-          <div className="    sm:hidden top-[170px] sm:right-16 sm:top-12  cursor-pointer z-100 	 ">
+          <div className="    sm:hidden top-[170px] sm:right-16 sm:top-12  cursor-pointer  ">
 
-          <AiOutlineMenu className="fixed left-5 top-5 h-[32px] w-[32px] z-[1000] bg-white"  onClick={showHideMenu}>
+          <AiOutlineMenu className="fixed left-5 top-5 h-[32px] w-[32px] ring-offset-2 ring-2	 z-[1000]  bg-white"  onClick={showHideMenu}>
           </AiOutlineMenu>
           </div>
 
