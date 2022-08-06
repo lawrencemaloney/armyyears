@@ -17,7 +17,7 @@ export default function Header() {
   return (
     <>
 
-      <div className=' top-0 left-0 right-0 m-0 h-[230px] w-[100vw] md:ml-[2vw] bg-amber-50  justify-center border-b	md:border-none border-black  md:ml-[1vw] z-[100]  md:h-[186px] lg:space-x-36 flex text-center'>
+      <div className=' top-0 left-0 right-0 m-0 h-[230px] w-[100vw] md:ml-[2vw] bg-amber-50  justify-center border-b	sm:border-none border-black  sm:ml-[1vw] z-[100]  sm:h-[186px] lg:space-x-36 flex text-center'>
  
         <img
           className='  hidden sm:w-[50px] sm:h-[53px] sm:flex absolute left-16 top-12 '
@@ -53,7 +53,7 @@ export default function Header() {
     <div className=' nav sticky  top-0 left-0 right-0 m-0 bg-[#fdf5e6]    '>
 
     <nav>
-        <ul className='hidden h-[55px]  border w-[100vw]  border-black sm:gap-x-0 sm:space-x-6 p-[2px] lg:gap-x-6 lg:space-x-12 p-[2px] bg-amber-50 text-[18px] lg:text-[24px] italic justify-center z-[1000] items-center md:flex '>
+        <ul className='hidden h-[55px]  border w-[100vw]  border-black sm:gap-x-0 sm:space-x-6 p-[2px] lg:gap-x-6 lg:space-x-12 p-[2px] bg-amber-50 text-[18px] lg:text-[24px] italic justify-center z-[1000] items-center sm:flex '>
 
 
           <li className=' hover:text-black hover:scale-[1.1] '>
