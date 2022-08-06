@@ -53,27 +53,27 @@ export default function Header() {
     <div className=' nav sticky  top-0 left-0 right-0 m-0 bg-[#fdf5e6]    '>
 
     <nav>
-        <ul className='hidden h-[55px]  border w-[100vw]  border-black md:gap-x-12 mmd:space-x-12 p-[2px] lg:gap-x-6 lg:space-x-12 p-[2px] bg-amber-50 text-[18px] lg:text-[24px] italic justify-center z-[1000] items-center md:flex lg:text-[26px]'>
+        <ul className='hidden h-[55px]  border w-[100vw]  border-black md:gap-x-0 md:space-x-6 p-[2px] lg:gap-x-6 lg:space-x-12 p-[2px] bg-amber-50 text-[18px] lg:text-[24px] italic justify-center z-[1000] items-center md:flex '>
 
 
-          <li className=' hover:text-black hover:scale-[1.25] '>
+          <li className=' hover:text-black hover:scale-[1.1] '>
             <CustomLink to='/Home'>My Story</CustomLink>
             {/* <Link to='/Home'>Home</Link> */}
           </li>
-          <li className=' hover:text-black  hover:scale-[1.25]'>
+          <li className=' hover:text-black  hover:scale-[1.1]'>
             <CustomLink to='/Training'>Training</CustomLink>
           </li>
 
-          <li className=' hover:text-black  hover:scale-[1.25]'>
+          <li className=' hover:text-black  hover:scale-[1.1]'>
             <CustomLink to='/InBerlin'>In Berlin</CustomLink>
           </li>
-          <li className=' hover:text-black  hover:scale-[1.25]'>
+          <li className=' hover:text-black  hover:scale-[1.1]'>
             <CustomLink to='/PhotoJ'>Photo Journalism</CustomLink>
           </li>
-          <li className=' hover:text-black  hover:scale-[1.25]'>
+          <li className=' hover:text-black  hover:scale-[1.1]'>
             <CustomLink to='/Archives'>Archives</CustomLink>
           </li>
-          <li className=' hover:text-black  hover:scale-[1.25]'>
+          <li className=' hover:text-black  hover:scale-[1.1]'>
             <CustomLink to='/About'>About</CustomLink>
           </li>
         </ul>
