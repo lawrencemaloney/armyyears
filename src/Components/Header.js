@@ -20,7 +20,7 @@ export default function Header() {
       <div className=' top-0 left-0 right-0 m-0 h-[230px] w-[100vw] md:ml-[2vw] bg-amber-50  justify-center border-b	md:border-none border-black  md:ml-[1vw] z-[100]  md:h-[186px] lg:space-x-36 flex text-center'>
  
         <img
-          className='  hidden md:w-[50px] md:h-[53px] md:flex absolute left-16 top-12 '
+          className='  hidden sm:w-[50px] sm:h-[53px] sm:flex absolute left-16 top-12 '
           src='images/6thINfnatryPin.gif'
           height={60}
           width={60}
@@ -32,13 +32,13 @@ export default function Header() {
         </h1>
 
         <img
-          className='  hidden w-[50px] h-[53px] md:flex absolute right-16 md:top-12 '
+          className='  hidden sm:w-[50px] sm:h-[53px] sm:flex absolute right-16 sm:top-12 '
           src='images/6thINfnatryPin.gif'
           height={60}
           width={60}
           alt={"Pin"}
         />
-          <div className="  absolute md:hidden top-[170px] md:right-16 md:top-12  cursor-pointer z-100 	 ">
+          <div className="  absolute sm:hidden top-[170px] md:right-16 md:top-12  cursor-pointer z-100 	 ">
 
           <AiOutlineMenu className="h-[32px] w-[32px]"  onClick={showHideMenu}>
           </AiOutlineMenu>
@@ -53,7 +53,7 @@ export default function Header() {
     <div className=' nav sticky  top-0 left-0 right-0 m-0 bg-[#fdf5e6]    '>
 
     <nav>
-        <ul className='hidden h-[55px]  border w-[100vw]  border-black md:gap-x-0 md:space-x-6 p-[2px] lg:gap-x-6 lg:space-x-12 p-[2px] bg-amber-50 text-[18px] lg:text-[24px] italic justify-center z-[1000] items-center md:flex '>
+        <ul className='hidden h-[55px]  border w-[100vw]  border-black sm:gap-x-0 sm:space-x-6 p-[2px] lg:gap-x-6 lg:space-x-12 p-[2px] bg-amber-50 text-[18px] lg:text-[24px] italic justify-center z-[1000] items-center md:flex '>
 
 
           <li className=' hover:text-black hover:scale-[1.1] '>
