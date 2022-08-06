@@ -38,9 +38,9 @@ export default function Header() {
           width={60}
           alt={"Pin"}
         />
-          <div className="  absolute sm:hidden top-[170px] md:right-16 md:top-12  cursor-pointer z-100 	 ">
+          <div className="    sm:hidden top-[170px] sm:right-16 sm:top-12  cursor-pointer z-100 	 ">
 
-          <AiOutlineMenu className="h-[32px] w-[32px]"  onClick={showHideMenu}>
+          <AiOutlineMenu className="fixed left-5 top-5 h-[32px] w-[32px]"  onClick={showHideMenu}>
           </AiOutlineMenu>
           </div>
       </div>
@@ -50,7 +50,7 @@ export default function Header() {
       <MenuItems showHideMenu={showHideMenu} active={active}/>
 
 
-    <div className=' nav sticky  top-0 left-0 right-0 m-0 bg-[#fdf5e6]    '>
+    <div className=' sticky  top-0 left-0 right-0 m-0 bg-[#fdf5e6]    '>
 
     <nav>
         <ul className='hidden h-[55px]  border w-[100vw]  border-black sm:gap-x-0 sm:space-x-6 p-[2px] lg:gap-x-6 lg:space-x-12 p-[2px] bg-amber-50 text-[18px] lg:text-[24px] italic justify-center z-[1000] items-center sm:flex '>
