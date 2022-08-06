@@ -40,14 +40,16 @@ export default function Header() {
         />
           <div className="    sm:hidden top-[170px] sm:right-16 sm:top-12  cursor-pointer z-100 	 ">
 
-          <AiOutlineMenu className="fixed left-5 top-5 h-[32px] w-[32px]"  onClick={showHideMenu}>
+          <AiOutlineMenu className="fixed left-5 top-5 h-[32px] w-[32px] z-[1000] bg-white"  onClick={showHideMenu}>
           </AiOutlineMenu>
           </div>
+
+          <MenuItems showHideMenu={showHideMenu} active={active}/>
+
       </div>
 
 
 
-      <MenuItems showHideMenu={showHideMenu} active={active}/>
 
 
     <div className=' sticky  top-0 left-0 right-0 m-0 bg-[#fdf5e6]    '>
