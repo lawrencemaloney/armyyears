@@ -9,7 +9,7 @@ function BackStory() {
       <div className='  mt-[40px] mx-auto  flex flex-col items-center '>
         <h1 className=' text-center text-3xl md:text-4xl  mb-3'>My Story</h1>
 
-        <p className=' text-[20px] mx-[20px] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[28px]  lg:max-w-[60ch] '>
+        <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
           From June 28, 1970, to December 29, 1971, I served as the Public Information Office
           (PIO) clerk for the 2nd Battalion, 6th Infantry (the "2/6")
           Regiment of the Berlin Brigade, U.S. Army Berlin (USAB) in Berlin, Germany. My
@@ -28,23 +28,24 @@ function BackStory() {
             Ku-damm Strasse & Kaiser Wilhelm Memorial, Berlin Germany c. 1970 taken by me
           </span>
         </div>
-        <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+    
+        <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
           In February 2020, I discovered an online archive of over 900 complete editions of the
           Observer preserving Brigade-related events (many of significant historical
           importance) from the first issue on September 25, 1945 (just five and a half months
           after Germany surrendered) through the final publication on July 15, 1994. (See the
           Berlin Observer Archives page to access all PDFs).
         </p>
-        <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+        <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
 
           My wife suggested that I preserve my work contained in that archive along with some
           context so that my family, particularly my sons and grandchildren, would know a
           little of what my life in the Army was like. This website is the result of that
           effort. (For a description of how and why I started this project. Go to the page).
         </p>
-        <h1 className=' text-center text-4xl  mb-3'>The Backstory - How I Got to Berlin.</h1>
+        <h1 className=' text-center text-3xl  my-3'>The Backstory - How I Got to Berlin.</h1>
 
-        <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+        <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
 
           On December 3, 1969, at the height of American involvement in the Vietnam War, I
           joined the U.S. Army. As with most decisions, my choices were remarkably few. I could
@@ -52,9 +53,9 @@ function BackStory() {
           The events and convictions that influenced my decision were varied, complex, and
           mostly out of my control.
         </p>
-        <h2 className=' text-center text-3xl  mb-1'>The Draft Lottery</h2>
-                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+        <h2 className='  text-center text-3xl  mt-3'>The Draft Lottery</h2>
 
+        <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
           The timing of my decision was determined primarily by the outcome of a lottery. On
           December 1, 1969, at Selective Service National Headquarters in Washington, D.C., a
           nationally televised lottery determined the "order of call" for induction into
@@ -62,7 +63,7 @@ function BackStory() {
           inequities in the "oldest man first" method for conscripting civilians.
         </p>
         
-        <div className=' max-w-[36ch] md:max-w-[65ch]'>
+        <div className=' max-w-[36ch] mt-4 md:max-w-[65ch]'>
           <img
             src='images/Draft Lottery glass bowl Pirnie.jpg'
             width='940px'
@@ -71,15 +72,15 @@ function BackStory() {
           <span className='text-sm leading-none'>(Library of Congress)</span>
         </div>
 
-        <h3 className='text-center  underline text-2xl  mb-1'>The Process</h3>
-                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+        <h3 className='text-center  underline text-2xl mt-4'>The Process</h3>
+        <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
 
           366 opaque plastic capsules, each containing a slip of paper with a number from 1 to
           366 representing each day of the year (366 to account for those born on February 29th
           during leap years), were placed in a large glass container and drawn by hand. The
           number in each capsule represented the birth date of each eligible registrant.
         </p>
-                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+        <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
 
           The sequence in which a person’s birth date was drawn determined the order in which
           young men between 18 and 26 were to be called to serve. The event was covered live on
@@ -89,29 +90,30 @@ function BackStory() {
           between 1944 and 1950 were assigned lottery number 1. The drawing continued until all
           days of the year had been paired with a sequence number.
         </p>
-        <h3 className='text-center  underline text-2xl mb-1'>The Results</h3>
-                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+        <h3 className='text-center  underline text-2xl mt-4'>The Results</h3>
+        <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
 
           My birth date, November 27, 1947, was on the 47th capsule chosen. (See results card.)
         </p>
-        <div className=' max-w-[36ch] md:max-w-[65ch]'>
+        <div className=' max-w-[36ch] mt-4 md:max-w-[65ch]'>
           <img
-            className='border-2 border-black'
+            className='border-2 mt-4 border-black'
             src='images/lottery-card-1970-marked.jpg'
             alt='Lottery 1969'
             width='880px'
           />
           <span className='text-sm leading-none mr-8 '>1970 Results.</span>
         </div>
-        <h3 className='text-center underline text-2xl  mb-3'>Seeking Advice</h3>
-                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+        <h3 className='text-center underline text-2xl  mt-4'>Seeking Advice</h3>
+        <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
 
           I decided to get an expert opinion on how long I had until I was likely to be
           drafted. So, on December 3rd, I visited the local Army recruitment office in Midland
           Park, NJ, "You might make it to February." the Recruitment Officer said after I told
           him that my lottery number was 47.
         </p>
-        <div className=' max-w-[36ch] md:max-w-[65ch]'>
+        <div className=' max-w-[36ch] mt-4 md:max-w-[65ch]'>
+
           <img
             className='border-2 border-black'
             src='images/Enlisting.webp'
@@ -121,26 +123,22 @@ function BackStory() {
           <span className='text-sm leading-none'>U.S. Army Recruiter</span>
         </div>
 
-                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+        <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
 
           I asked him if there was any benefit in volunteering rather than waiting to be
           drafted. He said that my military records would show that I was "RA" (Regular Army
           volunteer) rather than "US," indicating draftee status. He suggested that the Drill
           Instructors (DI) at Basic Training might treat volunteers better than draftees.
         </p>
-                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+        <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
 
           He also said that enlisting would allow me to schedule my induction rather than be in
           a constant state of anticipation. If my RA status had a positive impact during my
-          Army career, it certainly wasn't obvious during Basic Training.
-        </p>
-        <p className=' text-[20px]  p-2 max-w-[85vw] '>
-          <span className='font-bold'>The Decision:</span> I signed up and scheduled my
-          induction for February 2, 1970.
+          Army career, it certainly wasn't obvious during Basic Training. <span className='font-bold'>I signed up and scheduled my induction for February 2, 1970.</span> 
         </p>
         {/* <img className='max-w-[35vw] ' src={sectionDiv} alt='divider' /> */}
 
-        <h2 className=' text-center text-3xl  mb-1'>How did I Get Here?</h2>
+        <h2 className='  text-center text-3xl  my-4 '>How did I Get Here?</h2>
       
         <div className=' w-[42ch] md:max-w-[65ch]'>
           <img
@@ -150,7 +148,7 @@ function BackStory() {
             width='980px'
           />
         </div>
-        <div className='text-[14px] md:text-[16px]  w-[32ch] ml-[165px] md:ml[200px] mb-[6px]  md:leading-4	leading-1  -mt-[340px]'>
+        <div className='text-[12px] md:text-[16px]  w-[30ch] ml-[140px] md:ml[200px] mb-[6px]  md:leading-4	leading-1  -mt-[275px]'>
           `Would you tell me, please, which way I ought to go from here?' <br />
           `That depends a good deal on where you want to get to,' said the Cat. <br />
           `I don't much care where--' said Alice. <br />
@@ -159,7 +157,7 @@ function BackStory() {
           `Oh, you're sure to do that,' said the Cat, `if you only walk long enough
           
             <Collapsible icon='[&#8224;]'>
-            <div className="-ml-10 w-[300px] mt-[32px] break-words">
+            <div className="-ml-[120px] w-[300px] mt-[12px] h-[30px] break-words text-[14px]">
               [&#8224;]
                 Carroll, Lewis. Alice’s Adventures in Wonderland. With illustrations by John
                 Tenniel. Alice-in-wonderland.net Page 30.
@@ -181,7 +179,7 @@ function BackStory() {
           </div>
 
       
-        <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] ,y=[30px]'>
+          <p className=' text-[20px] mx-[20px] mt-[12px] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
 
           Like Alice, I had no clear idea of where I wanted to "get to" in the years and months
           leading to my enlistment. The war in Vietnam, the university I attended, the courses
