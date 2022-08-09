@@ -43,7 +43,7 @@ function BackStory() {
           little of what my life in the Army was like. This website is the result of that
           effort. (For a description of how and why I started this project. Go to the page).
         </p>
-        <h1 className=' text-center text-3xl  my-3'>The Backstory - How I Got to Berlin.</h1>
+        <h1 className=' text-center mt-[1rem] mx-[20px] text-3xl md:text-4xl  mb-3'>The Backstory - How I Got to Berlin.</h1>
 
         <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
 
@@ -148,14 +148,14 @@ function BackStory() {
             width='980px'
           />
         </div>
-        <div className='text-[12px] md:text-[16px]  w-[30ch] ml-[140px] md:ml[200px] mb-[6px]  md:leading-4	leading-1  -mt-[275px]'>
+        <div className='text-[12px] w-[30ch] ml-[140px] leading-1 mb-[6px] -mt-[275px] md:ml[12px]  md:text-[13px] md:leading-4 md:-mt-[275px]	 md:w-[26ch]'>
           `Would you tell me, please, which way I ought to go from here?' <br />
           `That depends a good deal on where you want to get to,' said the Cat. <br />
           `I don't much care where--' said Alice. <br />
           `Then it doesn't matter which way you go,' said the Cat. <br />
           `--so long as I get SOMEWHERE,' Alice added as an explanation. <br />
           `Oh, you're sure to do that,' said the Cat, `if you only walk long enough
-          
+            
             <Collapsible icon='[&#8224;]'>
             <div className="-ml-[120px] w-[300px] mt-[12px] h-[30px] break-words text-[14px]">
               [&#8224;]
@@ -187,7 +187,7 @@ function BackStory() {
           enlistment decision were not planned,
           <b>at least not by me</b>.
         </p>
-        <h3 className=' text-center underline text-2xl  mb-3'>The Influencers</h3>
+        <h3 className=' text-center mx-[20px] underline text-2xl my-3'>The Influencers</h3>
         
         <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
 
@@ -205,7 +205,7 @@ function BackStory() {
           even helpful, to capture some of the significant political, social, cultural, and
           technological influences of the 1960s.
         </p>
-        <h3 className=' text-center underline text-2xl  mb-3'>
+        <h3 className=' text-center mx-[20px] underline text-2xl my-3'>
           My Personal life and the World Around me
         </h3>
                 <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
@@ -226,7 +226,8 @@ function BackStory() {
           attended a private school through eighth grade, I spent my “freshman” year of high
           school at George Washington school, about a mile from our house.
         </p>
-        <div className='	mx-auto  max-w-[55ch] mt-4 '>
+        <div className=' max-w-[36ch] my-4 md:max-w-[65ch]'>          
+
           <img
             className='border-2 border-black '
             src='images/GW.jpg'
@@ -246,7 +247,7 @@ function BackStory() {
           Dick Gilmour, and I would spend a lot of time together after school building model
           cars, reading Mad Magazine, and riding our bicycles around the neighborhood.
         </p>
-        <div className='	mx-auto  max-w-[55ch] mt-4 '>
+        <div className='	max-w-[36ch] my-4 md:max-w-[65ch] '>
           <img
             className='border-2 border-black '
             src='images/Ridgewood_High_School BW.webp'
@@ -266,7 +267,7 @@ function BackStory() {
           blocks from van Dyck’s ice cream parlor, so many a summer day was spent going back
           and forth between the tennis courts and Van Dyk’s. Those were beautiful days.
         </p>
-        <div className='	mx-auto  max-w-[55ch] mt-4 '>
+        <div className='max-w-[36ch] my-4 md:max-w-[65ch]'>
           <a href='https://www.vandyksicecream.com/'>
             {" "}
             <img
@@ -275,7 +276,7 @@ function BackStory() {
               alt='Van Dyks Ice Cream Ridgewwod NJ'
               width='980px'
             />
-            Belaire Tennis Courts Ridgewwod NJ
+            Van Dyk's Ice Cream, Ridgewwod NJ
           </a>
         </div>
                 <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
@@ -316,7 +317,7 @@ function BackStory() {
           .
         </p>
 
-        <div className='	mx-auto  max-w-[55ch] my-6 '>
+        <div className='	max-w-[36ch] my-4 md:max-w-[65ch] '>
           <img
             className='border-2 border-black '
             src='images/Loyola Marquette Hall 1960s LA stat archives.webp'
