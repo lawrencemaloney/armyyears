@@ -527,8 +527,8 @@ function BackStory() {
               cargo ship. (Public Domain))
             </span>
           </div>
-          <div className=' max-w-[64ch]'>
-          <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
+          
+          <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
             President Kennedy decided on a plan based upon McNamara's advice and ordered a
             total naval "quarantine" of Cuba, declaring that the U.S. would prevent any ship
             carrying offensive weapons from reaching Cuba. There was a real possibility that
@@ -600,12 +600,12 @@ function BackStory() {
                 </div>
               </Collapsible>
               </p>
-            </div>
+            
             <h4 className=' text-center italic font-bold max-w-[25ch]  text-2xl mt-4 mb-3 '>
             May 11 and September 15, 1963 - Three bombings in Birmingham Alabama ignite a
             decade of racial violence.
           </h4>
-          <div className=' max-w-[64ch]'>
+          
           <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
             The city of Birmingham, Alabama was no stranger to racially-motivated bombings.
             There were 48 such bombings reported in Birmingham between 1948 in 1957. In one
@@ -631,7 +631,7 @@ function BackStory() {
                 </div>
               </Collapsible>
               </p>
-          </div>
+          
 
           <div className='max-w-[45ch] mt-4 md:max-w-[65ch] '>
             <img
@@ -703,7 +703,7 @@ function BackStory() {
           <h4 className=' text-center italic font-bold max-w-[25ch]  text-2xl mt-4 mb-3 '>
             November 22, 1963 - President John F. Kennedy Assassinated in Dallas, TX,
           </h4>
-          <div className=' max-w-[64ch]'>
+          
             <p className="text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] ">
             On November 22, 1963, President John F. Kennedy was assassinated in Dallas, TX. I
             remember being in the Ridgewood, NJ Highschool cafeteria when a news broadcast
@@ -733,7 +733,7 @@ function BackStory() {
                   </div>
               </Collapsible>
               </p>
-          </div>
+        
           <div className='	max-w-[45ch] mt-4 md:max-w-[65ch] '>
             <img
               className='border-2 border-black '
