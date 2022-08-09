@@ -7,7 +7,7 @@ function BackStory() {
   return (
     <>
       <div className='  mt-[40px] mx-auto  flex flex-col items-center '>
-        <h1 className=' text-center text-3xl md:text-4xl  mb-3'>My Story</h1>
+        <h1 className=' text-center mt-[1rem] mx-[20px] text-3xl md:text-4xl  mb-3'>My Story</h1>
 
         <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
           From June 28, 1970, to December 29, 1971, I served as the Public Information Office
@@ -17,7 +17,7 @@ function BackStory() {
           photos of Batallion accomplishments published in the Brigade's weekly newspaper, the
           Berlin Observer.
         </p>
-        <div className=' max-w-[36ch] md:max-w-[65ch]'>
+        <div className=' max-w-[45ch] mt-4 md:max-w-[65ch]'>
           <img
             className=' mt-4'
             src='images/Berlin scenes 41  resized.webp'
@@ -43,7 +43,7 @@ function BackStory() {
           little of what my life in the Army was like. This website is the result of that
           effort. (For a description of how and why I started this project. Go to the page).
         </p>
-        <h1 className=' text-center mt-[1rem] mx-[20px] text-3xl md:text-4xl  mb-3'>The Backstory - How I Got to Berlin.</h1>
+        <h1 className='text-center mt-[1rem] mx-[20px] text-3xl md:text-4xl  mb-3'>The Backstory - How I Got to Berlin.</h1>
 
         <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
 
@@ -63,7 +63,7 @@ function BackStory() {
           inequities in the "oldest man first" method for conscripting civilians.
         </p>
         
-        <div className=' max-w-[36ch] mt-4 md:max-w-[65ch]'>
+        <div className=' max-w-[45ch] mt-4 md:max-w-[65ch]'>
           <img
             src='images/Draft Lottery glass bowl Pirnie.jpg'
             width='940px'
@@ -95,7 +95,7 @@ function BackStory() {
 
           My birth date, November 27, 1947, was on the 47th capsule chosen. (See results card.)
         </p>
-        <div className=' max-w-[36ch] mt-4 md:max-w-[65ch]'>
+        <div className=' max-w-[45ch] mt-4 md:max-w-[65ch]'>
           <img
             className='border-2 mt-4 border-black'
             src='images/lottery-card-1970-marked.jpg'
@@ -112,7 +112,7 @@ function BackStory() {
           Park, NJ, "You might make it to February." the Recruitment Officer said after I told
           him that my lottery number was 47.
         </p>
-        <div className=' max-w-[36ch] mt-4 md:max-w-[65ch]'>
+        <div className=' max-w-[45ch] mt-4 md:max-w-[65ch]'>
 
           <img
             className='border-2 border-black'
@@ -138,9 +138,9 @@ function BackStory() {
         </p>
         {/* <img className='max-w-[35vw] ' src={sectionDiv} alt='divider' /> */}
 
-        <h2 className='  text-center text-3xl  my-4 '>How did I Get Here?</h2>
+        <h2 className='  text-center text-3xl mt-6 mb-4 '>How did I Get Here?</h2>
       
-        <div className=' w-[42ch] md:max-w-[65ch]'>
+        <div className=' max-w-[45ch] mt-4 md:max-w-[65ch]'>
           <img
             className='border-2 border-black'
             src='images/JTAlicewithCCat500.webp'
@@ -189,7 +189,7 @@ function BackStory() {
         </p>
         <h3 className=' text-center mx-[20px] underline text-2xl my-3'>The Influencers</h3>
         
-        <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+        <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
 
           How we make sense of what we see happening in the world around us is greatly
           influenced by our family, friends, and the various communities in which we live.
@@ -198,7 +198,7 @@ function BackStory() {
           well as physical creatures. Whether we accept, reject, or ignore the spiritual input,
           its influence and impact remain.
         </p>
-                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+        <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
 
           Since I can’t possibly understand, much less record here, all the things that
           influenced my decision to join the Army, I thought it would be interesting, maybe
@@ -208,7 +208,7 @@ function BackStory() {
         <h3 className=' text-center mx-[20px] underline text-2xl my-3'>
           My Personal life and the World Around me
         </h3>
-                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+          <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
 
           For nearly the entire decade of the 1960s, from September 1960 to May 1969, my
           personal life focused on high school and college and all the interests, activities,
@@ -218,7 +218,7 @@ function BackStory() {
           time. But the impact was there, and, for the purposes of the story, they
           significantly impacted my decision to join the Army.
         </p>
-                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+        <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
 
           Unlike many typical high schools in northern New Jersey, Ridgewood high school only
           covered grades 10 through 12. Grades nine through 11 were housed in two middle school
@@ -226,7 +226,7 @@ function BackStory() {
           attended a private school through eighth grade, I spent my “freshman” year of high
           school at George Washington school, about a mile from our house.
         </p>
-        <div className=' max-w-[36ch] my-4 md:max-w-[65ch]'>          
+        <div className=' max-w-[45ch] my-4 md:max-w-[65ch]'>          
 
           <img
             className='border-2 border-black '
@@ -238,7 +238,7 @@ function BackStory() {
             George Washington Middle School, Ridgewood, NJ
           </span>
         </div>
-<p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+<p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
 
           From September 1962 to June 1965, I attended Ridgewood high school in Ridgewood, New
           Jersey. I had an unremarkable career there. I could get by with minimum effort, and,
@@ -247,7 +247,7 @@ function BackStory() {
           Dick Gilmour, and I would spend a lot of time together after school building model
           cars, reading Mad Magazine, and riding our bicycles around the neighborhood.
         </p>
-        <div className='	max-w-[36ch] my-4 md:max-w-[65ch] '>
+        <div className='	max-w-[45ch] my-4 md:max-w-[65ch] '>
           <img
             className='border-2 border-black '
             src='images/Ridgewood_High_School BW.webp'
@@ -256,7 +256,7 @@ function BackStory() {
           />
           <span className='text-sm leading-none'>Ridgewood Highschool, Ridgewood, NJ</span>
         </div>
-        <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+        <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
 
           While I attended the public school in Ridgewood, Dick attended a private military
           high school in Manhattan. As we moved on in our high school careers, we began
@@ -267,7 +267,7 @@ function BackStory() {
           blocks from van Dyck’s ice cream parlor, so many a summer day was spent going back
           and forth between the tennis courts and Van Dyk’s. Those were beautiful days.
         </p>
-        <div className='max-w-[36ch] my-4 md:max-w-[65ch]'>
+        <div className='max-w-[45ch] my-4 md:max-w-[65ch]'>
           <a href='https://www.vandyksicecream.com/'>
             {" "}
             <img
@@ -279,23 +279,23 @@ function BackStory() {
             Van Dyk's Ice Cream, Ridgewwod NJ
           </a>
         </div>
-                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+            <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]'>
 
           While we were able to enjoy a great deal of freedom without much responsibility, we
           were certainly aware of the political, social, and cultural events going on around
           us. The proliferation of television sets across the United States brought news of
           these events into our homes every night.
         </p>
-        <h3 className=' text-center underline text-2xl '>
-          Off to College -September 1964 through May 1969
+        <h3 className=' text-center  underline text-2xl mt-4 '>
+          Off to College -September 1964 
         </h3>
-                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+            <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
 
           As an example of how little control we have over our lives, I attended Loyola
           University in New Orleans because I had received an acceptance letter from them in
           the spring of 1965, even though I had never officially applied.
         </p>
-                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+                <p className='  text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
 
           It turned out that Loyola was looking to expand the geographic scope of its student
           base in 1964, and New Jersey was in their target zone. They accepted me because I
@@ -317,7 +317,7 @@ function BackStory() {
           .
         </p>
 
-        <div className='	max-w-[36ch] my-4 md:max-w-[65ch] '>
+        <div className='	max-w-[45ch] my-4 md:max-w-[65ch] '>
           <img
             className='border-2 border-black '
             src='images/Loyola Marquette Hall 1960s LA stat archives.webp'
@@ -329,7 +329,7 @@ function BackStory() {
           </span>
         </div>
 
-                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+                <p className='  text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
 
           With a student deferment in hand, I was not concerned about being drafted into
           military service as I arrived at Loyola for my first year. During registration, I had
@@ -344,8 +344,8 @@ function BackStory() {
           had to find a new degree program.
         </p>
 
-        <h3 className=' text-center underline text-2xl '>A Change in Direction</h3>
-                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+        <h3 className='text-center  underline text-2xl mt-4 mb-3'>A Change in Direction</h3>
+                <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
 
           Happily, some friends had asked me to join the staff of the student-run WVSU-AM radio
           station, which broadcast to the campus over telephone lines (carrier current) from
@@ -363,13 +363,13 @@ function BackStory() {
           </a>{" "}
           . (Wolf Pack being the mascot of Loyola’s sports teams).
         </p>
-                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+                <p className='  text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
 
           During this same time, Loyola worked with WWL executives to introduce a new BA
           program in Communications (later named Bachelor of Arts in Mass Communications) at
           Loyola. I transferred to that program.
         </p>
-        <div className='	mx-auto  max-w-[55ch] my-2'>
+        <div className='	max-w-[45ch] mt-4 md:max-w-[65ch]'>
           <img
             className='border-2 border-black '
             src='images/Me on camera yearbook 1968.webp'
@@ -380,7 +380,7 @@ function BackStory() {
             That's me on the headset, upper right - from 1968 Loyola Yearbook
           </span>
         </div>
-                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+                <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
 
           I worked as an early morning DJ, a play-by-play radio announcer at the Loyola
           Basketball games, the PA announcer at a few Loyola Baseball team and football club
@@ -392,7 +392,7 @@ function BackStory() {
           work backstage at a Beach Boys concert at the field house (April 18, 1968) but did
           not get to interview them. My friend, Jeff Bray, was the MC for the show.{" "}
         </p>
-        <div className='	mx-auto  max-w-[55ch] mt-4 '>
+        <div className='	max-w-[45ch] mt-4 md:max-w-[65ch] '>
           <img
             className='border-2 border-black '
             src='images/Loyola_Field_House.jpg'
@@ -403,21 +403,21 @@ function BackStory() {
             Loyola University Field House, New Orleans, LA
           </span>
         </div>
-                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+                <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
 
           After the Department of Communications and changing my major, I was able to take
           courses in TV writing, directing, announcing, and camera operation. At the start of
           my senior year, I was named Senior Operations Director for the radio station now
           named WLDC . These skills were to come in handy when I finally got to Berlin.
         </p>
-                <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+        <p className='  text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
 
           I also joined the ROTC was a member of the competitive rifle team, and the Drill
           Team. As far as I know, neither one of these activities.
         </p>
 
 
-        <div className='	mx-auto  max-w-[55ch] my-4 '>
+        <div className='	max-w-[45ch] mt-4 md:max-w-[65ch]'>
           <img
             className='border-2 border-black '
             src='images/loyola-cadet-battalion-marches-back-to-campus-from-audubon-park-1966.webp'
@@ -430,21 +430,21 @@ function BackStory() {
         </div>
 
 
-        <h1 className=' text-center text-4xl  mb-3'>
-          Timeline 1960 through 1969 - Outside my Bubble
+        <h1 className=' text-center mt-[1rem] mx-[20px] text-3xl md:text-4xl  mb-3'>
+          1960 through 1969 - In the World
         </h1>
 
-                    <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+          <h4 className=' text-center italic font-bold max-w-[25ch]  text-2xl mt-4 mb-3 '>
 
             May 1, 1960 - U.S. Spy Plane Shot Down over USSR
-          </p>
-                  <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+          </h4>
+          <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]'>
 
             The ongoing Cold War between the Soviet Union and the western allies, three major
             political assassinations, the nation-wide racial violence, and the escalation of
             the Vietnam War all played a major role in my decision.
           </p>
-          <div className='	mx-auto  max-w-[55ch] my-4 '>
+          <div className='max-w-[45ch] mt-4 md:max-w-[65ch] '>
             <img
               className='border-2 border-black '
               src='images/First-U-2.jpg'
@@ -455,7 +455,7 @@ function BackStory() {
               U2 Spy Plane Photo credit: U.S. Air Force
             </span>
           </div>
-              <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+              <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
             On May 1, 1960, four months before I started high school, a CIA U-2 Spy Plane,
             flown by Francis Gary Powers, was shot down by the Soviet air defense forces while
             performing photographic aerial reconnaissance deep inside Soviet territory. This
@@ -463,7 +463,7 @@ function BackStory() {
             came at a very sensitive time in the developing Cold War between the United States
             and the Soviet Union.
           </p>
-          <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+          <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]'>
             The single-seated aircraft had successfully evaded Soviet air defense capabilities
             on several previous missions. Powers had taken off from Peshawar, Pakistan, and
             crashed near Sverdlovsk after being hit by an S-75 Dvina surface-to-air missile.
@@ -472,10 +472,10 @@ function BackStory() {
             labor but was released two years later in February 1962 in a prisoner exchange for
             Soviet intelligence officer Rudolf Abel.
           </p>
-          <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+          <h4 className=' text-center italic font-bold max-w-[25ch]  text-2xl mt-4 mb-3 '>
             October 16 to November 20, 1962 - Cuban missile crisis
-          </p>
-                  <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+          </h4>
+          <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]'>
 
             On October 17, 1962, every network brought news that a U.S. U2 spy plane
             photographed evidence that as many as 32 Soviet-built medium-range ballistic
@@ -485,7 +485,7 @@ function BackStory() {
             Council comprised of top officials of the U.S. Departments of Defence, State, the
             CIA, and other national security experts.
           </p>
-          <div className='	mx-auto  max-w-[55ch] mt-4 '>
+          <div className='	max-w-[45ch] mt-4 md:max-w-[65ch] '>
             <img
               className='border-2 border-black '
               src='images/The_relative_ranges_of_the_IL-28,_SS-4,_and_SS-5,_stationed_on_Cuba.webp'
@@ -497,7 +497,7 @@ function BackStory() {
               (Public Domain))
             </span>
           </div>
-                  <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+            <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
 
             The President received advice on the most appropriate response ranging from a
             direct attack on the missile sites to a blockade of the island nation. Arguing for
@@ -507,7 +507,7 @@ function BackStory() {
             their missiles and kill a lot of Russians and then do nothing? If they don't do
             anything in Cuba they'll certainly do something in Berlin."
           </p>
-                  <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+            <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
 
             Secretary of Defense Robert McNamara proposed that a blockade of Cuba would put
             pressure on the Soviets but give them time to reconsider and deescalate. It would
@@ -515,7 +515,7 @@ function BackStory() {
             McNamara noted that surgical airstrikes were not practical unless followed by an
             invasion.
           </p>
-          <div className='	mx-auto  max-w-[55ch] mt-4 '>
+          <div className='max-w-[45ch] mt-4 md:max-w-[65ch]'>
             <img
               className='border-2 border-black '
               src='images/P-2H_Neptune_over_Soviet_ship_Oct_1962 (1).webp'
@@ -528,7 +528,7 @@ function BackStory() {
             </span>
           </div>
           <div className=' max-w-[64ch]'>
-          <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+          <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
             President Kennedy decided on a plan based upon McNamara's advice and ordered a
             total naval "quarantine" of Cuba, declaring that the U.S. would prevent any ship
             carrying offensive weapons from reaching Cuba. There was a real possibility that
@@ -601,12 +601,12 @@ function BackStory() {
               </Collapsible>
               </p>
             </div>
-          <p className=' text-center text-xl border-2 border-black mb-3	'>
+            <h4 className=' text-center italic font-bold max-w-[25ch]  text-2xl mt-4 mb-3 '>
             May 11 and September 15, 1963 - Three bombings in Birmingham Alabama ignite a
             decade of racial violence.
-          </p>
+          </h4>
           <div className=' max-w-[64ch]'>
-          <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+          <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
             The city of Birmingham, Alabama was no stranger to racially-motivated bombings.
             There were 48 such bombings reported in Birmingham between 1948 in 1957. In one
             month in 1957, four black churches and at least seven private residences were
@@ -633,7 +633,7 @@ function BackStory() {
               </p>
           </div>
 
-          <div className='	mx-auto  max-w-[55ch] mt-4 '>
+          <div className='max-w-[45ch] mt-4 md:max-w-[65ch] '>
             <img
               className='border-2 border-black '
               src='images/birmingham riots dogs.webp'
@@ -646,8 +646,7 @@ function BackStory() {
             </span>
           </div>
 
-          <div className=' max-w-[64ch]'>
-          <p className=' text-[20px] max-w-[32ch] sm:text-[28px] sm:max-w-[40ch]  lg:max-w-[64ch] '>
+          <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
             On Sunday, September 15, 1963, at the 16th street Baptist Church in Birmingham, AL,
             four young girls, 14-year-olds Addie Mae Collins, Denise McNair, Carole Robertson,
             and 11-year-old Cynthia Wesley, were murdered by a bomb planted under the steps of
@@ -674,9 +673,9 @@ function BackStory() {
                 </div>
               </Collapsible>
               </p>
-          </div>
+          
 
-          <div className='	mx-auto  max-w-[55ch] mt-4 '>
+          <div className='max-w-[45ch] mt-4 md:max-w-[65ch] '>
             <img
               className='border-2 border-black '
               src='images/16th street church birminghamLOC BW.jpg'
@@ -688,7 +687,7 @@ function BackStory() {
             </span>
           </div>
           
-          <div className='	mx-auto  max-w-[55ch] mt-4 '>
+          <div className='	max-w-[45ch] mt-4 md:max-w-[65ch] '>
             <img
               className='border-2 border-black '
               src='images/16th Street Church bombed 1963 outside view.jpg'
@@ -701,15 +700,18 @@ function BackStory() {
             </span>
           </div>
 
-
-          <p className=' text-center text-xl border-2 border-black mb-3	'>
+          <h4 className=' text-center italic font-bold max-w-[25ch]  text-2xl mt-4 mb-3 '>
             November 22, 1963 - President John F. Kennedy Assassinated in Dallas, TX,
-          </p>
+          </h4>
           <div className=' max-w-[64ch]'>
+            <p className="text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] ">
             On November 22, 1963, President John F. Kennedy was assassinated in Dallas, TX. I
             remember being in the Ridgewood, NJ Highschool cafeteria when a news broadcast
             could suddenly be heard over the PA system reporting that the President had been
             shot. There was a stunned silence as we all tried to make sense of what we heard
+              
+            
+
               <Collapsible icon=']&#8224;]'>
               <div className="ml-8 w-[300px] break-words">
                 <p className=' w-[12chr] text-[12px] leading-4'>
@@ -730,8 +732,9 @@ function BackStory() {
                 </p>
                   </div>
               </Collapsible>
+              </p>
           </div>
-          <div className='	mx-auto  max-w-[55ch] mt-4 '>
+          <div className='	max-w-[45ch] mt-4 md:max-w-[65ch] '>
             <img
               className='border-2 border-black '
               src='images/JFK_limousine BW.webp'
