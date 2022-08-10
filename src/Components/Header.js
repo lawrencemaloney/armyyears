@@ -17,7 +17,7 @@ export default function Header() {
   return (
     <>
 
-      <div className=' top-0 left-0 right-0 m-0 h-[130px] w-[100vw] md:ml-[2vw] bg-amber-50  justify-center   sm:ml-[1vw] z-[100]  sm:h-[186px] lg:space-x-36 flex text-center'>
+      <div className=' top-0 left-0 right-0 m-0 h-[120px] w-[100vw] md:ml-[2vw] bg-amber-50  justify-center   sm:ml-[1vw] z-[100]  sm:h-[186px] lg:space-x-36 flex text-center'>
  
         <img
           className='  hidden sm:w-[50px] sm:h-[53px] sm:flex absolute left-16 top-12 '
@@ -27,8 +27,8 @@ export default function Header() {
           alt={"Pin"}
         />
 
-        <h1 className=' text-4xl mt-5 absolute right-[50%] translate-x-[50%] flex-col w-[100%]  xl:text-[56px] '>
-          A Soldier in Berlin <p className='text-[36px] mt-[0px]'>1969 to 1972</p>
+        <h1 className=' text-4xl mt-10 absolute right-[50%] translate-x-[50%] flex-col w-[100%]  xl:text-[56px] '>
+          A Soldier in Berlin <p className='text-[36px] mt-[20px]'>1969 to 1972</p>
         </h1>
 
         <img

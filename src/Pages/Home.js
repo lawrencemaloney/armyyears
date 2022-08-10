@@ -17,12 +17,12 @@ function BackStory() {
           photos of Batallion accomplishments published in the Brigade's weekly newspaper, the
           Berlin Observer.
         </p>
-        <div className=' max-w-[45ch] mt-4 md:max-w-[65ch]'>
+        <div className=' max-w-[45ch] mt-4 md:max-w-[75ch]'>
           <img
             className=' mt-4'
             src='images/Berlin scenes 41  resized.webp'
             alt='Ku-Damm Berlin'
-            width='600px'
+            // width='600px'
           />
           <span className='text-sm leading-none '>
             Ku-damm Strasse & Kaiser Wilhelm Memorial, Berlin Germany c. 1970 taken by me
@@ -63,7 +63,7 @@ function BackStory() {
           inequities in the "oldest man first" method for conscripting civilians.
         </p>
         
-        <div className=' max-w-[45ch] mt-4 md:max-w-[65ch]'>
+        <div className=' max-w-[45ch] mt-4 md:max-w-[75ch]'>
           <img
             src='images/Draft Lottery glass bowl Pirnie.jpg'
             width='940px'
@@ -95,7 +95,7 @@ function BackStory() {
 
           My birth date, November 27, 1947, was on the 47th capsule chosen. (See results card.)
         </p>
-        <div className=' max-w-[45ch] mt-4 md:max-w-[65ch]'>
+        <div className=' max-w-[45ch] mt-4 md:max-w-[75ch]'>
           <img
             className='border-2 mt-4 border-black'
             src='images/lottery-card-1970-marked.jpg'
@@ -112,7 +112,7 @@ function BackStory() {
           Park, NJ, "You might make it to February." the Recruitment Officer said after I told
           him that my lottery number was 47.
         </p>
-        <div className=' max-w-[45ch] mt-4 md:max-w-[65ch]'>
+        <div className=' max-w-[45ch] mt-4 md:max-w-[75ch]'>
 
           <img
             className='border-2 border-black'
@@ -140,7 +140,7 @@ function BackStory() {
 
         <h2 className='  text-center text-3xl mt-6 mb-4 '>How did I Get Here?</h2>
       
-        <div className=' max-w-[45ch] mt-4 md:max-w-[65ch]'>
+        <div className=' max-w-[45ch] mt-4 md:max-w-[75ch]'>
           <img
             className='border-2 border-black'
             src='images/JTAlicewithCCat500.webp'
@@ -148,7 +148,7 @@ function BackStory() {
             width='980px'
           />
         </div>
-        <div className='text-[12px] w-[30ch] ml-[140px] leading-1 mb-[6px] -mt-[275px] md:ml[12px]  md:text-[13px] md:leading-4 md:-mt-[275px]	 md:w-[26ch]'>
+        <div className='text-[12px] w-[30ch] ml-[140px] leading-1 mb-[6px] -mt-[275px] md:ml-[246px]  md:text-[20px] md:leading-1 md:-mt-[475px] md:w-[29ch]'>
           `Would you tell me, please, which way I ought to go from here?' <br />
           `That depends a good deal on where you want to get to,' said the Cat. <br />
           `I don't much care where--' said Alice. <br />
@@ -157,10 +157,10 @@ function BackStory() {
           `Oh, you're sure to do that,' said the Cat, `if you only walk long enough
             
             <Collapsible icon='[&#8224;]'>
-            <div className="-ml-[120px] w-[300px] mt-[12px] h-[30px] break-words text-[14px]">
-              [&#8224;]
+            <div className="-ml-[140px] 	text-black w-[400px] h-[135px] mt-[12px] py-[20px]  text-[18px] 	">
+              {/* [&#8224;] */}
                 Carroll, Lewis. Alice’s Adventures in Wonderland. With illustrations by John
-                Tenniel. Alice-in-wonderland.net Page 30.
+                Tenniel. Alice-in-wonderland.net Page 30.<br/> 
                 <a
                   target='blank'
                   rel='noopener noreferrer'
@@ -169,8 +169,6 @@ function BackStory() {
                   text-blue-600
                   visited:text-purple-600'>
                   https://www.alice-in-wonderland.net/wp-content/uploads/alice-in-wonderland.pdf
-                  <br/>
-                  <br/>
            
                 </a>
                 {/* <br /> */}
@@ -179,7 +177,7 @@ function BackStory() {
           </div>
 
       
-          <p className=' text-[20px] mx-[20px] mt-[12px] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
+          <p className=' text-[20px] mx-[20px] mt-[12px] max-w-[38ch] md:text-[25px] md:max-w-[40ch] md:mt-[22px] leading-[32px]  lg:max-w-[60ch] '>
 
           Like Alice, I had no clear idea of where I wanted to "get to" in the years and months
           leading to my enlistment. The war in Vietnam, the university I attended, the courses
@@ -226,7 +224,7 @@ function BackStory() {
           attended a private school through eighth grade, I spent my “freshman” year of high
           school at George Washington school, about a mile from our house.
         </p>
-        <div className=' max-w-[45ch] my-4 md:max-w-[65ch]'>          
+        <div className=' max-w-[45ch] my-4 md:max-w-[75ch]'>          
 
           <img
             className='border-2 border-black '
@@ -247,7 +245,7 @@ function BackStory() {
           Dick Gilmour, and I would spend a lot of time together after school building model
           cars, reading Mad Magazine, and riding our bicycles around the neighborhood.
         </p>
-        <div className='	max-w-[45ch] my-4 md:max-w-[65ch] '>
+        <div className='	max-w-[45ch] my-4 md:max-w-[75ch] '>
           <img
             className='border-2 border-black '
             src='images/Ridgewood_High_School BW.webp'
@@ -267,7 +265,7 @@ function BackStory() {
           blocks from van Dyck’s ice cream parlor, so many a summer day was spent going back
           and forth between the tennis courts and Van Dyk’s. Those were beautiful days.
         </p>
-        <div className='max-w-[45ch] my-4 md:max-w-[65ch]'>
+        <div className='max-w-[45ch] my-4 md:max-w-[75ch]'>
           <a href='https://www.vandyksicecream.com/'>
             {" "}
             <img
@@ -317,7 +315,7 @@ function BackStory() {
           .
         </p>
 
-        <div className='	max-w-[45ch] my-4 md:max-w-[65ch] '>
+        <div className='	max-w-[45ch] my-4 md:max-w-[75ch] '>
           <img
             className='border-2 border-black '
             src='images/Loyola Marquette Hall 1960s LA stat archives.webp'
@@ -369,7 +367,7 @@ function BackStory() {
           program in Communications (later named Bachelor of Arts in Mass Communications) at
           Loyola. I transferred to that program.
         </p>
-        <div className='	max-w-[45ch] mt-4 md:max-w-[65ch]'>
+        <div className='	max-w-[45ch] mt-4 md:max-w-[75ch]'>
           <img
             className='border-2 border-black '
             src='images/Me on camera yearbook 1968.webp'
@@ -392,7 +390,7 @@ function BackStory() {
           work backstage at a Beach Boys concert at the field house (April 18, 1968) but did
           not get to interview them. My friend, Jeff Bray, was the MC for the show.{" "}
         </p>
-        <div className='	max-w-[45ch] mt-4 md:max-w-[65ch] '>
+        <div className='	max-w-[45ch] mt-4 md:max-w-[75ch] '>
           <img
             className='border-2 border-black '
             src='images/Loyola_Field_House.jpg'
@@ -417,7 +415,7 @@ function BackStory() {
         </p>
 
 
-        <div className='	max-w-[45ch] mt-4 md:max-w-[65ch]'>
+        <div className='	max-w-[45ch] mt-4 md:max-w-[75ch]'>
           <img
             className='border-2 border-black '
             src='images/loyola-cadet-battalion-marches-back-to-campus-from-audubon-park-1966.webp'
@@ -444,7 +442,7 @@ function BackStory() {
             political assassinations, the nation-wide racial violence, and the escalation of
             the Vietnam War all played a major role in my decision.
           </p>
-          <div className='max-w-[45ch] mt-4 md:max-w-[65ch] '>
+          <div className='max-w-[45ch] mt-4 md:max-w-[75ch] '>
             <img
               className='border-2 border-black '
               src='images/First-U-2.jpg'
@@ -485,7 +483,7 @@ function BackStory() {
             Council comprised of top officials of the U.S. Departments of Defence, State, the
             CIA, and other national security experts.
           </p>
-          <div className='	max-w-[45ch] mt-4 md:max-w-[65ch] '>
+          <div className='	max-w-[45ch] mt-4 md:max-w-[75ch] '>
             <img
               className='border-2 border-black '
               src='images/The_relative_ranges_of_the_IL-28,_SS-4,_and_SS-5,_stationed_on_Cuba.webp'
@@ -515,7 +513,7 @@ function BackStory() {
             McNamara noted that surgical airstrikes were not practical unless followed by an
             invasion.
           </p>
-          <div className='max-w-[45ch] mt-4 md:max-w-[65ch]'>
+          <div className='max-w-[45ch] mt-4 md:max-w-[75ch]'>
             <img
               className='border-2 border-black '
               src='images/P-2H_Neptune_over_Soviet_ship_Oct_1962 (1).webp'
@@ -535,10 +533,11 @@ function BackStory() {
             the U.S. Navy would forcibly stop and board Soviet ships and that war would ensue.
             Eventually, the two nations negotiated the total removal of missiles and the
             destruction of the launch facilities
-              <Collapsible icon='[&#8224;]'>
-              <div className="mx-8 w-[500px]">
-              [&#8224;]
-              <p>
+              <Collapsible icon='[&#8224;]'>            
+              {/* <div className="-ml-[140px] text-black w-[400px] h-[135px]  py-[20px]  text-[18px] 	"> */}
+              <div className="ml-8  w-[500px] mt-[20px] text-[18]	text-black  ">
+              {/* [&#8224;] */}
+              <p className="my-[10px]">
                   “CUBAN MISSILE CRISIS” Accessed February 11, 2022.
                   <br />
                   <a
@@ -552,7 +551,7 @@ function BackStory() {
                     https://www.jfklibrary.org/learn/about-jfk/jfk-in-history/cuban-missile-crisis
                   </a>
                 </p>
-                <p>
+                <p className="my-[10px]">
                   Britannica, T. Editors of Encyclopaedia. "Cuban missile crisis." Encyclopedia
                   Britannica, December 20, 2021.
                   <br />
@@ -566,7 +565,7 @@ function BackStory() {
                     https://www.britannica.com/event/Cuban-missile-crisis
                   </a>
                 </p>
-                <p>
+                <p className="my-[10px]">
                   Schwarz, Benjamin, Janury/February 2013 Issue, The Real Cuban Missile
                   Crisis.The Atlantic.
                   <br />
@@ -580,7 +579,7 @@ function BackStory() {
                     https://www.theatlantic.com/magazine/archive/2013/01/the-real-cuban-mssile-crisis/309190/
                   </a>
                 </p>
-                <p>
+                <p className="my-[10px]">
                   Arnold, Mark, May 5, 2013 Issue, JFK and the Road to Dallas: The Cuban
                   Missile Crisis-Part II.
                   <br />
@@ -596,7 +595,6 @@ function BackStory() {
                     <br />
                   </a>
                   </p>
-
                 </div>
               </Collapsible>
               </p>
@@ -612,7 +610,10 @@ function BackStory() {
             month in 1957, four black churches and at least seven private residences were
             bombed.
               <Collapsible icon='[&#8224;]'>
-                <div className="ml-8 w-[300px] break-words">
+              <div className="ml-8  w-[500px] mt-[20px] text-[18]	text-black break-words ">
+
+              {/* [&#8224;] */}
+
                   <p>
                   Gado, Mark (2007). "Bombingham". CrimeLibrary.com/Court TV Online. Archived
                   from the original on August 18, 2007.
@@ -633,7 +634,7 @@ function BackStory() {
               </p>
           
 
-          <div className='max-w-[45ch] mt-4 md:max-w-[65ch] '>
+          <div className='max-w-[45ch] mt-4 md:max-w-[75ch] '>
             <img
               className='border-2 border-black '
               src='images/birmingham riots dogs.webp'
@@ -654,8 +655,9 @@ function BackStory() {
             Klavern #13 chapter of the Ku Klux Klan. It took until May 1, 2001, until three of
             the four suspected bombers were convicted.
               <Collapsible icon='[&#8224;]'>
-              <div className="mt-[3-px] w-[300px] break-words">
-              [&#8224;]
+              <div className="ml-8  w-[500px] mt-[20px] text-[18]	text-black break-words ">
+
+              {/* [&#8224;] */}
                 <p>
                   16th Street Baptist Church Bombing, National Parks Service.
                   <a
@@ -675,7 +677,7 @@ function BackStory() {
               </p>
           
 
-          <div className='max-w-[45ch] mt-4 md:max-w-[65ch] '>
+          <div className='max-w-[45ch] mt-4 md:max-w-[75ch] '>
             <img
               className='border-2 border-black '
               src='images/16th street church birminghamLOC BW.jpg'
@@ -713,7 +715,7 @@ function BackStory() {
             
 
               <Collapsible icon=']&#8224;]'>
-              <div className="ml-8 w-[300px] break-words">
+              <div className="ml-8  w-[500px] mt-[20px] text-[18]	text-black break-words ">
                 <p className=' w-[12chr] text-[12px] leading-4'>
                   Robert Siegel, "Walter Cronkite On The Assassination Of John F. Kennedy," NPR
                   News All Things Considered, Washington, DC, November 22, 2013 4:22 PM ET.
@@ -734,7 +736,7 @@ function BackStory() {
               </Collapsible>
               </p>
         
-          <div className='	max-w-[45ch] mt-4 md:max-w-[65ch] '>
+          <div className='	max-w-[45ch] mt-4 md:max-w-[75ch] '>
             <img
               className='border-2 border-black '
               src='images/JFK_limousine BW.webp'
