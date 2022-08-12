@@ -6,9 +6,10 @@ function Training() {
   return (
     <>
       <div className='  mt-[40px] mx-auto  flex flex-col items-center '>
-        <h1 className=' text-center text-3xl  mb-3'>Welcome to the Army</h1>
-        <h2 className=' text-center text-2xl  mb-1'>Fort Dix - Basic Training</h2>
-        <p className='max-w-[64ch]'>
+        <h1 className=' text-center mt-[1rem] mx-[20px] text-3xl md:text-4xl  mb-3'>Welcome to the Army</h1>
+        <h2 className=' text-center text-3xl  mt-3'>Fort Dix - Basic Training</h2>
+      
+        <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
           On Monday, February 2, 1970, I was one of about 40 young men inducted into the U. S.
           Army at the Induction Center in Hackensack, NJ. After receiving physical exams, we
           were lined up randomly when the military person in charge (probably a sergeant) asked
@@ -16,34 +17,34 @@ function Training() {
           "volunteered" a couple. The rest of us were loaded onto a bus and driven about 80
           miles to Fort Dix.
         </p>
-        <div className=' max-w-[55ch]'>
+        <div className='max-w-[45ch] mt-4 md:max-w-[75ch]'>
           <img
-            className=' mt-4'
+            className='border-2 border-black '
             src='images/FT dix induction cropped.jpg'
             alt='Ft Dix Reception 1968'
-            width='600px'
+            width='980px'
           />
           <span className='text-sm leading-none '>(Chairborne, Alan S. - WITF.org)</span>
         </div>
 
-        <p className='max-w-[64ch]'>
+        <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
           We arrived after dark and were directed into a building where we were given uniforms
           and other items needed for basic training. I guess we must have been fed, although I
           don't remember it. I do remember being roused out of bed early the next morning while
           it was still dark. I got up right away but some who didn't were not so gently
           reminded that they were definitely "in the Army now"!
         </p>
-        <p className='max-w-[64ch]'>
+        <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
           On one of the first days in camp, we all lined up for the dreaded first army haircut.
           This was the early 70's and many of the guys had been cultivating long hair for a few
           years. The barbers (if they were barbers) showed no mercy. Some guys took it pretty
           hard. Keep in mind, about 25% of the trainees were draftees and had not chosen to be
           there, but they hadn’t shirked their responsibility either.
         </p>
-        <div className=' max-w-[55ch]'>
+        <div className='max-w-[45ch] mt-4 md:max-w-[75ch]'>
           <img
-            className=' mt-4'
-            width='600px'
+            className=' border-2 border-black '
+            width='980px'
             src='images/cryin shame.jpg'
             alt='Army haircut'
           />
@@ -52,7 +53,7 @@ function Training() {
           </span>
         </div>
 
-        <p className='max-w-[64ch]'>
+        <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
           Later in the first week, we were given aptitude tests to help the Army determine how
           our skills could best fit their needs. While this sounds good in theory, in times of
           war like this, what the Army mostly needed was soldiers to shoot and be shot at and
@@ -85,7 +86,7 @@ function Training() {
           </span>
         </p>
 
-        <p className='max-w-[64ch]'>
+        <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
           As a direct result of scores on the tests, I was among 3 or 4 out of two hundred or
           so recruits to be offered the opportunity to attend OCS. To be eligible I would have
           to agree to add one year to my two-year enlistment to cover the time I would spend in
@@ -96,10 +97,10 @@ function Training() {
           ramifications of this decision would not be known until I was more than half-way
           through my Advanced Infantry Training.
         </p>
-        <div className=' max-w-[55ch]'>
+        <div className='max-w-[45ch] mt-4 md:max-w-[75ch]'>
           <img
-            className=' mt-4'
-            width='600px'
+            className='border-2 border-black '
+            width='980px'
             src='images/basic training morning march big.jpg'
             alt='Army moring march'
           />
@@ -107,23 +108,23 @@ function Training() {
             (by Gary (Mike) Willson at inquisitivequest.com)
           </span>
         </div>
-        <p className='max-w-[64ch]'>
+        <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
           At Ft. Dix, training began early every morning with a 5-mile march in full gear
           before breakfast in the mess hall. We were happy to get to the mess hall, but only
           had about 15 minutes to eat and form up for the day's training. We also had to
           quick-time march to every class.
         </p>
-        <p className='max-w-[64ch]'>
+        <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
           Some classes, like learning how to disassemble and reassemble weapons (we were issued
           M1 carbines even though the M16 was already being used in Vietnam) were held in
           classrooms but most were held in the field. The number one objective of Basic
           Training was to get us in “fighting shape”.
         </p>
 
-        <div className=' max-w-[55ch]'>
+        <div className=' max-w-[45ch] mt-4 md:max-w-[75ch]'>
           <img
-            className=' mt-4'
-            width='600px'
+            className=' border-2 border-black '
+            width='980px'
             src='images/basic training id_pistol_m1911_700_06.jpg'
             alt='Army pistol practice'
           />
@@ -132,7 +133,7 @@ function Training() {
           </span>
         </div>
 
-        <p className='max-w-[64ch]'>
+        <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
           We were engaged in some form of physical and weapons training every day. Physical
           training included calisthenics, hand-to-hand fighting, obstacle courses, and lots of
           running. We spent a fair amount of time on the rifle range and had to qualify with
@@ -140,20 +141,20 @@ function Training() {
           pistol (official designation: Pistol, Caliber .45, Automatic, M1911A1). A very
           awkward and inaccurate weapon, at least in my hands.
         </p>
-        <h2 className=' text-center text-3xl  mb-1'>
+        <h2 className='  text-center text-3xl  mt-3'>
           Fort Lewis - Advanced Infantry Training
         </h2>
-        <div className=' max-w-[55ch]'>
+        <div className=' max-w-[45ch] mt-4 md:max-w-[75ch]'>
           <img
-            className=' mt-4'
-            width='600px'
+            className='border-2 border-black '
+            width='980px'
             src='images/Ft-Lewis-Mt-R-cropped.jpg'
             alt='Ft. Lewis '
           />
           <span className='text-sm leading-none '>(32nd-division.org)</span>
         </div>
 
-        <p className='max-w-[64ch]'>
+        <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]'>
           After graduating from Basic Training, I was assigned to Fort Lewis situated just
           south of Tacoma, WA. (See Fort Lewis 1966-1972). It had a rugged terrain with a great
           view of Mt. Rainier. The barracks were old wooden buildings with metal frame bunk
@@ -168,24 +169,24 @@ function Training() {
           adjust again, etc.
         </p>
 
-        <div className=' max-w-[55ch]'>
+        <div className=' max-w-[45ch] mt-4 md:max-w-[75ch]'>
           <img
-            className=' mt-4'
-            width='600px'
+            className=' border-2 border-black '
+            width='980px'
             src='images/81mm_b (BW).jpg'
             alt='81mm Mortar '
           />
           <span className='text-sm leading-none '>(81mm Mortar-Wikipedia)</span>
         </div>
 
-        <p className='max-w-[64ch]'>
+        <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
           This was a perilous job since the enemy could sometimes establish the FO’s position
           by triangulating on his hand radio signal. All of the members of the mortar platoon
           were trained in all aspects of the weapon. We took pride in being able to hit a
           target in three rounds or less. Having been designated for training in mortars, it
           was understood that I would be using those skills in Vietnam.
         </p>
-        <p className='max-w-[64ch]'>
+        <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
           While my training was focused on mortars, we still spent a good portion of our time
           in physical training, pushups, obstacle courses, long marches in full packs, and
           hand-to-hand combat. Since the purpose of all our training was to prepare us for
@@ -193,10 +194,10 @@ function Training() {
           jungle fighting, like recognizing booby traps and potential ambushes. We played “war
           games” that attempted to simulate what it might be like on patrol in Vietnam.
         </p>
-        <div className=' max-w-[55ch]'>
+        <div className='max-w-[45ch] mt-4 md:max-w-[75ch]'>
           <img
-            className=' mt-4'
-            width='600px'
+            className=' border-2 border-black '
+            width='980px'
             src='images/Berlin Brigade in Field (16).jpg'
             alt='81mm Mortar '
           />
@@ -205,7 +206,7 @@ function Training() {
           </span>
         </div>
 
-        <p className='max-w-[64ch]'>
+        <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]'>
           I remember vividly the night-time “live fire” exercise where our platoon had to crawl
           50 yards with full packs and a rifle while a .50 caliber machine gun fired live
           rounds over our heads. Live tracer rounds were included so that we could see (and
@@ -214,7 +215,7 @@ function Training() {
           could tell that the rounds were at least 20 – 30 feet above our heads, but our
           sergeant's admonition to “keep your head down” was deeply ingrained.
         </p>
-        <p className='max-w-[64ch]'>
+        <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]'>
           We continued more traditional combat training like improving our marksmanship with
           M16s and throwing hand grenades. An interesting story about learning to throw hand
           grenades. It turns out that some soldiers, having practiced with dummy grenades,
@@ -225,10 +226,10 @@ function Training() {
           over we practiced: 1- remove the pin, 2- throw the grenade as far as you can, 3 –
           duck below the front wall.
         </p>
-        <div className=' max-w-[55ch]'>
+        <div className='max-w-[45ch] mt-4 md:max-w-[75ch]'>
           <img
-            className=' mt-4'
-            width='600px'
+            className='border-2 border-black '
+            width='980px'
             src='images/Alan-Shenk-grenade-cropped_2.jpg'
             alt='Grenade Training'
           />
@@ -236,7 +237,7 @@ function Training() {
             (Grenade Pit - Chairborne, Alan S. - WITF.org)
           </span>
         </div>
-        <p className='max-w-[64ch]'>
+        <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
           While I was on the firing line waiting for my turn, I heard “Fire in the hole!”
           followed closely by the body of a trainee flying out of the bunker, followed by the
           drill sergeant scrambling out, followed by an explosion. The drill sergeant was not
@@ -250,15 +251,18 @@ function Training() {
           solidified in my mind that war is dangerous and some people should not be allowed to
           fight in them.
         </p>
-        <h3 className=' text-center underline text-2xl  mb-3'>
+        <h3 className=' text-center  underline text-2xl mt-4 mb-3'>
           Other Things I Learned at Ft. Lewis
         </h3>
-        <div className=' max-w-[55ch]'>
-          <img className=' mt-4' width='600px' src='images/Potato-Peeling.jpg' alt='KP' />
+        <div className=' max-w-[45ch] mt-4 md:max-w-[75ch]'>
+          <img className=' border-2 border-black ' 
+          width='980px' 
+          src='images/Potato-Peeling.jpg' 
+          alt='KP' />
           <span className='text-sm leading-none '>(U. S. Army)</span>
         </div>
 
-        <p className='max-w-[64ch]'>
+        <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
           Approximately half-way through AIT, I developed pleurisy, an inflammation of the
           layer of tissue between the lungs and the chest wall. It was fairly painful and I was
           removed from training and placed on light duty, which, for me, meant Kitchen Patrol
@@ -273,9 +277,9 @@ function Training() {
           cook took a liking to me. Although I didn’t sit with the officers, I was allowed to
           eat what they were having before helping to serve the troops.
         </p>
-        <h3 className=' text-center underline text-2xl  mb-3'>Providence of God</h3>
+        <h3 className=' text-center  underline text-2xl mt-4 mb-3'>Providence of God</h3>
 
-        <p className='max-w-[64ch]'>
+        <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
           Picture 50 or so fellow soldiers who have just completed living and training together
           for nearly two months. We were on the parade ground outside our barracks milling
           around waiting to receive our orders for our next (first real) duty assignment. Very
@@ -284,16 +288,16 @@ function Training() {
           (and one of only three men in the 300+ man training company) who knew what their
           orders would be for assignments outside of Vietnam.
         </p>
-        <div className=' max-w-[55ch]'>
+        <div className=' max-w-[45ch] mt-4 md:max-w-[75ch]'>
           <img
-            className=' mt-4'
-            width='600px'
+            className='border-2 border-black '
+            width='980px'
             src='images/basic training graduation 1970 (BW).jpg'
             alt='Basic Grad'
           />
           <span className='text-sm leading-none '>(U.S. Army Training Graduation)</span>
         </div>
-        <p className='max-w-[64ch]'>
+        <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
           About two weeks earlier I had been summoned to the Headquarters building and directed
           to a small conference room. There were two other trainees already there. We didn’t
           know each other since we were from different training platoons. Eventually, a Major
@@ -309,7 +313,7 @@ function Training() {
           for 12 months. The rules regarding assignment to combat theatres at that time
           required the soldier to have more than a year of active duty time left.
         </p>
-        <p className='max-w-[64ch]'>
+        <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
           Putting the math skills that I had learned in school to practical use, I quickly (I
           mean really quickly!) determined that by the time I finished four months of training
           and then 12 months assigned to a base outside of Vietnam, I would not have enough
@@ -322,14 +326,13 @@ function Training() {
           said that England was very unlikely since there were “about 500 U.S. Army personnel
           in all of England!” Germany, on the other hand, seemed very likely to him.
         </p>
-        <p className='max-w-[64ch]'>
+        <p className=' mb-[8rem] text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
           Back to the scene at the parade ground after graduation. As the names were called and
           the orders were handed out, my joy over reading that I was to report to Armry
           Headquarters in Frankfurt, Germany was greatly diminished as I learned that every one
           of my fellow trainees received orders for Vietnam. This unlikely series of events
           could not, in my mind, be anything but the providence of God.
         </p>
-        <p className='max-w-[64ch]'></p>
       </div>
     </>
   );
