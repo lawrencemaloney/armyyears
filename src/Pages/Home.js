@@ -157,7 +157,7 @@ function BackStory() {
           `Oh, you're sure to do that,' said the Cat, `if you only walk long enough
             
             <Collapsible icon='[&#8224;]'>
-            <div className="-ml-[140px] 	text-black w-[400px] h-[135px] mt-[12px] py-[20px]  text-[18px] 	">
+            <div className="ml-8  w-[65ch] mt-[20px] text-[18]	text-black	">
               {/* [&#8224;] */}
                 Carroll, Lewis. Alice’s Adventures in Wonderland. With illustrations by John
                 Tenniel. Alice-in-wonderland.net Page 30.<br/> 

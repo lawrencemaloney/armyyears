@@ -13,7 +13,7 @@
 }
 
  .content {
-  /* border: 1px solid black; */
+  border: 1px solid black;
   color: red;
   /* font-style: italic; */
   padding: 15PX;
@@ -28,9 +28,9 @@ line-height: 15px;
 
 display: block;
 }
-/* .collapsible .content-parent {
+.collapsible .content-parent {
   margin: 25px;
   display: inline-block;
   background: white;
   transition: height ease 0.4s;
-} */
+}

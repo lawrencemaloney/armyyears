@@ -65,9 +65,9 @@ function Training() {
           only commissioning source that can be responsive to the U.S. Army's changing
           personnel requirements due to its short length, compared to other commissioning
           programs and their requirements.”
-          <span className='  w-[60ch] 	font-bold '>
-            <Collapsible label='&#8224;'>
-              <p className=' w-[12chr] text-[12px] leading-4'>
+          
+          <Collapsible icon='[&#8224;]'>
+              <p className='ml-8  w-[65ch] mt-[20px] text-[18]	text-black '>
                 Wikipedia contributors. (2022, May 24). Officer Candidate School (United States
                 Army). In Wikipedia, The Free Encyclopedia. Retrieved 20:02, June 18, 2022,
                 from{"  "}
@@ -83,7 +83,7 @@ function Training() {
                 {/* <br /> */}
               </p>
             </Collapsible>
-          </span>
+        
         </p>
 
         <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
