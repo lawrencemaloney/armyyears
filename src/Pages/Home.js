@@ -703,6 +703,7 @@ function BackStory() {
             </span>
           </div>
 
+
           <h4 className=' text-center italic font-bold max-w-[25ch]  text-2xl mt-4 mb-3 '>
             November 22, 1963 - President John F. Kennedy Assassinated in Dallas, TX,
           </h4>
@@ -712,8 +713,6 @@ function BackStory() {
             remember being in the Ridgewood, NJ Highschool cafeteria when a news broadcast
             could suddenly be heard over the PA system reporting that the President had been
             shot. There was a stunned silence as we all tried to make sense of what we heard
-              
-            
 
               <Collapsible icon=']&#8224;]'>
               <div className="ml-8  w-[500px] mt-[20px] text-[18]	text-black break-words ">
@@ -749,6 +748,136 @@ function BackStory() {
               assassination. November 22, 1963 (Public Domain))
             </span>
           </div>
+
+          <h4 className=' text-center italic font-bold max-w-[25ch]  text-2xl mt-4 mb-3 '>
+          1963 - 1968 Racial Violence, Expanding War, and Assaassinations 
+          </h4>
+          <p className="text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] ">
+          Over the next five years, riots fueled by racial injustice rocked the U.S. Riots began
+                in Birmingham, Alabama (1963), reignited in Harlem in New York City (1964), spread to
+                Watts in Los Angeles (1965), then to Chicago (1966). During the "long hot summer" of
+                1967, riots erupted in Atlanta, Cincinnati, Detroit, Boston, Buffalo, Milwaukee,
+                Minneapolis, Newark, NJ, Plainfield, NJ, Rochester, NY, Tampa Bay, FL, and Toledo, OH.
+                It seemed that things couldn't get much worse. But they did!
+                </p>
+          <div className='	max-w-[45ch] mt-4 md:max-w-[75ch] '>
+            <img
+              className='border-2 border-black '
+              src='images\Watts_car_flipped.webp'
+              alt='JFK at Dealey Plaza'
+              width='980px'
+            />
+            <span className='text-sm leading-none'>
+            Burned out cars during Watts Riots of August 1965 (Public Domain)
+            </span>
+            </div>
+            <p className="text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] ">
+
+            The Vietnam war
+            <Collapsible icon=']&#8224;]'>
+              <div className="ml-8  w-[500px] mt-[20px] text-[18]	text-black break-words ">
+                <p className=' w-[12chr] text-[12px] leading-4'>
+                Wikipedia contributors, "Vietnam War," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Vietnam_War&oldid=1102834758 (accessed August 14, 2022). 
+                <a 
+                target='blank'
+                
+                rel='noopener noreferrer'
+                href="https://en.wikipedia.org/wiki/nam_VietWar"
+                className='
+                  text-blue-600
+                  visited:text-purple-600' >https://en.wikipedia.org/w/index.php?title=Vietnam_War&oldid=1102834758</a>
+
+                  <br />
+                </p>
+                  </div>
+              </Collapsible>
+            , also known as the Second Indochina War, began in November of 1955.  It was officially fought between North and South Vietnam. North Vietnam was supported by the Soviet Union, China, and other communist allies; South Vietnam was supported by the United States, South Korea, the Philippines, Thailand, and other anti-communist allies.
+          </p>
+          <p className="text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] ">
+          The war, considered a Cold War-era proxy war by some, lasted 19 years, with direct U.S. involvement
+                ending in 1973, and included the Laotian Civil War and the Cambodian Civil War, which ended with all
+                three countries becoming communist in 1975.
+          </p>
+          <div className='	max-w-[45ch] mt-4 md:max-w-[75ch] '>
+            <img
+              className='border-2 border-black '
+              // src='images\US Soldiers vietnam war flickr by manhhai (1).webp'
+              src='images\11_vietnam_war.jpg'
+              alt='US Soldiers Vietnam'
+              width='980px'
+            />
+            <span className='text-sm leading-none'>
+            US Soldiers in Vietnam - Wikipedia (Public Domain)
+            </span>
+            </div>
+          <p className="text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] ">
+          By 1964, there were 23,000 US advisors in South Vietnam. In August, the Gulf of Tonkin incident occurred,
+                in which a U.S. destroyer was alleged to have clashed with North Vietnamese fast attack craft. In
+                response, the U.S Congress passed the Gulf of Tonkin Resolution, giving President Lyndon B. Johnson
+                broad authorization to increase U.S. military presence. He ordered the deployment of combat units for
+                the first time and increased troop levels to 184,000.
+          </p>
+          <p className="text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] ">
+          Every year onward, there was significant build-up of U.S forces, despite little progress. U.S Secretary
+                of Defense Robert McNamara, one of the principal architects of the war, began expressing doubts of
+                victory by the end of 1966. U.S. and South Vietnam forces relied on air superiority and overwhelming
+                firepower to conduct search and destroy operations, involving ground forces, artillery, and airstrikes.
+                The U.S. also conducted a large-scale strategic bombing campaign against North Vietnam and Laos.
+          </p>
+          <div className='	max-w-[45ch] mt-4 md:max-w-[75ch] '>
+            <img
+              className='border-2 border-black '
+              // src='images\US Soldiers vietnam war flickr by manhhai (1).webp'
+              src='images\Marines_Fire_From_a_House_Window,_February_1968_(16242259837)_(cropped).jpg'
+              alt='US Soldiers Vietnam'
+              width='980px'
+            />
+            <span className='text-sm leading-none'>
+            US Soldiers in Vietnam - U.S. Marine Corps (Public Domain)
+            </span>
+            </div>
+          <p className="text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] ">
+          The Tet Offensive of 1968 showed the lack of progress with these doctrines. With the VC and PAVN mounting large-scale urban offensives throughout 1968, U.S domestic support for the war began fading. The Army of the Republic of Vietnam (ARVN) expanded following a period of neglect after Tet and was modeled after
+                U.S doctrine. The VC sustained heavy losses during the Tet Offensive and subsequent U.S.-ARVN operations
+                in the rest of 1968, losing over 50,000 men. The CIA's Phoenix Program further degraded the VC's
+                membership and capabilities. By the end of the year, the VC insurgents held almost no territory in South
+                Vietnam, and their recruitment dropped by over 80% in 1969, signifying a drastic reduction in guerrilla
+                operations, necessitating increased use of PAVN regular soldiers from the north.
+          </p>
+          <div className='	max-w-[45ch] mt-4 md:max-w-[75ch] '>
+            <img
+              className='border-2 border-black '
+              // src='images\US Soldiers vietnam war flickr by manhhai (1).webp'
+              src='images\19vietnam-web-NYT_ARVN_cropped.jpg'
+              alt='US Soldiers Vietnam'
+              width='980px'
+            />
+            <span className='text-sm leading-none'>
+            NY Times
+            </span>
+            </div>
+          <p className="text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] ">
+          The ARVN, buttressed by said U.S. support, stopped the largest and first mechanized PAVN offensive to
+                date during the Easter Offensive of 1972.The offensive resulted in heavy casualties on both sides and
+                the failure of the PAVN to subdue South Vietnam, but the ARVN itself failed to recapture all territory,
+                leaving its military situation difficult.
+          </p>
+          <p className="text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] ">
+          The Paris Peace Accords of January 1973 saw all U.S forces withdrawn; the Case–Church Amendment, passed
+                by the U.S Congress on 15 August 1973, officially ended direct U.S military involvement. The Peace
+                Accords were broken almost immediately, and fighting continued for two more years. Phnom Penh fell to
+                the Khmer Rouge on 17 April 1975 while the 1975 Spring Offensive saw the capture of Saigon by the PAVN
+                on 30 April; this marked the end of the war, and North and South Vietnam were reunified the following
+                year.
+          </p>
+
+
+
+
+
+            
+
+
         </div>
     </>
   );
