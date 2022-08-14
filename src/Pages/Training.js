@@ -67,7 +67,7 @@ function Training() {
           programs and their requirements.”
           
           <Collapsible icon='[&#8224;]'>
-              <p className='ml-8  w-[65ch] mt-[20px] text-[18]	text-black '>
+              <p className='ml-8  w-[65ch]  text-[18]	text-black '>
                 Wikipedia contributors. (2022, May 24). Officer Candidate School (United States
                 Army). In Wikipedia, The Free Encyclopedia. Retrieved 20:02, June 18, 2022,
                 from{"  "}

@@ -17,7 +17,7 @@ function InBerlin() {
           Vietnamese military personnel, and 400,000 North and South Vietnamese civilians).
 
             <Collapsible icon='[&#8224;]'>
-            <div className="ml-8  w-[65ch] mt-[20px] text-[18]	text-black 	">
+            <p className="ml-8  w-[65ch] mt-[20px] text-[18]	text-black 	">
 
               {/* [&#8224;] */}
                 Wikipedia contributors, "Vietnam War casualties," <span className='italic'>Wikipedia, The Free
@@ -33,7 +33,7 @@ function InBerlin() {
                 <br/>
                 <br/>
                 </a>
-              </div>
+              </p>
               
               </Collapsible>
 

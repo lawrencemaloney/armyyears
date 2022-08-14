@@ -148,16 +148,17 @@ function BackStory() {
             width='980px'
           />
         </div>
-        <div className='text-[12px] w-[30ch] ml-[140px] leading-1 mb-[6px] -mt-[275px] md:ml-[246px]  md:text-[20px] md:leading-1 md:-mt-[475px] md:w-[29ch]'>
+        <p className='text-[12px] w-[30ch] ml-[140px] leading-1 mb-[6px] -mt-[275px] md:ml-[246px]  md:text-[20px] md:leading-1 md:-mt-[475px] md:w-[29ch]'>
           `Would you tell me, please, which way I ought to go from here?' <br />
           `That depends a good deal on where you want to get to,' said the Cat. <br />
           `I don't much care where--' said Alice. <br />
           `Then it doesn't matter which way you go,' said the Cat. <br />
           `--so long as I get SOMEWHERE,' Alice added as an explanation. <br />
           `Oh, you're sure to do that,' said the Cat, `if you only walk long enough
-            
+          </p>
+          <p className="ml-2">
             <Collapsible icon='[&#8224;]'>
-            <div className="ml-8  w-[65ch] mt-[20px] text-[18]	text-black	">
+            <p className="ml-1  w-[65ch]  text-[18]	text-black	">
               {/* [&#8224;] */}
                 Carroll, Lewis. Alice’s Adventures in Wonderland. With illustrations by John
                 Tenniel. Alice-in-wonderland.net Page 30.<br/> 
@@ -172,9 +173,9 @@ function BackStory() {
            
                 </a>
                 {/* <br /> */}
-              </div>
+              </p>
             </Collapsible>
-          </div>
+          </p>
 
       
           <p className=' text-[20px] mx-[20px] mt-[12px] max-w-[38ch] md:text-[25px] md:max-w-[40ch] md:mt-[22px] leading-[32px]  lg:max-w-[60ch] '>
