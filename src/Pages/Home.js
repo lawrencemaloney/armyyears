@@ -828,7 +828,7 @@ function BackStory() {
             <img
               className='border-2 border-black '
               // src='images\US Soldiers vietnam war flickr by manhhai (1).webp'
-              src='images\Marines_Fire_From_a_House_Window,_February_1968_(16242259837)_(cropped).jpg'
+              src='images\Marines_Fire_From_a_House_Window.jpg'
               alt='US Soldiers Vietnam'
               width='980px'
             />
