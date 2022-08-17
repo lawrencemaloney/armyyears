@@ -8,9 +8,11 @@ function Collapsible(props) {
   if (parentRef.current) 
   console.log(parentRef.current.scrollHeight);
   return (
+    <>
     <span className='collapsible  '>
       <span className='toggle' onClick={() => setIsOpen(!isOpen)}>
         {props.icon} </span>
+
       <div
         className='content-parent '
         ref={parentRef}
@@ -19,6 +21,8 @@ function Collapsible(props) {
             ? {
                 height: (parentRef.current.scrollHeight +10) + "px",
                 display: "inline-block",
+                
+                // display: "inline-block",
               // marginBottom: "60px",
 
               }
@@ -32,6 +36,7 @@ function Collapsible(props) {
         </div>
       </div>
     </span>
+    </>
   );
 }
 

@@ -156,7 +156,7 @@ function BackStory() {
           `--so long as I get SOMEWHERE,' Alice added as an explanation. <br />
           `Oh, you're sure to do that,' said the Cat, `if you only walk long enough
           </p>
-          <p className="ml-2">
+          <p className="ml-2 	text-center">
             <Collapsible icon='[&#8224;]'>
             <p className="ml-1  w-[65ch]  text-[18]	text-black	">
               {/* [&#8224;] */}
