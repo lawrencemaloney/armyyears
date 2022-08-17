@@ -536,7 +536,7 @@ function BackStory() {
             destruction of the launch facilities
               <Collapsible icon='[&#8224;]'>            
               {/* <div className="-ml-[140px] text-black w-[400px] h-[135px]  py-[20px]  text-[18px] 	"> */}
-              <div className="ml-8 max-w-[45ch] mt-[20px] text-[18]	break-words text-black  ">
+              <div className="mx-4 max-w-[45ch] mt-[20px] text-[18]	break-words text-black  ">
               {/* [&#8224;] */}
               <p className="my-[10px]">
                   “CUBAN MISSILE CRISIS” Accessed February 11, 2022.
@@ -611,7 +611,7 @@ function BackStory() {
             month in 1957, four black churches and at least seven private residences were
             bombed.
               <Collapsible icon='[&#8224;]'>
-              <div className="ml-8  w-[500px] mt-[20px] text-[18]	text-black break-words ">
+              <div className="mx-4 max-w-[45ch] mt-[20px] text-[18]	break-words text-black ">
 
               {/* [&#8224;] */}
 
@@ -656,7 +656,7 @@ function BackStory() {
             Klavern #13 chapter of the Ku Klux Klan. It took until May 1, 2001, until three of
             the four suspected bombers were convicted.
               <Collapsible icon='[&#8224;]'>
-              <div className="ml-8  w-[500px] mt-[20px] text-[18]	text-black break-words ">
+              <div className="mx-4 max-w-[45ch] mt-[20px] text-[18]	break-words text-black">
 
               {/* [&#8224;] */}
                 <p>
@@ -715,7 +715,7 @@ function BackStory() {
             shot. There was a stunned silence as we all tried to make sense of what we heard
 
               <Collapsible icon=']&#8224;]'>
-              <div className="ml-8  w-[500px] mt-[20px] text-[18]	text-black break-words ">
+              <div className="mx-4 max-w-[45ch] mt-[20px] text-[18]	break-words text-black">
                 <p className=' w-[12chr] text-[12px] leading-4'>
                   Robert Siegel, "Walter Cronkite On The Assassination Of John F. Kennedy," NPR
                   News All Things Considered, Washington, DC, November 22, 2013 4:22 PM ET.
@@ -775,7 +775,7 @@ function BackStory() {
 
             The Vietnam war
             <Collapsible icon=']&#8224;]'>
-              <div className="ml-8  w-[500px] mt-[20px] text-[18]	text-black break-words ">
+              <div className="mx-4 max-w-[45ch] mt-[20px] text-[18]	break-words text-black ">
                 <p className=' w-[12chr] text-[12px] leading-4'>
                 Wikipedia contributors, "Vietnam War," Wikipedia, The Free Encyclopedia, https://en.wikipedia.org/w/index.php?title=Vietnam_War&oldid=1102834758 (accessed August 14, 2022). 
                 <a 
