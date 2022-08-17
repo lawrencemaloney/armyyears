@@ -15,10 +15,10 @@
  .content {
   border: 1px solid black;
   color: red;
-  width: 100;
+  width: 90%;
   /* font-style: italic; */
   /* padding: 15PX; */
-  padding: 10px 60px;
+  padding: 10px ;
   /* margin: 30px; */
   display: block;
   border-radius: 5px;
@@ -32,7 +32,7 @@ display: block;
 .collapsible .content-parent {
   margin: 24px 0 0 0  ;
   display: inline-block;
-  width: 100%;
+  width: 90%;
   /* background: white; */
   transition: height ease 0.4s;
 }

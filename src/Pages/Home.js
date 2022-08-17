@@ -536,7 +536,7 @@ function BackStory() {
             destruction of the launch facilities
               <Collapsible icon='[&#8224;]'>            
               {/* <div className="-ml-[140px] text-black w-[400px] h-[135px]  py-[20px]  text-[18px] 	"> */}
-              <div className="ml-8 max-w-[45ch] mt-[20px] text-[18]	text-black  ">
+              <div className="ml-8 max-w-[45ch] mt-[20px] text-[18]	break-words text-black  ">
               {/* [&#8224;] */}
               <p className="my-[10px]">
                   “CUBAN MISSILE CRISIS” Accessed February 11, 2022.
