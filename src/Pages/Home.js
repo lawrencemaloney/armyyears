@@ -158,7 +158,7 @@ function BackStory() {
           </p>
           <p className="ml-2 	text-center">
             <Collapsible icon='[&#8224;]'>
-            <p className="ml-1  w-[65ch]  text-[18]	text-black	">
+            <p className="ml-1  max-w-[45ch]  text-[18]	text-black	">
               {/* [&#8224;] */}
                 Carroll, Lewis. Alice’s Adventures in Wonderland. With illustrations by John
                 Tenniel. Alice-in-wonderland.net Page 30.<br/> 
@@ -536,7 +536,7 @@ function BackStory() {
             destruction of the launch facilities
               <Collapsible icon='[&#8224;]'>            
               {/* <div className="-ml-[140px] text-black w-[400px] h-[135px]  py-[20px]  text-[18px] 	"> */}
-              <div className="ml-8  w-[500px] mt-[20px] text-[18]	text-black  ">
+              <div className="ml-8 max-w-[45ch] mt-[20px] text-[18]	text-black  ">
               {/* [&#8224;] */}
               <p className="my-[10px]">
                   “CUBAN MISSILE CRISIS” Accessed February 11, 2022.
