@@ -7,7 +7,7 @@ function InBerlin() {
       <div className='  mt-[40px] mx-auto  flex flex-col items-center '>
         <h1 className=' text-center mt-[1rem] mx-[20px] text-3xl md:text-4xl  mb-3'>Hot War/Cold War - Vietnam/Germany</h1>
         <h2 className='text-center text-3xl  mt-3
-'>What was I getting into?</h2>
+          '>What was I getting into?</h2>
         <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]
 '>
           When I arrived in Germany in early July 1970, the world's attention was firmly
@@ -17,7 +17,7 @@ function InBerlin() {
           Vietnamese military personnel, and 400,000 North and South Vietnamese civilians).
 
             <Collapsible icon='[&#8224;]'>
-            <p className="ml-8  w-[65ch] mt-[20px] text-[18]	text-black 	">
+            <p className="mx-4 max-w-[45ch] mt-[20px] text-[18]	break-words text-black">
 
               {/* [&#8224;] */}
                 Wikipedia contributors, "Vietnam War casualties," <span className='italic'>Wikipedia, The Free
@@ -50,7 +50,30 @@ function InBerlin() {
           German invasion of Russia. The Soviet plan included moving skilled workers and other
           valuable German assets to Soviet-controlled countries while leaving the remaining
           German people to fend for themselves with few agricultural, industrial, or medical
-          resources . The Western Allies, led by the U.S., focused on building up the West
+          resources.
+          <Collapsible icon=']&#8224;]'>
+              <div className="mx-4 max-w-[45ch] mt-[20px] text-[18]	break-words text-black ">
+                <p className=' w-[12chr] text-[12px] leading-4'>
+                Miller, Roger Gene (2000), To Save a City: The Berlin Airlift, 1948–1949, Texas A&M University Press, ISBN 0-89096-967-1.<br />
+                (PDF version) Miller, Roger Gene (1998), To Save a City: The Berlin Airlift, 1948–1949 
+
+                <a 
+                target='blank'
+                
+                rel='noopener noreferrer'
+                href="https://media.defense.gov/2010/Oct/01/2001329741/-1/-1/0/AFD-101001-053.pdf"
+                className='
+                  text-blue-600
+                  visited:text-purple-600' >https://media.defense.gov/2010/Oct/01/2001329741/-1/-1/0/AFD-101001-053.pdf</a>
+
+                  <br />
+                </p>
+                  </div>
+              </Collapsible>
+              {/* </p> */}
+          
+           <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]'></p>
+           The Western Allies, led by the U.S., focused on building up the West
           German state for humanitarian, economic, and political reasons. A stable,
           self-sufficient West Germany could eventually feed itself, significantly reducing the
           money required from other nations to feed so many people. The Western Allies also
@@ -63,9 +86,8 @@ function InBerlin() {
           civilians and military personnel living in Berlin, the potential for armed conflict
           was personal and ever-present.
         </p>
-        <h3 className=' text-center underline text-2xl  mb-3'>
-          100 Miles Behind Enemy Lines!
-        </h3>
+        <h3 className='text-center  underline text-2xl mt-4'>100 Miles Behind Enemy Lines!</h3>
+
 
         <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]'>
           Before arriving in Berlin, I hadn't given much thought to the "Cold War" or the
@@ -82,17 +104,16 @@ function InBerlin() {
           eventually take sole control of Berlin. The first was the Berlin Blockade
           <span >
             <Collapsible icon='[&#8224;]'>
-              <p >
-                Carroll, Lewis. Alice’s Adventures in Wonderland. With illustrations by John
-                Tenniel. Alice-in-wonderland.net Page 30.
+            <p className="mx-4 max-w-[45ch] mt-[20px] text-[18]	break-words text-black">
+            Wikipedia contributors, "Berlin Blockade," Wikipedia, The Free Encyclopedia, .
                 <a
                   target='blank'
                   rel='noopener noreferrer'
-                  href='https://www.alice-in-wonderland.net/wp-content/uploads/alice-in-wonderland.pdf'
+                  href='https://en.wikipedia.org/w/index.php?title=Berlin_Blockade&oldid=1102767686'
                   className='
                   text-blue-600
                   visited:text-purple-600'>
-                  https://www.alice-in-wonderland.net/wp-content/uploads/alice-in-wonderland.pdf
+                  https://en.wikipedia.org/w/index.php?title=Berlin_Blockade&oldid=1102767686 (accessed August 17, 2022).
                 </a>
                 {/* <br /> */}
               </p>

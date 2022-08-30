@@ -19,11 +19,11 @@ function Collapsible(props) {
         style={
           isOpen
             ? {
-                height: (parentRef.current.scrollHeight +10) + "px",
+                height: (parentRef.current.scrollHeight +20) + "px",
                 display: "inline-block",
                 
                 // display: "inline-block",
-              // marginBottom: "60px",
+              marginBottom: "10px",
 
               }
             : {

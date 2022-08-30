@@ -17,7 +17,7 @@ function BackStory() {
           photos of Batallion accomplishments published in the Brigade's weekly newspaper, the
           Berlin Observer.
         </p>
-        <div className=' max-w-[45ch] mt-4 md:max-w-[75ch]'>
+        <div className=' max-w-[45ch] mt-6 md:max-w-[75ch]'>
           <img
             className=' mt-4'
             src='images/Berlin scenes 41  resized.webp'
@@ -63,7 +63,7 @@ function BackStory() {
           inequities in the "oldest man first" method for conscripting civilians.
         </p>
         
-        <div className=' max-w-[45ch] mt-4 md:max-w-[75ch]'>
+        <div className=' max-w-[45ch] mt-6 md:max-w-[75ch]'>
           <img
             src='images/Draft Lottery glass bowl Pirnie.jpg'
             width='940px'
@@ -95,7 +95,7 @@ function BackStory() {
 
           My birth date, November 27, 1947, was on the 47th capsule chosen. (See results card.)
         </p>
-        <div className=' max-w-[45ch] mt-4 md:max-w-[75ch]'>
+        <div className=' max-w-[45ch] mt-6 md:max-w-[75ch]'>
           <img
             className='border-2 mt-4 border-black'
             src='images/lottery-card-1970-marked.jpg'
@@ -112,7 +112,7 @@ function BackStory() {
           Park, NJ, "You might make it to February." the Recruitment Officer said after I told
           him that my lottery number was 47.
         </p>
-        <div className=' max-w-[45ch] mt-4 md:max-w-[75ch]'>
+        <div className=' max-w-[45ch] mt-6 md:max-w-[75ch]'>
 
           <img
             className='border-2 border-black'
@@ -140,7 +140,7 @@ function BackStory() {
 
         <h2 className='  text-center text-3xl mt-6 mb-4 '>How did I Get Here?</h2>
       
-        <div className=' max-w-[45ch] mt-4 md:max-w-[75ch]'>
+        <div className=' max-w-[45ch] mt-6 md:max-w-[75ch]'>
           <img
             className='border-2 border-black'
             src='images/JTAlicewithCCat500.webp'
@@ -186,23 +186,14 @@ function BackStory() {
           enlistment decision were not planned,
           <b>at least not by me</b>.
         </p>
-        <h3 className=' text-center mx-[20px] underline text-2xl my-3'>The Influencers</h3>
+        <h3 className=' text-center mx-[20px] underline text-2xl my-3'>The Decision-Making Process</h3>
         
         <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
 
-          How we make sense of what we see happening in the world around us is greatly
-          influenced by our family, friends, and the various communities in which we live.
-          These influences significantly impact our decisions, but there is also always a
-          spiritual element at the core of every decision. After all, we are all spiritual as
-          well as physical creatures. Whether we accept, reject, or ignore the spiritual input,
-          its influence and impact remain.
+        We make thousands of decisions every day. Some decisions seem so easy that we hardly know were making them. Others are so momentous that we think of them as “life-changing”. But each decision is greatly influenced by many factors. Our daily interactions with family, friends, the various communities in which we live, and our mental, physical, and spiritual health all play a role in our decision-making. We have very little control over the things that influence our decisions, yet there are consequences for our decisions and we are held responsible by God for them.
         </p>
         <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
-
-          Since I can’t possibly understand, much less record here, all the things that
-          influenced my decision to join the Army, I thought it would be interesting, maybe
-          even helpful, to capture some of the significant political, social, cultural, and
-          technological influences of the 1960s.
+        Although I can’t record here all the things that influenced my decision to join the Army in December 1969, I thought it would be interesting, maybe even helpful, to present a picture of the more significant events of my personal life and the political, social, cultural, and technological events of the 1960s.
         </p>
         <h3 className=' text-center mx-[20px] underline text-2xl my-3'>
           My Personal life and the World Around me
@@ -225,7 +216,7 @@ function BackStory() {
           attended a private school through eighth grade, I spent my “freshman” year of high
           school at George Washington school, about a mile from our house.
         </p>
-        <div className=' max-w-[45ch] my-4 md:max-w-[75ch]'>          
+        <div className=' max-w-[45ch] mt-6 md:max-w-[75ch]'>          
 
           <img
             className='border-2 border-black '
@@ -246,7 +237,7 @@ function BackStory() {
           Dick Gilmour, and I would spend a lot of time together after school building model
           cars, reading Mad Magazine, and riding our bicycles around the neighborhood.
         </p>
-        <div className='	max-w-[45ch] my-4 md:max-w-[75ch] '>
+        <div className='	max-w-[45ch] mt-6 md:max-w-[75ch] '>
           <img
             className='border-2 border-black '
             src='images/Ridgewood_High_School BW.webp'
@@ -266,7 +257,7 @@ function BackStory() {
           blocks from van Dyck’s ice cream parlor, so many a summer day was spent going back
           and forth between the tennis courts and Van Dyk’s. Those were beautiful days.
         </p>
-        <div className='max-w-[45ch] my-4 md:max-w-[75ch]'>
+        <div className='max-w-[45ch] mt-6 md:max-w-[75ch]'>
           <a href='https://www.vandyksicecream.com/'>
             {" "}
             <img
@@ -316,7 +307,7 @@ function BackStory() {
           .
         </p>
 
-        <div className='	max-w-[45ch] my-4 md:max-w-[75ch] '>
+        <div className='	max-w-[45ch] mt-6 md:max-w-[75ch] '>
           <img
             className='border-2 border-black '
             src='images/Loyola Marquette Hall 1960s LA stat archives.webp'
@@ -368,7 +359,7 @@ function BackStory() {
           program in Communications (later named Bachelor of Arts in Mass Communications) at
           Loyola. I transferred to that program.
         </p>
-        <div className='	max-w-[45ch] mt-4 md:max-w-[75ch]'>
+        <div className='	max-w-[45ch] mt-6 md:max-w-[75ch]'>
           <img
             className='border-2 border-black '
             src='images/Me on camera yearbook 1968.webp'
@@ -391,7 +382,7 @@ function BackStory() {
           work backstage at a Beach Boys concert at the field house (April 18, 1968) but did
           not get to interview them. My friend, Jeff Bray, was the MC for the show.{" "}
         </p>
-        <div className='	max-w-[45ch] mt-4 md:max-w-[75ch] '>
+        <div className='	max-w-[45ch] mt-6 md:max-w-[75ch] '>
           <img
             className='border-2 border-black '
             src='images/Loyola_Field_House.jpg'
@@ -416,7 +407,7 @@ function BackStory() {
         </p>
 
 
-        <div className='	max-w-[45ch] mt-4 md:max-w-[75ch]'>
+        <div className='	max-w-[45ch] mt-6 md:max-w-[75ch]'>
           <img
             className='border-2 border-black '
             src='images/loyola-cadet-battalion-marches-back-to-campus-from-audubon-park-1966.webp'
@@ -429,12 +420,13 @@ function BackStory() {
         </div>
 
 
-        <h1 className=' text-center mt-[1rem] mx-[20px] text-3xl md:text-4xl  mb-3'>
-          1960 through 1969 - In the World
+        <h1 className=' text-center mt-[3rem] mx-[20px] text-3xl md:text-4xl  mb-3'>
+          1960 through 1969 - World Events that Shaped my Course
         </h1>
-
+        <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]'>
+        While I was busy dealing with the day-to-day events that were common throughout my high school and college years, things were happening in the world around me and lead me to that decision point in December 1969.
+        </p>
           <h4 className=' text-center italic font-bold max-w-[25ch]  text-2xl mt-4 mb-3 '>
-
             May 1, 1960 - U.S. Spy Plane Shot Down over USSR
           </h4>
           <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]'>
@@ -443,7 +435,7 @@ function BackStory() {
             political assassinations, the nation-wide racial violence, and the escalation of
             the Vietnam War all played a major role in my decision.
           </p>
-          <div className='max-w-[45ch] mt-4 md:max-w-[75ch] '>
+          <div className='max-w-[45ch] mt-6 md:max-w-[75ch] '>
             <img
               className='border-2 border-black '
               src='images/First-U-2.jpg'
@@ -484,7 +476,7 @@ function BackStory() {
             Council comprised of top officials of the U.S. Departments of Defence, State, the
             CIA, and other national security experts.
           </p>
-          <div className='	max-w-[45ch] mt-4 md:max-w-[75ch] '>
+          <div className='	max-w-[45ch] mt-6 md:max-w-[75ch] '>
             <img
               className='border-2 border-black '
               src='images/The_relative_ranges_of_the_IL-28,_SS-4,_and_SS-5,_stationed_on_Cuba.webp'
@@ -514,7 +506,7 @@ function BackStory() {
             McNamara noted that surgical airstrikes were not practical unless followed by an
             invasion.
           </p>
-          <div className='max-w-[45ch] mt-4 md:max-w-[75ch]'>
+          <div className='max-w-[45ch] mt-6 md:max-w-[75ch]'>
             <img
               className='border-2 border-black '
               src='images/P-2H_Neptune_over_Soviet_ship_Oct_1962 (1).webp'
@@ -635,7 +627,9 @@ function BackStory() {
               </p>
           
 
-          <div className='max-w-[45ch] mt-4 md:max-w-[75ch] '>
+        
+          <div className='max-w-[45ch] mt-6 md:max-w-[75ch] '>
+
             <img
               className='border-2 border-black '
               src='images/birmingham riots dogs.webp'
@@ -678,7 +672,7 @@ function BackStory() {
               </p>
           
 
-          <div className='max-w-[45ch] mt-4 md:max-w-[75ch] '>
+          <div className='max-w-[45ch] mt-6 md:max-w-[75ch] '>
             <img
               className='border-2 border-black '
               src='images/16th street church birminghamLOC BW.jpg'
@@ -690,7 +684,7 @@ function BackStory() {
             </span>
           </div>
           
-          <div className='	max-w-[45ch] mt-4 md:max-w-[65ch] '>
+          <div className='	max-w-[45ch] mt-6 md:max-w-[65ch] '>
             <img
               className='border-2 border-black '
               src='images/16th Street Church bombed 1963 outside view.jpg'
@@ -736,7 +730,7 @@ function BackStory() {
               </Collapsible>
               </p>
         
-          <div className='	max-w-[45ch] mt-4 md:max-w-[75ch] '>
+          <div className='	max-w-[45ch] mt-6 md:max-w-[75ch] '>
             <img
               className='border-2 border-black '
               src='images/JFK_limousine BW.webp'
@@ -760,7 +754,7 @@ function BackStory() {
                 Minneapolis, Newark, NJ, Plainfield, NJ, Rochester, NY, Tampa Bay, FL, and Toledo, OH.
                 It seemed that things couldn't get much worse. But they did!
                 </p>
-          <div className='	max-w-[45ch] mt-4 md:max-w-[75ch] '>
+          <div className='	max-w-[45ch] mt-6 md:max-w-[75ch] '>
             <img
               className='border-2 border-black '
               src='images\Watts_car_flipped.webp'
@@ -771,6 +765,10 @@ function BackStory() {
             Burned out cars during Watts Riots of August 1965 (Public Domain)
             </span>
             </div>
+
+            <h4 className=' text-center italic font-bold max-w-[25ch]  text-2xl mt-4 mb-3 '>
+            August, 1964 - U.S. Involvement in the Vietnam War Dramatically Escalates
+          </h4>
             <p className="text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] ">
 
             The Vietnam war
@@ -790,15 +788,11 @@ function BackStory() {
                   <br />
                 </p>
                   </div>
-              </Collapsible>
-            , also known as the Second Indochina War, began in November of 1955.  It was officially fought between North and South Vietnam. North Vietnam was supported by the Soviet Union, China, and other communist allies; South Vietnam was supported by the United States, South Korea, the Philippines, Thailand, and other anti-communist allies.
+              </Collapsible>,   
+              officially the war between North and South Vietnam began in 1955 and ended in 1975. Since North Vietnam was supported by the Soviet Union, China, and other communist allies and South Vietnam was supported by the United States, South Korea, the Philippines, Thailand, and other anti-communist allies, the war was seen as an extension of the Cold War.
           </p>
-          <p className="text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] ">
-          The war, considered a Cold War-era proxy war by some, lasted 19 years, with direct U.S. involvement
-                ending in 1973, and included the Laotian Civil War and the Cambodian Civil War, which ended with all
-                three countries becoming communist in 1975.
-          </p>
-          <div className='	max-w-[45ch] mt-4 md:max-w-[75ch] '>
+
+          <div className='	max-w-[45ch] mt-6 md:max-w-[75ch] '>
             <img
               className='border-2 border-black '
               // src='images\US Soldiers vietnam war flickr by manhhai (1).webp'
@@ -811,11 +805,7 @@ function BackStory() {
             </span>
             </div>
           <p className="text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] ">
-          By 1964, there were 23,000 US advisors in South Vietnam. In August, the Gulf of Tonkin incident occurred,
-                in which a U.S. destroyer was alleged to have clashed with North Vietnamese fast attack craft. In
-                response, the U.S Congress passed the Gulf of Tonkin Resolution, giving President Lyndon B. Johnson
-                broad authorization to increase U.S. military presence. He ordered the deployment of combat units for
-                the first time and increased troop levels to 184,000.
+          US troop involvement in Vietnam escalated from approximately 23,000 US advisors in early 1964 to over 184,000by the end of that year. This dramatic increase was in response to an alleged attack on two US destroyers in the Gulf of Tonkin by fast attack craft from North Vietnam. This escalation was made possible by the passing of the Gulf of Tonkin Resolution by the U.S. Congress on August 5, 1964. It authorized President Johnson to take any measures he believed were necessary to retaliate and to promote the maintenance of international peace and security in southeast Asia. This resolution became the legal basis for the Johnson and Nixon Administrations’ prosecution of the Vietnam War.
           </p>
           <p className="text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] ">
           Every year onward, there was significant build-up of U.S forces, despite little progress. U.S Secretary
@@ -824,16 +814,16 @@ function BackStory() {
                 firepower to conduct search and destroy operations, involving ground forces, artillery, and airstrikes.
                 The U.S. also conducted a large-scale strategic bombing campaign against North Vietnam and Laos.
           </p>
-          <div className='	max-w-[45ch] mt-4 md:max-w-[75ch] '>
+          <div className='	max-w-[45ch] mt-6 md:max-w-[75ch] '>
             <img
               className='border-2 border-black '
               // src='images\US Soldiers vietnam war flickr by manhhai (1).webp'
-              src='images\Marines_Fire_From_a_House_Window.jpg'
+              src='images\A-6A_Intruders_drop_bombs_over_vietnam _1968(BW).webp'
               alt='US Soldiers Vietnam'
               width='980px'
             />
             <span className='text-sm leading-none'>
-            US Soldiers in Vietnam - U.S. Marine Corps (Public Domain)
+            Two U.S. Navy A-6A Intruder aircraft dropping Mk 82 227 kg (500 lbs) bombs over Vietnam 1968, U.S. Navy National Naval Aviation Museum (Public Domain)
             </span>
             </div>
           <p className="text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] ">
@@ -844,7 +834,7 @@ function BackStory() {
                 Vietnam, and their recruitment dropped by over 80% in 1969, signifying a drastic reduction in guerrilla
                 operations, necessitating increased use of PAVN regular soldiers from the north.
           </p>
-          <div className='	max-w-[45ch] mt-4 md:max-w-[75ch] '>
+          <div className='	max-w-[45ch] mt-6 md:max-w-[75ch] '>
             <img
               className='border-2 border-black '
               // src='images\US Soldiers vietnam war flickr by manhhai (1).webp'
