@@ -1,7 +1,6 @@
-import userEvent from '@testing-library/user-event';
+// import userEvent from '@testing-library/user-event';
 import React, {useState, useEffect, useRef } from 'react';
 import { AiOutlineCaretLeft, AiOutlineCaretRight, AiOutlineCloseSquare } from "react-icons/ai";
-import { MdOutlineFullscreen } from "react-icons/md";
 
 
 
@@ -11,7 +10,6 @@ const ImageSlider = ({ setSelectedImg, selectedImg,  filteredImages }) => {
   const imageLoc  = filteredImages.findIndex(imageIndex);
   const imgArrayLen  = filteredImages.length;
   const [currentIndex, setCurrentIndex] = useState(imageLoc);
-  const [imageAnchor, setImageAnchor] = useState(null)
 
   const handleClick = () => {
     setSelectedImg(null);
