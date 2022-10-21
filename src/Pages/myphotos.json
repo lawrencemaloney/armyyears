@@ -1,17 +1,17 @@
 [
     {
     "id":1,
-    "caption": "Street in Amsterdam 1971",
+    "caption": "Canal in Amsterdam 1971",
     "url":"photos/Amsterdam 1971 01.JPG",
     "place":"Amsterdam",
     "group":"Amsterdam"
     },
     {
     "id":2,
-    "caption": "Berlin Family",
+    "caption": "Photo for Berlin Observer",
     "url":"photos/Army Family Girls 07.JPG",
     "place":"Berlin",
-    "group":"Portraits"    
+    "group":"Observer Photos"    
     },
     {
     "id":3,
@@ -22,7 +22,7 @@
     },
     {
     "id":4,
-    "caption": "City Scene",
+    "caption": "Berlin City Scene",
     "url":"photos/Berlin Indoor Ice Rink 08.JPG",
     "place":"Berlin",
     "group":"Berlin"

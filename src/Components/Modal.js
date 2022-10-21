@@ -1,24 +1,28 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 const Modal = ({ setSelectedImg, selectedImg, imageAlt}) => {
-    
+
     const handleClick = (e) => {
-        console.log('in habdleclick');
-        console.log("e = ", e )
         if (e.target.classList.contains('backdrop')) {
           setSelectedImg(null);
         }
       }
       return (
+        <>
 
-        <div className="backdrop fixed top-0 left-0 w-[100%] h-[100%] bg-black  " onClick={handleClick}>
-           <div className="flex  text-white "> 
-           <h1 className='m-auto text-[34px]'>{imageAlt}</h1>
-          <img src={selectedImg} alt={imageAlt} className='block max-w-[70%] max-h-[80%] mx-[50%] my-[5%] translate-x-[-50%] 	'
-          />
-          </div>
-        </div>
+        <div className="backdrop static fixed top-0 left-0 w-[100%] h-[100%] bg-[#bdb9af]    " onClick={handleClick}>
+      
 
+          {/* <div className=" text-black   text-[45px] "> */}
+
+            {/* <div className="flex flex-col mx-[50%] translate-x-[-50%]   text-white h-[95%] w-[68%] overflow-scroll  ">  */}
+              <h1 className='m-auto text-[34px]'>{imageAlt}</h1>
+
+              <img className=" w-[700px] max-h-[450px]	 overflow-scroll object-contain drop-shadow-lg	 object-center     " src={selectedImg} alt={imageAlt} />
+            </div>
+          {/* </div>   */}
+          {/* </div> */}
+        </>
       )
     }
 

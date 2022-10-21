@@ -1,0 +1,13 @@
+    {
+    "id":3, >> data-imgnumber=\"2\"
+
+    "caption": "Battalion Photo",  >> 1st 1-4 words in file name (<a href=\"..\\images\\Berlin Brigade Baseball 028.JPG
+
+
+    "url":  src=\"..\\
+
+
+    "place": "Berlin",
+
+    "group":"Army" >> alt=\"\"</a>Portraits
+    },

@@ -5,6 +5,8 @@ import Training from "./Pages/Training";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import InBerlin from "./Pages/InBerlin";
 import PhotoJ from "./Pages/PhotoJ";
+import MyPhotos from "./Pages/MyPhotos";
+import TryPhotos from "./Pages/TryPhotos";
 import Archives from "./Pages/Archives";
 import About from "./Pages/About";
 
@@ -19,6 +21,8 @@ function App() {
         <Route exact path='/Training' element={<Training />}></Route>
         <Route exact path='/InBerlin' element={<InBerlin />}></Route>
         <Route exact path='/Photoj' element={<PhotoJ />}></Route>
+        <Route exact path='/MyPhotos' element={<MyPhotos />}></Route>
+        <Route exact path='/TryPhotos' element={<TryPhotos />}></Route>
         <Route exact path='/Archives' element={<Archives />}></Route>
         <Route exact path='/About' element={<About />}></Route>
       </Routes>
