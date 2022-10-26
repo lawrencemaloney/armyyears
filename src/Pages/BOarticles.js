@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 
-function PhotoJ() {
+function BOarticles() {
   return (
     <div>
       <h1 className= 'mt-[200px] mx-auto text-3xl'>Observer Articles go here!</h1>
@@ -9,4 +9,4 @@ function PhotoJ() {
   );
 }  
 
-export default PhotoJ;
+export default BOarticles;

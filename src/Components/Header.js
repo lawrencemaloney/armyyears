@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <>
 
-      <div className=' mx-auto h-[160px] w-[100vw] md:ml-[2vw] bg-amber-50  justify-center  sm:ml-[1vw]   sm:h-[166px] lg:space-x-36 flex text-center'>
+      <div className=' mx-auto h-[220px] w-[100vw] md:ml-[2vw] bg-amber-50  justify-center  sm:ml-[1vw]   sm:h-[220px] lg:space-x-36 flex text-center'>
  
         <img
           className='  hidden sm:w-[50px] sm:h-[53px] sm:flex absolute left-16 top-12 '
@@ -43,7 +43,7 @@ export default function Header() {
     </div> */}
     {/* <div className=" sm:sticky  sm:hidden  sm:right-16 sm:top-12  py-4 cursor-pointer border-black border-b  "> */}
 
-    <AiOutlineMenu className="headermenu sticky top-0 mx-auto h-[32px] w-[32px] ring-offset-2 ring-2	 bg-white sm:hidden"  onClick={showHideMenu}>
+    <AiOutlineMenu className="headermenu  absolute  top-2 right-2 h-[32px] w-[32px]  hover:scale-[1.2] cursor-pointer	 bg-#fffbeb sm:hidden"  onClick={showHideMenu}>
     </AiOutlineMenu>
     <MenuItems showHideMenu={showHideMenu} active={active}/>
 
@@ -51,8 +51,8 @@ export default function Header() {
     
 
 
-    <nav className="sticky top-0 z-[20]">
-        <ul className='hidden  h-[55px]  border w-[100vw]  border-black sm:gap-x-0 sm:space-x-6 p-[2px] lg:gap-x-6 lg:space-x-12 p-[2px] bg-amber-50 text-[18px] lg:text-[24px] italic justify-center z-[100] items-center sm:flex '>
+    <nav className=" z-[20]">
+        <ul className='hidden  h-[55px]  border w-[100vw]  border-black sm:gap-x-0 sm:space-x-6 p-[2px] xl:gap-x-6 lg:space-x-12 p-[2px] bg-amber-50 text-[18px] lg:text-[24px] italic justify-center z-[100] items-center sm:flex '>
 
 
           <li className=' hover:text-black hover:scale-[1.1] '>
@@ -66,14 +66,12 @@ export default function Header() {
             <CustomLink to='/InBerlin'>In Berlin</CustomLink>
           </li>
           <li className=' hover:text-black  hover:scale-[1.1]'>
-            <CustomLink to='/PhotoJ'>My Journalism</CustomLink>
+            <CustomLink to='/BOarticles'>My Journalism</CustomLink>
           </li>
           <li className=' hover:text-black  hover:scale-[1.1]'>
             <CustomLink to='/MyPhotos'>My Photos</CustomLink>
           </li>
-          <li className=' hover:text-black  hover:scale-[1.1]'>
-            <CustomLink to='/TryPhotos'>Try Photos</CustomLink>
-          </li>
+
           <li className=' hover:text-black  hover:scale-[1.1]'>
             <CustomLink to='/Archives'>Archives</CustomLink>
           </li>

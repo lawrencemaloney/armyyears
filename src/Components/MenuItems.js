@@ -7,28 +7,27 @@ function MenuItems({showHideMenu, active}) {
   return (
     <>
 
-        <ul className={active ?'fixed  	left-[50%] transform -translate-x-[50%]  duration-500 ease-in w-screen	 h-[24rem] flex-col  bg-zinc-700/90 text-center	rounded-lg  text-[28px] 	lg:hidden ' : ' transform translate-x-[50%]  duration-500 ease-in text-[28px] w-[18ch] absolute left-[100%] text-center' }>
+        <ul className={active ?'fixed   h-screen w-screen flex-col  bg-[#e8e4d5] text-center ml-0 border border-black	rounded-lg text-black text-[28px] lg:hidden ' : ' hidden ' }>
 
-          <li onClick={() => showHideMenu()} className=' hover:scale-[1.1] 	 text-white m-4  '>
+          <li onClick={() => showHideMenu()} className=' hover:scale-[1.1] py-2 m-2   '>
             <Link to='/Home'>My Story</Link>
           </li>
-          <li onClick={() => showHideMenu()} className=' hover:scale-[1.1] 	 text-white m-4  '>
+          <li onClick={() => showHideMenu()} className=' hover:scale-[1.1] py-2 m-2  '>
             <Link to='/Training'>Training</Link>
           </li>
-          <li onClick={() => showHideMenu()} className=' hover:scale-[1.1] 	 text-white m-4  '>
+          <li onClick={() => showHideMenu()} className=' hover:scale-[1.1] py-2 m-2  '>
             <Link to='/InBerlin'>In Berlin</Link>
           </li>
-          <li onClick={() => showHideMenu()} className=' hover:scale-[1.1] 	 text-white m-4  '>
-            <Link to='/PhotoJ'>My Journalism</Link>
+          <li onClick={() => showHideMenu()} className=' hover:scale-[1.1] py-2	m-2  '>
+            <Link to='/BOarticles'>My Journalism</Link>
           </li>
-          <li onClick={() => showHideMenu()} className=' hover:scale-[1.1] 	 text-white m-4  '>
+          <li onClick={() => showHideMenu()} className=' hover:scale-[1.1] 	 m-2 '>
             <Link to='/MyPhotos'>My Photos</Link>
             </li>
-
-          <li onClick={() => showHideMenu()} className=' hover:scale-[1.1] 	 text-white m-4  '>
+          <li onClick={() => showHideMenu()} className=' hover:scale-[1.1] m-2 py-2 '>
             <Link to='/Archives'>Archives</Link>
           </li>
-          <li onClick={() => showHideMenu()} className=' hover:scale-[1.25] 	 text-white m-4  '>
+          <li onClick={() => showHideMenu()} className=' hover:scale-[1.25] m-2  py-2'>
             <Link to='/About'>About</Link>
           </li>
         </ul>
