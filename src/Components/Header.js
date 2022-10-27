@@ -15,22 +15,22 @@ export default function Header() {
   return (
     <>
 
-      <div className=' mx-auto h-[220px] w-[100vw] md:ml-[2vw] bg-amber-50  justify-center  sm:ml-[1vw]   sm:h-[220px] lg:space-x-36 flex text-center'>
+      <div className=' mx-auto h-[210px] w-[100vw] md:ml-[2vw] bg-amber-50  justify-center  md:ml-[1vw]  md:h-[210px] lg:space-x-36 flex text-center'>
  
         <img
-          className='  hidden sm:w-[50px] sm:h-[53px] sm:flex absolute left-16 top-12 '
+          className='  hidden md:w-[50px] md:h-[53px] md:flex absolute left-16 top-12 '
           src='images/6thINfnatryPin.gif'
           height={60}
           width={60}
           alt={"Pin"}
         />
 
-        <h1 className=' text-4xl mt-10 absolute right-[50%] translate-x-[50%] flex-col w-[100%]  xl:text-[56px] '>
+        <h1 className=' text-4xl mt-10 absolute right-[50%] translate-x-[50%] flex-col w-[100%]  lg:text-[56px] '>
           A Soldier in Berlin <p className='text-[36px] mt-[20px]'>1969 to 1972</p>
         </h1>
 
         <img
-          className='  hidden sm:w-[50px] sm:h-[53px] sm:flex absolute right-16 sm:top-12 '
+          className='  hidden md:w-[50px] md:h-[53px] md:flex absolute right-16 md:top-12 '
           src='images/6thINfnatryPin.gif'
           height={60}
           width={60}
@@ -43,7 +43,7 @@ export default function Header() {
     </div> */}
     {/* <div className=" sm:sticky  sm:hidden  sm:right-16 sm:top-12  py-4 cursor-pointer border-black border-b  "> */}
 
-    <AiOutlineMenu className="headermenu  absolute  top-2 right-2 h-[32px] w-[32px]  hover:scale-[1.2] cursor-pointer	 bg-#fffbeb sm:hidden"  onClick={showHideMenu}>
+    <AiOutlineMenu className="headermenu  absolute  top-2 right-2 h-[32px] w-[32px]  hover:scale-[1.2] cursor-pointer	 bg-#fffbeb md:hidden"  onClick={showHideMenu}>
     </AiOutlineMenu>
     <MenuItems showHideMenu={showHideMenu} active={active}/>
 
@@ -52,7 +52,7 @@ export default function Header() {
 
 
     <nav className=" z-[20]">
-        <ul className='hidden  h-[55px]  border w-[100vw]  border-black sm:gap-x-0 sm:space-x-6 p-[2px] xl:gap-x-6 lg:space-x-12 p-[2px] bg-amber-50 text-[18px] lg:text-[24px] italic justify-center z-[100] items-center sm:flex '>
+        <ul className='hidden  h-[55px]  border w-[100vw]  border-black sm:gap-x-0 sm:space-x-6 p-[2px]  md:space-x-12 p-[2px] bg-amber-50 text-[18px] md:text-[24px] italic justify-center z-[100] items-center sm:flex '>
 
 
           <li className=' hover:text-black hover:scale-[1.1] '>
