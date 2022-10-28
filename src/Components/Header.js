@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <>
 
-      <div className=' mx-auto h-[210px] w-[100vw] md:ml-[2vw] bg-amber-50 border border-black md:border-none  justify-center   lg:space-x-36 flex text-center'>
+      <div className=' mx-auto h-[210px] w-[100vw] md:ml-[2vw] bg-amber-50 border border-black md:border-none  justify-center   lg:space-x-36 flex text-center z-20'>
  
         <img
           className='  hidden md:w-[50px] md:h-[53px] md:flex absolute left-16 top-12 '
@@ -51,8 +51,8 @@ export default function Header() {
     
 
 
-    <nav className=" z-[20]">
-        <ul className='hidden  h-[55px]  border w-[100vw]  border-black md:gap-x-0 md:space-x-6 p-[2px]  xl:space-x-12 p-[2px] bg-amber-50 text-[24px] xl:text-[30px] italic justify-center z-[100] items-center md:flex '>
+    <nav className=" z-[200] ">
+        <ul className='hidden  h-[55px]  border w-[100vw]  border-black md:gap-x-0 md:space-x-6 p-[2px]  xl:space-x-12 p-[2px] bg-amber-50 text-[24px] xl:text-[30px] italic justify-center  items-center md:flex '>
 
 
           <li className=' hover:text-black hover:scale-[1.1] '>

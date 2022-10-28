@@ -7,7 +7,7 @@ function MenuItems({showHideMenu, active}) {
   return (
     <>
 
-        <ul className={active ?'   h-screen w-screen flex-col  bg-[#e8e4d5] text-center ml-0 border border-black	rounded-lg text-black text-[28px] lg:hidden ' : ' hidden ' }>
+        <ul className={active ?'  h-[100%] w-screen flex-col  bg-[#e8e4d5] text-center  border border-black	rounded-lg text-black text-[28px] lg:hidden  ' : ' hidden ' }>
 
           <li onClick={() => showHideMenu()} className=' hover:scale-[1.1] py-2 m-2   '>
             <Link to='/Home'>My Story</Link>
