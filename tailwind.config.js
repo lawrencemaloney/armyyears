@@ -8,10 +8,10 @@ module.exports = {
       screens: {
         'ipp': '375px',
         // => @media (min-width: 375px) {iPhone X Portrait ... }        
-        'sm': '640px',
+        'sm': '667px',
         // => @media (min-width: 640px) { ... }
   
-        'md': '768px',
+        'md': '876px',
         // => @media (min-width: 768px) { ... }
   
         'lg': '1024px',

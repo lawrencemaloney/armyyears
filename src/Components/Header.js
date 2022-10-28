@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <>
 
-      <div className=' mx-auto h-[210px] w-[100vw] md:ml-[2vw] bg-amber-50  justify-center  md:ml-[1vw]  md:h-[210px] lg:space-x-36 flex text-center'>
+      <div className=' mx-auto h-[210px] w-[100vw] md:ml-[2vw] bg-amber-50 border border-black md:border-none  justify-center   lg:space-x-36 flex text-center'>
  
         <img
           className='  hidden md:w-[50px] md:h-[53px] md:flex absolute left-16 top-12 '
@@ -25,7 +25,7 @@ export default function Header() {
           alt={"Pin"}
         />
 
-        <h1 className=' text-4xl mt-10 absolute right-[50%] translate-x-[50%] flex-col w-[100%]  lg:text-[56px] '>
+        <h1 className=' text-4xl mt-10 absolute right-[50%] translate-x-[50%] flex-col w-[100%]  md:text-[56px] '>
           A Soldier in Berlin <p className='text-[36px] mt-[20px]'>1969 to 1972</p>
         </h1>
 
@@ -52,7 +52,7 @@ export default function Header() {
 
 
     <nav className=" z-[20]">
-        <ul className='hidden  h-[55px]  border w-[100vw]  border-black sm:gap-x-0 sm:space-x-6 p-[2px]  md:space-x-12 p-[2px] bg-amber-50 text-[18px] md:text-[24px] italic justify-center z-[100] items-center sm:flex '>
+        <ul className='hidden  h-[55px]  border w-[100vw]  border-black md:gap-x-0 md:space-x-6 p-[2px]  xl:space-x-12 p-[2px] bg-amber-50 text-[24px] xl:text-[30px] italic justify-center z-[100] items-center md:flex '>
 
 
           <li className=' hover:text-black hover:scale-[1.1] '>
