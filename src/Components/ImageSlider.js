@@ -41,7 +41,7 @@ const ImageSlider = ({ setSelectedImg, selectedImg,  filteredImages }) => {
     <>
     <div className="backdrop z-[21] fixed  w-[100%] h-[100%] bg-black overflow-hidden	 justify-center items-center inset-0 " >
     {/* <div className="backdrop z-[21] fixed top-0 left-0 w-[100%] h-[100%] bg-[#bdb9af]   " > */}
-    <AiOutlineCloseSquare className='absolute text-white  top-6 cursor-pointer right-[30px]  mx-auto h-[62px] w-[62px]' onClick={handleClick}/>
+    <AiOutlineCloseSquare className='absolute text-white  top-6 cursor-pointer right-[30px]  mx-auto h-[36px] w-[36px]' onClick={handleClick}/>
 
     
       <div className=" mx-auto text-white object-center  object-contain  static  grid  grid-cols-6 gap-4">
@@ -55,12 +55,15 @@ const ImageSlider = ({ setSelectedImg, selectedImg,  filteredImages }) => {
           <div className="flex flex-row fixed top-[520px] items-center ">
             <AiOutlineCaretLeft className=' z-[19] text-white  h-[54px] w-[54px] cursor-pointer' onClick={goToPrevious}/>  
 
-            <p className='justify-items-center text-center m-1 text-xl'>Slide {currentIndex+1} of {imgArrayLen} </p>
+            <p className='justify-items-center text-center m-1 text-xl'>{currentIndex+1} of {imgArrayLen} </p>
+            
 
 
             <AiOutlineCaretRight className=' z-[19] text-white   h-[54PX] w-[54px] cursor-pointer' onClick={goToNext}/>
 
-            <p className='justify-items-center text-center  text-xl'>in  <span className='uppercase'>{filteredImages[currentIndex].group}</span></p>
+
+            
+
           </div>
 
       </div>

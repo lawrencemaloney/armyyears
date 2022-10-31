@@ -101,7 +101,8 @@ function OldTryPhotos() {
 
 const GroupButton = ({ name, handleSetgroup, groupActive }) => {
 	return (
-		<button className={`group my-[14px] py-[6px] w-[155px] rounded-lg hover:text-white hover:bg-black  text-center	 ${groupActive ? 'active' : null}`} onClick={() => handleSetgroup(name)} >
+		<button className={`group my-[14px] py-[6px] w-[155px] rounded-lg hover:text-white hover:bg-black  text-center	
+		${groupActive ? 'active' : null}`} onClick={() => handleSetgroup(name)} >
 			{name.toUpperCase()}
 		</button>
 	);

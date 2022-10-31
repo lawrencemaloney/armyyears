@@ -25,12 +25,13 @@ img_file_names = []
 # img_resized_names = []
 alt_name = []
 rec_id = 0
-group_id = 0
+# group_id = 0
 caption = ''
 url = ''
 place = ''
+# group comes from 'Title' in file details or file name
 group = ''
-lastgroup = 'all'
+lastgroup = 'All'
 datastr = ''
 imgFileOpenBracket = '['
 imgFileCloseBracket = '\n]'
@@ -119,7 +120,7 @@ for i in range(0, len(alt_name)):
     #     print('Group changed from ' + lastgroup + ' to ' + group
     #           lastgroup=group)
 
-    imageString = f"\n\t\"id\": {rec_id},\n\t\"group_id\": {group_id}, \n\t\"caption\": {caption}, \n\t\"url\": {url}, \n\t\"place\": {place}, \n\t\"group\": {group}"
+    imageString = f"\n\t\"id\": {rec_id}, \n\t\"caption\": {caption}, \n\t\"url\": {url}, \n\t\"place\": {place}, \n\t\"group\": {group}"
     imageDataOutString = imageDataOutString + \
         imgStartString + imageString + imgEndString
 
@@ -139,8 +140,8 @@ print(imageDataOutString)
 os.chdir(r'C:\Users\Larry\OneDrive\Environments\USArmy Project\armyyears\src')
 
 
-# with open("imagedata.json", "w") as jf:
-#     jf.write(imageDataOutString)
+with open("imagedata.json", "w") as jf:
+    jf.write(imageDataOutString)
 
 
 print('end')
