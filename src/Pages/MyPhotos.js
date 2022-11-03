@@ -83,7 +83,7 @@ function MyPhotos() {
 				{filteredImages.map(image => (
 
 					<div key={image.id} className="image-card p-[3px] m-[5px] rounded-xl object-cover  max-h-[300px] cursor-pointer		 ">
-					<img className="image min-h-[200px] max-h-[300px] w-[100%] aspect-square object-cover" src={image.url} alt={image.caption} 
+					<img className="image min-h-[150px] max-h-[200px] w-[100%] aspect-square object-cover" src={image.url} alt={image.caption} 
 						onClick={() => {
 						setSelectedImg(image.url)
 						setImageCaption(image.caption)
