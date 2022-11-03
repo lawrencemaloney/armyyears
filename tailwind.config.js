@@ -5,6 +5,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+      
       screens: {
         'ipp': '375px',
         // => @media (min-width: 375px) {iPhone X Portrait ... }        

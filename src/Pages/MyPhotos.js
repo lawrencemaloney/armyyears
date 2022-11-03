@@ -6,7 +6,7 @@ import ImageSlider from '../Components/ImageSlider';
 
 
 function MyPhotos() {
-	const [group, setGroup] = useState('All');
+	const [group, setGroup] = useState('Army');
 	const [filteredImages, setFilteredImages] = useState([]);
 	// const [currentArray,setCurrentArray] = useState([]);
 	const [selectedImg, setSelectedImg] = useState(null);
@@ -73,17 +73,17 @@ function MyPhotos() {
 						<GroupButton name="London" groupActive={group === 'London' ? true : false} handleSetgroup={setGroup} />
 						<GroupButton name="Oxford" groupActive={group === 'Oxford' ? true : false} handleSetgroup={setGroup} />
 
-												<GroupButton name="All" groupActive={group === 'All' ? true : false} handleSetgroup={setGroup} />
+						<GroupButton name="All" groupActive={group === 'All' ? true : false} handleSetgroup={setGroup} />
 					</div>
 				</div>
 
-				<div className="imgcontainer grid grid-cols-4 gap-2 col-span-5 col-start-4">
+				<div className="imgcontainer flex flex-wrap col-span-8 col-start-4">
 					
 					
 				{filteredImages.map(image => (
 
-					<div key={image.id} className="image-card p-[3px] m-[5px] rounded-xl object-cover  cursor-pointer		 ">
-					<img className="image min-h-full object-cover" src={image.url} alt={image.caption} 
+					<div key={image.id} className="image-card p-[3px] m-[5px] rounded-xl object-cover  max-h-[300px] cursor-pointer		 ">
+					<img className="image min-h-[200px] max-h-[300px] w-[100%] aspect-square object-cover" src={image.url} alt={image.caption} 
 						onClick={() => {
 						setSelectedImg(image.url)
 						setImageCaption(image.caption)
