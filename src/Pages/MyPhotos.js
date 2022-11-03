@@ -77,7 +77,7 @@ function MyPhotos() {
 					</div>
 				</div>
 
-				<div className="imgcontainer flex flex-wrap col-span-8 col-start-4">
+				<div className="imgcontainer flex flex-wrap  col-span-8 col-start-4">
 					
 					
 				{filteredImages.map(image => (
@@ -88,7 +88,7 @@ function MyPhotos() {
 						setSelectedImg(image.url)
 						setImageCaption(image.caption)
 						}}/>
-						<p>{image.caption}</p>	
+						{/* <p>{image.caption}</p>	 */}
 						
 					</div>
 						))}
