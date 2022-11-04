@@ -56,9 +56,9 @@ function MyPhotos() {
 				</p> */}
 			</div>
 
-				<div className="groups ml-[40px]  sticky top-[60px]  px-3 max-h-[620px] min-w-[120px] ml-[6px] mr-[2px] bg-[#E8E4D5] text-black border border-black col-start-1 col-span-3 rounded-lg ">
+				<div className="groups ml-[40px]  sticky top-[60px]  px-3  h-[620px] w-[210px] ml-[6px] mr-[2px] bg-[#E8E4D5] text-black border border-black col-start-1 col-span-3 rounded-lg ">
 
-					<div className="group flex text-[20px] flex-wrap flex-col mx-[3px] py-[4px]	items-center rounded-lg bg-transparent cursor-pointer	">
+					<div className="group flex text-[20px] flex-col mx-[3px] py-[4px]	items-center rounded-lg bg-transparent cursor-pointer	">
 						<p className='text-[24px] uppercase'>Categories</p>
 
 						<GroupButton name="Army" groupActive={group === 'Army' ? true : false} handleSetgroup={setGroup} />  
