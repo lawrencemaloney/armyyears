@@ -52,10 +52,10 @@ export default function Header() {
 
 
     <nav className=" z-[200] ">
-        <ul className='hidden  h-[55px]  border w-[100vw]  border-black md:gap-x-0 md:space-x-6 p-[2px]  xl:space-x-12 p-[2px] bg-amber-50 text-[24px] xl:text-[30px] italic justify-center  items-center md:flex '>
+        <ul className='hidden  h-[55px]  border w-[100vw]  border-black md:gap-x-0 md:space-x-6 p-[2px]  xl:space-x-12 p-[2px] bg-amber-50 text-[24px] xl:text-[30px] italic  justify-center  items-center md:flex '>
 
 
-          <li className=' hover:text-black hover:scale-[1.1] '>
+          <li className=' hover:text-black hover:scale-[1.1]  '>
             <CustomLink to='/Home'>My Story</CustomLink>
           </li>
           <li className=' hover:text-black  hover:scale-[1.1]'>

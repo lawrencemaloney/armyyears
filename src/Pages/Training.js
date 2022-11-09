@@ -1,10 +1,13 @@
 import React, { useState, useRef } from "react";
+import Header from "../Components/Header";
 
 import Collapsible from "../Components/Collapsible";
 
 function Training() {
   return (
     <>
+      <Header />  
+
       <div className='  mt-[40px] mx-auto  flex flex-col items-center '>
         <h1 className=' text-center mt-[1rem] mx-[20px] text-3xl md:text-4xl  mb-3'>Welcome to the Army</h1>
         <h2 className=' text-center text-3xl  mt-3'>Fort Dix - Basic Training</h2>

@@ -1,34 +1,14 @@
-import React, {useState} from 'react';
-import imageRef from '../imagedata.json'
-import { AiOutlineCaretLeft, AiOutlineCaretRight, AiOutlineCloseSquare } from "react-icons/ai";
-import { MdOutlineFullscreen } from "react-icons/md";
-import '../Components/MyPhotos.css';
-
-
-
-function FullImage(setSelectedImg, selectedImg, imageCaption) {
-
-    // const handleClick = () => {
-    //     setSelectedImg(null);
-    // }
-    
-
-    console.log("Selected image =", selectedImg)
-    console.log("Selected image caption=", imageCaption)
-
-  return (
-    <>
-    <div className="backdrop z-[21] fixed  w-[100%] h-[100%] bg-black overflow-scroll justify-center items-center inset-0 " >
-    {/* <div className="backdrop z-[21] fixed top-0 left-0 w-[100%] h-[100%] bg-[#bdb9af]   " > */}
-    {/* <AiOutlineCloseSquare className='absolute text-white  top-4 cursor-pointer right-10  mx-auto h-[36px] w-[36px]' onClick={handleClick}/> */}
-					<img className="imagelarge" src={selectedImg} alt={imageCaption} />
+<div class="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
+  <div class="space-y-4 text-gray-500 bg-white rounded-lg border w-full max-w-xl sm:h-96 p-6 overflow-y-scroll scrollbar">
+    <h1 class="text-lg text-gray-800">Custom Scrollbar Example</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class="space-y-4">
+      <div class="h-24 bg-gray-100"></div>
+      <div class="h-24 bg-gray-100"></div>
+      <div class="h-24 bg-gray-100"></div>
+      <div class="h-24 bg-gray-100"></div>
+      <div class="h-24 bg-gray-100"></div>
+      <div class="h-24 bg-gray-100"></div>
     </div>
-
-        
-
-  
-  </>
-)
-}
-
-export default FullImage
+  </div>
+</div>

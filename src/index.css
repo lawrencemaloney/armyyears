@@ -19,6 +19,32 @@
     letter-spacing: 0.02rem;
     /* line-height: 27px; */
   }
+
+
+.image-card{
+  /* border: 5px solid pink; */
+}
+
+  .scrollbar::-webkit-scrollbar {
+    width: 2vw;
+    height: 2vw;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    /* border-radius: 100vh; */
+    background: #5555;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: #7775;
+    border-radius: 100vh;
+    border: 3px solid pink;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #777;
+  }
+
 /* 
   h1 {
     @apply text-2xl font-bold;

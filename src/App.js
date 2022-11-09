@@ -13,7 +13,6 @@ function App() {
   return (
     
     <Router>
-      <Header />
       <Routes>
         <Route exact path='/' element={<Home />}></Route>
         <Route exact path='/Home' element={<Home />}></Route>

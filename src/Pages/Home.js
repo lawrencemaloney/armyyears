@@ -1,11 +1,15 @@
 import React, { useState, useRef } from "react";
+import Header from "../Components/Header";
+
 // import { AiOutlineCloseSquare, AiFillDownSquare } from "react-icons/ai";
 import Collapsible from "../Components/Collapsible";
 // import sectionDiv from "../Assets/Icons/section divider.svg";
 
-function BackStory() {
+function Home() {
   return (
     <>
+      <Header />
+
       <div className='  mt-[40px] mx-auto  flex flex-col z-20 items-center '>
         <h1 className=' text-center mt-[1rem] mx-[20px] text-3xl md:text-4xl  mb-3'>My Story</h1>
 
@@ -873,4 +877,4 @@ function BackStory() {
   );
 }
 
-export default BackStory;
+export default Home;

@@ -1,9 +1,13 @@
+import Header from "../Components/Header";
+
 import React from "react";
 import Collapsible from "../Components/Collapsible";
 
 function InBerlin() {
   return (
     <>
+        <Header />  
+
       <div className='  mt-[40px] mx-auto  flex flex-col items-center '>
         <h1 className=' text-center mt-[1rem] mx-[20px] text-3xl md:text-4xl  mb-3'>Hot War/Cold War - Vietnam/Germany</h1>
         <h2 className='text-center text-3xl  mt-3
