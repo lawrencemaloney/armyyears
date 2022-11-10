@@ -21,7 +21,10 @@ function MyPhotos() {
 	// const [imagePos, setImagePos] = useState(0)
 	const GroupButton = ({ name, handleSetgroup, groupActive }) => {
 		return (
-			<button className={`group  my-[14px] p-[16px] w-[132px] flex flex-col  rounded-lg  hover:scale-[1.1]   text-left ml-[10px] 	 ${groupActive ? 'active' : null}`} onClick={() => handleSetgroup(name)} >
+			<button className={`group  my-[14px] p-[16px] w-[132px] flex flex-col  rounded-lg  hover:scale-[1.1]   text-left ml-[10px] 	 ${groupActive ? 'active' : null}`} onClick={() => {
+				handleSetgroup(name);
+				setIsOpen(!isOpen);
+			}} >
 				{/* {name.toUpperCase()} */}
 				{name}
 			</button>
