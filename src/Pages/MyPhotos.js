@@ -21,7 +21,7 @@ function MyPhotos() {
 	// const [imagePos, setImagePos] = useState(0)
 	const GroupButton = ({ name, handleSetgroup, groupActive }) => {
 		return (
-			<button className={`group  my-[14px] p-[16px] w-[132px] flex flex-col  rounded-lg  hover:scale-[1.1]   text-left ml-[10px] 	 ${groupActive ? 'active' : null}`} onClick={() => {
+			<button className={`group  my-[14px] p-[16px] w-[132px] flex flex-col  rounded-lg  hover:scale-[1.1]   text-left ml-[10px]  ${groupActive ? 'active border border-white'  : null}`} onClick={() => {
 				handleSetgroup(name);
 				setIsOpen(!isOpen);
 			}} >
@@ -44,14 +44,16 @@ function MyPhotos() {
 
 		<div className='App bg-black text-white'>
 
-			<div className="pageContainer md:ml-[25px] grid grid-cols-2 md:grid-cols-12 md:gap-4	  ">
+			<div className="pageContainer grid grid-cols-2 sm:grid-cols-4  gap-4	  ">
 
 
-				<h1 className=' text-center mt-[2rem] mb-[2rem] mx-auto text-3xl md:text-4xl col-start-1 col-span-2  md:fixed md:top-[30px] '>My Photos</h1>
+				<h1 className='  mt-[2rem] mb-[2rem] mx-5 text-3xl sm:text-4xl col-start-1 col-span-2  md:fixed md:top-[30px]   '>My Photos</h1>
+				<span className='mx-auto text-2xl sm:hidden'>{group}</span>
 
-				<div className="textcontainer mx-2  text-[20px] md:ml-[200px] md:min-w-[65ch] md: sm:text-[25px] sm:max-w-[20ch] leading-[32px]  lg:max-w-[28ch]  md:p-[20px] col-span-2 md:col-span-8 md:col-start-2 md:row-start-2 row-span-1 h-[25%] ">
 
-					<p className='p-2  text-[20px] md:max-w-[68ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  md:max-w-[68ch] '>
+				<div className="textcontainer mt-[2rem]  mx-2  text-[20px] sm:min-w-[65ch] sm: sm:text-[25px] sm:max-w-[20ch] leading-[32px]  lg:max-w-[28ch]  sm:p-[20px] col-span-2 sm:col-span-8 sm:col-start-2 sm:row-start-2 row-span-1 h-[25%] md:mx-auto ">
+
+					<p className='p-2  text-[20px] md:max-w-[68ch] sm:text-[25px] sm:max-w-[48ch] leading-[32px]  md:max-w-[68ch] 	'>
 					These are some of the photos I took while in the Army.  Those labeled "Army" were taken as part of my job as Battalion PIO clerk. Lots of award presentations, baseball coverage, official Army ceremonies, field training exercises, and miscellaneous pictures taken while covering those events. I particularly enjoyed taking pictures of the Brigade baseball games.
 					</p>
 
@@ -75,23 +77,26 @@ function MyPhotos() {
 					Word got out that I could take decent photos and I had many requests to take portrait photos for friends. I was even asked to be the photographer for one Army officer's wedding. My popularity was due, in no small part, to the fact that I didn't charge for my services.
 					</p> */}
 				</div>
-
 					{/* <div className="groups ml-[4px]  p-4 max-h-[620px] w-[100px] bg-black text-white  flex flex-col fixed top-[320px] rounded-lg overflow-y-scroll scrollbar"> */}
 			{!isOpen ?
 				(
 					<button onClick={() => setIsOpen(!isOpen)}>
-						<AiOutlineMenu className=" absolute  top-2 right-2 h-[32px] w-[32px]  hover:scale-[1.2] cursor-pointer	 bg-#fffbeb " >
+						<AiOutlineMenu className=" absolute  top-2 right-2 h-[32px] w-[32px]  hover:scale-[1.2] cursor-pointer	 bg-#fffbeb sm:hidden " >
 						</AiOutlineMenu>
 					</button>    
 				)
 				:
 				(
 					<button onClick={() => setIsOpen(!isOpen)}>
-					<AiOutlineClose className=" absolute  top-2 right-2 h-[32px] w-[32px]  hover:scale-[1.2] cursor-pointer	 bg-#fffbeb z-10" >
+					<AiOutlineClose className=" absolute  top-2 right-2 h-[32px] w-[32px]  hover:scale-[1.2] cursor-pointer	 bg-#fffbeb z-10 sm:hidden" >
 					</AiOutlineClose> 
 					</button>    
 				)}
-					<div className={`groups   md:ml-[4px]  p-4 w-screen h-screen   md:h-[650px] md:w-[182px] bg-black text-white flex flex-col fixed top-0 left-0 md:top-[160px]  rounded-lg   overflow-scroll  md:ml-[50px] py-[4px]  	items-center text-left  rounded-lg  cursor-pointer text-[18px]  sm:text-[20px] 	${isOpen ? 'translate-x-0' : 'translate-x-full'} ease-in-out duration-700`}>
+					<div className={`groups p-4 w-screen h-screen bg-black text-white flex flex-col fixed top-0  rounded-lg overflow-scroll 
+
+					sm:ml-[4px] sm:h-[650px] sm:w-[180px]  sm:top-[180px] sm:left-0 md:ml-[50px]  sm:text-[20px]
+					
+					md:ml-[4px] md:h-[650px] md:w-[220px]  md:top-[180px] md:left-0 md:ml-[50px]  md:text-[20px] 	${isOpen ? 'translate-x-0 ' : 'translate-x-full sm:translate-x-0'} ease-in-out duration-700`}>
 
 					{/* <AiOutlineClose className=" absolute  top-2 right-2 h-[32px] w-[32px] md:hidden  hover:scale-[1.2] cursor-pointer	 bg-#fffbeb "  
 					onClick={setIsOpen(!isOpen)}>
@@ -142,13 +147,14 @@ function MyPhotos() {
 					</li>
 				</ul>
 				</div>
-					<div className="imgcontainer grid grid-cols-2 col-start-1 col-span-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 md:col-start-3 md:col-span-7 row-start-3  ml-[20px] ">
+				
+					<div className="imgcontainer ml-[20px] grid grid-cols-2 col-start-1 col-span-2 row-start-3  sm:grid-cols-3 sm:col-start-2  sm:col-span-6  sm:grid-cols-3      md:col-start-2  md:col-span-6   lg:grid-cols-4  lg:col-start-2  lg:col-span-4   ">
 						
 						
 					{filteredImages.map(image => (
 
 						<div key={image.id} className="image-card p-[3px] m-[5px] object-cover  max-h-[350px] cursor-pointer  	 ">
-						<img className="image rounded min-h-[150px] max-h-[300px] w-[100%] aspect-square object-cover" src={image.url} alt={image.caption} 
+						<img className="image rounded min-h-[150px] max-h-[250px] w-[100%] aspect-square object-cover" src={image.url} alt={image.caption} 
 							onClick={() => {
 							setSelectedImg(image.url)
 							setImageCaption(image.caption)
