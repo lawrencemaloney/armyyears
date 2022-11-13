@@ -46,10 +46,24 @@ function MyPhotos() {
 
 			<div className="pageContainer grid grid-cols-2 sm:grid-cols-4  gap-4	  ">
 
-
-				<h1 className='  mt-[2rem] mb-[2rem] mx-5 text-3xl sm:text-4xl col-start-1 col-span-2  md:fixed md:top-[30px]   '>My Photos</h1>
-				<span className='mx-auto text-2xl sm:hidden'>{group}</span>
-
+				<div className="subhead z-40 sticky w-screen h-[160px] bg-black top-0">
+					<h1 className='  mt-[2rem] mb-[2rem] mx-5 text-3xl sm:text-4xl col-start-1 col-span-2  md:fixed md:top-[30px]   '>My Photos</h1>
+					<span className='ml-6 text-2xl  sm:hidden'>{group}</span>
+					{!isOpen ?
+				(
+					<button onClick={() => setIsOpen(!isOpen)}>
+						<AiOutlineMenu className=" absolute  top-2 right-2 h-[32px] w-[32px]  hover:scale-[1.2] cursor-pointer	 bg-#fffbeb sm:hidden " >
+						</AiOutlineMenu>
+					</button>    
+				)
+				:
+				(
+					<button onClick={() => setIsOpen(!isOpen)}>
+					<AiOutlineClose className=" absolute  top-2 right-2 h-[32px] w-[32px]  hover:scale-[1.2] cursor-pointer	 bg-#fffbeb z-10 sm:hidden" >
+					</AiOutlineClose> 
+					</button>    
+				)}
+				</div>
 
 				<div className="textcontainer mt-[2rem]  mx-2  text-[20px] sm:min-w-[65ch] sm: sm:text-[25px] sm:max-w-[20ch] leading-[32px]  lg:max-w-[28ch]  sm:p-[20px] col-span-2 sm:col-span-8 sm:col-start-2 sm:row-start-2 row-span-1 h-[25%] md:mx-auto ">
 
@@ -78,20 +92,7 @@ function MyPhotos() {
 					</p> */}
 				</div>
 					{/* <div className="groups ml-[4px]  p-4 max-h-[620px] w-[100px] bg-black text-white  flex flex-col fixed top-[320px] rounded-lg overflow-y-scroll scrollbar"> */}
-			{!isOpen ?
-				(
-					<button onClick={() => setIsOpen(!isOpen)}>
-						<AiOutlineMenu className=" absolute  top-2 right-2 h-[32px] w-[32px]  hover:scale-[1.2] cursor-pointer	 bg-#fffbeb sm:hidden " >
-						</AiOutlineMenu>
-					</button>    
-				)
-				:
-				(
-					<button onClick={() => setIsOpen(!isOpen)}>
-					<AiOutlineClose className=" absolute  top-2 right-2 h-[32px] w-[32px]  hover:scale-[1.2] cursor-pointer	 bg-#fffbeb z-10 sm:hidden" >
-					</AiOutlineClose> 
-					</button>    
-				)}
+
 					<div className={`groups p-4 w-screen h-screen bg-black text-white flex flex-col fixed top-0  rounded-lg overflow-scroll 
 
 					sm:ml-[4px] sm:h-[650px] sm:w-[180px]  sm:top-[180px] sm:left-0 md:ml-[50px]  sm:text-[20px]
@@ -105,7 +106,7 @@ function MyPhotos() {
 
 					
 					{/* <div className="text-left"> */}
-					<ul className='  h-[100%] w-[200px] flex-col   bg-black text-left rounded-lg text-white   text-[20px]   '>
+					<ul className='  h-[100%] w-[200px] flex-col mt-4   bg-black text-left rounded-lg text-white   text-[20px]   '>
 						<p className=' '>Photo Categories</p>
 
 					<GroupButton name="Army" groupActive={group === 'Army' ? true : false} handleSetgroup={setGroup} />  
@@ -124,7 +125,7 @@ function MyPhotos() {
 
 					{/* </div> */}
 					
-					<li className=' hover:scale-[1.1] py-2 m-2   '>
+					<li className=' hover:scale-[1.1] py-2 m-   '>
 					<Link to='/Home'>My Story</Link>
 					</li>
 					<li className=' hover:scale-[1.1] py-2 m-2  '>
