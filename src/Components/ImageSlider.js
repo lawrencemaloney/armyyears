@@ -39,26 +39,30 @@ const ImageSlider = ({ setSelectedImg, selectedImg,  filteredImages }) => {
 
   return (
     <>
-    <div className="backdrop z-[21] fixed  w-[100%] h-screen bg-black overflow-scroll	 justify-center items-center inset-0 " >
+    <div className="backdrop z-[21] fixed  w-[100%] h-full bg-black overflow-auto	justify-center items-center inset-0 " >
     {/* <div className="backdrop z-[21] fixed top-0 left-0 w-[100%] h-[100%] bg-[#bdb9af]   " > */}
-    <AiOutlineCloseSquare className='absolute text-white  top-6 cursor-pointer right-[30px]   h-[36px] w-[36px]' onClick={handleClick}/>
-    <h1 className=' my-6  text-[24px]'>{filteredImages[currentIndex].caption}</h1> 
+    <AiOutlineCloseSquare className='absolute text-white  top-8 cursor-pointer right-[30px]   h-[36px] w-[36px]' onClick={handleClick}/>
 
-      <div className=" mx-auto text-white object-center  object-contain  static  flex-1 flex-col  ">
-        <img className="  h-screen  object-contain m-auto " src={filteredImages[currentIndex].url} alt={filteredImages[currentIndex].caption} />
-      </div>
-        
-      {/* <div className=" w-[200px] "> */}
-            
-          <div className="flex flex-row items-center ">
+    
+    <h1 className=' mt-[30px]  text-[24px]'>{filteredImages[currentIndex].caption}</h1> 
+
+      <div className="  text-white object-center  object-contain  static  flex flex-col  ">
+
+        <img className="  h-[80vh]  object-contain " src={filteredImages[currentIndex].url} alt={filteredImages[currentIndex].caption} />
+
+        <div className="flex flex-row items-center  ">
             <AiOutlineCaretLeft className=' z-[19] text-white   h-[24px] w-[24px] cursor-pointer' onClick={goToPrevious}/>  
 
             <p className='justify-items-center text-[10px] text-center m-1 text-xl'>{currentIndex+1} of {imgArrayLen} </p>
             <AiOutlineCaretRight className=' z-[19] text-white   h-[24px] w-[24px] cursor-pointer' onClick={goToNext}/>
           </div>
+      </div>
+        
+      {/* <div className=" w-[200px] "> */}
+            
+
 
       {/* </div> */}
-
 
 
     </div>
