@@ -41,14 +41,14 @@ const ImageSlider = ({ setSelectedImg, selectedImg,  filteredImages }) => {
     <>
     <div className="backdrop z-[21] fixed  w-[100%] h-full bg-black overflow-auto	justify-center items-center inset-0 " >
     {/* <div className="backdrop z-[21] fixed top-0 left-0 w-[100%] h-[100%] bg-[#bdb9af]   " > */}
-    <AiOutlineCloseSquare className='absolute text-white  top-8 cursor-pointer right-[30px]   h-[36px] w-[36px]' onClick={handleClick}/>
+    <AiOutlineCloseSquare className='absolute text-white sm:right-[125px]  top-8 cursor-pointer right-[30px]   h-[36px] w-[36px]' onClick={handleClick}/>
 
     
-    <h1 className=' mt-[30px]  text-[24px]'>{filteredImages[currentIndex].caption}</h1> 
+    <h1 className=' mt-[30px] mb-[20px]  text-[24px]'>{filteredImages[currentIndex].caption}</h1> 
 
       <div className="  text-white object-center  object-contain  static  flex flex-col  ">
 
-        <img className="  h-[80vh]  object-contain " src={filteredImages[currentIndex].url} alt={filteredImages[currentIndex].caption} />
+        <img className="  h-[80vh] sm:h-[70vh] object-contain " src={filteredImages[currentIndex].url} alt={filteredImages[currentIndex].caption} />
 
         <div className="flex flex-row items-center  ">
             <AiOutlineCaretLeft className=' z-[19] text-white   h-[24px] w-[24px] cursor-pointer' onClick={goToPrevious}/>  
