@@ -47,7 +47,9 @@ function MyPhotos() {
 			<div className="pageContainer grid grid-cols-2 sm:grid-cols-4  gap-4	  ">
 
 				<div className="subhead z-[20] sticky w-screen h-[180px] bg-black top-0">
-					<h1 className='  mt-[2rem] mb-[2rem] mx-5 text-3xl sm:text-4xl col-start-1 col-span-2  md:fixed md:top-[30px]   '>My Photos</h1>
+					
+					<h1 className='  mt-[2rem] mb-[2rem] mx-5 text-3xl sm:text-4xl col-start-1 col-span-2  md:fixed md:top-[30px]   sm:landscape:text-red-600 '>My Photos</h1>
+
 					<span className='ml-6 text-2xl  sm:hidden'>{group}</span>
 					{!isOpen ?
 				(
