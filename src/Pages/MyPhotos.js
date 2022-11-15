@@ -42,14 +42,12 @@ function MyPhotos() {
 	return (
 	<>
 
-		<div className='App bg-black text-white'>
+		<div className='App bg-black text-white w-[100vw]'>
 
 			<div className="pageContainer grid grid-cols-2 sm:grid-cols-4  gap-4	  ">
 
 				<div className="subhead z-[20] sticky w-screen h-[180px] bg-black top-0">
-					
-					<h1 className='  mt-[2rem] mb-[2rem] mx-5 text-3xl sm:text-4xl col-start-1 col-span-2  md:fixed md:top-[30px]   sm:landscape:text-red-600 '>My Photos</h1>
-
+					<h1 className='  mt-[2rem] mb-[2rem] mx-5 text-3xl sm:text-4xl col-start-1 col-span-2  md:fixed md:top-[30px]   '>My Photos</h1>
 					<span className='ml-6 text-2xl  sm:hidden'>{group}</span>
 					{!isOpen ?
 				(
@@ -67,7 +65,7 @@ function MyPhotos() {
 				)}
 				</div>
 
-				<div className="textcontainer mt-[2rem]  mx-2  text-[20px] sm:min-w-[65ch] sm: sm:text-[25px] sm:max-w-[20ch] leading-[32px]  lg:max-w-[28ch]  sm:p-[20px] col-span-2 sm:col-span-8 sm:col-start-2 sm:row-start-2 row-span-1 h-[25%] md:mx-auto ">
+				<div className="textcontainer mt-[2rem]  mx-2  text-[20px] sm:min-w-[45ch] sm: sm:text-[25px] sm:max-w-[20ch] leading-[32px]  lg:max-w-[28ch]  sm:p-[20px] col-span-2 sm:col-span-8 sm:col-start-2 sm:row-start-2 row-span-1 h-[25%] md:mx-auto ">
 
 					<p className='p-2  text-[20px] md:max-w-[68ch] sm:text-[25px] sm:max-w-[48ch] leading-[32px]  md:max-w-[68ch] 	'>
 					These are some of the photos I took while in the Army.  Those labeled "Army" were taken as part of my job as Battalion PIO clerk. Lots of award presentations, baseball coverage, official Army ceremonies, field training exercises, and miscellaneous pictures taken while covering those events. I particularly enjoyed taking pictures of the Brigade baseball games.
