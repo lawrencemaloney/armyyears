@@ -21,7 +21,7 @@ function MyPhotos() {
 	// const [imagePos, setImagePos] = useState(0)
 	const GroupButton = ({ name, handleSetgroup, groupActive }) => {
 		return (
-			<button className={`group  my-[14px] p-[16px] w-[132px] flex flex-col  rounded-lg  hover:scale-[1.1]   text-left ml-[10px]  ${groupActive ? 'active border border-white'  : null}`} onClick={() => {
+			<button className={`group  my-[2px] p-[2px] w-[132px] flex flex-col  rounded-lg  hover:scale-[1.1]   text-left ml-[10px]  ${groupActive ? 'active border border-white'  : null}`} onClick={() => {
 				handleSetgroup(name);
 				setIsOpen(!isOpen);
 			}} >
@@ -42,7 +42,8 @@ function MyPhotos() {
 	return (
 	<>
 
-		<div className='App bg-black text-white w-[100vw]'>
+
+		<div className='App bg-black text-white w-screen'>
 
 			<div className="pageContainer grid grid-cols-2 sm:grid-cols-4  gap-4	  ">
 
@@ -52,20 +53,20 @@ function MyPhotos() {
 					{!isOpen ?
 				(
 					<button onClick={() => setIsOpen(!isOpen)}>
-						<AiOutlineMenu className=" absolute  top-2 right-2 h-[32px] w-[32px]  hover:scale-[1.2] cursor-pointer	 bg-#fffbeb sm:hidden " >
+						<AiOutlineMenu className=" absolute  top-2 right-2 h-[32px] w-[32px]  hover:scale-[1.2] cursor-pointer	z-[22] bg-#fffbeb sm:hidden " >
 						</AiOutlineMenu>
 					</button>    
 				)
 				:
 				(
 					<button onClick={() => setIsOpen(!isOpen)}>
-					<AiOutlineClose className=" absolute  top-2 right-2 h-[32px] w-[32px]  hover:scale-[1.2] cursor-pointer	 bg-#fffbeb z-10 sm:hidden" >
+					<AiOutlineClose className=" absolute  top-2 right-2 h-[32px] w-[32px]  hover:scale-[1.2] cursor-pointer	z-[23] bg-#fffbeb  sm:hidden" >
 					</AiOutlineClose> 
 					</button>    
 				)}
 				</div>
 
-				<div className="textcontainer mt-[2rem]  mx-2  text-[20px] sm:min-w-[45ch] sm: sm:text-[25px] sm:max-w-[20ch] leading-[32px]  lg:max-w-[28ch]  sm:p-[20px] col-span-2 sm:col-span-8 sm:col-start-2 sm:row-start-2 row-span-1 h-[25%] md:mx-auto ">
+				<div className="textcontainer mt-[2rem]  mx-2  text-[20px] sm:min-w-[65ch] sm: sm:text-[25px] sm:max-w-[20ch] leading-[32px]  lg:max-w-[28ch]  sm:p-[20px] col-span-2 sm:col-span-8 sm:col-start-2 sm:row-start-2 row-span-1 h-[25%] md:mx-auto ">
 
 					<p className='p-2  text-[20px] md:max-w-[68ch] sm:text-[25px] sm:max-w-[48ch] leading-[32px]  md:max-w-[68ch] 	'>
 					These are some of the photos I took while in the Army.  Those labeled "Army" were taken as part of my job as Battalion PIO clerk. Lots of award presentations, baseball coverage, official Army ceremonies, field training exercises, and miscellaneous pictures taken while covering those events. I particularly enjoyed taking pictures of the Brigade baseball games.
@@ -93,7 +94,7 @@ function MyPhotos() {
 				</div>
 					{/* <div className="groups ml-[4px]  p-4 max-h-[620px] w-[100px] bg-black text-white  flex flex-col fixed top-[320px] rounded-lg overflow-y-scroll scrollbar"> */}
 
-					<div className={`groups p-4 w-screen h-screen bg-black text-white flex flex-col fixed top-0  rounded-lg overflow-scroll 
+					<div className={`groups p-4 w-screen  bg-black text-white flex flex-col fixed top-10  rounded-lg overflow-scroll z-[20] h-[100%] text-[12px]
 
 					sm:ml-[4px] sm:h-[650px] sm:w-[180px]  sm:top-[180px] sm:left-0 md:ml-[50px]  sm:text-[20px]
 					
@@ -106,7 +107,7 @@ function MyPhotos() {
 
 					
 					{/* <div className="text-left"> */}
-					<ul className='  h-[100%] w-[200px] flex-col mt-4   bg-black text-left rounded-lg text-white   text-[20px]   '>
+					<ul className='  h-[100%] w-[200px] flex-col mt-4   bg-black text-left rounded-lg text-white   text-[12px]  space-y-[10px] '>
 						<p className=' '>Photo Categories</p>
 
 					<GroupButton name="Army" groupActive={group === 'Army' ? true : false} handleSetgroup={setGroup} />  
@@ -125,25 +126,26 @@ function MyPhotos() {
 
 					{/* </div> */}
 					
-					<li className=' hover:scale-[1.1] py-2 m-   '>
+					<p>Navigation</p>
+					<li className=' hover:scale-[1.1] text-left ml-[10px] '>
 					<Link to='/Home'>My Story</Link>
 					</li>
-					<li className=' hover:scale-[1.1] py-2 m-2  '>
+					<li className=' hover:scale-[1.1]text-left ml-[10px]'>
 					<Link to='/Training'>Training</Link>
 					</li>
-					<li className=' hover:scale-[1.1] py-2 m-2  '>
+					<li className=' hover:scale-[1.1]  text-left ml-[10px] '>
 					<Link to='/InBerlin'>In Berlin</Link>
 					</li>
-					<li className=' hover:scale-[1.1] py-2	m-2  '>
+					<li className=' hover:scale-[1.1]  text-left ml-[10px] '>
 					<Link to='/BOarticles'>My Journalism</Link>
 					</li>
-					<li className=' hover:scale-[1.1] 	 m-2 '>
+					<li className=' hover:scale-[1.1] text-left ml-[10px] '>
 					<Link to='/MyPhotos'>My Photos</Link>
 					</li>
-					<li className=' hover:scale-[1.1] m-2 py-2 '>
+					<li className=' hover:scale-[1.1]  text-left ml-[10px]'>
 					<Link to='/Archives'>Archives</Link>
 					</li>
-					<li className=' hover:scale-[1.25] m-2  py-2'>
+					<li className=' hover:scale-[1.25]  text-left ml-[10px]'>
 					<Link to='/About'>About</Link>
 					</li>
 				</ul>
