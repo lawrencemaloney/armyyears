@@ -21,7 +21,7 @@ function MyPhotos() {
 	// const [imagePos, setImagePos] = useState(0)
 	const GroupButton = ({ name, handleSetgroup, groupActive }) => {
 		return (
-			<button className={`group  my-[2px] p-[2px] w-[132px] flex flex-col  rounded-lg  hover:scale-[1.1]   text-left ml-[10px]  ${groupActive ? 'active border border-white'  : null}`} onClick={() => {
+			<button className={`group  my-[2px] p-[2px] w-[132px] flex flex-col  rounded-lg  hover:scale-[1.1] hover:text-yellow-400  text-left ml-[10px]  ${groupActive ? 'active text-yellow-400'  : null}`} onClick={() => {
 				handleSetgroup(name);
 				setIsOpen(!isOpen);
 			}} >
@@ -94,7 +94,7 @@ function MyPhotos() {
 				</div>
 					{/* <div className="groups ml-[4px]  p-4 max-h-[620px] w-[100px] bg-black text-white  flex flex-col fixed top-[320px] rounded-lg overflow-y-scroll scrollbar"> */}
 
-					<div className={`groups p-4 w-screen  bg-black text-white flex flex-col fixed top-10  rounded-lg overflow-scroll z-[20] h-[100%] text-[12px]
+					<div className={`groups p-4 w-screen  bg-black text-white flex flex-col fixed top-10  rounded-lg overflow-scroll z-[20] h-[100%] text-[16px]
 
 					sm:ml-[4px] sm:h-[650px] sm:w-[180px]  sm:top-[180px] sm:left-0 md:ml-[50px]  sm:text-[20px]
 					
@@ -107,7 +107,7 @@ function MyPhotos() {
 
 					
 					{/* <div className="text-left"> */}
-					<ul className='  h-[100%] w-[200px] flex-col mt-4   bg-black text-left rounded-lg text-white   text-[12px]  space-y-[10px] '>
+					<ul className='  h-[100%] w-[200px] flex-col mt-4   bg-black text-left rounded-lg text-white   text-[14px]  space-y-[10px] '>
 						<p className=' '>Photo Categories</p>
 
 					<GroupButton name="Army" groupActive={group === 'Army' ? true : false} handleSetgroup={setGroup} />  
