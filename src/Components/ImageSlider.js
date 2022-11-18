@@ -39,14 +39,14 @@ const ImageSlider = ({ setSelectedImg, selectedImg,  filteredImages }) => {
 
   return (
     <>
-    <div className="backdrop z-[21] fixed  w-[100%] h-full bg-black overflow-auto	justify-center items-center inset-0 " >
+    <div className="backdrop z-[21] fixed  w-[100vw] h-full bg-black overflow-auto	justify-center items-center inset-0 " >
     {/* <div className="backdrop z-[21] fixed top-0 left-0 w-[100%] h-[100%] bg-[#bdb9af]   " > */}
     <AiOutlineCloseSquare className='absolute text-white sm:right-[125px]  top-8 cursor-pointer right-[30px]   h-[36px] w-[36px]' onClick={handleClick}/>
 
     
     <h1 className=' mt-[30px] mb-[20px]  text-[24px]'>{filteredImages[currentIndex].caption}</h1> 
 
-      <div className="  text-white object-center  object-contain  static  flex flex-col  ">
+      <div className="  text-white object-center w-[100vw] object-contain  static  flex flex-col  ">
 
         <img className="  h-[80vh] sm:h-[70vh] object-contain " src={filteredImages[currentIndex].url} alt={filteredImages[currentIndex].caption} />
 

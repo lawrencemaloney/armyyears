@@ -10,7 +10,13 @@
     @apply z-10 text-black  font-normal m-0 p-0 box-border;
   } */
 
+html {
+  width: -webkit-fill-available;
+}
+
   body {
+  width: -webkit-fill-available;
+
     margin: 0;
     padding: 0;
     font-family: "Merriweather", serif;
