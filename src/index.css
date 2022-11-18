@@ -12,6 +12,7 @@
 
 html {
   width: -webkit-fill-available;
+  padding: env(safe-area-inset); 
 }
 
   body {
