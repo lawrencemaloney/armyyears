@@ -73,7 +73,7 @@ function MyPhotos() {
 
 
 
-				<div className={`groups p-4 w-screen  bg-black text-white flex flex-col fixed top-10  rounded-lg overflow-scroll z-[20] h-[100%] text-[16px]
+				<div className={`groups p-4 w-screen  bg-black text-white flex flex-col fixed top-10  rounded-lg overflow-scroll z-[20] h-[1600px] text-[16px]
 
 				sm:ml-[4px] sm:h-[650px] sm:w-[150px]  sm:top-[180px] sm:left-0 md:ml-[50px]  sm:text-[20px]
 				 	${isOpen ? 'translate-x-0 ' : 'translate-x-full sm:translate-x-0'} ease-in-out duration-700`}>
