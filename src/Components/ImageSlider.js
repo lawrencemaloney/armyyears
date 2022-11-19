@@ -39,7 +39,7 @@ const ImageSlider = ({ setSelectedImg, selectedImg,  filteredImages }) => {
 
   return (
     <>
-    <div className="backdrop z-[21] fixed  w-[100vw] h-full bg-black overflow-auto	justify-center items-center inset-0 " >
+    <div className="backdrop z-[21] fixed   h-full bg-black overflow-auto	justify-center items-center inset-0 " >
     {/* <div className="backdrop z-[21] fixed top-0 left-0 w-[100%] h-[100%] bg-[#bdb9af]   " > */}
     <AiOutlineCloseSquare className='absolute text-white sm:right-[125px]  top-8 cursor-pointer right-[30px]   h-[36px] w-[36px]' onClick={handleClick}/>
 

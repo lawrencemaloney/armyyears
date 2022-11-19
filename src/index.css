@@ -9,11 +9,11 @@
   /* * {
     @apply z-10 text-black  font-normal m-0 p-0 box-border;
   } */
-
+/* 
 html {
   width: -webkit-fill-available;
   padding: env(safe-area-inset); 
-}
+} */
 
   body {
   width: -webkit-fill-available;
