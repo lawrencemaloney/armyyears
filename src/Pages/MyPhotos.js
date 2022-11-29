@@ -55,69 +55,12 @@ function MyPhotos() {
 
 				{!isOpen ?
 						(
+							<>
 							<button onClick={() => setIsOpen(!isOpen)}>
 								<AiOutlineMenu className=" absolute  top-1 right-2 h-[32px] w-[32px]  hover:scale-[1.2] cursor-pointer	z-[35] bg-#fffbeb sm:hidden " >
 								</AiOutlineMenu>
-							</button>    
-						)
-						:
-						(
-							<button onClick={() => setIsOpen(!isOpen)}>
-							<AiOutlineClose className=" absolute  top-1 right-2 h-[32px] w-[32px]  hover:scale-[1.2] cursor-pointer	z-[35] bg-#fffbeb  sm:hidden" >
-							</AiOutlineClose> 
-							</button>    
-						)}
-
-				<div className={`groups p-4 grid-col-start-1 col-span-12 sm:col-span-2 bg-black text-white  overflow-y-scroll  h-screen
-				sm:h-[100%] text-[16px] w-[200px] ${isOpen ? 'translate-x-0 ' : 'translate-x-full sm:translate-x-0'} ease-in-out duration-700`}>
-
-					<ul className='  h-[100%] w-[120px] flex-col mt-4   bg-black text-left rounded-lg text-white   text-[16px]  space-y-[10px] '>
-						<p className=' '>Photo Categories</p>
-
-						<GroupButton name="Army" groupActive={group === 'Army' ? true : false} handleSetgroup={setGroup} />  
-
-						<GroupButton name="By Request" groupActive={group === 'By Request' ? true : false} handleSetgroup={setGroup} /> 
-
-						<GroupButton name="Berlin" groupActive={group === 'Berlin' ? true : false} handleSetgroup={setGroup} />
-
-						<GroupButton  name="Amsterdam" groupActive={group === 'Amsterdam' ? true : false} handleSetgroup={setGroup} /> 
-
-						<GroupButton name="Ferry" groupActive={group === 'Ferry' ? true : false} handleSetgroup={setGroup} />
-						<GroupButton name="London" groupActive={group === 'London' ? true : false} handleSetgroup={setGroup} />
-						<GroupButton name="Oxford" groupActive={group === 'Oxford' ? true : false} handleSetgroup={setGroup} />
-
-						<GroupButton name="All" groupActive={group === 'All' ? true : false} handleSetgroup={setGroup} />
-
-						{/* </div> */}
-
-						<p>Navigation</p>
-						<li className=' hover:scale-[1.1] text-left ml-[10px] '>
-						<Link to='/Home'>My Story</Link>
-						</li>
-						<li className=' hover:scale-[1.1]text-left ml-[10px]'>
-						<Link to='/Training'>Training</Link>
-						</li>
-						<li className=' hover:scale-[1.1]  text-left ml-[10px] '>
-						<Link to='/InBerlin'>In Berlin</Link>
-						</li>
-						<li className=' hover:scale-[1.1]  text-left ml-[10px] '>
-						<Link to='/BOarticles'>My Journalism</Link>
-						</li>
-						<li className=' hover:scale-[1.1] text-left ml-[10px] '>
-						<Link to='/MyPhotos'>My Photos</Link>
-						</li>
-						<li className=' hover:scale-[1.1]  text-left ml-[10px]'>
-						<Link to='/Archives'>Archives</Link>
-						</li>
-						<li className=' hover:scale-[1.25]  text-left ml-[10px]'>
-						<Link to='/About'>About</Link>
-						</li>
-						</ul>
-
-					</div>
-
-
-				<div className='textimagecontainer grid-col-start-3 col-span-8 w-[100%] m-[2%]'>	
+							</button>  
+							<div className='textimagecontainer  grid-col-start-1 col-span-12 h-full w-[100%] m-[2%] sm:grid-col-start-3 sm:col-span-8'>	
 					<div className="textcontainer mb-[2rem]  mx-8  text-[22px] leading-[32px] w-full    ">
 
 						{group === 'Army' && (
@@ -195,7 +138,69 @@ function MyPhotos() {
 						{/* <p>Selected Image is {selectedImg}</p> */}
 						{/* { selectedImg && (<FullImage  setSelectedImg={setSelectedImg} selectedImg={selectedImg} imageCaption={imageCaption}/>)} */}
 						{ selectedImg && (<ImageSlider  setSelectedImg={setSelectedImg}  selectedImg={selectedImg} filteredImages={filteredImages}  />)}
-				</div>
+				</div>  
+							</>
+						)
+						:
+						(
+							<button onClick={() => setIsOpen(!isOpen)}>
+							<AiOutlineClose className=" absolute  top-1 right-2 h-[32px] w-[32px]  hover:scale-[1.2] cursor-pointer	z-[35] bg-#fffbeb  sm:hidden" >
+							</AiOutlineClose> 
+							
+							</button>    
+						)}
+
+				<div className={`groups p-4 grid-col-start-1 col-span-12 sm:col-span-2 bg-black text-white  overflow-y-scroll  h-screen w-screen
+				sm:h-[100%] text-[16px] sm:w-[200px] ${isOpen ? 'translate-x-0 ' : 'translate-x-full sm:translate-x-0'} ease-in-out duration-700`}>
+
+					<ul className='  h-[100%] w-[120px] flex-col mt-4   bg-black text-left rounded-lg text-white   text-[16px]  space-y-[10px] '>
+						<p className=' '>Photo Categories</p>
+
+						<GroupButton name="Army" groupActive={group === 'Army' ? true : false} handleSetgroup={setGroup} />  
+
+						<GroupButton name="By Request" groupActive={group === 'By Request' ? true : false} handleSetgroup={setGroup} /> 
+
+						<GroupButton name="Berlin" groupActive={group === 'Berlin' ? true : false} handleSetgroup={setGroup} />
+
+						<GroupButton  name="Amsterdam" groupActive={group === 'Amsterdam' ? true : false} handleSetgroup={setGroup} /> 
+
+						<GroupButton name="Ferry" groupActive={group === 'Ferry' ? true : false} handleSetgroup={setGroup} />
+						<GroupButton name="London" groupActive={group === 'London' ? true : false} handleSetgroup={setGroup} />
+						<GroupButton name="Oxford" groupActive={group === 'Oxford' ? true : false} handleSetgroup={setGroup} />
+
+						<GroupButton name="All" groupActive={group === 'All' ? true : false} handleSetgroup={setGroup} />
+
+						{/* </div> */}
+
+						<p>Navigation</p>
+						<li className=' hover:scale-[1.1] text-left ml-[10px] '>
+						<Link to='/Home'>My Story</Link>
+						</li>
+						<li className=' hover:scale-[1.1]text-left ml-[10px]'>
+						<Link to='/Training'>Training</Link>
+						</li>
+						<li className=' hover:scale-[1.1]  text-left ml-[10px] '>
+						<Link to='/InBerlin'>In Berlin</Link>
+						</li>
+						<li className=' hover:scale-[1.1]  text-left ml-[10px] '>
+						<Link to='/BOarticles'>My Journalism</Link>
+						</li>
+						<li className=' hover:scale-[1.1] text-left ml-[10px] '>
+						<Link to='/MyPhotos'>My Photos</Link>
+						</li>
+						<li className=' hover:scale-[1.1]  text-left ml-[10px]'>
+						<Link to='/Archives'>Archives</Link>
+						</li>
+						<li className=' hover:scale-[1.25]  text-left ml-[10px]'>
+						<Link to='/About'>About</Link>
+						</li>
+						</ul>
+
+					</div>
+					
+
+
+
 				
 
 			</div>
