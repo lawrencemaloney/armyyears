@@ -115,7 +115,7 @@ function MyPhotos() {
 
 
 				<div className='textimagecontainer grid-col-start-3 col-span-8 w-[100%] m-[2%]'>	
-					<div className="textcontainer mb-[2rem]  mx-8  text-[22px] leading-[32px]     ">
+					<div className="textcontainer mb-[2rem]  mx-8  text-[22px] leading-[32px] w-full    ">
 
 						{group === 'Army' && (
 						<div className='p-2     leading-[32px]  	'>
@@ -154,22 +154,20 @@ function MyPhotos() {
 						) }
 						{group === 'All' && (
 							
-							<div className='   mx-[1rem]  gap-8 columns-2 	max-w-[65ch]	'>	
-							<p>
+							<div className='   mx-[1rem]  gap-8 columns-2	max-w-[100%]	'>	
+							<p className='mb-[16px]'>
 							A large part of my job as the PIO clerk for the “2/6” was to get pictures of significant events in the Battalion published in the Berlin Observer. All the pictures in the “Army” category were taken as part of a feature article, important parades, sporting events, or awards ceremonies. 
 							</p>
-							<p >
-							The rest of the pictures on this website were taken in my free time. The pictures in the “By Request” category represent some “studio” work I did at the request of friends (and friends of friends) who wanted photos taken of themselves but didn’t want to pay for them. I saw it as a chance to learn without the pressure that comes with charging for the service. If they didn’t like the results, they got exactly what they pay for.
+							<p className='mb-[16px]' >
+							The pictures in the “By Request” category represent some “studio” work I did at the request of friends.
 							</p>
-							<p >
-							The pictures in the “Berlin” category were taken as I walked around the city and its surrounding areas over the entire time I was there. I tried to capture unique views of everyday life in this exciting and beautiful city. 
+							<p className='mb-[16px]' >
+							The pictures in the “Berlin” category were taken as I walked around the city and its surrounding areas over the entire time I was there.
 							</p>
-							<p>
-							I had two “leaves” while I was assigned to the Berlin Brigade. In both cases, I traveled to London. On the first trip, I stopped off in Amsterdam first. On the second trip, I traveled to London with a friend taking a ferry that left Bremerhaven and traveled overnight across the North Sea to London. On one of those trips to London, I visited Oxford. I took many pictures in each of those locations..
+							<p className='mb-[16px]'>
+							Pictures in the Amsterdam, London, and Oxford categories were taken when I was on leave in those cities. The pictures in the Ferry category were taken on a trip I made from Bremerhaven to London. 
 							</p>
-							<p>
-							I took all the photos on this site using my personal Minolta SR-T 101b camera, which I still have somewhere. I used black and white film almost exclusively, even for my private pictures, because with cheaper. The photos published in the Berlin Observer had to be black and white, and, since I had access to a photo lab on the base, I could develop my film and prints.
-							</p>
+							
 						</div>
 						
 							) }
