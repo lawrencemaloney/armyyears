@@ -55,102 +55,103 @@ function MyPhotos() {
 
 				{!isOpen ?
 						(
-							<>
 							<button onClick={() => setIsOpen(!isOpen)}>
 								<AiOutlineMenu className=" absolute  top-1 right-2 h-[32px] w-[32px]  hover:scale-[1.2] cursor-pointer	z-[35] bg-#fffbeb sm:hidden " >
 								</AiOutlineMenu>
 							</button>  
-							<div className='textimagecontainer  grid-col-start-1 col-span-12 h-full w-[100%] m-[2%] sm:grid-col-start-3 sm:col-span-8'>	
-					<div className="textcontainer mb-[2rem]  mx-8  text-[22px] leading-[32px] w-full    ">
-
-						{group === 'Army' && (
-						<div className='p-2     leading-[32px]  	'>
-						These are some of the photos I took while in the Army as part of my job as Battalion PIO clerk. Lots of award presentations, baseball coverage, official Army ceremonies, field training exercises, and miscellaneous pictures taken while covering those events. I particularly enjoyed taking pictures of the Brigade baseball games.
-						</div>
-						) }
-						{group === 'By Request' && (
-						<div className='p-2    leading-[32px]   	'>
-							I did some “studio” work, including a wedding, at the request of friends who wanted photos taken but didn’t want to pay for them. it was a chance Ito learn without the pressure that comes with charging for the service. If they didn’t like the results, they got exactly what they paid for.
-						</div>
-						) }
-						{group === 'Berlin' && (
-						<div className='p-2    leading-[32px]   	'>
-							During the 18 months, I spent there, I tried to capture unique views of everyday life in Berlin, including time spent with my friends. On the weekends, young people would gather to buy and sell crafts on the sidewalk outside the shops on the Kurfürstendamm, one of Berlin’s most famous shopping areas. Berlin had a large amount of space dedicated to parks. 
-						</div>
-						) }
-						{group === 'Amsterdam' && (
-						<div className='p-2    leading-[32px]   	'>
-						Amsterdam Photos ==== ipsum dolor sit amet consectetur, adipisicing elit. Omnis eveniet soluta inventore minus atque, sapiente optio consectetur rem culpa illum quisquam hic dolore harum, expedita distinctio vel, fuga obcaecati dicta.
-						</div>
-						) }
-						{group === 'Ferry' && (
-						<div className='p-2    leading-[32px]   	'>
-						FERRY Photos ==== ipsum dolor sit amet consectetur, adipisicing elit. Omnis eveniet soluta inventore minus atque, sapiente optio consectetur rem culpa illum quisquam hic dolore harum, expedita distinctio vel, fuga obcaecati dicta.
-						</div>
-						) }
-						{group === 'London' && (
-						<div className='p-2    leading-[32px]   	'>
-						LONDON Photos ==== ipsum dolor sit amet consectetur, adipisicing elit. Omnis eveniet soluta inventore minus atque, sapiente optio consectetur rem culpa illum quisquam hic dolore harum, expedita distinctio vel, fuga obcaecati dicta.
-						</div>
-						) }
-						{group === 'Oxford' && (
-						<div className='   mx-[1rem]   		' >
-						OXFORD Photos ==== ipsum dolor sit amet consectetur, adipisicing elit. Omnis eveniet soluta inventore minus atque, sapiente optio consectetur rem culpa illum quisquam hic dolore harum, expedita distinctio vel, fuga obcaecati dicta.
-						</div>
-						) }
-						{group === 'All' && (
-							
-							<div className='   mx-[1rem]  gap-8 columns-2	max-w-[100%]	'>	
-							<p className='mb-[16px]'>
-							A large part of my job as the PIO clerk for the “2/6” was to get pictures of significant events in the Battalion published in the Berlin Observer. All the pictures in the “Army” category were taken as part of a feature article, important parades, sporting events, or awards ceremonies. 
-							</p>
-							<p className='mb-[16px]' >
-							The pictures in the “By Request” category represent some “studio” work I did at the request of friends.
-							</p>
-							<p className='mb-[16px]' >
-							The pictures in the “Berlin” category were taken as I walked around the city and its surrounding areas over the entire time I was there.
-							</p>
-							<p className='mb-[16px]'>
-							Pictures in the Amsterdam, London, and Oxford categories were taken when I was on leave in those cities. The pictures in the Ferry category were taken on a trip I made from Bremerhaven to London. 
-							</p>
-							
-						</div>
-						
-							) }
-
-
-				</div>
-				<div className="imgcontainer mx-[3%]  grid gap-2 grid-cols-2 sm:grid-cols-3 md:grid-cols-5    ">
-						
-						{filteredImages.map(image => (
-
-							<div key={image.id} className="image-card p-[3px] m-[5px] object-cover  max-h-[350px] cursor-pointer  	 ">
-							<img className="image rounded min-h-[150px] max-h-[250px] w-[100%] aspect-square object-cover" src={image.url} alt={image.caption} 
-								onClick={() => {
-								setSelectedImg(image.url)
-								setImageCaption(image.caption)
-								}}/>
-								<p>{image.caption}</p>	
-								
-							</div>
-								))}
-						</div>
-						{/* <p>Selected Image is {selectedImg}</p> */}
-						{/* { selectedImg && (<FullImage  setSelectedImg={setSelectedImg} selectedImg={selectedImg} imageCaption={imageCaption}/>)} */}
-						{ selectedImg && (<ImageSlider  setSelectedImg={setSelectedImg}  selectedImg={selectedImg} filteredImages={filteredImages}  />)}
-				</div>  
-							</>
 						)
 						:
 						(
 							<button onClick={() => setIsOpen(!isOpen)}>
 							<AiOutlineClose className=" absolute  top-1 right-2 h-[32px] w-[32px]  hover:scale-[1.2] cursor-pointer	z-[35] bg-#fffbeb  sm:hidden" >
-							</AiOutlineClose> 
-							
+							</AiOutlineClose> 							
 							</button>    
 						)}
 
-				<div className={`groups p-4 grid-col-start-1 col-span-12 sm:col-span-2 bg-black text-white  overflow-y-scroll  h-screen w-screen
+			{/* <div className='textimagecontainer  grid-col-start-1 col-span-12 h-full w-[100%] m-[2%] sm:grid-col-start-3 sm:col-span-8'>	 */}
+			<div className={`textimagecontainer  grid-col-start-1 col-span-12 h-full w-[100%] m-[2%] sm:grid-col-start-3 sm:col-span-8 ${!isOpen ? 'visible ' : ' hidden '} `}>
+
+			<div className="textcontainer mb-[2rem]  mx-8  text-[22px] leading-[32px] w-full    ">
+
+				{group === 'Army' && (
+				<div className='p-2     leading-[32px]  	'>
+				These are some of the photos I took while in the Army as part of my job as Battalion PIO clerk. Lots of award presentations, baseball coverage, official Army ceremonies, field training exercises, and miscellaneous pictures taken while covering those events. I particularly enjoyed taking pictures of the Brigade baseball games.
+				</div>
+				) }
+				{group === 'By Request' && (
+				<div className='p-2    leading-[32px]   	'>
+					I did some “studio” work, including a wedding, at the request of friends who wanted photos taken but didn’t want to pay for them. it was a chance Ito learn without the pressure that comes with charging for the service. If they didn’t like the results, they got exactly what they paid for.
+				</div>
+				) }
+				{group === 'Berlin' && (
+				<div className='p-2    leading-[32px]   	'>
+					During the 18 months, I spent there, I tried to capture unique views of everyday life in Berlin, including time spent with my friends. On the weekends, young people would gather to buy and sell crafts on the sidewalk outside the shops on the Kurfürstendamm, one of Berlin’s most famous shopping areas. Berlin had a large amount of space dedicated to parks. 
+				</div>
+				) }
+				{group === 'Amsterdam' && (
+				<div className='p-2    leading-[32px]   	'>
+				Amsterdam Photos ==== ipsum dolor sit amet consectetur, adipisicing elit. Omnis eveniet soluta inventore minus atque, sapiente optio consectetur rem culpa illum quisquam hic dolore harum, expedita distinctio vel, fuga obcaecati dicta.
+				</div>
+				) }
+				{group === 'Ferry' && (
+				<div className='p-2    leading-[32px]   	'>
+				FERRY Photos ==== ipsum dolor sit amet consectetur, adipisicing elit. Omnis eveniet soluta inventore minus atque, sapiente optio consectetur rem culpa illum quisquam hic dolore harum, expedita distinctio vel, fuga obcaecati dicta.
+				</div>
+				) }
+				{group === 'London' && (
+				<div className='p-2    leading-[32px]   	'>
+				LONDON Photos ==== ipsum dolor sit amet consectetur, adipisicing elit. Omnis eveniet soluta inventore minus atque, sapiente optio consectetur rem culpa illum quisquam hic dolore harum, expedita distinctio vel, fuga obcaecati dicta.
+				</div>
+				) }
+				{group === 'Oxford' && (
+				<div className='   mx-[1rem]   		' >
+				OXFORD Photos ==== ipsum dolor sit amet consectetur, adipisicing elit. Omnis eveniet soluta inventore minus atque, sapiente optio consectetur rem culpa illum quisquam hic dolore harum, expedita distinctio vel, fuga obcaecati dicta.
+				</div>
+				) }
+				{group === 'All' && (
+					
+					<div className='   mx-[1rem]  gap-8 columns-2	max-w-[100%]	'>	
+					<p className='mb-[16px]'>
+					A large part of my job as the PIO clerk for the “2/6” was to get pictures of significant events in the Battalion published in the Berlin Observer. All the pictures in the “Army” category were taken as part of a feature article, important parades, sporting events, or awards ceremonies. 
+					</p>
+					<p className='mb-[16px]' >
+					The pictures in the “By Request” category represent some “studio” work I did at the request of friends.
+					</p>
+					<p className='mb-[16px]' >
+					The pictures in the “Berlin” category were taken as I walked around the city and its surrounding areas over the entire time I was there.
+					</p>
+					<p className='mb-[16px]'>
+					Pictures in the Amsterdam, London, and Oxford categories were taken when I was on leave in those cities. The pictures in the Ferry category were taken on a trip I made from Bremerhaven to London. 
+					</p>
+					
+				</div>
+				
+					) }
+
+
+			</div>
+			<div className="imgcontainer mx-[3%]  grid gap-2 grid-cols-2 sm:grid-cols-3 md:grid-cols-5    ">
+				
+				{filteredImages.map(image => (
+
+					<div key={image.id} className="image-card p-[3px] m-[5px] object-cover  max-h-[350px] cursor-pointer  	 ">
+					<img className="image rounded min-h-[150px] max-h-[250px] w-[100%] aspect-square object-cover" src={image.url} alt={image.caption} 
+						onClick={() => {
+						setSelectedImg(image.url)
+						setImageCaption(image.caption)
+						}}/>
+						<p>{image.caption}</p>	
+						
+					</div>
+						))}
+				</div>
+				{/* <p>Selected Image is {selectedImg}</p> */}
+				{/* { selectedImg && (<FullImage  setSelectedImg={setSelectedImg} selectedImg={selectedImg} imageCaption={imageCaption}/>)} */}
+				{ selectedImg && (<ImageSlider  setSelectedImg={setSelectedImg}  selectedImg={selectedImg} filteredImages={filteredImages}  />)}
+			</div> 
+
+
+				<div className={`groups p-4 grid-col-start-1 col-span-12 sm:grid-col-start-1 sm:col-span-2 bg-black text-white  overflow-y-scroll  h-screen w-screen
 				sm:h-[100%] text-[16px] sm:w-[200px] ${isOpen ? 'translate-x-0 ' : 'translate-x-full sm:translate-x-0'} ease-in-out duration-700`}>
 
 					<ul className='  h-[100%] w-[120px] flex-col mt-4   bg-black text-left rounded-lg text-white   text-[16px]  space-y-[10px] '>
