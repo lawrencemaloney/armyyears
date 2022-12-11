@@ -1,13 +1,25 @@
-import React from "react";
-import Header from "../Components/Header";
+// import React from "react";
+import React, { useEffect, useState } from 'react';
+import { AiOutlineCaretLeft, AiOutlineCaretRight, AiOutlineCloseSquare } from "react-icons/ai";
 
+import Header from "../Components/Header";
+const handleKeyPress = (e: React.KeyboardEvent) => {
+  console.log(e);
+
+  };
 
 function About() {
   return (
     <>
     <Header />  
     <div>
-      <div className='mt-[300px]'>About page goes here</div>
+    
+         
+      <div className='mt-[300px] ' onKeyDownCapture={handleKeyPress}><p>About page goes here 
+        </p>
+
+      </div>
+
       <h1 className='mt-[300px]'>Why did i do this?</h1>
     </div>
 

@@ -11,6 +11,9 @@ const ImageSlider = ({ setSelectedImg, selectedImg,  filteredImages }) => {
   const imgArrayLen  = filteredImages.length;
   const [currentIndex, setCurrentIndex] = useState(imageLoc);
 
+
+
+
   const handleClick = () => {
     setSelectedImg(null);
   }
@@ -39,23 +42,30 @@ const ImageSlider = ({ setSelectedImg, selectedImg,  filteredImages }) => {
 
   return (
     <>
+
+
     <div className="backdrop z-[21] fixed   h-full bg-black overflow-auto	justify-center items-center inset-0 " >
     {/* <div className="backdrop z-[21] fixed top-0 left-0 w-[100%] h-[100%] bg-[#bdb9af]   " > */}
-    <AiOutlineCloseSquare className='absolute text-white sm:right-[125px]  top-8 cursor-pointer right-[30px]   h-[36px] w-[36px]' onClick={handleClick}/>
 
-    
-    <h1 className=' mt-[30px] mb-[20px]  text-[24px]'>{filteredImages[currentIndex].caption}</h1> 
+      <div className="  text-white object-center w-[100vw] object-contain  static    ">
 
-      <div className="  text-white object-center w-[100vw] object-contain  static  flex flex-col  ">
+      <h1 className=' fixed top-[28%] max-w-[10ch] mx-3  text-[30px]'>{filteredImages[currentIndex].caption}</h1>
 
-        <img className="  h-[80vh] sm:h-[70vh] object-contain " src={filteredImages[currentIndex].url} alt={filteredImages[currentIndex].caption} />
+        <img className="  h-[85vh] border border-[3px] border-grey border-double my-5  mx-auto object-contain " src={filteredImages[currentIndex].url} alt={filteredImages[currentIndex].caption} />
 
-        <div className="flex flex-row items-center  ">
-            <AiOutlineCaretLeft className=' z-[19] text-white   h-[24px] w-[24px] cursor-pointer' onClick={goToPrevious}/>  
+        <div className="flex flex-col   h-[3rem]  ">
+          <div className='flex fixed top-[38%] right-[25px]  mx-2 my-5 '>
+          <AiOutlineCaretLeft className='  text-white   h-[28px] w-[24px] cursor-pointer' onClick={goToPrevious}/>  
 
-            <p className='justify-items-center text-[10px] text-center m-1 text-xl'>{currentIndex+1} of {imgArrayLen} </p>
-            <AiOutlineCaretRight className=' z-[19] text-white   h-[24px] w-[24px] cursor-pointer' onClick={goToNext}/>
-          </div>
+            <p className='  text-[10px] text-center text-xl'>{currentIndex+1} of {imgArrayLen} </p>
+
+            <AiOutlineCaretRight className=' text-white   h-[28px] w-[24px] cursor-pointer' onClick={goToNext}/>
+            </div>
+
+
+
+            <AiOutlineCloseSquare className='closeslider  m-[20px] fixed top-0  right-[30px]   text-white  cursor-pointer  h-[36px] w-[36px]' onClick={handleClick}/>
+            
       </div>
         
       {/* <div className=" w-[200px] "> */}
@@ -65,6 +75,7 @@ const ImageSlider = ({ setSelectedImg, selectedImg,  filteredImages }) => {
       {/* </div> */}
 
 
+    </div>
     </div>
     </>
   )
