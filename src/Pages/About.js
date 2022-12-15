@@ -15,12 +15,11 @@ function About() {
     <div>
     
          
-      <div className='mt-[300px] ' onKeyDownCapture={handleKeyPress}><p>About page goes here 
-        </p>
+      <div className='mt-[120px] '><p>About page goes here         </p>
 
       </div>
 
-      <h1 className='mt-[300px]'>Why did i do this?</h1>
+      <h1 className='mt-[20px]'>Why did i do this?</h1>
     </div>
 
     

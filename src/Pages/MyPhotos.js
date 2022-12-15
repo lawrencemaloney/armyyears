@@ -2,10 +2,9 @@ import React, { useEffect, useState } from 'react';
 import '../Components/MyPhotos.css';
 import '../index.css';
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-
 // 
 import { Link } from 'react-router-dom';
-import PhotoMenu from "../Components/PhotoMenu";
+// import PhotoMenu from "../Components/PhotoMenu";
 import imageRef from '../imagedata.json'
 import ImageSlider from '../Components/ImageSlider';
 
@@ -66,13 +65,14 @@ function MyPhotos() {
 						:
 						(
 							<button onClick={() => setIsOpen(!isOpen)}>
-							<AiOutlineClose className=" absolute  top-1 right-2 h-[32px] w-[32px]  hover:scale-[1.2] cursor-pointer	z-[35] bg-#fffbeb  sm:hidden" >
+							<AiOutlineClose className=" absolute  top-1 right-2 h-[32px] 
+							   w-[32px]  hover:scale-[1.2] cursor-pointer	z-[35] bg-#fffbeb  sm:hidden" >
 							</AiOutlineClose> 							
 							</button>    
 						)}
 
-			<div className={`groups p-4 grid-col-start-1 col-span-2 sm:grid-col-start-1 sm:col-span-2 bg-black text-white  overflow-y-scroll  h-screen w-screen
-				sm:h-[100%] text-[16px] sm:w-[200px] ${isOpen ? 'translate-x-0 ' : 'translate-x-full sm:translate-x-0'} ease-in-out duration-700`}>
+			<div className={`groups p-4 grid-col-start-1 col-span-2 bg-black text-white  overflow-y-scroll  h-screen w-screen
+				md:h-[100%] text-[16px] md:w-[200px] ${isOpen ? 'translate-x-0 ' : 'translate-x-full md:translate-x-0'} ease-in-out duration-700`}>
 
 					<ul className='  h-[100%] w-[160px] flex-col mt-4   bg-black text-left rounded-lg text-white   text-[16px]  space-y-[10px] '>
 						<p className='text-[22px] '>Photo Categories</p>

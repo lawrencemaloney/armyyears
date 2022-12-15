@@ -51,7 +51,7 @@ const ImageSlider = ({ setSelectedImg, selectedImg,  filteredImages }) => {
 
       <h1 className=' fixed top-[28%] max-w-[10ch] mx-3  text-[30px]'>{filteredImages[currentIndex].caption}</h1>
 
-        <img className="  h-[85vh] border border-[3px] border-grey border-double my-5  mx-auto object-contain " src={filteredImages[currentIndex].url} alt={filteredImages[currentIndex].caption} />
+        <img className="  h-[85vh] border border-[3px] border-grey  fixed top-[50px]  border-double my-5  left-[50%] translate-x-[-50%]	 object-contain " src={filteredImages[currentIndex].url} alt={filteredImages[currentIndex].caption} />
 
         <div className="flex flex-col   h-[3rem]  ">
           <div className='flex fixed top-[38%] right-[25px]  mx-2 my-5 '>
