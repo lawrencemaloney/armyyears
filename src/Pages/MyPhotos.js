@@ -161,7 +161,7 @@ function MyPhotos() {
 				) }
 				{group === 'All' && (
 					
-					<div className='   mx-[1rem]  gap-8 columns-2	max-w-[100%]	'>	
+					<div className='   sm:mx-[1rem]  gap-8 sm:columns-2	max-w-[100%]	'>	
 					<p className='mb-[16px]'>
 					A large part of my job as the PIO clerk for the “2/6” was to get pictures of significant events in the Battalion published in the Berlin Observer. All the pictures in the “Army” category were taken as part of a feature article, important parades, sporting events, or awards ceremonies. 
 					</p>
