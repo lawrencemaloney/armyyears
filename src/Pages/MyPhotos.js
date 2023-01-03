@@ -20,7 +20,7 @@ function MyPhotos() {
 	// const [imagePos, setImagePos] = useState(0)
 	const GroupButton = ({ name, handleSetgroup, groupActive }) => {
 		return (
-			<button className={`group    my-[2px] p-[2px] w-[90px] flex flex-col  rounded-lg  hover:scale-[1.1] hover:text-yellow-400  text-left ml-[10px]  ${groupActive ? 'active text-yellow-400'  : null}`} onClick={() => {
+			<button className={`group my-[2px] p-[2px] w-[90px] flex flex-col  rounded-lg  hover:scale-[1.1] hover:text-yellow-400  text-left ml-[10px]  ${groupActive ? 'active text-yellow-400'  : null}`} onClick={() => {
 				handleSetgroup(name);
 				setIsOpen(!isOpen);
 			}} >
@@ -46,36 +46,8 @@ function MyPhotos() {
 							
 
 		{/* <div className='App bg-black w-[100vw]  text-white '> */}
-
-  
-		<div className='	'>
-			<div className="pageContainer  grid  grid-cols-12	 grid-col-start-3 col-span-7 bg-black text-white  w-[100vw] mt-[100px] ">
-
-				<div className="subhead  text-white   z-auto  w-[100vw] bg-black h-[100px] fixed top-0 ">
-				<h1 className='  my-[20px] text-center text-3xl'>My Photos</h1>
-				</div>
-
-				{!isOpen ?
-						(
-							<button onClick={() => setIsOpen(!isOpen)}>
-								<AiOutlineMenu className=" absolute  top-1 right-2 h-[32px] w-[32px]  hover:scale-[1.2] cursor-pointer	z-[35] bg-#fffbeb sm:hidden " >
-								</AiOutlineMenu>
-							</button>  
-						)
-						:
-						(
-							<button onClick={() => setIsOpen(!isOpen)}>
-							<AiOutlineClose className=" absolute  top-1 right-2 h-[32px] 
-							   w-[32px]  hover:scale-[1.2] cursor-pointer	z-[35] bg-#fffbeb  sm:hidden" >
-							</AiOutlineClose> 							
-							</button>    
-						)}
-
-			<div className={`groups p-4 grid-col-start-1 col-span-2 bg-black text-white  overflow-y-scroll  h-screen w-screen
-				md:h-[100%] text-[16px] md:w-[200px] ${isOpen ? 'translate-x-0 ' : 'translate-x-full md:translate-x-0'} ease-in-out duration-700`}>
-
-					<ul className='  h-[100%] w-[160px] flex-col mt-4   bg-black text-left rounded-lg text-white   text-[16px]  space-y-[10px] '>
-						<p className='text-[22px] '>Photo Categories</p>
+		<ul className='fixed  top-0  left-0  w-[200px]   bg-black text-left  text-white text-[16px]  space-y-[10px] h-full overflow-y-scroll z-20	 '>
+						<p className='text-[22px] mt-20 '>Photo Categories</p>
 
 						<GroupButton name="Army" groupActive={group === 'Army' ? true : false} handleSetgroup={setGroup} />  
 
@@ -93,7 +65,7 @@ function MyPhotos() {
 
 						{/* </div> */}
 
-						<p className='mt-[20px] text-[20px]'>Navigation</p>
+						<p className='my-[20px] text-[20px]'>Navigation</p>
 						<li className=' hover:scale-[1.1] text-left ml-[10px] '>
 						<Link to='/Home'>My Story</Link>
 						</li>
@@ -115,14 +87,44 @@ function MyPhotos() {
 						<li className=' hover:scale-[1.25]  text-left ml-[10px]'>
 						<Link to='/About'>About</Link>
 						</li>
-						</ul>
+		</ul>
 
-				</div>
+		{/* <div className='bg-black	'> */}
+		<div className="pageContainer absolute top-0 left-0 flex flex-col ml-[150px] bg-black text-white  w-full  ">
 
-			<div className='textimagecontainer  grid-col-start-1 col-span-12 h-full w-[100%] m-[2%] sm:grid-col-start-3 sm:col-span-8'>	
+
+				{/* <div className="subhead  text-white   z-auto  w-[100vw] bg-black h-[100px] fixed top-0 "> */}
+				<h1 className='  text-center text-3xl'>My Photos</h1>
+				{/* </div> */}
+
+
+				{!isOpen ?
+						(
+							<button onClick={() => setIsOpen(!isOpen)}>
+								<AiOutlineMenu className=" absolute  top-1 right-2 h-[32px] w-[32px]  hover:scale-[1.2] cursor-pointer	z-[35] bg-#fffbeb sm:hidden " >
+								</AiOutlineMenu>
+							</button>  
+						)
+						:
+						(
+							<button onClick={() => setIsOpen(!isOpen)}>
+							<AiOutlineClose className=" absolute  top-1 right-2 h-[32px] 
+							   w-[32px]  hover:scale-[1.2] cursor-pointer	z-[35] bg-#fffbeb  sm:hidden" >
+							</AiOutlineClose> 							
+							</button>    
+						)}
+
+			{/* <div className={`groups p-4 grid-col-start-1 col-span-2 bg-white text-black  overflow-y-scroll  h-[35px] w-screen
+				md:h-[100%] text-[16px] md:w-[200px] ${isOpen ? 'translate-x-0 ' : 'translate-x-full md:translate-x-0'} ease-in-out duration-700`}> */}
+
+
+
+				{/* </div> */}
+
+			<div className='textimagecontainer bg-black  h-full w-[90%] m-[2%] z-0'>	
 			{/* <div className={`textimagecontainer  grid-col-start-1 col-span-12 h-full w-[100%] m-[2%] sm:grid-col-start-3 sm:col-span-8 ${!isOpen ? 'sm:visible ' : ' sm:hidden '} `}> */}
 
-			<div className="textcontainer mb-[2rem]  mx-8  text-[22px] leading-[32px] w-full    ">
+			<div className="textcontainer mb-[2rem]  mx-8  text-[22px] leading-[32px]    ">
 
 				{group === 'Army' && (
 				<div className='p-2     leading-[32px]  	'>
@@ -161,7 +163,7 @@ function MyPhotos() {
 				) }
 				{group === 'All' && (
 					
-					<div className='   sm:mx-[1rem]  gap-8 sm:columns-2	max-w-[100%]	'>	
+					<div className='   md:mb-[1rem] mx-[1px] gap-4 md:columns-2	max-w-[100%]	'>	
 					<p className='mb-[16px]'>
 					A large part of my job as the PIO clerk for the “2/6” was to get pictures of significant events in the Battalion published in the Berlin Observer. All the pictures in the “Army” category were taken as part of a feature article, important parades, sporting events, or awards ceremonies. 
 					</p>
@@ -181,7 +183,8 @@ function MyPhotos() {
 
 
 			</div>
-			<div className="imgcontainer mx-[3%]  grid gap-2 grid-cols-2 sm:grid-cols-3 md:grid-cols-5    ">
+
+			<div className="imgcontainer mx-[3%]  grid gap-2 grid-cols-2	 sm:grid-cols-3 md:grid-cols-5    ">
 				
 				{filteredImages.map(image => (
 
@@ -201,8 +204,6 @@ function MyPhotos() {
 				{ selectedImg && (<ImageSlider  setSelectedImg={setSelectedImg}  selectedImg={selectedImg} filteredImages={filteredImages}  />)}
 			</div> 
 
-
-
 					
 
 
@@ -210,7 +211,7 @@ function MyPhotos() {
 				
 
 			</div>
-		</div>
+		{/* </div> */}
 		{/* </div> */}
 	</>
 	);
