@@ -65,7 +65,7 @@ function MyPhotos() {
 
 						{/* </div> */}
 
-						<p className='my-[20px] text-[20px]'>Navigation</p>
+						<p className='my-[20px] text-[20px]'>Page Navigation</p>
 						<li className=' hover:scale-[1.1] text-left ml-[10px] '>
 						<Link to='/Home'>My Story</Link>
 						</li>
