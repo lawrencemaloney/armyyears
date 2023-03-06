@@ -10,10 +10,7 @@ const ImageSlider = ({ setSelectedImg, selectedImg,  filteredImages }) => {
   const imageLoc  = filteredImages.findIndex(imageIndex);
   const imgArrayLen  = filteredImages.length;
   const [currentIndex, setCurrentIndex] = useState(imageLoc);
-
-
-
-
+  
   const handleClick = () => {
     setSelectedImg(null);
   }
@@ -23,6 +20,28 @@ const ImageSlider = ({ setSelectedImg, selectedImg,  filteredImages }) => {
   //     setImageAnchor('<a href={filteredImages[currentIndex].url} target="_blank"></a>')
       
   // }
+  useEffect(() => {
+    document.body.addEventListener('keydown', onKeydown);
+    return () => {
+      document.body.removeEventListener('keydown', onKeydown);
+    }
+  }, []);
+
+function onKeydown(event) {
+  const isLeft = event.key === 'ArrowLeft';
+  const isRight = event.key === 'ArrowRight';
+
+  if (isLeft) {
+    console.log('left');
+    // {goToPrevious};
+}
+  if (isRight) {
+    console.log('right');
+}
+
+
+  console.log('Event = ', event)
+}
 
   const goToPrevious = () =>{
     if(currentIndex > 0) {

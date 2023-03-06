@@ -14,6 +14,10 @@ function MyPhotos() {
 	const [filteredImages, setFilteredImages] = useState([]);
 	// const [currentArray,setCurrentArray] = useState([]);
 	const [selectedImg, setSelectedImg] = useState(null);
+
+	// const handlekeyPress = (e: React.KeyboardEvent) =>{
+		
+	// }
 	// const [imageId, setImageId] = useState(0)
 	const [imageCaption, setImageCaption] = useState('')
 	const [isOpen, setIsOpen] = useState(false)
@@ -21,8 +25,10 @@ function MyPhotos() {
 	const GroupButton = ({ name, handleSetgroup, groupActive }) => {
 		return (
 			<button className={`group my-[2px] p-[2px] w-[90px] flex flex-col  rounded-lg  hover:scale-[1.1] hover:text-yellow-400  text-left ml-[10px]  ${groupActive ? 'active text-yellow-400'  : null}`} onClick={() => {
+				// console.log('Click - ',e)
 				handleSetgroup(name);
 				setIsOpen(!isOpen);
+				setSelectedImg(null);
 			}} >
 				{/* {name.toUpperCase()} */}
 				{name}
