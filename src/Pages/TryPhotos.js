@@ -12,9 +12,7 @@ function OldTryPhotos() {
 	const [filteredImages, setFilteredImages] = useState([]);
 	// const [currentArray,setCurrentArray] = useState([]);
 	const [selectedImg, setSelectedImg] = useState(null);
-	// const [imageId, setImageId] = useState(0)
 	const [imageCaption, setImageCaption] = useState('')
-	// const [imagePos, setImagePos] = useState(0)
 
 	useEffect(
 		() => {

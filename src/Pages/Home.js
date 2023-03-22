@@ -11,7 +11,7 @@ function Home() {
       <Header />
 
       <div className='  mt-[40px] mx-auto  flex flex-col z-20 items-center '>
-        <h1 className=' text-center mt-[1rem] mx-[20px] text-3xl md:text-4xl  mb-3'>My Story</h1>
+        <h1 className='text-center mt-[1rem] mx-[20px] text-3xl md:text-4xl  mb-3'>My Story</h1>
 
         <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  md:max-w-[60ch] '>
           From June 28, 1970, to December 29, 1971, I served as the Public Information Office
