@@ -22,7 +22,7 @@ function MyPhotos() {
 	const [isOpen, setIsOpen] = useState(false)
 	const GroupButton = ({ name, handleSetgroup, groupActive }) => {
 		return (
-			<button className={`group my-[2px] p-[2px] w-[90px] flex flex-col  rounded-lg  hover:scale-[1.1] hover:text-yellow-400  text-left ml-[10px]  ${groupActive ? 'active text-yellow-400'  : null}`} onClick={() => {
+			<button className={`group my-[2px] p-[2px] w-[90px] flex flex-col  rounded-lg  hover:scale-[1.1] hover:text-yellow-400  text-left ml-[10px]  ${groupActive ? 'text-yellow-400'  : null}`} onClick={() => {
 				// console.log('Click - ',e)
 				handleSetgroup(name);
 				setIsOpen(!isOpen);

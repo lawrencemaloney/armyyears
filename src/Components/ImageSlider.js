@@ -20,6 +20,8 @@ const ImageSlider = ({ setSelectedImg, selectedImg,  filteredImages }) => {
   //     setImageAnchor('<a href={filteredImages[currentIndex].url} target="_blank"></a>')
       
   // }
+// const inputRef = useRef();
+
   useEffect(() => {
     document.body.addEventListener('keydown', onKeydown);
     return () => {
@@ -74,6 +76,7 @@ function onKeydown(event) {
 
         <div className="flex flex-col   h-[3rem]  ">
           <div className='flex fixed top-[38%] right-[25px]  mx-2 my-5 '>
+          
           <AiOutlineCaretLeft className='  text-white   h-[28px] w-[24px] cursor-pointer' onClick={goToPrevious}/>  
 
             <p className='  text-[10px] text-center text-xl'>{currentIndex+1} of {imgArrayLen} </p>

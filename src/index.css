@@ -9,28 +9,35 @@
   /* * {
     @apply z-10 text-black  font-normal m-0 p-0 box-border;
   } */
-/* 
-html {
+
+:root {
+
+  height: 100%;
+}
+
+/* html {
   width: -webkit-fill-available;
   padding: env(safe-area-inset); 
 } */
 
   body {
-  width: -webkit-fill-available;
-
+  width: 100%;
+  /* width: -webkit-fill-available; */
+flex-grow: 1;
     margin: 0;
     padding: 0;
     font-family: "Merriweather", serif;
     background-color: rgb(255 251 235);
-    font-family: "Merriweather", serif;
     letter-spacing: 0.02rem;
+    color:black;
+    height: 100%;
     /* line-height: 27px; */
   }
 
 
-.image-card{
-  /* border: 5px solid pink; */
-}
+/* .image-card{
+  border: 5px solid pink;
+} */
 
   .scrollbar::-webkit-scrollbar {
     width: 2vw;

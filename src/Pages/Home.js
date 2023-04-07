@@ -10,7 +10,7 @@ function Home() {
     <>
       <Header />
 
-      <div className='  mt-[40px] mx-auto  flex flex-col z-20 items-center '>
+      <div className=' h-[100%] mt-[40px] mx-auto  flex flex-col z-20 items-center '>
         <h1 className='text-center mt-[1rem] mx-[20px] text-3xl md:text-4xl  mb-3'>My Story</h1>
 
         <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  md:max-w-[60ch] '>
@@ -160,7 +160,7 @@ function Home() {
           `--so long as I get SOMEWHERE,' Alice added as an explanation. <br />
           `Oh, you're sure to do that,' said the Cat, `if you only walk long enough
           </p>
-          <p className="ml-2 	text-center">
+          <div className="ml-2 	text-center">
             <Collapsible icon='[&#8224;]'>
             <p className="ml-1  max-w-[45ch]  text-[18]	text-black	">
               {/* [&#8224;] */}
@@ -179,7 +179,7 @@ function Home() {
                 {/* <br /> */}
               </p>
             </Collapsible>
-          </p>
+          </div>
 
       
           <p className=' text-[20px] mx-[20px] mt-[12px] max-w-[38ch] md:text-[25px] md:max-w-[40ch] md:mt-[22px] leading-[32px]  lg:max-w-[60ch] '>
@@ -323,7 +323,7 @@ function Home() {
           </span>
         </div>
 
-                <p className='  text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
+        <p className='  text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
 
           With a student deferment in hand, I was not concerned about being drafted into
           military service as I arrived at Loyola for my first year. During registration, I had
@@ -339,7 +339,7 @@ function Home() {
         </p>
 
         <h3 className='text-center  underline text-2xl mt-4 mb-3'>A Change in Direction</h3>
-                <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
+        <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
 
           Happily, some friends had asked me to join the staff of the student-run WVSU-AM radio
           station, which broadcast to the campus over telephone lines (carrier current) from
@@ -357,7 +357,7 @@ function Home() {
           </a>{" "}
           . (Wolf Pack being the mascot of Loyola’s sports teams).
         </p>
-                <p className='  text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
+        <p className='  text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
 
           During this same time, Loyola worked with WWL executives to introduce a new BA
           program in Communications (later named Bachelor of Arts in Mass Communications) at
@@ -374,7 +374,7 @@ function Home() {
             That's me on the headset, upper right - from 1968 Loyola Yearbook
           </span>
         </div>
-                <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
+        <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch]  '>
 
           I worked as an early morning DJ, a play-by-play radio announcer at the Loyola
           Basketball games, the PA announcer at a few Loyola Baseball team and football club
@@ -397,7 +397,7 @@ function Home() {
             Loyola University Field House, New Orleans, LA
           </span>
         </div>
-                <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
+        <p className=' text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
 
           After the Department of Communications and changing my major, I was able to take
           courses in TV writing, directing, announcing, and camera operation. At the start of
@@ -450,7 +450,7 @@ function Home() {
               U2 Spy Plane Photo credit: U.S. Air Force
             </span>
           </div>
-              <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
+          <p className='text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] '>
             On May 1, 1960, four months before I started high school, a CIA U-2 Spy Plane,
             flown by Francis Gary Powers, was shot down by the Soviet air defense forces while
             performing photographic aerial reconnaissance deep inside Soviet territory. This
@@ -529,7 +529,9 @@ function Home() {
             carrying offensive weapons from reaching Cuba. There was a real possibility that
             the U.S. Navy would forcibly stop and board Soviet ships and that war would ensue.
             Eventually, the two nations negotiated the total removal of missiles and the
-            destruction of the launch facilities
+            destruction of the launch facilities.
+          </p>
+            <div>
               <Collapsible icon='[&#8224;]'>            
               {/* <div className="-ml-[140px] text-black w-[400px] h-[135px]  py-[20px]  text-[18px] 	"> */}
               <div className="mx-4 max-w-[45ch] mt-[20px] text-[18]	break-words text-black  ">
@@ -594,7 +596,7 @@ function Home() {
                   </p>
                 </div>
               </Collapsible>
-              </p>
+            </div>
             
             <h4 className=' text-center italic font-bold max-w-[25ch]  text-2xl mt-4 mb-3 '>
             May 11 and September 15, 1963 - Three bombings in Birmingham Alabama ignite a
@@ -628,10 +630,8 @@ function Home() {
                   </p>
                 </div>
               </Collapsible>
-              </p>
-          
+          </p>
 
-        
           <div className='max-w-[45ch] mt-6 md:max-w-[75ch] '>
 
             <img
@@ -673,7 +673,7 @@ function Home() {
                 </p>
                 </div>
               </Collapsible>
-              </p>
+          </p>
           
 
           <div className='max-w-[45ch] mt-6 md:max-w-[75ch] '>
@@ -732,7 +732,7 @@ function Home() {
                 </p>
                   </div>
               </Collapsible>
-              </p>
+            </p>
         
           <div className='	max-w-[45ch] mt-6 md:max-w-[75ch] '>
             <img
@@ -757,7 +757,7 @@ function Home() {
                 1967, riots erupted in Atlanta, Cincinnati, Detroit, Boston, Buffalo, Milwaukee,
                 Minneapolis, Newark, NJ, Plainfield, NJ, Rochester, NY, Tampa Bay, FL, and Toledo, OH.
                 It seemed that things couldn't get much worse. But they did!
-                </p>
+          </p>
           <div className='	max-w-[45ch] mt-6 md:max-w-[75ch] '>
             <img
               className='border-2 border-black '
@@ -768,7 +768,7 @@ function Home() {
             <span className='text-sm leading-none'>
             Burned out cars during Watts Riots of August 1965 (Public Domain)
             </span>
-            </div>
+          </div>
 
             <h4 className=' text-center italic font-bold max-w-[25ch]  text-2xl mt-4 mb-3 '>
             August, 1964 - U.S. Involvement in the Vietnam War Dramatically Escalates
@@ -829,7 +829,7 @@ function Home() {
             <span className='text-sm leading-none'>
             Two U.S. Navy A-6A Intruder aircraft dropping Mk 82 227 kg (500 lbs) bombs over Vietnam 1968, U.S. Navy National Naval Aviation Museum (Public Domain)
             </span>
-            </div>
+          </div>
           <p className="text-[20px] mx-[20px] mt-[1rem] max-w-[38ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  lg:max-w-[60ch] ">
           The Tet Offensive of 1968 showed the lack of progress with these doctrines. With the VC and PAVN mounting large-scale urban offensives throughout 1968, U.S domestic support for the war began fading. The Army of the Republic of Vietnam (ARVN) expanded following a period of neglect after Tet and was modeled after
                 U.S doctrine. The VC sustained heavy losses during the Tet Offensive and subsequent U.S.-ARVN operations
@@ -865,14 +865,7 @@ function Home() {
                 year.
           </p>
 
-
-
-
-
-            
-
-
-        </div>
+</div>
     </>
   );
 }

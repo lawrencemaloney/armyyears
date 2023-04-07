@@ -6,7 +6,8 @@ function Collapsible(props) {
   const parentRef = useRef();
 
   if (parentRef.current) 
-  console.log(parentRef.current.scrollHeight);
+  console.log(parentRef.current);
+  // console.log(parentRef.current.scrollHeight);
   return (
     <>
     <span className='collapsible  '>
