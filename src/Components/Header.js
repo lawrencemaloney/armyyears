@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <>
 
-      <div className=' mx-auto h-[210px] w-[100vw] md:ml-[2vw] bg-amber-50 border border-black md:border-none  justify-center   lg:space-x-36 flex text-center z-20'>
+      <div className=' mx-auto h-[210px] w-[100vw] md:ml-[2vw] bg-amber-50  flex-grow border border-black md:border-none  justify-center   lg:space-x-36 flex text-center z-20'>
  
         <img
           className='  hidden md:w-[50px] md:h-[53px] md:flex absolute left-16 top-12 '

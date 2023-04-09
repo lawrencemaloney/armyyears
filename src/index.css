@@ -11,8 +11,8 @@
   } */
 
 :root {
-
-  height: 100%;
+/* flex-grow: 1; */
+  height: 100vh;
 }
 
 /* html {
@@ -23,15 +23,15 @@
   body {
   width: 100%;
   /* width: -webkit-fill-available; */
-flex-grow: 1;
-    margin: 0;
-    padding: 0;
-    font-family: "Merriweather", serif;
-    background-color: rgb(255 251 235);
-    letter-spacing: 0.02rem;
-    color:black;
-    height: 100%;
-    /* line-height: 27px; */
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather", serif;
+  background-color: rgb(255 251 235);
+  letter-spacing: 0.02rem;
+  color:black;
+  /* height: 100%; */
+  /* line-height: 27px; */
   }
 
 
