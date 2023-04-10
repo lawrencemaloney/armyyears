@@ -2,16 +2,13 @@
   box-sizing: border-box;
 }
 
-
 .FootnoteText {
   margin: 1em;
   font-size: 125%;
   line-height: 1.4;
   max-width: 600px;
   margin: 0 auto;
-  
 }
-
 
 [data-a11y-footnotes-footer] {
   margin-top: 22rem;

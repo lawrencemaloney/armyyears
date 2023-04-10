@@ -1,31 +1,23 @@
 // import React from "react";
-import React, { useEffect, useState } from 'react';
-import { AiOutlineCaretLeft, AiOutlineCaretRight, AiOutlineCloseSquare } from "react-icons/ai";
 
 import Header from "../Components/Header";
-const handleKeyPress = (e: React.KeyboardEvent) => {
-  console.log(e);
-
-  };
+import React, { useState, useRef } from "react";
 
 function About() {
   return (
     <>
-    <Header />  
-    <div>
-    
-         
-      <div className='mt-[120px] '><p>About page goes here         </p>
+      <div className="aboutwrap z-20 mx-auto mt-0  flex h-[100%] flex-col items-center ">
+        <Header />
+        <div>
+          <div className="mt-[120px] ">
+            <p>About page goes here </p>
+          </div>
 
+          <h1 className="mt-[20px]">Why did i do this?</h1>
+        </div>
       </div>
-
-      <h1 className='mt-[20px]'>Why did i do this?</h1>
-    </div>
-
-    
     </>
   );
 }
-
 
 export default About;

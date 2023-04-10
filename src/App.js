@@ -11,17 +11,16 @@ import About from "./Pages/About";
 
 function App() {
   return (
-    
     <Router>
       <Routes>
-        <Route exact path='/' element={<Home />}></Route>
-        <Route exact path='/Home' element={<Home />}></Route>
-        <Route exact path='/Training' element={<Training />}></Route>
-        <Route exact path='/InBerlin' element={<InBerlin />}></Route>
-        <Route exact path='/BOarticles' element={<BOarticles />}></Route>
-        <Route exact path='/MyPhotos' element={<MyPhotos />}></Route>
-        <Route exact path='/Archives' element={<Archives />}></Route>
-        <Route exact path='/About' element={<About />}></Route>
+        <Route exact path="/" element={<Home />}></Route>
+        <Route exact path="/Home" element={<Home />}></Route>
+        <Route exact path="/Training" element={<Training />}></Route>
+        <Route exact path="/InBerlin" element={<InBerlin />}></Route>
+        <Route exact path="/BOarticles" element={<BOarticles />}></Route>
+        <Route exact path="/MyPhotos" element={<MyPhotos />}></Route>
+        <Route exact path="/Archives" element={<Archives />}></Route>
+        <Route exact path="/About" element={<About />}></Route>
       </Routes>
     </Router>
   );
