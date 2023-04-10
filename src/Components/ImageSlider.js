@@ -1,106 +1,112 @@
 // import userEvent from '@testing-library/user-event';
-import React, {useState, useEffect, useRef } from 'react';
-import { AiOutlineCaretLeft, AiOutlineCaretRight, AiOutlineCloseSquare } from "react-icons/ai";
+import React, { useState, useEffect, useRef } from "react";
+import {
+  AiOutlineCaretLeft,
+  AiOutlineCaretRight,
+  AiOutlineCloseSquare,
+} from "react-icons/ai";
 
-
-
-const ImageSlider = ({ setSelectedImg, selectedImg,  filteredImages }) => {
-
+const ImageSlider = ({ setSelectedImg, selectedImg, filteredImages }) => {
   const imageIndex = (element) => element.url === selectedImg;
-  const imageLoc  = filteredImages.findIndex(imageIndex);
-  const imgArrayLen  = filteredImages.length;
+  const imageLoc = filteredImages.findIndex(imageIndex);
+  const imgArrayLen = filteredImages.length;
   const [currentIndex, setCurrentIndex] = useState(imageLoc);
-  
+
   const handleClick = () => {
     setSelectedImg(null);
-  }
+  };
 
   // const expandImage = () => {
   //   {
   //     setImageAnchor('<a href={filteredImages[currentIndex].url} target="_blank"></a>')
-      
+
   // }
-// const inputRef = useRef();
+  // const inputRef = useRef();
 
   useEffect(() => {
-    document.body.addEventListener('keydown', onKeydown);
+    document.body.addEventListener("keydown", onKeydown);
     return () => {
-      document.body.removeEventListener('keydown', onKeydown);
-    }
+      document.body.removeEventListener("keydown", onKeydown);
+    };
   }, []);
 
-function onKeydown(event) {
-  const isLeft = event.key === 'ArrowLeft';
-  const isRight = event.key === 'ArrowRight';
+  function onKeydown(event) {
+    const isLeft = event.key === "ArrowLeft";
+    const isRight = event.key === "ArrowRight";
 
-  if (isLeft) {
-    console.log('left');
-    // {goToPrevious};
-}
-  if (isRight) {
-    console.log('right');
-}
+    if (isLeft) {
+      console.log("left");
+      // {goToPrevious};
+    }
+    if (isRight) {
+      console.log("right");
+    }
 
+    console.log("Event = ", event);
+  }
 
-  console.log('Event = ', event)
-}
-
-  const goToPrevious = () =>{
-    if(currentIndex > 0) {
-      setCurrentIndex(currentIndex -1);
+  const goToPrevious = () => {
+    if (currentIndex > 0) {
+      setCurrentIndex(currentIndex - 1);
     } else {
-     setCurrentIndex(imgArrayLen-1);     
+      setCurrentIndex(imgArrayLen - 1);
     }
+  };
+
+  const goToNext = () => {
+    if (currentIndex < imgArrayLen - 1) {
+      setCurrentIndex(currentIndex + 1);
+    } else {
+      setCurrentIndex(0);
     }
-    
-    const goToNext = () =>{
-      if(currentIndex < imgArrayLen-1) {
-        setCurrentIndex(currentIndex+1);
-      } else {
-        setCurrentIndex(0)
-      }
-    }
+  };
 
   return (
     <>
+      <div className="backdrop fixed inset-0   z-[21] h-full items-center	justify-center overflow-auto bg-black ">
+        {/* <div className="backdrop z-[21] fixed top-0 left-0 w-[100%] h-[100%] bg-[#bdb9af]   " > */}
 
+        <div className="  static w-[100vw] object-contain object-center  text-white    ">
+          <h1 className=" fixed top-[28%] mx-3 max-w-[10ch]  text-[30px]">
+            {filteredImages[currentIndex].caption}
+          </h1>
 
-    <div className="backdrop z-[21] fixed   h-full bg-black overflow-auto	justify-center items-center inset-0 " >
-    {/* <div className="backdrop z-[21] fixed top-0 left-0 w-[100%] h-[100%] bg-[#bdb9af]   " > */}
+          <img
+            className="  border-grey fixed top-[50px] left-[50%]  my-5 h-[85vh]  -translate-x-[50%] border border-[3px]  border-double	 object-contain "
+            src={filteredImages[currentIndex].url}
+            alt={filteredImages[currentIndex].caption}
+          />
 
-      <div className="  text-white object-center w-[100vw] object-contain  static    ">
+          <div className="flex h-[3rem]   flex-col  ">
+            <div className="fixed top-[38%] right-[25px] mx-2  my-5 flex ">
+              <AiOutlineCaretLeft
+                className="  h-[28px]   w-[24px] cursor-pointer text-white"
+                onClick={goToPrevious}
+              />
 
-      <h1 className=' fixed top-[28%] max-w-[10ch] mx-3  text-[30px]'>{filteredImages[currentIndex].caption}</h1>
+              <p className="  text-center text-[10px] text-xl">
+                {currentIndex + 1} of {imgArrayLen}{" "}
+              </p>
 
-        <img className="  h-[85vh] border border-[3px] border-grey  fixed top-[50px]  border-double my-5 left-[50%]  -translate-x-[50%]	 object-contain " src={filteredImages[currentIndex].url} alt={filteredImages[currentIndex].caption} />
-
-        <div className="flex flex-col   h-[3rem]  ">
-          <div className='flex fixed top-[38%] right-[25px]  mx-2 my-5 '>
-          
-          <AiOutlineCaretLeft className='  text-white   h-[28px] w-[24px] cursor-pointer' onClick={goToPrevious}/>  
-
-            <p className='  text-[10px] text-center text-xl'>{currentIndex+1} of {imgArrayLen} </p>
-
-            <AiOutlineCaretRight className=' text-white   h-[28px] w-[24px] cursor-pointer' onClick={goToNext}/>
+              <AiOutlineCaretRight
+                className=" h-[28px]   w-[24px] cursor-pointer text-white"
+                onClick={goToNext}
+              />
             </div>
 
+            <AiOutlineCloseSquare
+              className="closeslider  fixed top-0 right-[30px]  m-[20px]   h-[36px]  w-[36px]  cursor-pointer text-white"
+              onClick={handleClick}
+            />
+          </div>
 
+          {/* <div className=" w-[200px] "> */}
 
-            <AiOutlineCloseSquare className='closeslider  m-[20px] fixed top-0  right-[30px]   text-white  cursor-pointer  h-[36px] w-[36px]' onClick={handleClick}/>
-            
+          {/* </div> */}
+        </div>
       </div>
-        
-      {/* <div className=" w-[200px] "> */}
-            
-
-
-      {/* </div> */}
-
-
-    </div>
-    </div>
     </>
-  )
-}
+  );
+};
 
-export default ImageSlider
+export default ImageSlider;

@@ -1,52 +1,51 @@
 [
-    {
-    "id":1,
+  {
+    "id": 1,
     "caption": "Canal in Amsterdam 1971",
-    "url":"photos/Amsterdam 1971 01.JPG",
-    "place":"Amsterdam",
-    "group":"Amsterdam"
-    },
-    {
-    "id":2,
+    "url": "photos/Amsterdam 1971 01.JPG",
+    "place": "Amsterdam",
+    "group": "Amsterdam"
+  },
+  {
+    "id": 2,
     "caption": "Photo for Berlin Observer",
-    "url":"photos/Army Family Girls 07.JPG",
-    "place":"Berlin",
-    "group":"Observer Photos"    
-    },
-    {
-    "id":3,
-    "caption": "Battalion Photo",
-    "url":"photos/Berlin Brigade Awards 001.JPG",
+    "url": "photos/Army Family Girls 07.JPG",
     "place": "Berlin",
-    "group":"Army"
-    },
-    {
-    "id":4,
+    "group": "Observer Photos"
+  },
+  {
+    "id": 3,
+    "caption": "Battalion Photo",
+    "url": "photos/Berlin Brigade Awards 001.JPG",
+    "place": "Berlin",
+    "group": "Army"
+  },
+  {
+    "id": 4,
     "caption": "Berlin City Scene",
-    "url":"photos/Berlin Indoor Ice Rink 08.JPG",
-    "place":"Berlin",
-    "group":"Berlin"
-    },
-    {
-    "id":5,
+    "url": "photos/Berlin Indoor Ice Rink 08.JPG",
+    "place": "Berlin",
+    "group": "Berlin"
+  },
+  {
+    "id": 5,
     "caption": "Approaching London",
-    "url":"photos/Bremerhaven to London  1971 18.JPG",
-    "place":"English Channel",
-    "group":"Ferry"
-    },
-    {
-    "id":6,
+    "url": "photos/Bremerhaven to London  1971 18.JPG",
+    "place": "English Channel",
+    "group": "Ferry"
+  },
+  {
+    "id": 6,
     "caption": "Oxford Scene",
-    "url":"photos/Oxford 1971 004.JPG",
+    "url": "photos/Oxford 1971 004.JPG",
     "place": "Oxford",
-    "group":"Oxford"
-    },
-    {
-    "id":7,
+    "group": "Oxford"
+  },
+  {
+    "id": 7,
     "caption": "London Street Scene",
-    "url":"photos/London 1970 and 71 005.JPG",
+    "url": "photos/London 1970 and 71 005.JPG",
     "place": "London",
-    "group":"London"
-    }
-    
-    ]
+    "group": "London"
+  }
+]

@@ -1,40 +1,43 @@
-import React, { useEffect, useState } from 'react';
-import '../Components/MyPhotos.css';
+import React, { useEffect, useState } from "react";
+import "../Components/MyPhotos.css";
 // import images from './data';
-import imageRef from '../imagedata.json'
-import ImageSlider from '../Components/ImageSlider';
-
+import imageRef from "../imagedata.json";
+import ImageSlider from "../Components/ImageSlider";
 
 function MyPhotos() {
-	const [group, setGroup] = useState('Army');
-	const [filteredImages, setFilteredImages] = useState([]);
-	// const [currentArray,setCurrentArray] = useState([]);
-	const [selectedImg, setSelectedImg] = useState(null);
-	const [imageCaption, setImageCaption] = useState('')
+  const [group, setGroup] = useState("Army");
+  const [filteredImages, setFilteredImages] = useState([]);
+  // const [currentArray,setCurrentArray] = useState([]);
+  const [selectedImg, setSelectedImg] = useState(null);
+  const [imageCaption, setImageCaption] = useState("");
 
-	useEffect(
-		() => {
-			group === 'All' ? setFilteredImages(imageRef) : setFilteredImages(imageRef.filter(imageRef => imageRef.group === group));
-		},
-		[group]
-	);
+  useEffect(() => {
+    group === "All"
+      ? setFilteredImages(imageRef)
+      : setFilteredImages(
+          imageRef.filter((imageRef) => imageRef.group === group)
+        );
+  }, [group]);
 
+  return (
+    <>
+      <div className="App  ">
+        <div className="pageContainer grid-cols-14  grid gap-4	  ">
+          <h1 className=" col-span-12 col-start-1 mx-auto mt-[1rem] text-center text-3xl md:text-4xl  ">
+            My Photos
+          </h1>
 
-	return (
-	<>
-		<div className="App  ">
+          <div className="textcontainer  col-span-12 col-start-1  mx-auto mx-4 h-[25%] min-w-full  p-[20px]  text-[20px] leading-[32px] sm:max-w-[20ch] sm:text-[25px] lg:max-w-[28ch] ">
+            <p className="  col-span-12 col-start-1 mx-auto max-w-[68ch]  text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  md:max-w-[68ch] ">
+              These are some of the photos I took while in the Army. Those
+              labeled "Army" were taken as part of my job as Battalion PIO
+              clerk. Lots of award presentations, baseball coverage, official
+              Army ceremonies, field training exercises, and miscellaneous
+              pictures taken while covering those events. I particularly enjoyed
+              taking pictures of the Brigade baseball games.
+            </p>
 
-		<div className="pageContainer grid  grid-cols-14 gap-4	  ">
-			<h1 className=' text-center mt-[1rem] mx-auto text-3xl md:text-4xl col-span-12 col-start-1  '>My Photos</h1>
-
-			<div className="textcontainer  text-[20px] mx-auto  min-w-full sm:text-[25px] sm:max-w-[20ch] leading-[32px]  lg:max-w-[28ch]  p-[20px] mx-4 col-span-12 col-start-1 h-[25%] ">
-
-				<p className='  text-[20px] col-span-12 col-start-1 mx-auto  max-w-[68ch] sm:text-[25px] sm:max-w-[40ch] leading-[32px]  md:max-w-[68ch] '>
-				These are some of the photos I took while in the Army.  Those labeled "Army" were taken as part of my job as Battalion PIO clerk. Lots of award presentations, baseball coverage, official Army ceremonies, field training exercises, and miscellaneous pictures taken while covering those events. I particularly enjoyed taking pictures of the Brigade baseball games.
-				</p>
-
-
-				{/* <p>
+            {/* <p>
 				I am also pleased with some of the dramatic pictures I took while our battalion was in training in
 					Hoenfels in southern Germany. 
 					The aerial pictures were taken as I was sitting facing the open door of a Bell UH-1
@@ -52,66 +55,108 @@ function MyPhotos() {
 				<p>
 				Word got out that I could take decent photos and I had many requests to take portrait photos for friends. I was even asked to be the photographer for one Army officer's wedding. My popularity was due, in no small part, to the fact that I didn't charge for my services.
 				</p> */}
-			</div>
+          </div>
 
-				<div className="groups ml-[40px]  sticky top-[60px]  px-3  h-[620px] w-[210px] ml-[6px] mr-[2px] bg-[#E8E4D5] text-black border border-black col-start-1 col-span-3 rounded-lg ">
+          <div className="groups sticky  top-[60px] col-span-3  col-start-1  ml-[40px] ml-[6px] mr-[2px] h-[620px] w-[210px] rounded-lg border border-black bg-[#E8E4D5] px-3 text-black ">
+            <div className="group mx-[3px] flex cursor-pointer flex-col items-center	rounded-lg bg-transparent py-[4px] text-[20px]	">
+              <p className="text-[24px] uppercase">Categories</p>
 
-					<div className="group flex text-[20px] flex-col mx-[3px] py-[4px]	items-center rounded-lg bg-transparent cursor-pointer	">
-						<p className='text-[24px] uppercase'>Categories</p>
+              <GroupButton
+                name="Army"
+                groupActive={group === "Army" ? true : false}
+                handleSetgroup={setGroup}
+              />
 
-						<GroupButton name="Army" groupActive={group === 'Army' ? true : false} handleSetgroup={setGroup} />  
+              <GroupButton
+                name="By Request"
+                groupActive={group === "By Request" ? true : false}
+                handleSetgroup={setGroup}
+              />
 
-						<GroupButton name="By Request" groupActive={group === 'By Request' ? true : false} handleSetgroup={setGroup} /> 
-						
-						<GroupButton name="Berlin" groupActive={group === 'Berlin' ? true : false} handleSetgroup={setGroup} />
+              <GroupButton
+                name="Berlin"
+                groupActive={group === "Berlin" ? true : false}
+                handleSetgroup={setGroup}
+              />
 
-						<GroupButton  name="Amsterdam" groupActive={group === 'Amsterdam' ? true : false} handleSetgroup={setGroup} /> 
-						
-						<GroupButton name="Ferry" groupActive={group === 'Ferry' ? true : false} handleSetgroup={setGroup} />
-						<GroupButton name="London" groupActive={group === 'London' ? true : false} handleSetgroup={setGroup} />
-						<GroupButton name="Oxford" groupActive={group === 'Oxford' ? true : false} handleSetgroup={setGroup} />
+              <GroupButton
+                name="Amsterdam"
+                groupActive={group === "Amsterdam" ? true : false}
+                handleSetgroup={setGroup}
+              />
 
-						<GroupButton name="All" groupActive={group === 'All' ? true : false} handleSetgroup={setGroup} />
-					</div>
-				</div>
+              <GroupButton
+                name="Ferry"
+                groupActive={group === "Ferry" ? true : false}
+                handleSetgroup={setGroup}
+              />
+              <GroupButton
+                name="London"
+                groupActive={group === "London" ? true : false}
+                handleSetgroup={setGroup}
+              />
+              <GroupButton
+                name="Oxford"
+                groupActive={group === "Oxford" ? true : false}
+                handleSetgroup={setGroup}
+              />
 
-				<div className="imgcontainer flex flex-wrap  col-span-8 col-start-4">
-					
-					
-				{filteredImages.map(image => (
+              <GroupButton
+                name="All"
+                groupActive={group === "All" ? true : false}
+                handleSetgroup={setGroup}
+              />
+            </div>
+          </div>
 
-					<div key={image.id} className="image-card p-[3px] m-[5px] rounded-xl object-cover  max-h-[350px] cursor-pointer		 ">
-					<img className="image min-h-[150px] max-h-[300px] w-[100%] aspect-square object-cover" src={image.url} alt={image.caption} 
-						onClick={() => {
-						setSelectedImg(image.url)
-						setImageCaption(image.caption)
-						}}/>
-						<p>{image.caption}</p>	
-						
-					</div>
-						))}
-				</div>
-				{/* <p>Selected Image is {selectedImg}</p> */}
-				{/* { selectedImg && (<FullImage  setSelectedImg={setSelectedImg} selectedImg={selectedImg} imageCaption={imageCaption}/>)} */}
-				{ selectedImg && (<ImageSlider  setSelectedImg={setSelectedImg}  selectedImg={selectedImg} filteredImages={filteredImages}  />)}
+          <div className="imgcontainer col-span-8 col-start-4  flex flex-wrap">
+            {filteredImages.map((image) => (
+              <div
+                key={image.id}
+                className="image-card m-[5px] max-h-[350px] cursor-pointer rounded-xl  object-cover p-[3px]		 "
+              >
+                <img
+                  className="image aspect-square max-h-[300px] min-h-[150px] w-[100%] object-cover"
+                  src={image.url}
+                  alt={image.caption}
+                  onClick={() => {
+                    setSelectedImg(image.url);
+                    setImageCaption(image.caption);
+                  }}
+                />
+                <p>{image.caption}</p>
+              </div>
+            ))}
+          </div>
+          {/* <p>Selected Image is {selectedImg}</p> */}
+          {/* { selectedImg && (<FullImage  setSelectedImg={setSelectedImg} selectedImg={selectedImg} imageCaption={imageCaption}/>)} */}
+          {selectedImg && (
+            <ImageSlider
+              setSelectedImg={setSelectedImg}
+              selectedImg={selectedImg}
+              filteredImages={filteredImages}
+            />
+          )}
 
-				
-
-			{/* </SRLWrapper> */}
-			</div>
-		</div>
-	</>
-	);
+          {/* </SRLWrapper> */}
+        </div>
+      </div>
+    </>
+  );
 }
 
 const GroupButton = ({ name, handleSetgroup, groupActive }) => {
-	return (
-		<button className={`group my-[14px] py-[6px] w-[155px] rounded-lg hover:text-white hover:bg-black border border-black  text-center	 ${groupActive ? 'active' : null}`} onClick={() => handleSetgroup(name)} >
-			{/* {name.toUpperCase()} */}
-			{name}
-		</button>
-	);
+  return (
+    <button
+      className={`group my-[14px] w-[155px] rounded-lg border border-black py-[6px] text-center hover:bg-black  hover:text-white	 ${
+        groupActive ? "active" : null
+      }`}
+      onClick={() => handleSetgroup(name)}
+    >
+      {/* {name.toUpperCase()} */}
+      {name}
+    </button>
+  );
 };
 
-export default MyPhotos 
-
+export default MyPhotos;
