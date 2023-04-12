@@ -31,7 +31,7 @@ function Home() {
             />
             <span className="text-sm leading-none ">
               Ku-damm Strasse & Kaiser Wilhelm Memorial, Berlin Germany c. 1970
-              taken by me
+              taken by me.
             </span>
           </div>
 
