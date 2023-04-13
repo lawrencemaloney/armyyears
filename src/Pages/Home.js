@@ -9,11 +9,11 @@ function Home() {
         <Header />
 
         <div className="mystory z-20 mx-auto mt-[40px]  flex h-[100%] flex-col items-center ">
-          <h1 className="mx-[20px] mt-[1rem] mb-3 text-center text-3xl  md:text-4xl">
+          <h1 className="mx-[20px] mt-[1rem] mb-3 text-center text-3xl  tablet:text-4xl">
             My Story
           </h1>
 
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  md:max-w-[60ch] ">
+          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  tablet:max-w-[60ch] ">
             From June 28, 1970, to December 29, 1971, I served as the Public
             Information Office (PIO) clerk for the 2nd Battalion, 6th Infantry
             (the "2/6") Regiment of the Berlin Brigade, U.S. Army Berlin (USAB)
@@ -22,7 +22,7 @@ function Home() {
             accomplishments published in the Brigade's weekly newspaper, the
             Berlin Observer.
           </p>
-          <div className=" mt-6 max-w-[45ch] md:max-w-[75ch]">
+          <div className=" mt-6 max-w-[45ch] tablet:max-w-[75ch]">
             <img
               className=" mt-4"
               src="images/Berlin scenes 41  resized.webp"
@@ -35,7 +35,7 @@ function Home() {
             </span>
           </div>
 
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             In February 2020, I discovered an online archive of over 900
             complete editions of the Observer preserving Brigade-related events
             (many of significant historical importance) from the first issue on
@@ -43,18 +43,18 @@ function Home() {
             surrendered) through the final publication on July 15, 1994. (See
             the Berlin Observer Archives page to access all PDFs).
           </p>
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             My wife suggested that I preserve my work contained in that archive
             along with some context so that my family, particularly my sons and
             grandchildren, would know a little of what my life in the Army was
             like. This website is the result of that effort. (For a description
             of how and why I started this project. Go to the page).
           </p>
-          <h1 className="mx-[20px] mt-[1rem] mb-3 text-center text-3xl  md:text-4xl">
+          <h1 className="mx-[20px] mt-[1rem] mb-3 text-center text-3xl  tablet:text-4xl">
             The Backstory - How I Got to Berlin.
           </h1>
 
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             On December 3, 1969, at the height of American involvement in the
             Vietnam War, I joined the U.S. Army. As with most decisions, my
             choices were remarkably few. I could enlist, live with the
@@ -64,7 +64,7 @@ function Home() {
           </p>
           <h2 className="  mt-3 text-center  text-3xl">The Draft Lottery</h2>
 
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             The timing of my decision was determined primarily by the outcome of
             a lottery. On December 1, 1969, at Selective Service National
             Headquarters in Washington, D.C., a nationally televised lottery
@@ -74,7 +74,7 @@ function Home() {
             civilians.
           </p>
 
-          <div className=" mt-6 max-w-[45ch] md:max-w-[75ch]">
+          <div className=" mt-6 max-w-[45ch] tablet:max-w-[75ch]">
             <img
               src="images/Draft Lottery glass bowl Pirnie.jpg"
               width="940px"
@@ -84,14 +84,14 @@ function Home() {
           </div>
 
           <h3 className="mt-4  text-center text-2xl underline">The Process</h3>
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             366 opaque plastic capsules, each containing a slip of paper with a
             number from 1 to 366 representing each day of the year (366 to
             account for those born on February 29th during leap years), were
             placed in a large glass container and drawn by hand. The number in
             each capsule represented the birth date of each eligible registrant.
           </p>
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             The sequence in which a person’s birth date was drawn determined the
             order in which young men between 18 and 26 were to be called to
             serve. The event was covered live on TV and radio. I remember
@@ -103,11 +103,11 @@ function Home() {
             the year had been paired with a sequence number.
           </p>
           <h3 className="mt-4  text-center text-2xl underline">The Results</h3>
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             My birth date, November 27, 1947, was on the 47th capsule chosen.
             (See results card.)
           </p>
-          <div className=" mt-6 max-w-[45ch] md:max-w-[75ch]">
+          <div className=" mt-6 max-w-[45ch] tablet:max-w-[75ch]">
             <img
               className="mt-4 border-2 border-black"
               src="images/lottery-card-1970-marked.jpg"
@@ -119,14 +119,14 @@ function Home() {
           <h3 className="mt-4 text-center text-2xl  underline">
             Seeking Advice
           </h3>
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             I decided to get an expert opinion on how long I had until I was
             likely to be drafted. So, on December 3rd, I visited the local Army
             recruitment office in Midland Park, NJ, "You might make it to
             February." the Recruitment Officer said after I told him that my
             lottery number was 47.
           </p>
-          <div className=" mt-6 max-w-[45ch] md:max-w-[75ch]">
+          <div className=" mt-6 max-w-[45ch] tablet:max-w-[75ch]">
             <img
               className="border-2 border-black"
               src="images/Enlisting.webp"
@@ -136,14 +136,14 @@ function Home() {
             <span className="text-sm leading-none">U.S. Army Recruiter</span>
           </div>
 
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             I asked him if there was any benefit in volunteering rather than
             waiting to be drafted. He said that my military records would show
             that I was "RA" (Regular Army volunteer) rather than "US,"
             indicating draftee status. He suggested that the Drill Instructors
             (DI) at Basic Training might treat volunteers better than draftees.
           </p>
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             He also said that enlisting would allow me to schedule my induction
             rather than be in a constant state of anticipation. If my RA status
             had a positive impact during my Army career, it certainly wasn't
@@ -158,7 +158,7 @@ function Home() {
             How did I Get Here?
           </h2>
 
-          <div className=" mt-6 max-w-[45ch] md:max-w-[75ch]">
+          <div className=" mt-6 max-w-[45ch] tablet:max-w-[75ch]">
             <img
               className="border-2 border-black"
               src="images/JTAlicewithCCat500.webp"
@@ -166,7 +166,7 @@ function Home() {
               width="980px"
             />
           </div>
-          <p className="leading-1 md:leading-1 ml-[140px] mb-[6px] -mt-[275px] w-[30ch] text-[12px]  md:ml-[246px] md:-mt-[475px] md:w-[29ch] md:text-[20px]">
+          <p className="leading-1 tablet:leading-1 ml-[140px] mb-[6px] -mt-[275px] w-[30ch] text-[12px]  tablet:ml-[246px] tablet:-mt-[475px] tablet:w-[29ch] tablet:text-[20px]">
             `Would you tell me, please, which way I ought to go from here?'{" "}
             <br />
             `That depends a good deal on where you want to get to,' said the
@@ -200,7 +200,7 @@ function Home() {
             </Collapsible>
           </div>
 
-          <p className=" mx-[20px] mt-[12px] max-w-[38ch] text-[20px] leading-[32px] md:mt-[22px] md:max-w-[40ch] md:text-[25px]  lg:max-w-[60ch] ">
+          <p className=" mx-[20px] mt-[12px] max-w-[38ch] text-[20px] leading-[32px] tablet:mt-[22px] tablet:max-w-[40ch] tablet:text-[25px]  laptop:max-w-[60ch] ">
             Like Alice, I had no clear idea of where I wanted to "get to" in the
             years and months leading to my enlistment. The war in Vietnam, the
             university I attended, the courses I took, the interests I
@@ -212,7 +212,7 @@ function Home() {
             The Decision-Making Process
           </h3>
 
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             We make thousands of decisions every day. Some decisions seem so
             easy that we hardly know were making them. Others are so momentous
             that we think of them as “life-changing”. But each decision is
@@ -223,7 +223,7 @@ function Home() {
             influence our decisions, yet there are consequences for our
             decisions and we are held responsible by God for them.
           </p>
-          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             Although I can’t record here all the things that influenced my
             decision to join the Army in December 1969, I thought it would be
             interesting, maybe even helpful, to present a picture of the more
@@ -233,7 +233,7 @@ function Home() {
           <h3 className=" mx-[20px] my-3 text-center text-2xl underline">
             My Personal life and the World Around me
           </h3>
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             For nearly the entire decade of the 1960s, from September 1960 to
             May 1969, my personal life focused on high school and college and
             all the interests, activities, and social “angst” like every other
@@ -243,7 +243,7 @@ function Home() {
             during this time. But the impact was there, and, for the purposes of
             the story, they significantly impacted my decision to join the Army.
           </p>
-          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             Unlike many typical high schools in northern New Jersey, Ridgewood
             high school only covered grades 10 through 12. Grades nine through
             11 were housed in two middle school buildings: the Benjamin Franklin
@@ -251,7 +251,7 @@ function Home() {
             school through eighth grade, I spent my “freshman” year of high
             school at George Washington school, about a mile from our house.
           </p>
-          <div className=" mt-6 max-w-[45ch] md:max-w-[75ch]">
+          <div className=" mt-6 max-w-[45ch] tablet:max-w-[75ch]">
             <img
               className="border-2 border-black "
               src="images/GW.jpg"
@@ -262,7 +262,7 @@ function Home() {
               George Washington Middle School, Ridgewood, NJ
             </span>
           </div>
-          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             From September 1962 to June 1965, I attended Ridgewood high school
             in Ridgewood, New Jersey. I had an unremarkable career there. I
             could get by with minimum effort, and, to my later shame, a minimum
@@ -272,7 +272,7 @@ function Home() {
             building model cars, reading Mad Magazine, and riding our bicycles
             around the neighborhood.
           </p>
-          <div className="	mt-6 max-w-[45ch] md:max-w-[75ch] ">
+          <div className="	mt-6 max-w-[45ch] tablet:max-w-[75ch] ">
             <img
               className="border-2 border-black "
               src="images/Ridgewood_High_School BW.webp"
@@ -283,7 +283,7 @@ function Home() {
               Ridgewood Highschool, Ridgewood, NJ
             </span>
           </div>
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             While I attended the public school in Ridgewood, Dick attended a
             private military high school in Manhattan. As we moved on in our
             high school careers, we began spending weekends and summers mainly
@@ -295,7 +295,7 @@ function Home() {
             parlor, so many a summer day was spent going back and forth between
             the tennis courts and Van Dyk’s. Those were beautiful days.
           </p>
-          <div className="mt-6 max-w-[45ch] md:max-w-[75ch]">
+          <div className="mt-6 max-w-[45ch] tablet:max-w-[75ch]">
             <a href="https://www.vandyksicecream.com/">
               {" "}
               <img
@@ -307,7 +307,7 @@ function Home() {
               Van Dyk's Ice Cream, Ridgewwod NJ
             </a>
           </div>
-          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch]">
+          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
             While we were able to enjoy a great deal of freedom without much
             responsibility, we were certainly aware of the political, social,
             and cultural events going on around us. The proliferation of
@@ -317,13 +317,13 @@ function Home() {
           <h3 className=" mt-4  text-center text-2xl underline ">
             Off to College -September 1964
           </h3>
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch]  ">
+          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]  ">
             As an example of how little control we have over our lives, I
             attended Loyola University in New Orleans because I had received an
             acceptance letter from them in the spring of 1965, even though I had
             never officially applied.
           </p>
-          <p className="  mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch]  ">
+          <p className="  mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]  ">
             It turned out that Loyola was looking to expand the geographic scope
             of its student base in 1964, and New Jersey was in their target
             zone. They accepted me because I lived in New Jersey and had scored
@@ -347,7 +347,7 @@ function Home() {
             .
           </p>
 
-          <div className="	mt-6 max-w-[45ch] md:max-w-[75ch] ">
+          <div className="	mt-6 max-w-[45ch] tablet:max-w-[75ch] ">
             <img
               className="border-2 border-black "
               src="images/Loyola Marquette Hall 1960s LA stat archives.webp"
@@ -360,7 +360,7 @@ function Home() {
             </span>
           </div>
 
-          <p className="  mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch]  ">
+          <p className="  mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]  ">
             With a student deferment in hand, I was not concerned about being
             drafted into military service as I arrived at Loyola for my first
             year. During registration, I had to declare a major field of study.
@@ -379,7 +379,7 @@ function Home() {
           <h3 className="mt-4  mb-3 text-center text-2xl underline">
             A Change in Direction
           </h3>
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch]  ">
+          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]  ">
             Happily, some friends had asked me to join the staff of the
             student-run WVSU-AM radio station, which broadcast to the campus
             over telephone lines (carrier current) from the balcony in the
@@ -398,13 +398,13 @@ function Home() {
             </a>{" "}
             . (Wolf Pack being the mascot of Loyola’s sports teams).
           </p>
-          <p className="  mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch]  ">
+          <p className="  mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]  ">
             During this same time, Loyola worked with WWL executives to
             introduce a new BA program in Communications (later named Bachelor
             of Arts in Mass Communications) at Loyola. I transferred to that
             program.
           </p>
-          <div className="	mt-6 max-w-[45ch] md:max-w-[75ch]">
+          <div className="	mt-6 max-w-[45ch] tablet:max-w-[75ch]">
             <img
               className="border-2 border-black "
               src="images/Me on camera yearbook 1968.webp"
@@ -415,7 +415,7 @@ function Home() {
               That's me on the headset, upper right - from 1968 Loyola Yearbook
             </span>
           </div>
-          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch]  ">
+          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]  ">
             I worked as an early morning DJ, a play-by-play radio announcer at
             the Loyola Basketball games, the PA announcer at a few Loyola
             Baseball team and football club games. As a reporter, I had the
@@ -429,7 +429,7 @@ function Home() {
             1968) but did not get to interview them. My friend, Jeff Bray, was
             the MC for the show.{" "}
           </p>
-          <div className="	mt-6 max-w-[45ch] md:max-w-[75ch] ">
+          <div className="	mt-6 max-w-[45ch] tablet:max-w-[75ch] ">
             <img
               className="border-2 border-black "
               src="images/Loyola_Field_House.jpg"
@@ -440,20 +440,20 @@ function Home() {
               Loyola University Field House, New Orleans, LA
             </span>
           </div>
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             After the Department of Communications and changing my major, I was
             able to take courses in TV writing, directing, announcing, and
             camera operation. At the start of my senior year, I was named Senior
             Operations Director for the radio station now named WLDC . These
             skills were to come in handy when I finally got to Berlin.
           </p>
-          <p className="  mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className="  mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             I also joined the ROTC was a member of the competitive rifle team,
             and the Drill Team. As far as I know, neither one of these
             activities.
           </p>
 
-          <div className="	mt-6 max-w-[45ch] md:max-w-[75ch]">
+          <div className="	mt-6 max-w-[45ch] tablet:max-w-[75ch]">
             <img
               className="border-2 border-black "
               src="images/loyola-cadet-battalion-marches-back-to-campus-from-audubon-park-1966.webp"
@@ -465,10 +465,10 @@ function Home() {
             </span>
           </div>
 
-          <h1 className=" mx-[20px] mt-[3rem] mb-3 text-center text-3xl  md:text-4xl">
+          <h1 className=" mx-[20px] mt-[3rem] mb-3 text-center text-3xl  tablet:text-4xl">
             1960 through 1969 - World Events that Shaped my Course
           </h1>
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch]">
+          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
             While I was busy dealing with the day-to-day events that were common
             throughout my high school and college years, things were happening
             in the world around me and lead me to that decision point in
@@ -477,13 +477,13 @@ function Home() {
           <h4 className=" mt-4 mb-3 max-w-[25ch] text-center  text-2xl font-bold italic ">
             May 1, 1960 - U.S. Spy Plane Shot Down over USSR
           </h4>
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch]">
+          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
             The ongoing Cold War between the Soviet Union and the western
             allies, three major political assassinations, the nation-wide racial
             violence, and the escalation of the Vietnam War all played a major
             role in my decision.
           </p>
-          <div className="mt-6 max-w-[45ch] md:max-w-[75ch] ">
+          <div className="mt-6 max-w-[45ch] tablet:max-w-[75ch] ">
             <img
               className="border-2 border-black "
               src="images/First-U-2.jpg"
@@ -494,7 +494,7 @@ function Home() {
               U2 Spy Plane Photo credit: U.S. Air Force
             </span>
           </div>
-          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             On May 1, 1960, four months before I started high school, a CIA U-2
             Spy Plane, flown by Francis Gary Powers, was shot down by the Soviet
             air defense forces while performing photographic aerial
@@ -503,7 +503,7 @@ function Home() {
             came at a very sensitive time in the developing Cold War between the
             United States and the Soviet Union.
           </p>
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch]">
+          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
             The single-seated aircraft had successfully evaded Soviet air
             defense capabilities on several previous missions. Powers had taken
             off from Peshawar, Pakistan, and crashed near Sverdlovsk after being
@@ -516,7 +516,7 @@ function Home() {
           <h4 className=" mt-4 mb-3 max-w-[25ch] text-center  text-2xl font-bold italic ">
             October 16 to November 20, 1962 - Cuban missile crisis
           </h4>
-          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch]">
+          <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
             On October 17, 1962, every network brought news that a U.S. U2 spy
             plane photographed evidence that as many as 32 Soviet-built
             medium-range ballistic missiles capable of delivering a nuclear
@@ -526,7 +526,7 @@ function Home() {
             comprised of top officials of the U.S. Departments of Defence,
             State, the CIA, and other national security experts.
           </p>
-          <div className="	mt-6 max-w-[45ch] md:max-w-[75ch] ">
+          <div className="	mt-6 max-w-[45ch] tablet:max-w-[75ch] ">
             <img
               className="border-2 border-black "
               src="images/The_relative_ranges_of_the_IL-28,_SS-4,_and_SS-5,_stationed_on_Cuba.webp"
@@ -538,7 +538,7 @@ function Home() {
               nautical miles (NM). (Public Domain))
             </span>
           </div>
-          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             The President received advice on the most appropriate response
             ranging from a direct attack on the missile sites to a blockade of
             the island nation. Arguing for the direct attack approach, Air Force
@@ -549,7 +549,7 @@ function Home() {
             If they don't do anything in Cuba they'll certainly do something in
             Berlin."
           </p>
-          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             Secretary of Defense Robert McNamara proposed that a blockade of
             Cuba would put pressure on the Soviets but give them time to
             reconsider and deescalate. It would also provide the U.S. with time
@@ -557,7 +557,7 @@ function Home() {
             that surgical airstrikes were not practical unless followed by an
             invasion.
           </p>
-          <div className="mt-6 max-w-[45ch] md:max-w-[75ch]">
+          <div className="mt-6 max-w-[45ch] tablet:max-w-[75ch]">
             <img
               className="border-2 border-black "
               src="images/P-2H_Neptune_over_Soviet_ship_Oct_1962 (1).webp"
@@ -570,7 +570,7 @@ function Home() {
             </span>
           </div>
 
-          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch]  ">
+          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]  ">
             President Kennedy decided on a plan based upon McNamara's advice and
             ordered a total naval "quarantine" of Cuba, declaring that the U.S.
             would prevent any ship carrying offensive weapons from reaching
@@ -655,7 +655,7 @@ function Home() {
             ignite a decade of racial violence.
           </h4>
 
-          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             The city of Birmingham, Alabama was no stranger to
             racially-motivated bombings. There were 48 such bombings reported in
             Birmingham between 1948 in 1957. In one month in 1957, four black
@@ -684,7 +684,7 @@ function Home() {
             </Collapsible>
           </p>
 
-          <div className="mt-6 max-w-[45ch] md:max-w-[75ch] ">
+          <div className="mt-6 max-w-[45ch] tablet:max-w-[75ch] ">
             <img
               className="border-2 border-black "
               src="images/birmingham riots dogs.webp"
@@ -697,7 +697,7 @@ function Home() {
             </span>
           </div>
 
-          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch]  ">
+          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]  ">
             On Sunday, September 15, 1963, at the 16th street Baptist Church in
             Birmingham, AL, four young girls, 14-year-olds Addie Mae Collins,
             Denise McNair, Carole Robertson, and 11-year-old Cynthia Wesley,
@@ -727,7 +727,7 @@ function Home() {
             </Collapsible>
           </p>
 
-          <div className="mt-6 max-w-[45ch] md:max-w-[75ch] ">
+          <div className="mt-6 max-w-[45ch] tablet:max-w-[75ch] ">
             <img
               className="border-2 border-black "
               src="images/16th street church birminghamLOC BW.jpg"
@@ -739,7 +739,7 @@ function Home() {
             </span>
           </div>
 
-          <div className="	mt-6 max-w-[45ch] md:max-w-[65ch] ">
+          <div className="	mt-6 max-w-[45ch] tablet:max-w-[65ch] ">
             <img
               className="border-2 border-black "
               src="images/16th Street Church bombed 1963 outside view.jpg"
@@ -758,7 +758,7 @@ function Home() {
             Dallas, TX,
           </h4>
 
-          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             On November 22, 1963, President John F. Kennedy was assassinated in
             Dallas, TX. I remember being in the Ridgewood, NJ Highschool
             cafeteria when a news broadcast could suddenly be heard over the PA
@@ -788,7 +788,7 @@ function Home() {
             </Collapsible>
           </p>
 
-          <div className="	mt-6 max-w-[45ch] md:max-w-[75ch] ">
+          <div className="	mt-6 max-w-[45ch] tablet:max-w-[75ch] ">
             <img
               className="border-2 border-black "
               src="images/JFK_limousine BW.webp"
@@ -805,7 +805,7 @@ function Home() {
           <h4 className=" mt-4 mb-3 max-w-[25ch] text-center  text-2xl font-bold italic ">
             1963 - 1968 Racial Violence, Expanding War, and Assaassinations
           </h4>
-          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             Over the next five years, riots fueled by racial injustice rocked
             the U.S. Riots began in Birmingham, Alabama (1963), reignited in
             Harlem in New York City (1964), spread to Watts in Los Angeles
@@ -815,7 +815,7 @@ function Home() {
             Rochester, NY, Tampa Bay, FL, and Toledo, OH. It seemed that things
             couldn't get much worse. But they did!
           </p>
-          <div className="	mt-6 max-w-[45ch] md:max-w-[75ch] ">
+          <div className="	mt-6 max-w-[45ch] tablet:max-w-[75ch] ">
             <img
               className="border-2 border-black "
               src="images\Watts_car_flipped.webp"
@@ -831,7 +831,7 @@ function Home() {
             August, 1964 - U.S. Involvement in the Vietnam War Dramatically
             Escalates
           </h4>
-          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             The Vietnam war
             <Collapsible icon="]&#8224;]">
               <div className="mx-4 mt-[20px] max-w-[45ch] break-words	text-[18] text-black ">
@@ -862,7 +862,7 @@ function Home() {
             extension of the Cold War.
           </p>
 
-          <div className="	mt-6 max-w-[45ch] md:max-w-[75ch] ">
+          <div className="	mt-6 max-w-[45ch] tablet:max-w-[75ch] ">
             <img
               className="border-2 border-black "
               // src='images\US Soldiers vietnam war flickr by manhhai (1).webp'
@@ -874,7 +874,7 @@ function Home() {
               US Soldiers in Vietnam - Wikipedia (Public Domain)
             </span>
           </div>
-          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             US troop involvement in Vietnam escalated from approximately 23,000
             US advisors in early 1964 to over 184,000by the end of that year.
             This dramatic increase was in response to an alleged attack on two
@@ -887,7 +887,7 @@ function Home() {
             became the legal basis for the Johnson and Nixon Administrations’
             prosecution of the Vietnam War.
           </p>
-          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             Every year onward, there was significant build-up of U.S forces,
             despite little progress. U.S Secretary of Defense Robert McNamara,
             one of the principal architects of the war, began expressing doubts
@@ -897,7 +897,7 @@ function Home() {
             airstrikes. The U.S. also conducted a large-scale strategic bombing
             campaign against North Vietnam and Laos.
           </p>
-          <div className="	mt-6 max-w-[45ch] md:max-w-[75ch] ">
+          <div className="	mt-6 max-w-[45ch] tablet:max-w-[75ch] ">
             <img
               className="border-2 border-black "
               // src='images\US Soldiers vietnam war flickr by manhhai (1).webp'
@@ -911,7 +911,7 @@ function Home() {
               Museum (Public Domain)
             </span>
           </div>
-          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             The Tet Offensive of 1968 showed the lack of progress with these
             doctrines. With the VC and PAVN mounting large-scale urban
             offensives throughout 1968, U.S domestic support for the war began
@@ -926,7 +926,7 @@ function Home() {
             reduction in guerrilla operations, necessitating increased use of
             PAVN regular soldiers from the north.
           </p>
-          <div className="	mt-6 max-w-[45ch] md:max-w-[75ch] ">
+          <div className="	mt-6 max-w-[45ch] tablet:max-w-[75ch] ">
             <img
               className="border-2 border-black "
               // src='images\US Soldiers vietnam war flickr by manhhai (1).webp'
@@ -936,7 +936,7 @@ function Home() {
             />
             <span className="text-sm leading-none">NY Times</span>
           </div>
-          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             The ARVN, buttressed by said U.S. support, stopped the largest and
             first mechanized PAVN offensive to date during the Easter Offensive
             of 1972.The offensive resulted in heavy casualties on both sides and
@@ -944,7 +944,7 @@ function Home() {
             failed to recapture all territory, leaving its military situation
             difficult.
           </p>
-          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch] ">
+          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             The Paris Peace Accords of January 1973 saw all U.S forces
             withdrawn; the Case–Church Amendment, passed by the U.S Congress on
             15 August 1973, officially ended direct U.S military involvement.

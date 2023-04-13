@@ -132,24 +132,24 @@ function MyPhotos() {
 
         {!isOpen ? (
           <button onClick={() => setIsOpen(!isOpen)}>
-            <AiOutlineMenu className=" bg-#fffbeb  absolute top-1 right-2 z-[35]  h-[32px] w-[32px]	cursor-pointer hover:scale-[1.2] sm:hidden "></AiOutlineMenu>
+            <AiOutlineMenu className=" bg-#fffbeb  absolute top-1 right-2 z-[35]  h-[32px] w-[32px]	cursor-pointer hover:scale-[1.2] mobile:hidden "></AiOutlineMenu>
           </button>
         ) : (
           <button onClick={() => setIsOpen(!isOpen)}>
             <AiOutlineClose
               className=" bg-#fffbeb  absolute top-1 right-2 
-							   z-[35]  h-[32px] w-[32px]	cursor-pointer hover:scale-[1.2]  sm:hidden"
+							   z-[35]  h-[32px] w-[32px]	cursor-pointer hover:scale-[1.2]  mobile:hidden"
             ></AiOutlineClose>
           </button>
         )}
 
         {/* <div className={`groups p-4 grid-col-start-1 col-span-2 bg-white text-black  overflow-y-scroll  h-[35px] w-screen
-				md:h-[100%] text-[16px] md:w-[200px] ${isOpen ? 'translate-x-0 ' : 'translate-x-full md:translate-x-0'} ease-in-out duration-700`}> */}
+				tablet:h-[100%] text-[16px] tablet:w-[200px] ${isOpen ? 'translate-x-0 ' : 'translate-x-full tablet:translate-x-0'} ease-in-out duration-700`}> */}
 
         {/* </div> */}
 
         <div className="textimagecontainer z-0  m-[2%] h-full w-[90%] bg-black">
-          {/* <div className={`textimagecontainer  grid-col-start-1 col-span-12 h-full w-[100%] m-[2%] sm:grid-col-start-3 sm:col-span-8 ${!isOpen ? 'sm:visible ' : ' sm:hidden '} `}> */}
+          {/* <div className={`textimagecontainer  grid-col-start-1 col-span-12 h-full w-[100%] m-[2%] mobile:grid-col-start-3 mobile:col-span-8 ${!isOpen ? 'mobile:visible ' : ' mobile:hidden '} `}> */}
 
           <div className="textcontainer mx-8  mb-[2rem]  text-[22px] leading-[32px]    ">
             {group === "Army" && (
@@ -214,7 +214,7 @@ function MyPhotos() {
               </div>
             )}
             {group === "All" && (
-              <div className="   mx-[1px] max-w-[100%] gap-4 md:mb-[1rem]	md:columns-2	">
+              <div className="   mx-[1px] max-w-[100%] gap-4 tablet:mb-[1rem]	tablet:columns-2	">
                 <p className="mb-[16px]">
                   A large part of my job as the PIO clerk for the “2/6” was to
                   get pictures of significant events in the Battalion published
@@ -241,7 +241,7 @@ function MyPhotos() {
             )}
           </div>
 
-          <div className="imgcontainer mx-[3%]  grid grid-cols-2 gap-2	 sm:grid-cols-3 md:grid-cols-5    ">
+          <div className="imgcontainer mx-[3%]  grid grid-cols-2 gap-2	 mobile:grid-cols-3 tablet:grid-cols-5    ">
             {filteredImages.map((image) => (
               <div
                 key={image.id}

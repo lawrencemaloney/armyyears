@@ -23,12 +23,12 @@ function MyPhotos() {
     <>
       <div className="App  ">
         <div className="pageContainer grid-cols-14  grid gap-4	  ">
-          <h1 className=" col-span-12 col-start-1 mx-auto mt-[1rem] text-center text-3xl md:text-4xl  ">
+          <h1 className=" col-span-12 col-start-1 mx-auto mt-[1rem] text-center text-3xl tablet:text-4xl  ">
             My Photos
           </h1>
 
-          <div className="textcontainer  col-span-12 col-start-1  mx-auto mx-4 h-[25%] min-w-full  p-[20px]  text-[20px] leading-[32px] sm:max-w-[20ch] sm:text-[25px] lg:max-w-[28ch] ">
-            <p className="  col-span-12 col-start-1 mx-auto max-w-[68ch]  text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  md:max-w-[68ch] ">
+          <div className="textcontainer  col-span-12 col-start-1  mx-auto mx-4 h-[25%] min-w-full  p-[20px]  text-[20px] leading-[32px] mobile:max-w-[20ch] mobile:text-[25px] laptop:max-w-[28ch] ">
+            <p className="  col-span-12 col-start-1 mx-auto max-w-[68ch]  text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  tablet:max-w-[68ch] ">
               These are some of the photos I took while in the Army. Those
               labeled "Army" were taken as part of my job as Battalion PIO
               clerk. Lots of award presentations, baseball coverage, official

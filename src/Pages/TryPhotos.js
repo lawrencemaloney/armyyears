@@ -25,7 +25,7 @@ function OldTryPhotos() {
     <>
       <div className="App  ">
         <div className="pageContainer grid-cols-14  grid gap-4	  ">
-          <h1 className=" col-span-12 col-start-1 mx-[20px] mt-[1rem] mb-3 text-center text-3xl	  md:text-4xl">
+          <h1 className=" col-span-12 col-start-1 mx-[20px] mt-[1rem] mb-3 text-center text-3xl	  tablet:text-4xl">
             My Photos
           </h1>
 
@@ -104,8 +104,8 @@ function OldTryPhotos() {
             />
           )}
 
-          <div className="textcontainer  col-span-1 col-start-13 mx-[20px] mx-4 mt-[1rem] h-[25%] w-[36ch]  rounded-lg border border-black p-[20px] text-[20px] leading-[32px] sm:max-w-[20ch]	sm:text-[25px] lg:max-w-[28ch] ">
-            <h2 className="col-span-12 col-start-1 mx-[20px] mt-[1rem] mb-3 text-center text-[28px]	  md:text-[32px]">
+          <div className="textcontainer  col-span-1 col-start-13 mx-[20px] mx-4 mt-[1rem] h-[25%] w-[36ch]  rounded-lg border border-black p-[20px] text-[20px] leading-[32px] mobile:max-w-[20ch]	mobile:text-[25px] laptop:max-w-[28ch] ">
+            <h2 className="col-span-12 col-start-1 mx-[20px] mt-[1rem] mb-3 text-center text-[28px]	  tablet:text-[32px]">
               Story of the Photos
             </h2>
             <p>

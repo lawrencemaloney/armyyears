@@ -10,7 +10,7 @@ function InBerlin() {
         <Header />
 
         <div className="  mx-auto mt-[40px]  flex flex-col items-center ">
-          <h1 className=" mx-[20px] mt-[1rem] mb-3 text-center text-3xl  md:text-4xl">
+          <h1 className=" mx-[20px] mt-[1rem] mb-3 text-center text-3xl  tablet:text-4xl">
             Hot War/Cold War - Vietnam/Germany
           </h1>
           <h2
@@ -20,7 +20,7 @@ function InBerlin() {
             What was I getting into?
           </h2>
           <p
-            className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch]
+            className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]
 "
           >
             When I arrived in Germany in early July 1970, the world's attention
@@ -56,7 +56,7 @@ function InBerlin() {
             governed, at the root of the conflict in Vietnam, were earlier made
             manifest to the world in post-war Berlin.
           </p>
-          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch]">
+          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
             Immediately after Germany's unconditional surrender on May 7, 1945,
             the Soviet Union focused on exacting punishment and reparations for
             atrocities suffered during the German invasion of Russia. The Soviet
@@ -87,7 +87,7 @@ function InBerlin() {
               </div>
             </Collapsible>
             {/* </p> */}
-            <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch]"></p>
+            <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]"></p>
             The Western Allies, led by the U.S., focused on building up the West
             German state for humanitarian, economic, and political reasons. A
             stable, self-sufficient West Germany could eventually feed itself,
@@ -96,7 +96,7 @@ function InBerlin() {
             Germany would provide a buffer between the Soviet-controlled
             countries and the rest of Europe.
           </p>
-          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch]">
+          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
             These conflicting philosophies and ambitions had their focal point
             in Berlin. For civilians and military personnel living in Berlin,
             the potential for armed conflict was personal and ever-present.
@@ -105,7 +105,7 @@ function InBerlin() {
             100 Miles Behind Enemy Lines!
           </h3>
 
-          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch]">
+          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
             Before arriving in Berlin, I hadn't given much thought to the "Cold
             War" or the precarious position that the Western Allies' military
             personnel, their families, and other civilians found themselves in,
@@ -119,7 +119,7 @@ function InBerlin() {
             The Berlin Blockade
           </h3>
 
-          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch]">
+          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
             By mid-1970, the Soviets had already made several concerted efforts
             to isolate and eventually take sole control of Berlin. The first was
             the Berlin Blockade
@@ -149,7 +149,7 @@ function InBerlin() {
             fuel, and supplies using those modes of transportation.
           </p>
 
-          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] sm:max-w-[40ch] sm:text-[25px]  lg:max-w-[60ch]"></p>
+          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]"></p>
         </div>
       </div>
     </>

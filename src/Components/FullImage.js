@@ -1,5 +1,5 @@
 <div class="flex min-h-screen flex-col items-center justify-center bg-gray-100">
-  <div class="w-full max-w-xl space-y-4 overflow-y-scroll rounded-lg border bg-white p-6 text-gray-500 scrollbar sm:h-96">
+  <div class="w-full max-w-xl space-y-4 overflow-y-scroll rounded-lg border bg-white p-6 text-gray-500 scrollbar mobile:h-96">
     <h1 class="text-lg text-gray-800">Custom Scrollbar Example</h1>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

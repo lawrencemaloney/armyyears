@@ -11,7 +11,7 @@ function MenuItems({ showHideMenu, active }) {
         <ul
           className={
             active
-              ? " absolute  top-[210px]    left-0 h-screen w-[100%] grow flex-col rounded-lg border  border-black bg-[#e8e4d5]	text-center text-[28px] text-black lg:hidden  "
+              ? " absolute  top-[210px]    left-0 h-screen w-[100%] grow flex-col rounded-lg border  border-black bg-[#e8e4d5]	text-center text-[28px] text-black laptop:hidden  "
               : " hidden "
           }
         >

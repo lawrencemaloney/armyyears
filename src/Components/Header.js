@@ -13,22 +13,22 @@ export default function Header() {
   return (
     <>
       <div className="header ">
-        <div className="banner mx-auto flex h-[210px] w-[100vw] justify-center  border border-black bg-amber-50  text-center   md:ml-[2vw] md:border-none lg:space-x-36 ">
+        <div className="banner mx-auto flex h-[210px] w-[100vw] justify-center  border border-black bg-amber-50  text-center   tablet:ml-[2vw] tablet:border-none laptop:space-x-36 ">
           <img
-            className="  absolute left-16 top-12 hidden md:flex md:h-[53px] md:w-[50px] "
+            className="  absolute left-16 top-12 hidden tablet:flex tablet:h-[53px] tablet:w-[50px] "
             src="images/6thINfnatryPin.gif"
             height={60}
             width={60}
             alt={"Pin"}
           />
 
-          <h1 className=" absolute right-[50%] mt-10 w-[100%] translate-x-[50%] flex-col text-4xl  md:text-[56px] ">
+          <h1 className=" absolute right-[50%] mt-10 w-[100%] translate-x-[50%] flex-col text-4xl  tablet:text-[56px] ">
             A Soldier in Berlin{" "}
             <p className="mt-[20px] text-[36px]">1969 to 1972</p>
           </h1>
 
           <img
-            className="  absolute right-16 hidden md:top-12 md:flex md:h-[53px] md:w-[50px] "
+            className="  absolute right-16 hidden tablet:top-12 tablet:flex tablet:h-[53px] tablet:w-[50px] "
             src="images/6thINfnatryPin.gif"
             height={60}
             width={60}
@@ -37,14 +37,14 @@ export default function Header() {
         </div>
 
         <AiOutlineMenu
-          className="headermenu  bg-#fffbeb  absolute top-2 right-2 h-[32px]  w-[32px] cursor-pointer	 hover:scale-[1.2] md:hidden"
+          className="headermenu  bg-#fffbeb  absolute top-8 right-8 h-[32px]  w-[32px] cursor-pointer	 hover:scale-[1.2] tablet:hidden"
           onClick={showHideMenu}
         ></AiOutlineMenu>
 
         {/* <MenuItems showHideMenu={showHideMenu} active={active}/> */}
 
-        <nav className=" z-[200] ">
-          <ul className="hidden  h-[55px]  w-[100vw] items-center justify-center border border-black bg-amber-50  p-[2px] p-[2px] text-[24px] italic md:flex md:gap-x-0  md:space-x-6  xl:space-x-12 xl:text-[30px] ">
+        <nav className=" z-40 ">
+          <ul className="hidden  h-[55px]  w-[100vw] items-center justify-center border border-black bg-amber-50  p-[2px] p-[2px] text-[24px] italic tablet:flex tablet:gap-x-0  tablet:space-x-6  desktop:space-x-12 desktop:text-[30px] ">
             <li className=" hover:scale-[1.1] hover:text-black  ">
               <CustomLink to="/Home">My Story</CustomLink>
             </li>
@@ -74,7 +74,7 @@ export default function Header() {
             <ul
               className={
                 active
-                  ? " absolute  top-[210px]    left-0 h-screen w-[100%] grow flex-col rounded-lg border  border-black bg-[#e8e4d5]	text-center text-[28px] text-black lg:hidden  "
+                  ? " absolute  top-[210px]    left-0 h-screen w-[100%] grow flex-col rounded-lg border  border-black bg-[#e8e4d5]	text-center text-[28px] text-black laptop:hidden  "
                   : " hidden "
               }
             >
