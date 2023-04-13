@@ -37,7 +37,7 @@ export default function Header() {
         </div>
 
         <AiOutlineMenu
-          className="headermenu  bg-#fffbeb  absolute top-8 right-8 h-[32px]  w-[32px] cursor-pointer	 hover:scale-[1.2] tablet:hidden"
+          className="headermenu  bg-#fffbeb  absolute top-[164px] right-[calc(50%-16px)] h-[32px]  w-[32px] cursor-pointer	 hover:scale-[1.2] tablet:hidden"
           onClick={showHideMenu}
         ></AiOutlineMenu>
 
