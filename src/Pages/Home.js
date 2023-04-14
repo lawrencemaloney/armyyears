@@ -5,7 +5,7 @@ import Collapsible from "../Components/Collapsible";
 function Home() {
   return (
     <>
-      <div className="homewrap z-20 mx-auto mt-0  h-[100%] items-center ">
+      <div className="homewrap z-20 mx-auto mt-0  h-screen items-center ">
         <Header />
 
         <div className="mystory z-20 mx-auto mt-[40px]  flex h-[100%] flex-col items-center ">

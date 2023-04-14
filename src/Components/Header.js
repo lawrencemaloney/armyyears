@@ -6,9 +6,9 @@ import React, { useState } from "react";
 export default function Header() {
   const [active, setActive] = useState(false);
 
-  const showHideMenu = () => {
-    setActive(!active);
-  };
+  // const showHideMenu = () => {
+  //   setActive(!active);
+  // };
 
   return (
     <>
@@ -38,13 +38,21 @@ export default function Header() {
 
         <AiOutlineMenu
           className="headermenu  bg-#fffbeb  absolute top-[164px] right-[calc(50%-16px)] h-[32px]  w-[32px] cursor-pointer	 hover:scale-[1.2] tablet:hidden"
-          onClick={showHideMenu}
+          onClick={setActive}
         ></AiOutlineMenu>
 
-        {/* <MenuItems showHideMenu={showHideMenu} active={active}/> */}
 
-        <nav className=" z-40 ">
-          <ul className="hidden  h-[55px]  w-[100vw] items-center justify-center border border-black bg-amber-50  p-[2px] p-[2px] text-[24px] italic tablet:flex tablet:gap-x-0  tablet:space-x-6  desktop:space-x-12 desktop:text-[30px] ">
+        <nav className= "  z-40 ">
+<ul
+        className={
+                active
+                  ? " absolute  top-[240px] left-[3.5%]  mx-[4px] h-60% w-[90%] opacity-95 flex-col rounded-lg border  border-black bg-[#b2afa4]	text-center text-[28px] font-bold text-black-900	 laptop:hidden  "
+                  : " hidden h-[55px]  w-[100vw] items-center justify-center border border-black bg-amber-50  p-[2px] p-[2px] text-[24px] italic tablet:flex tablet:gap-x-0  tablet:space-x-6  desktop:space-x-12 desktop:text-[30px] "
+              }
+>
+
+
+
             <li className=" hover:scale-[1.1] hover:text-black  ">
               <CustomLink to="/Home">My Story</CustomLink>
             </li>
@@ -70,58 +78,8 @@ export default function Header() {
             </li>
           </ul>
 
-          <div className="menuitem ">
-            <ul
-              className={
-                active
-                  ? " absolute  top-[210px]    left-0 h-screen w-[100%] grow flex-col rounded-lg border  border-black bg-[#e8e4d5]	text-center text-[28px] text-black laptop:hidden  "
-                  : " hidden "
-              }
-            >
-              <li
-                onClick={() => showHideMenu()}
-                className=" m-2 py-2 hover:scale-[1.1]   "
-              >
-                <Link to="/Home">My Story</Link>
-              </li>
-              <li
-                onClick={() => showHideMenu()}
-                className=" m-2 py-2 hover:scale-[1.1]  "
-              >
-                <Link to="/Training">Training</Link>
-              </li>
-              <li
-                onClick={() => showHideMenu()}
-                className=" m-2 py-2 hover:scale-[1.1]  "
-              >
-                <Link to="/InBerlin">In Berlin</Link>
-              </li>
-              <li
-                onClick={() => showHideMenu()}
-                className=" m-2 py-2	hover:scale-[1.1]  "
-              >
-                <Link to="/BOarticles">My Journalism</Link>
-              </li>
-              <li
-                onClick={() => showHideMenu()}
-                className=" m-2 	 hover:scale-[1.1] "
-              >
-                <Link to="/MyPhotos">My Photos</Link>
-              </li>
-              <li
-                onClick={() => showHideMenu()}
-                className=" m-2 py-2 hover:scale-[1.1] "
-              >
-                <Link to="/Archives">Archives</Link>
-              </li>
-              <li
-                onClick={() => showHideMenu()}
-                className=" m-2 py-2  hover:scale-[1.25]"
-              >
-                <Link to="/About">About</Link>
-              </li>
-            </ul>
-          </div>
+        
+
         </nav>
       </div>
     </>
