@@ -1,4 +1,5 @@
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { FaBars, FaTimes } from "react-icons/fa";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 // import MenuItems from "./MenuItems";
 import React, { useState } from "react";
@@ -6,9 +7,9 @@ import React, { useState } from "react";
 export default function Header() {
   const [active, setActive] = useState(false);
 
-  // const showHideMenu = () => {
-  //   setActive(!active);
-  // };
+  const showHideMenu = () => {
+    setActive(!active);
+  };
 
   return (
     <>
@@ -36,22 +37,23 @@ export default function Header() {
           />
         </div>
 
-        <AiOutlineMenu
-          className="headermenu  bg-#fffbeb  absolute top-[164px] right-[calc(50%-16px)] h-[32px]  w-[32px] cursor-pointer	 hover:scale-[1.2] tablet:hidden"
-          onClick={setActive}
-        ></AiOutlineMenu>
+        <FaBars
+          className="mobileopen  bg-#fffbeb  absolute top-[164px] right-[calc(50%-16px)] h-[32px]  w-[32px] cursor-pointer	 hover:scale-[1.2] tablet:hidden"
+          onClick={() => setActive(!active)}>
+        </FaBars>
+
 
 
         <nav className= "  z-40 ">
-<ul
+      <ul
         className={
                 active
-                  ? " absolute  top-[240px] left-[3.5%]  mx-[4px] h-60% w-[90%] opacity-95 flex-col rounded-lg border  border-black bg-[#b2afa4]	text-center text-[28px] font-bold text-black-900	 laptop:hidden  "
+                  ? " absolute  top-[240px] left-[12%] space-y-6 mx-[4px] h-80% w-[70%] opacity-85 flex-col py-8 rounded-lg border  border-black bg-[#d8d5c7]	text-center text-[28px]  text-black-900	 laptop:hidden  "
                   : " hidden h-[55px]  w-[100vw] items-center justify-center border border-black bg-amber-50  p-[2px] p-[2px] text-[24px] italic tablet:flex tablet:gap-x-0  tablet:space-x-6  desktop:space-x-12 desktop:text-[30px] "
               }
->
+      >
 
-
+ 
 
             <li className=" hover:scale-[1.1] hover:text-black  ">
               <CustomLink to="/Home">My Story</CustomLink>
