@@ -14,7 +14,7 @@ export default function Header() {
   return (
     <>
       <div className="header ">
-        <div className="banner mx-auto flex h-[210px] w-[100vw] justify-center  border border-black bg-amber-50  text-center   tablet:ml-[2vw] tablet:border-none laptop:space-x-36 ">
+        <div className="banner mx-auto flex h-[210px] w-[100vw] justify-center  border border-black bg-amber-50  text-center relative  tablet:ml-[2vw] tablet:border-none laptop:space-x-36 ">
           <img
             className="  absolute left-16 top-12 hidden tablet:flex tablet:h-[53px] tablet:w-[50px] "
             src="images/6thINfnatryPin.gif"
@@ -35,21 +35,28 @@ export default function Header() {
             width={60}
             alt={"Pin"}
           />
-        </div>
+      {/* <div className="menubutton sticky top-0"></div> */}
 
         <FaBars
-          className="mobileopen  bg-#fffbeb  absolute top-[164px] right-[calc(50%-16px)] h-[32px]  w-[32px] cursor-pointer	 hover:scale-[1.2] tablet:hidden"
-          onClick={() => setActive(!active)}>
-        </FaBars>
+          className={active  ? "mobileopen  hidden ":"bg-#fffbeb  absolute top-[160px] right-[calc(50%-16px)] h-[32px]  w-[32px] cursor-pointer	 hover:scale-[1.2] mobile:hidden"}
+          onClick={() => showHideMenu()}>
+        </FaBars> 
 
 
+        <FaTimes 
+          className={active ? "mobileclose bg-#fffbeb  absolute top-[160px] right-[calc(50%-16px)] h-[32px]  w-[32px] cursor-pointer	 hover:scale-[1.2] mobile:hidden  ":"hidden"}
+          onClick={() => showHideMenu()}>
+        </FaTimes>
 
-        <nav className= "  z-40 ">
+        </div>
+
+
+     <nav className= "  z-40 ">
       <ul
         className={
                 active
-                  ? " absolute  top-[240px] left-[12%] space-y-6 mx-[4px] h-80% w-[70%] opacity-85 flex-col py-8 rounded-lg border  border-black bg-[#d8d5c7]	text-center text-[28px]  text-black-900	 laptop:hidden  "
-                  : " hidden h-[55px]  w-[100vw] items-center justify-center border border-black bg-amber-50  p-[2px] p-[2px] text-[24px] italic tablet:flex tablet:gap-x-0  tablet:space-x-6  desktop:space-x-12 desktop:text-[30px] "
+                  ? " absolute  top-[240px] left-[3%] space-y-6 mx-[4px] h-80% w-[90%] opacity-85 flex-col py-8 rounded-lg border  border-black bg-[#d8d5c7]	text-center text-[28px]  text-black-900	 tablet:hidden  "
+                  : " hidden h-[55px]  w-[100vw] items-center justify-center border border-black bg-amber-50  p-[2px] p-[2px] text-[24px] italic tablet:flex tablet:gap-x-0  tablet:space-x-6  tablet:text-[20px] desktop:space-x-12 desktop:text-[30px] "
               }
       >
 
