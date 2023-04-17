@@ -38,13 +38,13 @@ export default function Header() {
       {/* <div className="menubutton sticky top-0"></div> */}
 
         <FaBars
-          className={active  ? "mobileopen  hidden ":"bg-#fffbeb  absolute top-[160px] right-[calc(50%-16px)] h-[32px]  w-[32px] cursor-pointer	 hover:scale-[1.2] mobile:hidden"}
+          className={active  ? "mobileopen  hidden ":"bg-#fffbeb  absolute top-[160px] right-[calc(50%-16px)] h-[32px]  w-[32px] cursor-pointer	 hover:scale-[1.2] tablet:hidden"}
           onClick={() => showHideMenu()}>
         </FaBars> 
 
 
         <FaTimes 
-          className={active ? "mobileclose bg-#fffbeb  absolute top-[160px] right-[calc(50%-16px)] h-[32px]  w-[32px] cursor-pointer	 hover:scale-[1.2] mobile:hidden  ":"hidden"}
+          className={active ? "mobileclose bg-#fffbeb  absolute top-[160px] right-[calc(50%-16px)] h-[32px]  w-[32px] cursor-pointer	 hover:scale-[1.2] tablet:hidden  ":"hidden"}
           onClick={() => showHideMenu()}>
         </FaTimes>
 
@@ -55,8 +55,8 @@ export default function Header() {
       <ul
         className={
                 active
-                  ? " absolute  top-[240px] left-[3%] space-y-6 mx-[4px] h-80% w-[90%] opacity-85 flex-col py-8 rounded-lg border  border-black bg-[#d8d5c7]	text-center text-[28px]  text-black-900	 tablet:hidden  "
-                  : " hidden h-[55px]  w-[100vw] items-center justify-center border border-black bg-amber-50  p-[2px] p-[2px] text-[24px] italic tablet:flex tablet:gap-x-0  tablet:space-x-6  tablet:text-[20px] desktop:space-x-12 desktop:text-[30px] "
+                  ? "OverlayBanner absolute  top-[240px] left-[3%] space-y-6 mx-[4px] h-80% w-[90%] opacity-85 flex-col py-8 rounded-lg border  border-black bg-[#d8d5c7]	text-center text-[28px]  text-black-900	 tablet:hidden  "
+                  : "topBanner hidden h-[55px]  w-[100vw] items-center justify-center border border-black bg-amber-50  p-[2px] p-[2px] text-[24px] italic tablet:flex tablet:gap-x-0  tablet:space-x-6  tablet:text-[20px] desktop:space-x-12 desktop:text-[30px] "
               }
       >
 
@@ -86,8 +86,6 @@ export default function Header() {
               <CustomLink to="/About">About</CustomLink>
             </li>
           </ul>
-
-        
 
         </nav>
       </div>
