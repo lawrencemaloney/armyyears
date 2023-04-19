@@ -165,7 +165,7 @@ function InBerlin() {
         <div className="mt-4 max-w-[45ch] tablet:max-w-[75ch]">
           <img
             className="border-2 border-black "
-            src="..\media\InBerlin\sgt LeClair.jpg"
+            src="images\Sgt LeClair mod 1 copy 1.webp"            
             alt="Army building in Frankfurt"
             width="980px"
           />
