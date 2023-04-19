@@ -195,7 +195,8 @@ function InBerlin() {
         <div className="mt-4 max-w-[45ch] tablet:max-w-[75ch]">
           <img
             className="border-2 border-black "
-            src="..\media\mcnair-barracks1_bw cropped resized.jpg"
+            src="images\mcnair-barracks1_bw cropped resized.jpg"
+          
             alt="Army building in Berlin"
             width="980px"
           />
