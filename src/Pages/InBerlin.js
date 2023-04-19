@@ -149,6 +149,62 @@ function InBerlin() {
             fuel, and supplies using those modes of transportation.
           </p>
 
+          
+        <h1 className=' text-center underline text-2xl  mb-3'>Life in the Berlin Brigade</h1>
+      
+      <h3 className=' text-center underline text-2xl  mb-3'>Arrival in Berlin</h3>                   
+      <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
+
+              My first memory of Berlin is sitting in a small office at McNair Barracks being interviewed by Sargent First Class Ed LeClair who was in charge of assigning personnel within the 2nd Battalion, 6th Infantry, Berlin Brigade. Sgt. LeClair was calm and reasonable (an unexpected experience based upon my dealings with sergeants heretofore).
+        </p>
+
+              
+              
+              
+             
+        <div className="mt-4 max-w-[45ch] tablet:max-w-[75ch]">
+          <img
+            className="border-2 border-black "
+            src="..\media\InBerlin\sgt LeClair.jpg"
+            alt="Army building in Frankfurt"
+            width="980px"
+          />
+          <span className="text-sm leading-none ">
+          (Sgt. First Class LeClair from Berlin Observer)
+          </span>
+        </div>
+
+
+      <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
+
+              
+              Looking at my records, he noticed that I had a degree in communications and asked if I would be
+              interested in the recently vacated position of Battalion Public Information Office (PIO) clerk, which,
+              among other things, involved writing articles and taking pictures for the Berlin Brigade newspaper
+              called the Berlin Observer. Being shocked that I was asked rather than told, I said "absolutely"!
+      </p>
+
+      <h3 className=' text-center underline text-2xl  mb-3'>Getting Settled</h3>
+      
+          <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
+
+      Sgt. LeClair assigned me to the Headquarters Company for reporting purposes but for billiting purposes I was assigned the Company B. 
+          McNair Barracks "Berlin Brigade" where I served as a Public Information Office (PIO) clerk from June 28, 1970 to December 29, 1971.            
+      </p>
+
+        <div className="mt-4 max-w-[45ch] tablet:max-w-[75ch]">
+          <img
+            className="border-2 border-black "
+            src="..\media\mcnair-barracks1_bw cropped resized.jpg"
+            alt="Army building in Berlin"
+            width="980px"
+          />
+          <span className="text-sm leading-none ">
+          (U.S. Army McNair Barracks)
+          </span>
+        </div>
+
+
           <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]"></p>
         </div>
       </div>
