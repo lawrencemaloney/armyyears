@@ -24,7 +24,7 @@ export default function Header() {
           />
 
           <h1 className=" absolute right-[50%] mt-10 w-[100%] translate-x-[50%] flex-col text-4xl  tablet:text-[56px] ">
-            A Soldier in Berlin{" "}
+          An Unexpected Adventure {" "}
             <p className="mt-[20px] text-[36px]">1969 to 1972</p>
           </h1>
 
@@ -62,7 +62,7 @@ export default function Header() {
       >
 
              <li className=" hover:scale-[1.1] hover:text-black  ">
-              <CustomLink to="/Home">My Story</CustomLink>
+              <CustomLink to="/Home">The Lottery</CustomLink>
             </li>
             <li className=" hover:scale-[1.1]  hover:text-black">
               <CustomLink to="/Training">Training</CustomLink>
