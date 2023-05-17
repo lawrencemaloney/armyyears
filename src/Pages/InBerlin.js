@@ -2,20 +2,24 @@ import Header from "../Components/Header";
 
 import React from "react";
 import Collapsible from "../Components/Collapsible";
+import Sidebar from "../Components/Sidebar";
+
 
 function InBerlin() {
   return (
     <>
+            <Header />
+        <Sidebar />
       <div className="berlinwrap z-20 mx-auto mt-0  flex h-[100%] flex-col items-center ">
-        <Header />
+
+
 
         <div className="  mx-auto mt-[40px]  flex flex-col items-center ">
           <h1 className=" mx-[20px] mt-[1rem] mb-3 text-center text-3xl  tablet:text-4xl">
             Hot War/Cold War - Vietnam/Germany
           </h1>
           <h2
-            className="mt-3 text-center  text-3xl
-          "
+            className="mt-3 text-center  text-3xl"
           >
             What was I getting into?
           </h2>

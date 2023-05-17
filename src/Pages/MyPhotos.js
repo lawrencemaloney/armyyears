@@ -5,6 +5,8 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 //
 import { Link } from "react-router-dom";
 // import PhotoMenu from "../Components/PhotoMenu";
+import Sidebar from "../Components/Sidebar";
+
 import imageRef from "../imagedata.json";
 import ImageSlider from "../Components/ImageSlider";
 
@@ -21,6 +23,7 @@ function MyPhotos() {
   const [isOpen, setIsOpen] = useState(false);
   const GroupButton = ({ name, handleSetgroup, groupActive }) => {
     return (
+      
       <button
         className={`group my-[2px] ml-[10px] flex w-[90px] flex-col  rounded-lg  p-[2px] text-left  hover:scale-[1.1] hover:text-yellow-400  ${
           groupActive ? "text-yellow-400" : null
@@ -49,7 +52,7 @@ function MyPhotos() {
   return (
     <>
       {/* <div className='App bg-black w-[100vw]  text-white '> */}
-      <ul className="fixed  top-0  left-0  z-20   h-full w-[200px]  space-y-[10px] overflow-y-scroll  bg-black text-left text-[16px] text-white	 ">
+      <ul className="fixed  top-0  left-0  z-20   h-full w-[200px]  space-y-[10px] overflow-y-scroll  bg-slate-900	 text-left text-[16px] text-white	 ">
         <p className="mt-20 text-[22px] ">Photo Categories</p>
 
         <GroupButton
@@ -125,7 +128,7 @@ function MyPhotos() {
       </ul>
 
       {/* <div className='bg-black	'> */}
-      <div className="pageContainer absolute top-0 left-0 ml-[150px] flex w-full flex-col bg-black  text-white  ">
+      <div className="pageContainer absolute top-0 left-0 ml-[150px] flex w-full flex-col  bg-[#273341]  text-white  ">
         {/* <div className="subhead  text-white   z-auto  w-[100vw] bg-black h-[100px] fixed top-0 "> */}
         <h1 className="  text-center text-3xl">My Photos</h1>
         {/* </div> */}
@@ -148,7 +151,7 @@ function MyPhotos() {
 
         {/* </div> */}
 
-        <div className="textimagecontainer z-0  m-[2%] h-full w-[90%] bg-black">
+        <div className="textimagecontainer z-0  m-[2%] h-full w-[90%] bg-slate-900	">
           {/* <div className={`textimagecontainer  grid-col-start-1 col-span-12 h-full w-[100%] m-[2%] mobile:grid-col-start-3 mobile:col-span-8 ${!isOpen ? 'mobile:visible ' : ' mobile:hidden '} `}> */}
 
           <div className="textcontainer mx-8  mb-[2rem]  text-[22px] leading-[32px]    ">

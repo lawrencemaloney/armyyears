@@ -1,15 +1,19 @@
 import React, { useState, useRef } from "react";
 import Header from "../Components/Header";
 import Collapsible from "../Components/Collapsible";
+import Sidebar from "../Components/Sidebar";
+
 
 function Home() {
   return (
     <>
-      <div className="homewrap z-20 mx-auto mt-0  h-screen items-center ">
         <Header />
+        <Sidebar />
+
+      <div className="homewrap z-20 mx-auto mt-0  h-screen items-center  ">
 
         <div className="thedecision z-20 mx-auto mt-[40px]  flex h-[100%] flex-col items-center ">
-          <h1 className="mx-[20px] mt-[1rem] mb-3 text-center text-3xl  tablet:text-4xl">
+          <h1 className="mx-[20px] mt-[1rem] mb-3 text-center text-3xl 	 tablet:text-4xl">
           It Began With a Lottery.
           </h1>
 

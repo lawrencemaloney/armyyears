@@ -7,6 +7,8 @@
 
 # imamage
 images/
+photos/
+media/
 
 # testing
 /coverage

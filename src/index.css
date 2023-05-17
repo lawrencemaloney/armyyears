@@ -21,15 +21,16 @@
 } */
 
   body {
-    width: 100%;
+    /* width: 100%; */
     /* width: -webkit-fill-available; */
     flex-grow: 1;
     margin: 0;
     padding: 0;
     font-family: "Merriweather", serif;
-    background-color: rgb(255 251 235);
+    background-color: rgb(255, 252, 235);
     letter-spacing: 0.02rem;
-    color: black;
+    /* color:red; */
+    /* color: #273341; */
     /* height: 100%; */
     /* line-height: 27px; */
   }

@@ -2,12 +2,15 @@
 
 import Header from "../Components/Header";
 import React, { useState, useRef } from "react";
+import Sidebar from "../Components/Sidebar";
+
 
 function About() {
   return (
-    <>
-      <div className="aboutwrap z-20 mx-auto mt-0  flex h-[100%] flex-col items-center ">
+<>
         <Header />
+        <Sidebar />
+      <div className="aboutwrap z-20 mx-auto mt-0  flex h-[100%] flex-col items-center ">
         <div className="mystory z-20 mx-auto mt-[40px]  flex h-[100%] flex-col items-center ">
           <h1 className="mx-[20px] mt-[1rem] mb-3 text-center text-3xl  tablet:text-4xl">
           How I Came to Write This Story
