@@ -13,7 +13,7 @@ export default function Sidebar() {
     {!isOpen ? 
     (
         <FaBars 
-          className="mobileopen fixed  z-30 flex items-center cursor-pointer h-[36px] w-[36px] right-10 top-6"
+          className="mobileopen fixed  z-30 flex items-center cursor-pointer h-[32px] w-[32px] right-10 top-6"
           onClick={() => setIsOpen(!isOpen)}>
         </FaBars> 
 
@@ -21,7 +21,7 @@ export default function Sidebar() {
     :
     (
       <FaTimes 
-      className="mobileclose flex text-4xl text-white items-center cursor-pointer fixed right-10 top-6 z-50"
+      className="mobileclose flex text-4xl text-white items-center cursor-pointer fixed right-10 top-6 z-50 w-[32px] h-[32px]"
       onClick={() => setIsOpen(!isOpen)}>
     </FaTimes>
 
@@ -29,7 +29,7 @@ export default function Sidebar() {
 }
 
 <div
-  className={`navbar top-0 right-0 w-1/2  bg-[#b2b0a4] p-10 pl-20 text-white fixed h-full z-40  ${isOpen ? "translate-x-0" : "translate-x-full"} ease-in-out duration-300`}>
+  className={`navbar top-0 right-0 w-full  bg-[#b2b0a4] p-10 pl-20 text-white fixed h-full z-40  ${isOpen ? "translate-x-0" : "translate-x-full"} ease-in-out duration-300`}>
   {/* <h3 className="mt-20 text-4xl font-semibold text-white">I am a sidebar</h3> */}
 
 <nav>
