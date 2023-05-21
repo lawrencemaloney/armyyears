@@ -13,28 +13,28 @@ export default function Header() {
 
   return (
     <>
-      <div className="header mt-0 h-[100%] border border-black flex flex-col   items-center">
-        <div className="banner flex h-[210px]   text-center   tablet:ml-[2vw] desktop:border-none desktop:space-x-36 ">
-          <img
-            className="  hidden tablet:flex tablet:h-[53px] tablet:w-[50px] "
+      <div className="header mt-0 h-[100%] border border-black flex flex-col items-center">
+        <div className="banner flex h-[160px]   text-center   tablet:ml-[2vw]  desktop:border-none desktop:space-x-36 ">
+          {/* <img
+            className="  hidden mobile:flex mobile:w-[48px] mobile:h-[32px] tablet:h-[53px] "
             src="images/6thINfnatryPin.gif"
             height={60}
             width={60}
             alt={"Pin"}
-          />
+          /> */}
 
-          <h1 className=" text-center  mt-10   text-4xl   ">
+          <h1 className=" text-center  mt-10   text-3xl   ">
           An Unexpected Adventure {" "}
-            <p className="mt-[20px] text-3xl">Larry Maloney 1969 to 1972</p>
+            <p className="mt-[20px] text-2xl">Larry Maloney 1969 to 1972</p>
           </h1>
 
-          <img
+          {/* <img
             className="  hidden tablet:top-12 tablet:flex tablet:h-[53px] tablet:w-[50px] "
             src="images/6thINfnatryPin.gif"
             height={60}
             width={60}
             alt={"Pin"}
-          />
+          /> */}
       {/* <div className="menubutton sticky top-0"></div> */}
 
         {/* <FaBars

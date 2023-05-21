@@ -4,11 +4,12 @@ module.exports = {
   theme: {
     extend: {
       screens: {
+        ipx: "425px",
         mobile: "640px",
         tablet: "768px",
-        laptop: "1024px",
-        desktop: "1280px",
-        xldesktop: "1536px",
+        laptop: "1070",
+        desktop: "1150px",
+        xldesktop: "1440px",
 
 
       },

@@ -9,19 +9,16 @@ import MyPhotos from "./Pages/MyPhotos";
 import Archives from "./Pages/Archives";
 import About from "./Pages/About";
 import BOarticle1770 from "./Pages/BOarticle1770";
-// import Sidebar from "./Components/Sidebar";
+import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
   return (
     <>
 
 
-    {/* <div className="flex flex-col items-center justify-center min-h-screen py-2"> */}
-      {/* <Sidebar /> */}
-
-    {/* </div> */}
-
     <Router>
+    <ScrollToTop />
+
       <Routes>
         <Route exact path="/" element={<Home />}></Route>
         <Route exact path="/Home" element={<Home />}></Route>

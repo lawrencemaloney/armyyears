@@ -2,13 +2,18 @@
 
 import Header from "../Components/Header";
 import React, { useState, useRef } from "react";
+import Sidebar from "../Components/Sidebar";
+
 
 function BOarticle1770() {
 
   return (
 <>
+<Header />
+        <Sidebar />
 <div className="berlinwrap z-20 mx-auto mt-0  flex h-[100%] flex-col items-center ">
-        <Header />
+
+
     <div className="obshead	 my-8 text-center">
         <img className="bannerpic " src="..\media\BO-Banner-main-head.jpg" alt="Berlin Observer Banner" width="592px"
             height="149"/>

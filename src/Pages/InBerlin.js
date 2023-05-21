@@ -105,9 +105,9 @@ function InBerlin() {
             in Berlin. For civilians and military personnel living in Berlin,
             the potential for armed conflict was personal and ever-present.
           </p>
-          <h3 className="mt-4  text-center text-2xl underline">
+          <h2 className="mt-4  text-center text-3xl ">
             100 Miles Behind Enemy Lines!
-          </h3>
+          </h2>
 
           <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
             Before arriving in Berlin, I hadn't given much thought to the "Cold
@@ -119,9 +119,9 @@ function InBerlin() {
             German troops.
           </p>
 
-          <h3 className=" mb-3 text-center text-2xl  underline">
+          <h2 className=" mb-3 text-center text-3xl  ">
             The Berlin Blockade
-          </h3>
+          </h2>
 
           <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
             By mid-1970, the Soviets had already made several concerted efforts
@@ -154,9 +154,87 @@ function InBerlin() {
           </p>
 
           
-        <h1 className=' text-center underline text-2xl  mb-3'>Life in the Berlin Brigade</h1>
+        <h1 className=' text-center  text-3xl  mb-3'>Life in the Berlin Brigade</h1>
+
+            <h2 className="text-center  text-3xl  mb-3">History of WW II Berlin:</h2>
+            <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
+
+            A brief history of the fall of Berlin at the end of World War II, the role of the U.S. Army in the divided post-war Berlin and, the establishment of the Berlin Brigade provides a context for my experiences presented on this page and the pages dedicated to the Berlin Observer.
+            </p>
+              <a
+                href="..\media\BO PDFs\4 sector city (nov 1946).pdf"
+                target="-blank"> 
+                
+                <img
+                src="..\media\Four Sector City cover page.JPG" alt="Four Sector City cover page" width="395px"
+                height="574px"/> 
+              </a>
+
+              <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
+ The document:                
+                <span class='foursector'>"Four Sector City - The Story of the U.S. Army's Mission in the Occupation of Berlin"</span> (click image on left) was published by the U.S. Army in November 1946, just 18 months after Germany's surrender on May 7, 1945 (and a year before I was born). It describes (with pictures) the events leading up to the occupation of Berlin by the Allies, including the taking of Berlin by the Soviet Army.  It also presents a brief story of how the Army aided the people of Berlin as they began to rebuild their city and society. The various functions of the U.S. military units in Berlin, which eventually became the Berlin Brigade, are also presented.
+            
+            </p>
+
+            <p className="ml-0 mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">Here's a quote from the document:</p>
+
+            <p class='mx-[20px] mt-[1rem] max-w-[34ch] text-[20px] leading-[24px] mobile:max-w-[40ch] mobile:text-[25px] laptop:max-w-[60ch]'>
+                "Berlin is a monument to the monstrous aims of Nazism. It is a Twentieth Century Pompeii whose destruction was caused not by capricious nature, but by men who sought to conquer the world but instead
+                succeeded in ruining their own nation."
+                <span class="quote-clay"> - Lucius D. Clay, Lieutenant General, U. S. A., Deputy Military Governor.
+                    Quoted from "Four Sector City".</span>
+            </p>
+
+            <p class="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]"> For further information on the taking of Berlin by the Soviet Army, see:
+                <span class="reflink">
+                    <a href="https://en.wikipedia.org/wiki/Battle_of_Berlin" target="_blank">Battle of Berlin
+                        (Wikipedia).</a>
+                </span>
+            </p>
+            <h3>History of the Berlin Brigade:</h3>
+
+            <a href="..\BO_PDFs\Berlin Observer History of B Brigade.pdf" id="bbspec-pic" target="-blank">
+              <img
+                src="..\media\Berlin BGD Orientation and history 1970.JPG" alt="Special Edition" width="395px"
+                height="574px"/>Click Here</a>
+
+            <p>
+                A short history of the Berlin Brigade was published in this Special Edition of the Berlin Observer (click image on right). The issue was created to introduce Berlin to newly arriving soldiers. It describes the purpose and structure of the Berlin Brigade, its interaction with the other Allies, and what a soldier can expect as he or she serves in Berlin. There are pictures of some interesting sites in and around Berlin like the Congress Hall (built by the U.S. in 1957 for international exhibitions), the Kaiser-Wilhelm memorial church, and the Olympic Stadium, the site of the 1936 Olympic games. There are also pictures of soldiers in action. I am pictured on page 6 of this issue in my sleeping quarters playing guitar. Grand Funk Railroad is pictured on page 5 also playing guitars. The resemblance is uncanny! Since there is mention in this publication of a Johnny Cash concert in September 1972, this special issue must have been published well after I had left.
+            </p>
+          
+            <p class="wikilink">An extensive history of the Berlin Brigade can be found at:
+                    <a href="https://usarmygermany.com/Units/Berlin%20Brigade/USAREUR_Berlin%20Brigade.htm#BBHistory" target="_blank" className="text-blue-600 visited:text-purple-600">                        </a>
+                </p>
+
+
+        <div class="frankfurt-container">
+            <h3>New York to Frankfurt to Berlin</h3>
+            <p class='hilite'>(Tap or hover over pictures below to enlarge.)</p>
+
+            <img src="..\media\US Army Building in Frnakfurt GA 1970.jpg" alt="Army building in Frankfurt"
+            width="434px" height="280px">
+          </img>
+          <p>U.S. Army - Frankfurt 1970</p>
+
+                <img src="..\media\duty train frankfurt berlin (cropped).jpg" alt="Army train to Frankfurt"
+                width="434px" height="280px"/>
+                <p>(U.S. Army Duty Train)</p>
+
+            <p>
+                
+                I traveled to Frankfurt via a
+                commercial jet from JFK Airport in New York. I'm not certain how I got from the Frankfurt airport
+                (Rhein-Main-Flughafen in those days) to an Army headquarters building in downtown Frankfurt. I was traveling alone, so I think I must have taken a taxi.
+                I remember being driven through the castle-like stone gates of the headquarters building and into the courtyard. It looked very much like (and may have been) the building pictured on the left. Being my first time out of the U.S., I was in awe of the building and, especially, the courtyard. I was in Frankfurt for only a few hours when I was given orders to travel to Berlin and report to the 2nd Battalion, 6th Infantry. The orders included a travel voucher for the  <span class="reflink">
+                    <a href="https://www.usarmygermany.com/Sont.htm?https&&&www.usarmygermany.com/Units/Transportation/USAREUR_Duty%20Trains.htm" target="_blank">U.S. Army duty train</a>
+                </span>
+                 that regularly traveled between Frankfurt and Berlin. Although I don't have a clear memory of my first trip on this train (see image on right), I do remember one subsequent trip in particular. I was traveling from Berlin to Frankfurt and looking out the window on a very clear cold winter night at an East German landscape of forest and farms beautifully lit by a full moon. In the distance, I could clearly see a train traveling in the opposite direction begin powered by a steam engine. I can still picture the long trail of moonlit smoke trailing from the stack. I remember thinking: “This could be a scene from the 1930s. It’s hard to imagine that just 25 years before, this peaceful landscape was ravaged by war.”
+            </p>
+
+
+        </div>
       
-      <h3 className=' text-center underline text-2xl  mb-3'>Arrival in Berlin</h3>                   
+      <h3 className=' text-center  text-2xl  mb-3'>Arrival in Berlin</h3>                   
       <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
 
               My first memory of Berlin is sitting in a small office at McNair Barracks being interviewed by Sargent First Class Ed LeClair who was in charge of assigning personnel within the 2nd Battalion, 6th Infantry, Berlin Brigade. Sgt. LeClair was calm and reasonable (an unexpected experience based upon my dealings with sergeants heretofore).
@@ -188,7 +266,7 @@ function InBerlin() {
               called the Berlin Observer. Being shocked that I was asked rather than told, I said "absolutely"!
       </p>
 
-      <h3 className=' text-center underline text-2xl  mb-3'>Getting Settled</h3>
+      <h3 className=' text-center  text-2xl  mb-3'>Getting Settled</h3>
       
           <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
 
