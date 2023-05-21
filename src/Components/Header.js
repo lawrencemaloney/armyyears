@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <>
       {/* <div className="header mt-0 h-[100%] border border-black flex flex-col items-center"> */}
-        <div className="banner flex h-[160px] border border-black justify-center tablet:ml-[2vw]  desktop:border-none desktop:space-x-36 ">
+        <div className="banner flex flex-col h-[220px] border border-black justify-center    ">
 
 
           <h1 className=" text-center  mt-10   text-4xl text-bold   ">
