@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { isCompositeComponentWithType } from 'react-dom/test-utils';
+// import { isCompositeComponentWithType } from 'react-dom/test-utils';
 
 
 
@@ -14,7 +14,7 @@ export default function Sidebar() {
     {!isOpen ? 
     (
         <FaBars 
-          className="mobileopen fixed  z-30 flex items-center cursor-pointer h-[32px] w-[32px] right-10 top-6"
+          className="mobileopen fixed  z-30 flex items-center cursor-pointer h-[24px] w-[24px] right-6 top-4"
           onClick={() => setIsOpen(!isOpen)}>
         </FaBars> 
 
@@ -22,7 +22,7 @@ export default function Sidebar() {
     :
     (
       <FaTimes 
-      className="mobileclose flex text-4xl text-white items-center cursor-pointer fixed right-10 top-6 z-50 w-[32px] h-[32px]"
+      className="mobileclose flex text-4xl text-white items-center cursor-pointer fixed right-6 top-6 z-50 w-[24px] h-[24px]"
       onClick={() => setIsOpen(!isOpen)}>
     </FaTimes>
 

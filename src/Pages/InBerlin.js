@@ -15,12 +15,10 @@ function InBerlin() {
 
 
         <div className="  mx-auto mt-[40px]  flex flex-col items-center ">
-          <h1 className=" mx-[20px] mt-[1rem] mb-3 text-center text-3xl  tablet:text-4xl">
+          <h1 className=" mx-[20px] my-6 text-center text-3xl  tablet:text-4xl">
             Hot War/Cold War - Vietnam/Germany
           </h1>
-          <h2
-            className="mt-3 text-center  text-3xl"
-          >
+          <h2 className="mt-3 text-center  text-2xl">
             What was I getting into?
           </h2>
           <p
@@ -53,6 +51,7 @@ function InBerlin() {
                 </a>
               </p>
             </Collapsible>
+            <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] "></p>
             The conflicting world views and political ambitions of the U.S. and
             the Soviet Union, which contributed to the escalating involvement of
             the U.S. in the Vietnam War, had their genesis in post-war Germany.
@@ -154,7 +153,7 @@ function InBerlin() {
           </p>
 
           
-        <h1 className=' text-center  text-3xl  mb-3'>Life in the Berlin Brigade</h1>
+
 
             <h2 className="text-center  text-3xl  mb-3">History of WW II Berlin:</h2>
             <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
@@ -171,8 +170,7 @@ function InBerlin() {
               </a>
 
               <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
- The document:                
-                <span class='foursector'>"Four Sector City - The Story of the U.S. Army's Mission in the Occupation of Berlin"</span> (click image on left) was published by the U.S. Army in November 1946, just 18 months after Germany's surrender on May 7, 1945 (and a year before I was born). It describes (with pictures) the events leading up to the occupation of Berlin by the Allies, including the taking of Berlin by the Soviet Army.  It also presents a brief story of how the Army aided the people of Berlin as they began to rebuild their city and society. The various functions of the U.S. military units in Berlin, which eventually became the Berlin Brigade, are also presented.
+              The document <span class='italic'>Four Sector City - The Story of the U.S. Army's Mission in the Occupation of Berlin</span> (click image on left) was published by the U.S. Army in November 1946, just 18 months after Germany's surrender on May 7, 1945 (and a year before I was born). It describes (with pictures) the events leading up to the occupation of Berlin by the Allies, including the taking of Berlin by the Soviet Army.  It also presents a brief story of how the Army aided the people of Berlin as they began to rebuild their city and society. The various functions of the U.S. military units in Berlin, which eventually became the Berlin Brigade, are also presented.
             
             </p>
 
@@ -286,7 +284,8 @@ function InBerlin() {
           (U.S. Army McNair Barracks)
           </span>
         </div>
-
+        
+        <h1 className=' text-center  text-3xl  mb-3'>Life in the Berlin Brigade</h1>
 
           <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]"></p>
         </div>
