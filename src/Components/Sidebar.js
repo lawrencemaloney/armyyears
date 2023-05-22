@@ -14,7 +14,7 @@ export default function Sidebar() {
     {!isOpen ? 
     (
         <FaBars 
-          className="mobileopen fixed  z-30 flex items-center cursor-pointer h-[24px] w-[24px] right-6 top-4"
+          className="mobileopen fixed text-yellow-300 z-30 flex items-center cursor-pointer h-[24px] w-[24px] right-6 top-4"
           onClick={() => setIsOpen(!isOpen)}>
         </FaBars> 
 
@@ -30,13 +30,13 @@ export default function Sidebar() {
 }
 
 <div
-  className={`navbar top-0 right-0 w-full justify-center  bg-[#b2b0a4] p-10  text-white fixed h-full z-40  ${isOpen ? "translate-x-0" : "translate-x-full"} ease-in-out duration-300`}>
+  className={`navbar top-0 right-0 w-full tablet:w-1/2 justify-center  bg-[#606c38] p-10  text-white fixed h-full z-40  ${isOpen ? "translate-x-0" : "translate-x-full  "} ease-in-out duration-300`}>
 
 
 <nav className="">
- <ul className="flex flex-col mt-20 text-center space-y-12 text-3xl">
+ <ul className="flex flex-col mt-20 text-center text-white space-y-12 text-3xl">
 
-          <li className=" hover:scale-[1.01] hover:text-black  ">
+          <li className=" hover:scale-[1.01]   ">
            <CustomLink to="/Home">The Lottery</CustomLink>
          </li>
          <li className=" hover:scale-[1.01]  hover:text-black">
@@ -77,8 +77,8 @@ export default function Sidebar() {
            <span
              className={
                isActive
-                 ? " text-red-700"
-                 : "text-black	  hover:scale-[1.05]"
+                 ? " text-yellow-300"
+                 : "text-white	  hover:scale-[1.05]"
              }
            >
              <Link to={to} {...props}>
