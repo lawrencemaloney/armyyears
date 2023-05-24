@@ -1,37 +1,31 @@
 import React, { useEffect, useState } from "react";
 import "../Components/MyPhotos.css";
 import "../index.css";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-//
-import { Link } from "react-router-dom";
-// import PhotoMenu from "../Components/PhotoMenu";
-import Sidebar from "../Components/Sidebar";
+import { FaAngleDoubleLeft, FaAngleDoubleRight  } from "react-icons/fa";
 
+import Header from "../Components/Header";
+import Sidebar from "../Components/Sidebar";
 import imageRef from "../imagedata.json";
 import ImageSlider from "../Components/ImageSlider";
+
 
 function MyPhotos() {
   const [group, setGroup] = useState("All");
   const [filteredImages, setFilteredImages] = useState([]);
-  // const [currentArray,setCurrentArray] = useState([]);
   const [selectedImg, setSelectedImg] = useState(null);
+  const [isGrpOpen, setIsGrpOpen] = useState(true);
 
-  // const handlekeyPress = (e: React.KeyboardEvent) =>{
-
-  // }
-  // const [imageCaption, setImageCaption] = useState('')
-  const [isOpen, setIsOpen] = useState(false);
   const GroupButton = ({ name, handleSetgroup, groupActive }) => {
     return (
-      
+
       <button
-        className={`group my-[2px] ml-[10px] flex w-[90px] flex-col  rounded-lg  p-[2px] text-left  hover:scale-[1.1] hover:text-yellow-400  ${
-          groupActive ? "text-yellow-400" : null
+        className={`group my-[2px] ml-[10px] flex w-[90px] flex-col  rounded-lg  p-[2px] text-left  hover:scale-[1.1] hover:text-red-400  ${
+          groupActive ? "text-red-400" : null
         }`}
         onClick={() => {
           // console.log('Click - ',e)
           handleSetgroup(name);
-          setIsOpen(!isOpen);
+          setIsGrpOpen(!isGrpOpen);
           setSelectedImg(null);
         }}
       >
@@ -51,9 +45,43 @@ function MyPhotos() {
 
   return (
     <>
-      {/* <div className='App bg-black w-[100vw]  text-white '> */}
-      <ul className="fixed  top-0  left-0  z-20   h-full w-[200px]  space-y-[10px] overflow-y-scroll  bg-slate-900	 text-left text-[16px] text-white	 ">
-        <p className="mt-20 text-[22px] ">Photo Categories</p>
+    <Header />
+    <Sidebar />
+{/* 
+      <div className='{groupnav  fixed  top-0 h-full   left-0  z-20  bg-[#ccc9bc] ${isGrpOpen ? "translate-x-0" : "translate-x-full  "} ease-in-out duration-300`}>'> */}
+<div className="fixed text-black  z-30 flex items-center cursor-pointer h-[24px] w-[24px]  left-6 top-120">
+
+
+
+{!isGrpOpen ? 
+    (
+        // <FaAngleDoubleLeft
+        //   className="categoryopen  text-black  z-30 flex items-center cursor-pointer h-[24px] w-[24px]  left-6 top-120 font-light	"
+        // </FaAngleDoubleLeft> 
+
+          
+        <button  className="flex fixed top-4 left-4 border items-center border-black p-2 rounded-md bg-yellow-500 text-black  z-30  cursor-pointer " onClick={() => setIsGrpOpen(!isGrpOpen)}>Hide Catagories</button>
+
+    )
+    :
+    (
+    //   <FaAngleDoubleRight 
+    //   className="categoryclose  text-4xl text-black  items-center cursor-pointer  left-6 top-6 z-50 w-[24px] h-[24px]"
+    //   onClick={() => setIsGrpOpen(!isGrpOpen)}>
+    // </FaAngleDoubleRight>
+    <button  className="flex fixed top-4 left-4 border items-center border-black p-2 rounded-md bg-yellow-500 text-black  z-30  cursor-pointer  " onClick={() => setIsGrpOpen(!isGrpOpen)}> Show Catagories </button>
+
+    )
+}
+</div>
+
+
+      <div
+        className={`groupnav top-100 left-0 w-full tablet:w-1/2 justify-center  p-10 bg-[#ccc9bc]  fixed h-full z-40  ${isGrpOpen ? "-translate-x-full" : "translate-x-0  "} ease-in-out duration-300`}>
+
+        
+      <ul className=" h-full w-[118px]  space-y-[10px] 	 text-left text-[16px] text-black ml-4	 ">
+        <p className="mt-10 text-[22px] ">Categories</p>
 
         <GroupButton
           name="Army"
@@ -103,58 +131,40 @@ function MyPhotos() {
 
         {/* </div> */}
 
-        <p className="my-[20px] text-[20px]">Page Navigation</p>
-        <li className=" ml-[10px] text-left hover:scale-[1.1] ">
-          <Link to="/Home">My Story</Link>
-        </li>
-        <li className=" hover:scale-[1.1]text-left ml-[10px]">
-          <Link to="/Training">Training</Link>
-        </li>
-        <li className=" ml-[10px]  text-left hover:scale-[1.1] ">
-          <Link to="/InBerlin">In Berlin</Link>
-        </li>
-        <li className=" ml-[10px]  text-left hover:scale-[1.1] ">
-          <Link to="/BOarticles">My Journalism</Link>
-        </li>
-        <li className=" ml-[10px] text-left hover:scale-[1.1] ">
-          <Link to="/MyPhotos">My Photos</Link>
-        </li>
-        <li className=" ml-[10px]  text-left hover:scale-[1.1]">
-          <Link to="/Archives">Archives</Link>
-        </li>
-        <li className=" ml-[10px]  text-left hover:scale-[1.25]">
-          <Link to="/About">About</Link>
-        </li>
+        
       </ul>
+      </div>
+
 
       {/* <div className='bg-black	'> */}
-      <div className="pageContainer absolute top-0 left-0 ml-[150px] flex w-full flex-col  bg-[#273341]  text-white  ">
+      <div className="pageContainer  ml-[5px] flex w-full flex-col    text-black  ">
         {/* <div className="subhead  text-white   z-auto  w-[100vw] bg-black h-[100px] fixed top-0 "> */}
         <h1 className="  text-center text-3xl">My Photos</h1>
         {/* </div> */}
 
-        {!isOpen ? (
-          <button onClick={() => setIsOpen(!isOpen)}>
-            <AiOutlineMenu className=" bg-#fffbeb  absolute top-1 right-2 z-[35]  h-[32px] w-[32px]	cursor-pointer hover:scale-[1.2] mobile:hidden "></AiOutlineMenu>
+        {/* {!isGrpOpen ? (
+          <button onClick={() => setIsGrpOpen(!isGrpOpen)}>
+            <AiOutlineMenu className=" bg-black   z-[35]  h-[32px] w-[32px]	cursor-pointer hover:scale-[1.2] mobile:hidden "></AiOutlineMenu>
           </button>
         ) : (
-          <button onClick={() => setIsOpen(!isOpen)}>
+          <button onClick={() => setIsGrpOpen(!isGrpOpen)}>
             <AiOutlineClose
-              className=" bg-#fffbeb  absolute top-1 right-2 
+              className=" bg-#fffbeb  
 							   z-[35]  h-[32px] w-[32px]	cursor-pointer hover:scale-[1.2]  mobile:hidden"
             ></AiOutlineClose>
           </button>
-        )}
+        )} */}
 
         {/* <div className={`groups p-4 grid-col-start-1 col-span-2 bg-white text-black  overflow-y-scroll  h-[35px] w-screen
-				tablet:h-[100%] text-[16px] tablet:w-[200px] ${isOpen ? 'translate-x-0 ' : 'translate-x-full tablet:translate-x-0'} ease-in-out duration-700`}> */}
+				tablet:h-[100%] text-[16px] tablet:w-[200px] ${isGrpOpen ? 'translate-x-0 ' : 'translate-x-full tablet:translate-x-0'} ease-in-out duration-700`}> */}
 
         {/* </div> */}
 
-        <div className="textimagecontainer z-0  m-[2%] h-full w-[90%] bg-slate-900	">
-          {/* <div className={`textimagecontainer  grid-col-start-1 col-span-12 h-full w-[100%] m-[2%] mobile:grid-col-start-3 mobile:col-span-8 ${!isOpen ? 'mobile:visible ' : ' mobile:hidden '} `}> */}
+        <div className="textimagecontainer z-0  m-[2%] h-full w-[90%] 	">
+          {/* <div className={`textimagecontainer  grid-col-start-1 col-span-12 h-full w-[100%] m-[2%] mobile:grid-col-start-3 mobile:col-span-8 ${!isGrpOpen ? 'mobile:visible ' : ' mobile:hidden '} `}> */}
 
           <div className="textcontainer mx-8  mb-[2rem]  text-[22px] leading-[32px]    ">
+
             {group === "Army" && (
               <div className="p-2     leading-[32px]  	">
                 These are some of the photos I took while in the Army as part of
@@ -244,7 +254,7 @@ function MyPhotos() {
             )}
           </div>
 
-          <div className="imgcontainer mx-[3%]  grid grid-cols-2 gap-2	 mobile:grid-cols-3 tablet:grid-cols-5    ">
+          <div className="imgcontainer mx-[1%] grid grid-cols-1 mobile:gap-2	 mobile:grid-cols-3 tablet:grid-cols-4    ">
             {filteredImages.map((image) => (
               <div
                 key={image.id}

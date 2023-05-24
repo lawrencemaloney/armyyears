@@ -14,7 +14,7 @@ export default function Sidebar() {
     {!isOpen ? 
     (
         <FaBars 
-          className="mobileopen fixed text-black  z-30 flex items-center cursor-pointer h-[24px] w-[24px]  right-6 top-4"
+          className="mobileopen fixed text-black  z-30 flex items-center cursor-pointer h-[24px] w-[24px]  right-6 top-4 font-light	"
           onClick={() => setIsOpen(!isOpen)}>
         </FaBars> 
 
