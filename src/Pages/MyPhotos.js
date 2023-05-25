@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../Components/MyPhotos.css";
 import "../index.css";
-import { FaAngleDoubleLeft, FaAngleDoubleRight  } from "react-icons/fa";
+import { FaAngleDoubleLeft, FaAngleDoubleRight, FaCamera  } from "react-icons/fa";
 
 import Header from "../Components/Header";
 import Sidebar from "../Components/Sidebar";
@@ -13,7 +13,7 @@ function MyPhotos() {
   const [group, setGroup] = useState("All");
   const [filteredImages, setFilteredImages] = useState([]);
   const [selectedImg, setSelectedImg] = useState(null);
-  const [isGrpOpen, setIsGrpOpen] = useState(true);
+  const [isGrpOpen, setIsGrpOpen] = useState(false);
 
   const GroupButton = ({ name, handleSetgroup, groupActive }) => {
     return (
@@ -55,29 +55,28 @@ function MyPhotos() {
 
 {!isGrpOpen ? 
     (
-        // <FaAngleDoubleLeft
-        //   className="categoryopen  text-black  z-30 flex items-center cursor-pointer h-[24px] w-[24px]  left-6 top-120 font-light	"
-        // </FaAngleDoubleLeft> 
+        <FaAngleDoubleLeft
+          className="categoryopen  text-black  z-50 flex items-center cursor-pointer h-[24px] w-[24px] fixed left-6 top-4 font-light	" onClick={() => setIsGrpOpen(!isGrpOpen)}>
+        </FaAngleDoubleLeft> 
 
           
-        <button  className="flex fixed top-4 left-4 border items-center border-black p-2 rounded-md bg-yellow-500 text-black  z-30  cursor-pointer " onClick={() => setIsGrpOpen(!isGrpOpen)}>Hide Catagories</button>
+        // <button  className="flex fixed -rotate-90 top-110 left-0 border items-center border-black p-2 rounded-md bg-yellow-500 text-black  z-30  cursor-pointer " onClick={() => setIsGrpOpen(!isGrpOpen)}>Hide Catagories</button>
 
     )
     :
     (
-    //   <FaAngleDoubleRight 
-    //   className="categoryclose  text-4xl text-black  items-center cursor-pointer  left-6 top-6 z-50 w-[24px] h-[24px]"
-    //   onClick={() => setIsGrpOpen(!isGrpOpen)}>
-    // </FaAngleDoubleRight>
-    <button  className="flex fixed top-4 left-4 border items-center border-black p-2 rounded-md bg-yellow-500 text-black  z-30  cursor-pointer  " onClick={() => setIsGrpOpen(!isGrpOpen)}> Show Catagories </button>
+      <FaCamera 
+      className="categoryopen  text-4xl text-black  items-center cursor-pointer fixed left-6 top-6 z-50 w-[24px] h-[24px]"
+      onClick={() => setIsGrpOpen(!isGrpOpen)}>
+    </FaCamera>
+
+
+    // <button  className="flex -rotate-90 origin-top-left	 fixed top-110 left-0 border items-center border-black p-2 rounded-md bg-yellow-500 text-black  z-30  cursor-pointer  " onClick={() => setIsGrpOpen(!isGrpOpen)}> Show Catagories </button>
 
     )
 }
-</div>
-
-
       <div
-        className={`groupnav top-100 left-0 w-full tablet:w-1/2 justify-center  p-10 bg-[#ccc9bc]  fixed h-full z-40  ${isGrpOpen ? "-translate-x-full" : "translate-x-0  "} ease-in-out duration-300`}>
+        className={`groupnav top-0 left-0 w-1/2   tablet:w-1/2 justify-center  p-10 bg-[#ccc9bc]  fixed h-full z-40  ${isGrpOpen ? "-translate-x-full " : "translate-x-0  "} ease-in-out duration-300`}>
 
         
       <ul className=" h-full w-[118px]  space-y-[10px] 	 text-left text-[16px] text-black ml-4	 ">
@@ -134,6 +133,10 @@ function MyPhotos() {
         
       </ul>
       </div>
+</div>
+
+
+
 
 
       {/* <div className='bg-black	'> */}
