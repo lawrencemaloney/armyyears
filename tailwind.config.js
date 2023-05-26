@@ -10,9 +10,12 @@ module.exports = {
         laptop: "1070",
         desktop: "1150px",
         xldesktop: "1440px",
-
-
+        'portrait': {
+          'raw': '(orientation: portrait)'
       },
+       'landscape': {
+          'raw': '(orientation: landscape)'
+        }}
     },
   },
   plugins: [require("tailwind-scrollbar")],

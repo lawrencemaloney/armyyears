@@ -78,10 +78,10 @@ function MyPhotos() {
       <div
         className={`groupnav top-0 left-0 w-full  bg-[#ccc9bc]  fixed h-full z-40  ${isGrpOpen ? "-translate-x-full " : "translate-x-0  "} ease-in-out duration-300`}>
 
-       <div> 
         
-      <div className=" h-full w-[235px] mt-8  space-y-[20px] flex flex-col   text-[28px] text-black m-auto ">
+      <div className=" h-full w-[235px] landscape:w-[80%] mt-8  space-y-[15px] flex flex-col   text-[26px] text-black m-auto ">
         <p className="mt-10 text-[36px] ">Categories</p>
+        <div className=" landscape:grid landscape:grid-cols-2 ">
 
         <GroupButton
           name="Army"
@@ -128,7 +128,6 @@ function MyPhotos() {
           groupActive={group === "All" ? true : false}
           handleSetgroup={setGroup}
         />
-
       </div>
       </div>
       </div>
