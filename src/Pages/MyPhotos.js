@@ -19,7 +19,7 @@ function MyPhotos() {
     return (
 
       <button
-        className={`group my-[2px] ml-[10px] flex w-[90px] flex-col  rounded-lg  p-[2px] text-left  hover:scale-[1.1] hover:text-red-400  ${
+        className={`group ml-[10px] flex w-full  flex-col    p-[2px] text-center  hover:scale-[1.1] hover:text-red-400  ${
           groupActive ? "text-red-400" : null
         }`}
         onClick={() => {
@@ -76,11 +76,12 @@ function MyPhotos() {
     )
 }
       <div
-        className={`groupnav top-0 left-0 w-1/2   tablet:w-1/2 justify-center  p-10 bg-[#ccc9bc]  fixed h-full z-40  ${isGrpOpen ? "-translate-x-full " : "translate-x-0  "} ease-in-out duration-300`}>
+        className={`groupnav top-0 left-0 w-full  bg-[#ccc9bc]  fixed h-full z-40  ${isGrpOpen ? "-translate-x-full " : "translate-x-0  "} ease-in-out duration-300`}>
 
+       <div> 
         
-      <ul className=" h-full w-[118px]  space-y-[10px] 	 text-left text-[16px] text-black ml-4	 ">
-        <p className="mt-10 text-[22px] ">Categories</p>
+      <div className=" h-full w-[235px] mt-8  space-y-[20px] flex flex-col   text-[38px] text-black m-auto ">
+        <p className="mt-10 text-[42px] ">Categories</p>
 
         <GroupButton
           name="Army"
@@ -128,10 +129,8 @@ function MyPhotos() {
           handleSetgroup={setGroup}
         />
 
-        {/* </div> */}
-
-        
-      </ul>
+      </div>
+      </div>
       </div>
 </div>
 
