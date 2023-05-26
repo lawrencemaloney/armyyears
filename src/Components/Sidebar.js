@@ -34,7 +34,7 @@ export default function Sidebar() {
 
 
 <nav className="">
- <ul className="flex flex-col mt-10 text-center  space-y-12 text-3xl">
+ <ul className="flex flex-col mt-2 text-center landscape:grid landscape:grid-cols-2 space-y-4 text-2xl">
 
           <li className=" hover:scale-[1.01]   ">
            <CustomLink to="/Home">The Lottery</CustomLink>

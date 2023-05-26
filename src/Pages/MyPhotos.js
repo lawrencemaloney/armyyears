@@ -79,7 +79,7 @@ function MyPhotos() {
         className={`groupnav top-0 left-0 w-full  bg-[#ccc9bc]  fixed h-full z-40  ${isGrpOpen ? "-translate-x-full " : "translate-x-0  "} ease-in-out duration-300`}>
 
         
-      <div className=" h-full w-[235px] landscape:w-[80%] mt-4  space-y-[15px] flex flex-col   text-[26px] text-black m-auto ">
+      <div className=" h-full w-[235px] landscape:w-[80%] mt-2  space-y-[15px] flex flex-col   text-[26px] text-black m-auto ">
         <p className="mt-10 text-[36px] ">Categories</p>
         <div className=" landscape:grid landscape:grid-cols-2 ">
 
