@@ -80,8 +80,8 @@ function MyPhotos() {
 
        <div> 
         
-      <div className=" h-full w-[235px] mt-8  space-y-[20px] flex flex-col   text-[38px] text-black m-auto ">
-        <p className="mt-10 text-[42px] ">Categories</p>
+      <div className=" h-full w-[235px] mt-8  space-y-[20px] flex flex-col   text-[28px] text-black m-auto ">
+        <p className="mt-10 text-[36px] ">Categories</p>
 
         <GroupButton
           name="Army"
