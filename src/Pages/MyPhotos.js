@@ -19,8 +19,8 @@ function MyPhotos() {
     return (
 
       <button
-        className={`group ml-[10px] flex w-full  flex-col    p-[2px] text-center  hover:scale-[1.1] hover:text-red-400  ${
-          groupActive ? "text-red-400" : null
+        className={`group ml-[10px] flex w-full  flex-col    p-[2px] text-center  hover:scale-[1.1] hover:text-red-600  ${
+          groupActive ? "text-red-600 scale-105" : null
         }`}
         onClick={() => {
           // console.log('Click - ',e)
@@ -47,8 +47,9 @@ function MyPhotos() {
     <>
     <Header />
     <Sidebar />
-{/* 
-      <div className='{groupnav  fixed  top-0 h-full   left-0  z-20  bg-[#ccc9bc] ${isGrpOpen ? "translate-x-0" : "translate-x-full  "} ease-in-out duration-300`}>'> */}
+
+
+      
 <div className="fixed text-black  z-30 flex items-center cursor-pointer h-[24px] w-[24px]  left-6 top-120">
 
 
@@ -59,8 +60,6 @@ function MyPhotos() {
           className="categoryopen  text-black  z-50 flex items-center cursor-pointer h-[24px] w-[24px] fixed left-6 top-4 font-light	" onClick={() => setIsGrpOpen(!isGrpOpen)}>
         </FaAngleDoubleLeft> 
 
-          
-        // <button  className="flex fixed -rotate-90 top-110 left-0 border items-center border-black p-2 rounded-md bg-yellow-500 text-black  z-30  cursor-pointer " onClick={() => setIsGrpOpen(!isGrpOpen)}>Hide Catagories</button>
 
     )
     :
@@ -70,9 +69,6 @@ function MyPhotos() {
       onClick={() => setIsGrpOpen(!isGrpOpen)}>
     </FaCamera>
 
-
-    // <button  className="flex -rotate-90 origin-top-left	 fixed top-110 left-0 border items-center border-black p-2 rounded-md bg-yellow-500 text-black  z-30  cursor-pointer  " onClick={() => setIsGrpOpen(!isGrpOpen)}> Show Catagories </button>
-
     )
 }
       <div
@@ -80,8 +76,13 @@ function MyPhotos() {
 
         
       <div className=" h-full w-[235px] landscape:w-[80%] mt-2  space-y-[15px] flex flex-col   text-[26px] text-black m-auto ">
-        <p className="mt-10 text-[36px] ">Categories</p>
+        <p className="mt-10 text-[36px] ">Photo Groups</p>
         <div className=" landscape:grid landscape:grid-cols-2 ">
+        <GroupButton
+          name="All"
+          groupActive={group === "All" ? true : false}
+          handleSetgroup={setGroup}
+        />
 
         <GroupButton
           name="Army"
@@ -123,11 +124,7 @@ function MyPhotos() {
           handleSetgroup={setGroup}
         />
 
-        <GroupButton
-          name="All"
-          groupActive={group === "All" ? true : false}
-          handleSetgroup={setGroup}
-        />
+
       </div>
       </div>
       </div>
@@ -137,32 +134,10 @@ function MyPhotos() {
 
 
 
-      {/* <div className='bg-black	'> */}
       <div className="pageContainer  ml-[5px] flex w-full flex-col    text-black  ">
-        {/* <div className="subhead  text-white   z-auto  w-[100vw] bg-black h-[100px] fixed top-0 "> */}
         <h1 className="  text-center text-3xl">My Photos</h1>
-        {/* </div> */}
-
-        {/* {!isGrpOpen ? (
-          <button onClick={() => setIsGrpOpen(!isGrpOpen)}>
-            <AiOutlineMenu className=" bg-black   z-[35]  h-[32px] w-[32px]	cursor-pointer hover:scale-[1.2] mobile:hidden "></AiOutlineMenu>
-          </button>
-        ) : (
-          <button onClick={() => setIsGrpOpen(!isGrpOpen)}>
-            <AiOutlineClose
-              className=" bg-#fffbeb  
-							   z-[35]  h-[32px] w-[32px]	cursor-pointer hover:scale-[1.2]  mobile:hidden"
-            ></AiOutlineClose>
-          </button>
-        )} */}
-
-        {/* <div className={`groups p-4 grid-col-start-1 col-span-2 bg-white text-black  overflow-y-scroll  h-[35px] w-screen
-				tablet:h-[100%] text-[16px] tablet:w-[200px] ${isGrpOpen ? 'translate-x-0 ' : 'translate-x-full tablet:translate-x-0'} ease-in-out duration-700`}> */}
-
-        {/* </div> */}
 
         <div className="textimagecontainer z-0  m-[2%] h-full w-[90%] 	">
-          {/* <div className={`textimagecontainer  grid-col-start-1 col-span-12 h-full w-[100%] m-[2%] mobile:grid-col-start-3 mobile:col-span-8 ${!isGrpOpen ? 'mobile:visible ' : ' mobile:hidden '} `}> */}
 
           <div className="textcontainer mx-8  mb-[2rem]  text-[22px] leading-[32px]    ">
 
@@ -274,8 +249,6 @@ function MyPhotos() {
               </div>
             ))}
           </div>
-          {/* <p>Selected Image is {selectedImg}</p> */}
-          {/* { selectedImg && (<FullImage  setSelectedImg={setSelectedImg} selectedImg={selectedImg} imageCaption={imageCaption}/>)} */}
           {selectedImg && (
             <ImageSlider
               setSelectedImg={setSelectedImg}
@@ -285,8 +258,6 @@ function MyPhotos() {
           )}
         </div>
       </div>
-      {/* </div> */}
-      {/* </div> */}
     </>
   );
 }

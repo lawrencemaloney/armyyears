@@ -30,38 +30,40 @@ export default function Sidebar() {
 }
 
 <div
-  className={`navbar top-0 right-0 w-full tablet:w-1/2 justify-center  p-10 bg-[#ccc9bc]  fixed h-full z-40  ${isOpen ? "translate-x-0" : "translate-x-full  "} ease-in-out duration-300`}>
+  className={`navbar top-0 right-0 w-full tablet:w-1/2   p-10 bg-[#ccc9bc]  fixed h-full z-40  ${isOpen ? "translate-x-0" : "translate-x-full  "} ease-in-out duration-300`}>
 
 
 <nav className="">
- <ul className="flex flex-col mt-2 text-center landscape:grid landscape:grid-cols-2 space-y-4 text-2xl">
+ <div className="flex flex-col mt-2 text-center  space-y-4 text-2xl landscape:grid mobile:landscape:grid-cols-2 mobile:landscape:mt-6 ">
 
-          <li className=" hover:scale-[1.01]   ">
+          {/* <li className=" "> */}
            <CustomLink to="/Home">The Lottery</CustomLink>
-         </li>
-         <li className=" hover:scale-[1.01]  hover:text-black">
-           <CustomLink to="/Training">Training</CustomLink>
-         </li>
+         {/* </li> */}
 
-         <li className=" hover:scale-[1.01]  hover:text-black">
+         {/* <li className=" "> */}
+           <CustomLink to="/Training">Training</CustomLink>
+         {/* </li> */}
+
+         {/* <li className=" "> */}
            <CustomLink to="/InBerlin">In Berlin</CustomLink>
-         </li>
-         <li className=" hover:scale-[1.01]  hover:text-black">
+         {/* </li> */}
+         {/* <li className=""> */}
            <CustomLink to="/BOarticles">My Journalism</CustomLink>
 
-         </li>
+         {/* </li> */}
 
-         <li className=" hover:scale-[1.01]  hover:text-black">
+         {/* <li className=""> */}
            <CustomLink to="/MyPhotos">My Photos</CustomLink>
-         </li>
+         {/* </li> */}
 
-         <li className=" hover:scale-[1.01]  hover:text-black">
+         {/* <li className=" "> */}
            <CustomLink to="/Archives">Archives</CustomLink>
-         </li>
-         <li className=" hover:scale-[1.01]  hover:text-black">
+         {/* </li> */}
+         {/* <li className=""> */}
            <CustomLink to="/About">About</CustomLink>
-         </li>
-       </ul> 
+          </div>
+         {/* </li> */}
+       {/* </ul>  */}
        </nav>
 
        </div>
@@ -78,7 +80,7 @@ export default function Sidebar() {
              className={
                isActive
                  ? " text-red-600"
-                 : "text-black	  hover:scale-[1.05]"
+                 : "text-black	 "
              }
            >
              <Link to={to} {...props}>
