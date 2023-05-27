@@ -77,7 +77,7 @@ function MyPhotos() {
         
       <div className=" h-full w-[235px] landscape:w-[80%] mt-2  space-y-[15px] flex flex-col   text-[26px] text-black m-auto ">
         <p className="mt-10 text-[36px] ">Photo Groups</p>
-        <div className=" landscape:grid landscape:grid-cols-2 ">
+        <div className=" landscape:grid landscape:grid-cols-2 landscape:mt-6 mobile:landscape:flex  ">
         <GroupButton
           name="All"
           groupActive={group === "All" ? true : false}
