@@ -34,7 +34,7 @@ export default function Sidebar() {
 
 
 <nav className="">
- <div className="flex flex-col mt-2 text-center  space-y-4 text-2xl landscape:grid mobile:landscape:grid-cols-2 mobile:landscape:mt-6 ">
+ <div className="flex flex-col mt-2 text-center  space-y-4 text-2xl landscape:grid landscape:grid-cols-2 landscape:mt-6 mobile:landscape:flex ">
 
           {/* <li className=" "> */}
            <CustomLink to="/Home">The Lottery</CustomLink>
