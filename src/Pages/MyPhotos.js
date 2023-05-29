@@ -72,15 +72,15 @@ function MyPhotos() {
     )
 }
       <div
-        className={`groupnav top-0 left-0 w-full p-5 bg-[#ccc9bc]  fixed h-full z-40 mobile:w-1/4 ${isGrpOpen ? "-translate-x-full " : "translate-x-0  "} ease-in-out duration-300`}>
+        className={`groupnav top-0 left-0 w-full pl-4  bg-[#99968d]  fixed h-full z-40 mobile:w-1/3 ${isGrpOpen ? "-translate-x-full " : "translate-x-0  "} ease-in-out duration-300`}>
 
         
-      <div className=" h-full  text-center mt-0  space-y-4 flex flex-col text-[26px] text-black m-auto ">
+      <div className=" h-full  text-center -mt-9  space-y-4 flex flex-col text-[26px] text-black ml-12 ">
 
         <p className="mt-10 text-[32px] text-left	">Photo Groups</p>
 
 
-        <div className="  landscape:grid landscape:grid-cols-2 landscape:mt-6  landscape:w-full mobile:landscape:flex mobile:landscape:flex-col ">
+        <div className=" ml-8 landscape:grid landscape:grid-cols-2 landscape:mt-6  landscape:w-full mobile:landscape:flex mobile:landscape:flex-col ">
 
         <GroupButton
           name="All"
