@@ -19,7 +19,7 @@ function MyPhotos() {
     return (
 
       <button
-        className={`group flex w-3/4  my-2 flex-col py-2 px-3 mr-4 hover:scale-101  hover:text-red-600  ${
+        className={`group flex w-3/4  my-0 flex-col px-1 mr-4 hover:scale-101  hover:text-red-600  ${
           groupActive ? "text-red-600 " : null
         }`}
         onClick={() => {
