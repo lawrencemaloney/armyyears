@@ -35,35 +35,22 @@ export default function Sidebar() {
 
 <nav className="">
  <div className="flex flex-col mt-2 text-center  space-y-4 text-2xl landscape:grid landscape:grid-cols-2 landscape:mt-6 mobile:landscape:flex ">
-
-          {/* <li className=" "> */}
+ <p className="mt-10 text-[36px] ">Pages</p>
+ 
            <CustomLink to="/Home">The Lottery</CustomLink>
-         {/* </li> */}
 
-         {/* <li className=" "> */}
            <CustomLink to="/Training">Training</CustomLink>
-         {/* </li> */}
 
-         {/* <li className=" "> */}
            <CustomLink to="/InBerlin">In Berlin</CustomLink>
-         {/* </li> */}
-         {/* <li className=""> */}
+
            <CustomLink to="/BOarticles">My Journalism</CustomLink>
 
-         {/* </li> */}
-
-         {/* <li className=""> */}
            <CustomLink to="/MyPhotos">My Photos</CustomLink>
-         {/* </li> */}
 
-         {/* <li className=" "> */}
            <CustomLink to="/Archives">Archives</CustomLink>
-         {/* </li> */}
-         {/* <li className=""> */}
+
            <CustomLink to="/About">About</CustomLink>
           </div>
-         {/* </li> */}
-       {/* </ul>  */}
        </nav>
 
        </div>
