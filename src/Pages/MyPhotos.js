@@ -19,7 +19,7 @@ function MyPhotos() {
     return (
 
       <button
-        className={`group flex w-3/4  my-0 flex-col px-1 mr-4 hover:scale-101  hover:text-red-600  ${
+        className={`group flex w-3/4  my-0 flex-col px-1 mr-4 hover:scale-101  hover:text-red-600   ${
           groupActive ? "text-red-600 " : null
         }`}
         onClick={() => {
@@ -72,7 +72,7 @@ function MyPhotos() {
     )
 }
       <div
-        className={`groupnav top-0 left-0 w-full tablet:w-1/2   p-5 bg-[#ccc9bc]  fixed h-full z-40  ${isGrpOpen ? "-translate-x-full " : "translate-x-0  "} ease-in-out duration-300`}>
+        className={`groupnav top-0 left-0 w-full p-5 bg-[#ccc9bc]  fixed h-full z-40  ${isGrpOpen ? "-translate-x-full " : "translate-x-0  "} ease-in-out duration-300`}>
 
         
       <div className=" h-full  text-center mt-0  space-y-4 flex flex-col text-[26px] text-black m-auto ">
@@ -80,7 +80,7 @@ function MyPhotos() {
         <p className="mt-10 text-[32px] text-left	">Photo Groups</p>
 
 
-        <div className="  landscape:grid landscape:grid-cols-2 landscape:mt-6  landscape:w-full mobile:portrait:flex  ">
+        <div className="  landscape:grid landscape:grid-cols-2 landscape:mt-6  landscape:w-full mobile:landscape:flex mobile:landscape:flex-col  ">
 
         <GroupButton
           name="All"
