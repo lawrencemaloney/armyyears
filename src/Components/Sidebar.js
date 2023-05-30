@@ -32,11 +32,11 @@ export default function Sidebar() {
 <div
   className={`navbar top-0 right-0 w-full tablet:w-2/5   p-10 bg-[#ccc9bc]  fixed h-full z-40  ${isOpen ? "translate-x-0" : "translate-x-full  "} ease-in-out duration-300`}>
 
+<p className="-mt-6 font-semibold text-[32px] ">Pages</p>
 
 <nav className="">
- <div className="flex flex-col mt-2 text-center  space-y-4 text-2xl landscape:grid landscape:grid-cols-2 landscape:mt-6 mobile:landscape:flex ">
+ <div className="flex flex-col mt-2 ml-8  space-y-2 text-2xl landscape:grid landscape:grid-cols-2 landscape:mt-6 mobile:landscape:flex ">
 
- <p className="-mt-11 text-[36px] ">Pages</p>
  
            <CustomLink to="/Home">The Lottery</CustomLink>
 

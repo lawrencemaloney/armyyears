@@ -19,7 +19,7 @@ function MyPhotos() {
     return (
 
       <button
-        className={`group flex w-3/4 text-white my-0 flex-col px-1 mr-4 hover:scale-101  hover:text-yellow-600   ${
+        className={`group flex w-3/4 text-white text-2xl my-1 flex-col px-1 mr-4 hover:scale-101  hover:text-yellow-600   ${
           groupActive ? "text-orange-300 " : null
         }`}
         onClick={() => {
@@ -57,7 +57,7 @@ function MyPhotos() {
 {!isGrpOpen ? 
     (
         <FaAngleDoubleLeft
-          className="categoryopen  text-black  z-50 flex items-center cursor-pointer h-[24px] w-[24px] fixed left-6 top-4 font-light	" onClick={() => setIsGrpOpen(!isGrpOpen)}>
+          className="categoryopen  text-white  z-50 flex items-center cursor-pointer h-[24px] w-[24px] fixed left-6 top-6 font-light	" onClick={() => setIsGrpOpen(!isGrpOpen)}>
         </FaAngleDoubleLeft> 
 
 
@@ -75,9 +75,9 @@ function MyPhotos() {
         className={`groupnav top-0 left-0 w-full pl-4  bg-[#65645e]  fixed h-full z-40 mobile:w-2/5 ${isGrpOpen ? "-translate-x-full " : "translate-x-0  "} ease-in-out duration-300`}>
 
         
-      <div className=" h-full  text-center -mt-9  space-y-4 flex flex-col text-[26px] text-black ml-12 ">
+      <div className=" h-full  text-center -mt-9  space-y-4 flex flex-col  text-black ml-12 ">
 
-        <p className="mt-10 text-white text-[32px] text-left	">Photo Groups</p>
+        <p className="mt-12 font-semibold  text-white text-[32px] text-left	">Photo Groups</p>
 
 
         <div className=" ml-8 landscape:grid landscape:grid-cols-2 landscape:mt-6  landscape:w-full mobile:landscape:flex mobile:landscape:flex-col ">
