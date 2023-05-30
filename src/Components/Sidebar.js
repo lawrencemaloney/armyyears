@@ -14,7 +14,7 @@ export default function Sidebar() {
     {!isOpen ? 
     (
         <FaBars 
-          className="mobileopen fixed text-black  z-30 flex items-center tablet:w-[24px] tablet:h-[24px] cursor-pointer h-[18px] w-[18px]  right-2 top-2 font-light	"
+          className="mobileopen fixed text-black  z-30 flex items-center tablet:w-[32px] tablet:h-[32px] cursor-pointer h-[18px] w-[18px]  right-2 top-2 font-light	"
           onClick={() => setIsOpen(!isOpen)}>
         </FaBars> 
 
@@ -22,7 +22,7 @@ export default function Sidebar() {
     :
     (
       <FaTimes 
-      className="mobileclose flex text-4xl text-black  items-center cursor-pointer fixed right-2 top-2 z-50 w-[18px] h-[18px] tablet:w-[24px] tablet:h-[24px]"
+      className="mobileclose flex text-4xl text-black  items-center cursor-pointer fixed right-2 top-2 z-50 w-[18px] h-[18px] tablet:w-[32px] tablet:h-[32px]"
       onClick={() => setIsOpen(!isOpen)}>
     </FaTimes>
 
