@@ -57,7 +57,7 @@ function MyPhotos() {
 {!isGrpOpen ? 
     (
         <FaAngleDoubleLeft
-          className="categoryopen  text-white  z-50 flex items-center cursor-pointer h-[24px] w-[24px] fixed left-6 top-6 font-light	" onClick={() => setIsGrpOpen(!isGrpOpen)}>
+          className="categoryopen  text-white  z-50 flex items-center cursor-pointer h-[24px] w-[24px] fixed left-2 top-2 font-light	" onClick={() => setIsGrpOpen(!isGrpOpen)}>
         </FaAngleDoubleLeft> 
 
 
@@ -65,7 +65,7 @@ function MyPhotos() {
     :
     (
       <FaCamera 
-      className="categoryopen  text-4xl text-black  items-center cursor-pointer fixed left-6 top-6 z-50 w-[24px] h-[24px]"
+      className="categoryopen  text-4xl text-black  items-center cursor-pointer fixed left-2 top-2 z-50 w-[24px] h-[24px]"
       onClick={() => setIsGrpOpen(!isGrpOpen)}>
     </FaCamera>
 
