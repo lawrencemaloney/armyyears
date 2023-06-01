@@ -72,7 +72,7 @@ function MyPhotos() {
     )
 }
       <div
-        className={`groupnav top-0 left-0 w-full pl-4  bg-[#65645e]  fixed h-full z-40 mobile:w-2/5 ${isGrpOpen ? "-translate-x-full " : "translate-x-0  "} ease-in-out duration-300`}>
+        className={`groupnav top-0 left-0 w-full  tablet:w-1/4 pl-4  bg-[#65645e]  fixed h-full z-40 mobile:w-2/5 ${isGrpOpen ? "-translate-x-full " : "translate-x-0  "} ease-in-out duration-300`}>
 
         
       <div className=" h-full  text-center -mt-9  space-y-4 flex flex-col  text-black ml-12 ">
