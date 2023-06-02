@@ -14,7 +14,7 @@ export default function Sidebar() {
     {!isOpen ? 
     (
         <FaBars 
-          className="mobileopen fixed text-black  z-30 flex items-center tablet:w-[32px] tablet:h-[32px] cursor-pointer h-[18px] w-[18px]  right-2 top-2 	stroke-0 fill-red-600"
+          className="mobileopen fixed  z-30 flex bg-gray-500	 tablet:w-[32px] tablet:h-[32px] cursor-pointer h-[18px] w-[18px]  right-2 top-2 	stroke-0 fill-white"
           onClick={() => setIsOpen(!isOpen)}>
         </FaBars> 
 
@@ -22,7 +22,7 @@ export default function Sidebar() {
     :
     (
       <FaTimes 
-      className="mobileclose flex  text-black  items-center cursor-pointer fixed right-2 top-2 z-50 w-[18px] h-[18px]  tablet:w-[32px] tablet:h-[32px]"
+      className="mobileclose  cursor-pointer fixed right-2 top-2 z-50 w-[18px] h-[18px]  tablet:w-[32px] tablet:h-[32px] stroke-2 fill-red-400" 
       onClick={() => setIsOpen(!isOpen)}>
     </FaTimes>
 
@@ -40,7 +40,9 @@ export default function Sidebar() {
  
            <CustomLink to="/Home">The Lottery</CustomLink>
 
-           <CustomLink to="As/Training">Training</CustomLink>
+           <CustomLink to="/Training">Training</CustomLink>
+
+           <CustomLink to="/PostWW2">Hot War/Cold War</CustomLink>
 
            <CustomLink to="/InBerlin">In Berlin</CustomLink>
 
