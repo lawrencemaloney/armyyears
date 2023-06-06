@@ -1,0 +1,19 @@
+    [
+        {
+          "id": 0,
+          "caption": "Amsterdam 1971",
+          "href_url":"../media/BO PDFs/BO Archives/Berlin Observer archive1945/Berlin Obsever V1_N1_Sept_25.pdf ",
+          "url": "../media/BO page1 images/Berlin Observer archive1945/Berlin Obsever V1_N1_Sept_25.jpg",
+          "issue_date": "September 25, 1945",
+          "sort_gate": "1945-09-25"
+        },  
+        
+        {
+            "id": 1,
+            "caption": "Amsterdam 1971",
+            "href_url":"../media/BO PDFs/BO Archives/Berlin Observer archive1945/Berlin Obsever V1_N1_Sept_25.pdf ",
+            "url": "/media/BO page1 images/Berlin Observer archive1945/Berlin Obsever V1_N1_Sept_25.jpg",
+            "issue_date": "September 25, 1945",
+            "sort_gate": "1945-09-25"
+          }
+        ]

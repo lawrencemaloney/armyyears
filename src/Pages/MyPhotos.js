@@ -5,7 +5,7 @@ import { FaAngleDoubleLeft, FaAngleDoubleRight, FaCamera  } from "react-icons/fa
 
 import Header from "../Components/Header";
 import Sidebar from "../Components/Sidebar";
-import imageRef from "../imagedata.json";
+import imageRef from "../Json Files/imagedata.json";
 import ImageSlider from "../Components/ImageSlider";
 
 
