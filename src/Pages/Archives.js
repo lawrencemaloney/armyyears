@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../Components/Header";
 import Sidebar from "../Components/Sidebar";
-import PDFRef from "../Json Files/bo_archive_data.json";
+import PDFRef from "../Json Files/bo_links_test data.json";
 
 
 
@@ -30,7 +30,7 @@ function Archives() {
 
                 <img
                   className="image aspect-square max-h-[250px] min-h-[150px] w-[100%] rounded object-cover"
-                  src={issue.url}
+                  src={issue.page1_url}
                   alt={issue.caption}
 
                   // onClick={() => {
