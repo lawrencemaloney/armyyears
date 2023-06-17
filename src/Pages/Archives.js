@@ -29,7 +29,7 @@ function Archives() {
               <a href={issue.href_url}>
 
                 <img
-                  className="image aspect-square max-h-[250px] min-h-[150px] w-[100%] rounded object-cover"
+                  className="image aspect-square border border-2 border-black max-h-[250px] min-h-[150px] w-[100%] rounded object-cover"
                   src={issue.page1_url}
                   alt={issue.caption}
 
@@ -38,7 +38,7 @@ function Archives() {
                   //   // setImageCaption(image.caption)
                   // }}
                 />
-                <p>{issue.caption}</p>
+                <p className="text-2xl text-center">{issue.caption}</p>
                 </a>
               </div>
             ))}
