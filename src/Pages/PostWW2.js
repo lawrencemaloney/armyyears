@@ -237,9 +237,9 @@ function PostWW2() {
                     Quoted from "Four Sector City".</span>
             </p>
 
-            <p class="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]"> For further information on the taking of Berlin by the Soviet Army, see:
-                <span class="reflink">
-                    <a href="https://en.wikipedia.org/wiki/Battle_of_Berlin" target="_blank">Battle of Berlin
+            <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]"> For further information on the taking of Berlin by the Soviet Army, see:
+                <span className="reflink text-blue-600 underline visited:text-purple-600">
+                    <a href="https://en.wikipedia.org/wiki/Battle_of_Berlin" target="_blank"> Battle of Berlin
                         (Wikipedia).</a>
                 </span>
             </p>
@@ -251,12 +251,19 @@ function PostWW2() {
                 src="..\media\Berlin BGD Orientation and history 1970.JPG" alt="Special Edition" width="395px"
                 height="574px"/>Click Here</a>
 
-            <p>
+            <p className="mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
                 A short history of the Berlin Brigade was published in this Special Edition of the Berlin Observer (click image on right). The issue was created to introduce Berlin to newly arriving soldiers. It describes the purpose and structure of the Berlin Brigade, its interaction with the other Allies, and what a soldier can expect as he or she serves in Berlin. There are pictures of some interesting sites in and around Berlin like the Congress Hall (built by the U.S. in 1957 for international exhibitions), the Kaiser-Wilhelm memorial church, and the Olympic Stadium, the site of the 1936 Olympic games. There are also pictures of soldiers in action. I am pictured on page 6 of this issue in my sleeping quarters playing guitar. Grand Funk Railroad is pictured on page 5 also playing guitars. The resemblance is uncanny! Since there is mention in this publication of a Johnny Cash concert in September 1972, this special issue must have been published well after I had left.
             </p>
           
-            <p class="wikilink">An extensive history of the Berlin Brigade can be found at:
-                    <a href="https://usarmygermany.com/Units/Berlin%20Brigade/USAREUR_Berlin%20Brigade.htm#BBHistory" target="_blank" className="text-blue-600 visited:text-purple-600">                        </a>
+            <p className="mx-[20px] mb-[20rem] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">An extensive history of the Berlin Brigade can be found at:
+               <span className="text-blue-600 underline visited:text-purple-600">   
+                <a href="https://usarmygermany.com/Units/Berlin%20Brigade/USAREUR_Berlin%20Brigade.htm#BBHistory" target="_blank" >  Berlin Brigade US Army, Europe</a>           
+                </span>
+
+
+
+
+
                 </p>
 </div>
 </div>
