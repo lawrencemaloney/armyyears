@@ -10,7 +10,7 @@ function Home() {
         <Header />
         <Sidebar />
 
-      <div className="homewrap z-20 mx-auto mt-0  h-screen items-center  ">
+      <div className="homewrap z-20 mx-auto mt-0  h-screen items-center tablet: grid grid-cols-2 ">
 
         <div className="thedecision z-20 mx-auto mt-[40px]  flex h-[100%] flex-col items-center ">
           <h1 className="mx-[20px] mt-[1rem] mb-3 text-center text-3xl 	 tablet:text-4xl">
@@ -427,7 +427,9 @@ function Home() {
               Loyola ROTC back to campus from drill practice in Audubon Park.
             </span>
           </div>
+        </div>
 
+        <div className="events tablet:mt-[5rem]">
           <h1 className=" mx-[20px] mt-[3rem] mb-3 text-center text-3xl  tablet:text-4xl">
             1960 through 1969 - World Events that Shaped my Course
           </h1>
@@ -917,6 +919,7 @@ function Home() {
             North and South Vietnam were reunified the following year.
           </p>
         </div>
+
       </div>
     </>
   );
