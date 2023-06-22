@@ -3,6 +3,10 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      padding: {
+        '1/3': '33/333333%',
+        '2/3': '66.6666',
+      },
       screens: {
         ipx: "425px",
         mobile: "640px",

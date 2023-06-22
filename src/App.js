@@ -25,7 +25,6 @@ function App() {
         <Route exact path="/Home" element={<Home />}></Route>
         <Route exact path="/Training" element={<Training />}></Route>
         <Route exact path="/PostWW2" element={<PostWW2 />}></Route>
-
         <Route exact path="/InBerlin" element={<InBerlin />}></Route>
         <Route exact path="/BOarticles" element={<BOarticles />}></Route>
         <Route exact path="/MyPhotos" element={<MyPhotos />}></Route>
