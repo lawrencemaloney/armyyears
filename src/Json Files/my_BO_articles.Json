@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "issue_date": "July 17, 1970",
+      "feature_article": "\\media\\BO article  07 17 70 (feature).jpg",
+      "feature_article_picture": "",
+      "short_article": "\\media\\BO article  07 17 70 (2nd).jpg" ,
+      "short_article_picture": "",
+      "short_picture": "", 
+      "battalion_brief": "\\media\\BO article 07 17 70 (main altered).JPG",
+      "Issue_URL": "\\media\\BO page1 images\\All Page1 Images\\Berlin Obsever V26_N28_jul17 1970.jpg",
+      "sort_date": "1970-07-17"
+    },
+    {
+      "id": 2,
+      "issue_date": "July 17, 1970",
+      "feature_article": "\\media\\BO article  07 17 70 (feature).jpg",
+      "feature_article_picture": "",
+      "short_article": "\\media\\BO article  07 17 70 (2nd).jpg" ,
+      "short_article_picture": "",
+      "short_picture": "", 
+      "battalion_brief": "\\media\\BO article 07 17 70 (main altered).JPG",
+      "Issue_URL": "\\media\\BO page1 images\\All Page1 Images\\Berlin Obsever V26_N28_jul17 1970.jpg",
+      "sort_date": "1970-07-17"
+    },
+    {
+      "id": 3,
+      "issue_date": "July 17, 1970",
+      "feature_article": "\\media\\BO article  07 17 70 (feature).jpg",
+      "feature_article_picture": "",
+      "short_article": "\\media\\BO article  07 17 70 (2nd).jpg" ,
+      "short_article_picture": "",
+      "short_picture": "", 
+      "battalion_brief": "\\media\\BO article 07 17 70 (main altered).JPG",
+      "Issue_URL": "\\media\\BO page1 images\\All Page1 Images\\Berlin Obsever V26_N28_jul17 1970.jpg",
+      "sort_date": "1970-07-17"
+    }
+
+]

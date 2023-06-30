@@ -429,8 +429,8 @@ function Home() {
           </div>
         </div>
 
-        <div className="events tablet:mt-[5rem]">
-          <h1 className=" mx-[20px] mt-[3rem] mb-3 text-center text-3xl  tablet:text-4xl">
+        <div className="events tablet:mt-2">
+          <h1 className=" mx-[20px] mt-2 mb-3 text-center text-3xl  tablet:text-4xl">
             1960 through 1969 - World Events that Shaped my Course
           </h1>
           <p className=" mx-[20px] mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">

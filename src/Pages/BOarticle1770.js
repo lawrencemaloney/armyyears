@@ -11,17 +11,16 @@ function BOarticle1770() {
 <>
 <Header />
         <Sidebar />
-<div className="berlinwrap z-20 mx-auto mt-0  flex h-[100%] flex-col items-center ">
+<div className="berlinwrap z-20 mx-auto mt-0 grid  grid-cols-1 justify-items-center tablet:grid-cols-5 ">
 
-
-    <div className="obshead	 my-8 text-center">
+    <div className="obshead	col-start-1 col-span-5 my-8 text-center">
         <img className="bannerpic " src="..\media\BO-Banner-main-head.jpg" alt="Berlin Observer Banner" width="592px"
             height="149"/>
         <h2 className="mt-3 text-center  text-4xl">July 17, 1970</h2>
         <h3 className="mt-3 text-center  text-4xl">My first published writing!</h3>
     </div>
 
-    <div className="textcontainer dc mt-[1rem]  max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
+    <div className="textcontainer col-start-2 col-span-3 mt-[1rem]  max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
     <p className="dc mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">Hey, I got paid ($138.39/month with room & board) for it!    </p>
     <p className="dc mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">Regarding this first article, I
             remember riding in a convoy
@@ -51,23 +50,27 @@ function BOarticle1770() {
         
     </div>
 
-    <div className="mt-6 ">
+    <div className="imagecontainer m-10 col-start-1 col-span-5 grid grid-cols-1 tablet:grid-cols-7" >
 
-        <img className="art-3322-1 max-w-[75%]"  src="..\media\BO article  07 17 70 (feature).jpg" alt="Berlin Observer July 17 1970"
+        <img className="art-3322-1 col-start-1 col-span-3 "  src="..\media\BO article  07 17 70 (feature).jpg" alt="Berlin Observer July 17 1970"
             width="940px" height="840px"/>
 
-        <img className="art-3322-2" src="..\media\BO article 07 17 70 (main altered).JPG" alt="Berlin Observer July 17 1970"
-            width="519px" height="840px"/>
+        <img className="art-3322-2 col-start-4 col-span-3" src="..\media\BO article 07 17 70 (main altered).JPG" alt="Berlin Observer July 17 1970" width="519px" height="840px"/>
 
-        <img className="art-3322-3" src="..\media\BO Sports Banner.JPG" alt="Berlin Observer July 17 1970" width="389px"
-            height="162px"/>
+        <img className="art-3322-3 col-start-2 col-span-5" src="..\media\BO Sports Banner.JPG" alt="Berlin Observer July 17 1970"  height="162px"/>
 
 
-        <img className="art-3322-4" src="..\media\BO article  07 17 70 (2nd).jpg" alt="Berlin Observer July 17 1970"
+        <img className="art-3322-4  col-start-2 col-span-5" src="..\media\BO article  07 17 70 (2nd).jpg" alt="Berlin Observer July 17 1970"
             width="519px" height="320px"/>
 
-        <a href="..\BO_PDFs\B O Jul 17 1970.pdf" target="_blank" className="bofulleddition"> See Full Edition PDF</a>
 </div>
+
+        <button className=" mb-8 col-start-1 col-span-5  p-3 h-12 justify-self-center border border-2 border-black ring-purple-500 ring-offset-4 ring-offset-slate-50 dark:ring-offset-slate-900 rounded bg-slate-500 text-white">
+        <a href="..\media\BO PDFs\All PDF Archive Files\Berlin Obsever V26_N28_jul17 1970.pdf" target="_blank"> See Full Edition PDF</a>
+        </button>
+
+
+
 </div>
     </>
   );

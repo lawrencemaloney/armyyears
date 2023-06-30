@@ -66,6 +66,7 @@ function MyPhotos() {
     (
       <FaCamera 
       className="categoryopen  text-4xl text-black  items-center cursor-pointer fixed left-2 top-2 z-50 w-[24px] h-[24px]"
+      
       onClick={() => setIsGrpOpen(!isGrpOpen)}>
     </FaCamera>
 

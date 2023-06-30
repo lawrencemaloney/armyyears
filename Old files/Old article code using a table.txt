@@ -1,0 +1,58 @@
+
+{/* <table className=" p8 mt-[150px]  odd:bg-grey-400 even:bg-gray-700 text-white border-separate border-spacing-2  border border-black border-2 w-[80%] ">
+  <caption className="bg-black p-4 text-4xl"> My Berlin Observer Articles</caption>
+  <thead >
+    <tr   >
+      <th className="p-[1rem]  text-lg font-semibold w-[10px]  text-left">Issue Date</th>
+      <th className="p-[1rem]  text-lg font-semibold w-[10px]  text-left">Feature Article</th>
+      <th className="p-[1rem]  text-lg font-semibold w-[10px]  text-left">Feature Picture</th>
+      <th className="p-[1rem]  text-lg font-semibold w-[10px]  text-left">Short Article</th>
+      <th className="p-[1rem]  text-lg font-semibold w-[10px]  text-left">Feature Picture</th>
+      <th className="p-[1rem]  text-lg font-semibold w-[10px]  text-left">Battalion Brief</th>
+      <th className="p-[1rem]  text-lg font-semibold w-[10px]  text-left">Full Issue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td className="p-[1rem]"  data-label="Issue Date">July 17, 1970</td>
+      <td className="p-[1rem]" data-label="Feature Article"><a href="..\media\BO article  07 17 70 (feature).jpg"><img className=" border border-2 border-black w-1/4 rounded-md"  src="..\media\BO article  07 17 70 (feature).jpg" alt="Berlin Observer July 17 1970" width="211px" height="139px" /> </a></td>      
+      <td className="p-[1rem]" data-label="Feature Picture">None</td>
+      <td className="p-[1rem]" data-label="Short Article"><a href="..\media\BO article  07 17 70 (2nd).jpg"><img className=" border border-2 border-black w-full h-[120px] w-[120px] rounded-md" src="..\media\BO article  07 17 70 (2nd).jpg" alt="Berlin Observer July 17 1970" /> </a></td>  
+      <td className="p-[1rem]" data-label="Feature Picture">None</td>
+      <td className="p-[1rem]" data-label="Battalion Brief"><a href="\media\BO PDFs\All PDF Archive Files\Berlin Obsever V26_N28_jul17 1970.pdf"><img className=" border border-2 border-black w-1/4 rounded-md" src="..\media\BO page1 images\All Page1 Images\Berlin Obsever V26_N28_jul17 1970.jpg"/> </a></td>
+      <td className="p-[1rem]" data-label="Full Issue">None</td>
+    </tr>
+    <tr >
+      <td className="p-[1rem]"  data-label="Issue Date">December 11, 1970</td>
+      <td className="p-[1rem]" data-label="Feature Article"><a href="..\media\BO article 12 11 70 3rd (enhanced).jpg"><img className=" border border-2 border-black w-1/4 rounded-md"  src="..\media\BO article 12 11 70 3rd (enhanced).jpg" alt="Berlin Observer July 17 1970" width="211px" height="139px" /> </a></td>      
+      <td className="p-[1rem]" data-label="Feature Picture">None</td>
+      <td className="p-[1rem]" data-label="Short Article"><a href="..\media\BO article  07 17 70 (2nd).jpg"><img className=" border border-2 border-black w-full h-[120px] w-[120px] rounded-md" src="..\media\BO article  07 17 70 (2nd).jpg" alt="Berlin Observer July 17 1970" /> </a></td>  
+      <td className="p-[1rem]" data-label="Feature Picture">None</td>
+      <td className="p-[1rem]" data-label="Battalion Brief"><a href="\media\BO PDFs\All PDF Archive Files\Berlin Obsever V26_N28_jul17 1970.pdf"><img className=" border border-2 border-black w-1/4 rounded-md" src="..\media\BO page1 images\All Page1 Images\Berlin Obsever V26_N28_jul17 1970.jpg"/> </a></td>
+      <td className="p-[1rem]" data-label="Full Issue">None</td>
+    
+    </tr>
+
+  </tbody>
+</table> */}
+​
+
+        {/* {ArticleRef.map((issue) => (
+              <div
+                key={issue.id}
+                className="p-6"                
+                
+              >
+              <a href={issue.href_url}> 
+
+                <img
+                  className="image  border border-2 border-black    rounded  object-top object-cover  aspect-square"
+                  src={issue.page1_url}
+                  alt={issue.caption}
+                />
+
+                <p className="text-2xl text-center">{issue.caption}</p>
+              </a>
+
+      </div>
+            ))} */}

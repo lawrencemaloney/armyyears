@@ -10,6 +10,7 @@ import MyPhotos from "./Pages/MyPhotos";
 import Archives from "./Pages/Archives";
 import About from "./Pages/About";
 import BOarticle1770 from "./Pages/BOarticle1770";
+import BOarticle073071 from "./Pages/BOarticle073071";
 import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
         <Route exact path="/Archives" element={<Archives />}></Route>
         <Route exact path="/About" element={<About />}></Route>
         <Route exact path="/BOarticle1770" element={<BOarticle1770 />}></Route>
+        <Route exact path="/BOarticle073071" element={<BOarticle073071 />}></Route>
       </Routes>
     </Router>
     </>
