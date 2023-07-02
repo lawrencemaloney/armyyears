@@ -6,9 +6,13 @@
 
 /* Global TW  */
 @layer base {
-  /* * {
-    @apply z-10 text-black  font-normal m-0 p-0 box-border;
-  } */
+  * {
+    /* @apply z-10 text-black  font-normal m-0 p-0 box-border; */
+
+    a {
+      @apply text-blue-600 underline visited:text-purple-600 hover:text-blue-800;
+    }
+  }
 
   :root {
     /* flex-grow: 1; */
