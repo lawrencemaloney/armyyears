@@ -13,7 +13,7 @@ function BOarticles() {
         <div className="myarticlesintro mx-auto grid max-w-[64ch] grid-cols-1  ">
           <h1 className="mx-auto mt-[40px] text-3xl">My Articles</h1>
 
-          <p className=" mx-[20px] mt-[1rem] px-[20px]  text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
+          <p className=" mx-[20px] mt-[1rem]  text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             A major part of my job as PIO Clerk was to make sure that the 2nd
             Battalion, 6th Infantry (the "2/6" ) was often and favorably
             represented in the Brigade weekly newspaper: the Berlin Observer.
