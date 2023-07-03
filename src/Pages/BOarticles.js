@@ -13,7 +13,7 @@ function BOarticles() {
         <div className="myarticlesintro mx-auto grid max-w-[64ch] grid-cols-1  ">
           <h1 className="mx-auto mt-[40px] text-3xl">My Articles</h1>
 
-          <p className=" mx-[20px] mt-[1rem]  text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
+          <p className=" mx-[20px] mt-[1rem] px-[20px]  text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch] ">
             A major part of my job as PIO Clerk was to make sure that the 2nd
             Battalion, 6th Infantry (the "2/6" ) was often and favorably
             represented in the Brigade weekly newspaper: the Berlin Observer.
@@ -27,12 +27,12 @@ function BOarticles() {
           </p>
 
           <a
-            className="w-[100%]  p-[10px] "
+            className="w-[100%]  px-[30px] py-[20px] "
             href="\media\BO PDFs\Berlin Observer 1947suppl.pdf"
             target="_blank"
           >
             <img
-              className=" h-[100%]  text-[20px] leading-[32px] outline outline-black hover:outline-red-500  mobile:max-w-[35ch] mobile:text-[25px] laptop:max-w-[60ch]"
+              className=" h-[100%]   text-[20px] leading-[32px] outline outline-black hover:outline-red-500  mobile:max-w-[35ch] mobile:text-[25px] laptop:max-w-[60ch]"
               src="..\media\BO part 1947 Special.JPG"
               alt="Berlin Observer July 17 1970"
               width=""
@@ -79,7 +79,7 @@ function BOarticles() {
           </p>
         </div>
 
-        <div className="berlinwrap z-20 mx-auto mt-0 grid  grid-cols-1 justify-items-center tablet:grid-cols-5 ">
+        <div className="berlinwrap z-20 mx-[20px] mt-0 grid  grid-cols-1 justify-items-center tablet:grid-cols-5 ">
           <div className="obshead	col-span-5 col-start-1 my-[16px] text-center">
             <img
               className="bannerpic my-[18px]"
@@ -88,7 +88,9 @@ function BOarticles() {
               width="592px"
               height="149"
             />
-            <h2 className=" my-[18px] text-center text-4xl">July 17, 1970</h2>
+            <h2 className=" mb-[20px] mt-[30px] text-center text-4xl">
+              July 17, 1970
+            </h2>
             <h3 className=" text-center  text-4xl">
               My first published writing!
             </h3>
