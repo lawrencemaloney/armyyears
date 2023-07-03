@@ -32,7 +32,7 @@ function BOarticles() {
             target="_blank"
           >
             <img
-              className=" h-[100%]   text-[20px] leading-[32px] outline outline-black hover:outline-red-500  mobile:max-w-[35ch] mobile:text-[25px] laptop:max-w-[60ch]"
+              className=" w-[100%]   text-[20px] leading-[32px] outline outline-black hover:outline-red-500  mobile:max-w-[35ch] mobile:text-[25px] laptop:max-w-[60ch]"
               src="..\media\BO part 1947 Special.JPG"
               alt="Berlin Observer July 17 1970"
               width=""
