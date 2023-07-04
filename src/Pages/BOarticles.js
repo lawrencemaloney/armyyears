@@ -2,6 +2,8 @@
 // import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import Header from "../Components/Header";
 import Sidebar from "../Components/Sidebar";
+import Collapsible from "../Components/Collapsible";
+
 import { Link } from "react-scroll";
 
 function BOarticles() {
@@ -20,10 +22,9 @@ function BOarticles() {
             The Observer began publication in September 1945 as the “Grooper”
             just five and a half months after Germany surrendered. Its final
             publication was 39 years later on July 15, 1994. The “Second
-            Anniversary” edition (pictured below) presents a picture of the
-            early years of the Berlin Brigade, how the Observer was produced,
-            and a preview of the historical value that the Observer maintained
-            over the years.
+            Anniversary” edition (below) presents a picture of the early years
+            of the Berlin Brigade, how the Observer was produced, and a preview
+            of the historical value that the Observer maintained over the years.
           </p>
 
           <a
@@ -92,7 +93,7 @@ function BOarticles() {
               July 17, 1970
             </h2>
             <h3 className=" text-center  text-4xl">
-              My first published writing!
+              My first Professional writing published!
             </h3>
           </div>
 
@@ -114,26 +115,68 @@ function BOarticles() {
                 scavenge through garbage cans to help keep her family alive
                 immediately after the war. She said that her family had a
                 picture of John F. Kennedy in a place of honor in their house.
-                They would never forget his "
-                <span>
-                  <a
-                    href="https://en.wikipedia.org/wiki/Ich_bin_ein_Berliner"
-                    target="blank"
-                    className="airlift text-blue-600 underline visited:text-purple-600"
-                  >
-                    ich ben ein Berliner
-                  </a>
-                </span>
-                " speech in 1963.
+                They would never forget his "ich ben ein Berliner" speech in
+                1963.
+                <Collapsible icon="[&#8224;]">
+                  <div className="mx-4 my-[10px] max-w-[45ch] break-words	text-[18] text-black ">
+                    {/* [&#8224;] */}
+                    <p className="my-[12px]">
+                      Wikipedia contributors, "Ich bin ein Berliner," Wikipedia,
+                      The Free Encyclopedia,{" "}
+                      <a
+                        href="https://en.wikipedia.org/w/index.php?title=Ich_bin_ein_Berliner&oldid=1162407726"
+                        target="blank"
+                        className="airlift text-blue-600 underline visited:text-purple-600"
+                      >
+                        https://en.wikipedia.org/w/index.php?title=Ich_bin_ein_Berliner&oldid=1162407726
+                        (accessed July 3, 2023).
+                      </a>
+                    </p>
+                    <p>
+                      To get an idea of the intensity of respect that Berliners
+                      had for JFK, please read the article:{" "}
+                      <a
+                        target="blank"
+                        rel="noopener noreferrer"
+                        href="http://www.theberlinobserver.com/JFK.htm"
+                        className="
+                  text-blue-600
+                  visited:text-purple-600"
+                      >
+                        JFK Death stuns Outpost residents
+                      </a>{" "}
+                      , which was published in the Berlin Observer three days
+                      after JFK’s assassination.
+                    </p>
+                  </div>
+                </Collapsible>
                 <p className="my-[16px] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
-                  Tempelhof, which closed in 2008, was the the center of the
+                  Tempelhof Airport, which closed in 2008, was the the center of
+                  Berlin Airlift of 1948-49.
+                  <Collapsible icon="[&#8224;]">
+                    <div className="mx-4 my-[10px] max-w-[45ch] break-words	text-[18] text-black ">
+                      {/* [&#8224;] */}
+                      <p className="my-[2px]">
+                        Wikipedia contributors, "Berlin Blockade," Wikipedia,
+                        The Free Encyclopedia,{" "}
+                        <a
+                          href="https://en.wikipedia.org/w/index.php?title=Berlin_Blockade&oldid=1162784690"
+                          target="blank"
+                          className="airlift text-blue-600 underline visited:text-purple-600"
+                        >
+                          https://en.wikipedia.org/w/index.php?title=Berlin_Blockade&oldid=1162784690
+                          (accessed July 3, 2023).
+                        </a>
+                      </p>
+                    </div>
+                  </Collapsible>
                   <span>
                     <a
                       href="https://en.wikipedia.org/wiki/Berlin_Blockade#Start_of_the_Berlin_Airlift"
                       target="blank"
                       className=" reflink text-blue-600 underline visited:text-purple-600 "
                     >
-                      Berlin Airlift of 1948-49.
+                      {" "}
                     </a>
                   </span>
                 </p>
