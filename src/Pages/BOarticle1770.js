@@ -1,34 +1,33 @@
 // import React from "react";
 
-import Header from "../Components/Header";
+// import Header from "../Components/Header";
 import React, { useState, useRef } from "react";
-import Sidebar from "../Components/Sidebar";
+import Collapsible from "../Components/Collapsible";
+
+// import Sidebar from "../Components/Sidebar";
 
 function BOarticle1770() {
   return (
     <>
-      <Header />
-      <Sidebar />
-      <div className="berlinwrap z-20 mx-auto mt-0 grid  grid-cols-1 justify-items-center tablet:grid-cols-5 ">
-        <div className="obshead	col-span-5 col-start-1 my-8 text-center">
+      <div className="article071770 z-20 mx-[20px] mt-0 grid  grid-cols-1 justify-items-center tablet:grid-cols-5 ">
+        <div className="obshead	col-span-5 col-start-1 my-[16px] text-center">
           <img
-            className="bannerpic "
+            className="bannerpic my-[18px]"
             src="..\media\BO-Banner-main-head.jpg"
             alt="Berlin Observer Banner"
             width="592px"
             height="149"
           />
-          <h2 className="mt-3 text-center  text-4xl">July 17, 1970</h2>
-          <h3 className="mt-3 text-center  text-4xl">
-            My first published writing!
+          <h2 className=" mb-[20px] mt-[30px] text-center text-4xl">
+            July 17, 1970
+          </h2>
+          <h3 className=" text-center  text-3xl">
+            My First Published Writing!
           </h3>
         </div>
 
-        <div className="textcontainer col-span-3 col-start-2 mt-[1rem]  max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
-          <p className="dc mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
-            Hey, I got paid ($138.39/month with room & board) for it!{" "}
-          </p>
-          <p className="dc mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
+        <div className="textcontainer col-span-5  col-start-1 my-[18px] max-w-[46ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
+          <p className=" my-[16px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
             Regarding this first article, I remember riding in a convoy of
             military vehicles through the streets of Berlin from McNair Barracks
             to Tempelhof Airport and being curious about how the Berliners
@@ -37,30 +36,72 @@ function BOarticle1770() {
             animosity. In fact, I met people who had very recent memories of the
             misery after the fall of Berlin and then the Soviet blockade who
             were deeply appreciative of our presence.
-            <p className="dc mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
+            <p className="my-[16px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
               One middle-aged Berliner that I met told of how she had to
               scavenge through garbage cans to help keep her family alive
               immediately after the war. She said that her family had a picture
               of John F. Kennedy in a place of honor in their house. They would
-              never forget his "
-              <span className="airlift text-blue-600 underline visited:text-purple-600">
-                <a
-                  href="https://en.wikipedia.org/wiki/Ich_bin_ein_Berliner"
-                  target="_blank"
-                >
-                  ich ben ein Berliner
-                </a>
-              </span>
-              " speech in 1963.
-              <p className="dc mt-[1rem] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
-                Tempelhof, which closed in 2008, was the the center of the
-                <span className=" text-blue-600 underline visited:text-purple-600 ">
+              never forget his "ich ben ein Berliner" speech in 1963.
+              <Collapsible icon="[&#8224;]">
+                <div className="mx-4 my-[10px] max-w-[45ch] break-words	text-[18] text-black ">
+                  {/* [&#8224;] */}
+                  <p className="my-[12px]">
+                    Wikipedia contributors, "Ich bin ein Berliner," Wikipedia,
+                    The Free Encyclopedia,{" "}
+                    <a
+                      href="https://en.wikipedia.org/w/index.php?title=Ich_bin_ein_Berliner&oldid=1162407726"
+                      target="blank"
+                      className="airlift text-blue-600 underline visited:text-purple-600"
+                    >
+                      https://en.wikipedia.org/w/index.php?title=Ich_bin_ein_Berliner&oldid=1162407726
+                      (accessed July 3, 2023).
+                    </a>
+                  </p>
+                  <p>
+                    To get an idea of the intensity of respect that Berliners
+                    had for JFK, please read the article:{" "}
+                    <a
+                      target="blank"
+                      rel="noopener noreferrer"
+                      href="http://www.theberlinobserver.com/JFK.htm"
+                      className="
+                  text-blue-600
+                  visited:text-purple-600"
+                    >
+                      JFK Death stuns Outpost residents
+                    </a>{" "}
+                    , which was published in the Berlin Observer three days
+                    after JFK’s assassination.
+                  </p>
+                </div>
+              </Collapsible>
+              <p className="my-[16px] max-w-[38ch] text-[20px] leading-[32px] mobile:max-w-[40ch] mobile:text-[25px]  laptop:max-w-[60ch]">
+                Tempelhof Airport, which closed in 2008, was the the center of
+                Berlin Airlift of 1948-49.
+                <Collapsible icon="[&#8224;]">
+                  <div className="mx-4 my-[10px] max-w-[45ch] break-words	text-[18] text-black ">
+                    {/* [&#8224;] */}
+                    <p className="my-[2px]">
+                      Wikipedia contributors, "Berlin Blockade," Wikipedia, The
+                      Free Encyclopedia,{" "}
+                      <a
+                        href="https://en.wikipedia.org/w/index.php?title=Berlin_Blockade&oldid=1162784690"
+                        target="blank"
+                        className="airlift text-blue-600 underline visited:text-purple-600"
+                      >
+                        https://en.wikipedia.org/w/index.php?title=Berlin_Blockade&oldid=1162784690
+                        (accessed July 3, 2023).
+                      </a>
+                    </p>
+                  </div>
+                </Collapsible>
+                <span>
                   <a
                     href="https://en.wikipedia.org/wiki/Berlin_Blockade#Start_of_the_Berlin_Airlift"
-                    target="_blank"
+                    target="blank"
+                    className=" reflink text-blue-600 underline visited:text-purple-600 "
                   >
                     {" "}
-                    Berlin Airlift of 1948-49.
                   </a>
                 </span>
               </p>
@@ -68,9 +109,9 @@ function BOarticle1770() {
           </p>
         </div>
 
-        <div className="imagecontainer col-span-5 col-start-1 m-10 grid grid-cols-1 tablet:grid-cols-7">
+        <div className="imagecontainer col-span-5 col-start-1 m-10 grid grid-cols-3 tablet:grid-cols-7">
           <img
-            className="art-3322-1 col-span-3 col-start-1 "
+            className="featureart col-span-3 col-start-1 "
             src="..\media\BO article  07 17 70 (feature).jpg"
             alt="Berlin Observer July 17 1970"
             width="940px"
@@ -78,7 +119,7 @@ function BOarticle1770() {
           />
 
           <img
-            className="art-3322-2 col-span-3 col-start-4"
+            className="bbriefs  col-span-3 col-start-1 "
             src="..\media\BO article 07 17 70 (main altered).JPG"
             alt="Berlin Observer July 17 1970"
             width="519px"
@@ -86,14 +127,14 @@ function BOarticle1770() {
           />
 
           <img
-            className="art-3322-3 col-span-5 col-start-2"
+            className="featsports  col-span-3 col-start-1"
             src="..\media\BO Sports Banner.JPG"
             alt="Berlin Observer July 17 1970"
             height="162px"
           />
 
           <img
-            className="art-3322-4  col-span-5 col-start-2"
+            className="featsports  col-span-3 col-start-1"
             src="..\media\BO article  07 17 70 (2nd).jpg"
             alt="Berlin Observer July 17 1970"
             width="519px"
@@ -106,7 +147,6 @@ function BOarticle1770() {
             href="..\media\BO PDFs\All PDF Archive Files\Berlin Obsever V26_N28_jul17 1970.pdf"
             target="_blank"
           >
-            {" "}
             See Full Edition PDF
           </a>
         </button>

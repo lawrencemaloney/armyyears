@@ -1,18 +1,13 @@
-// import React from "react";
-
-import Header from "../Components/Header";
+import Collapsible from "../Components/Collapsible";
 import React, { useState, useRef } from "react";
-import Sidebar from "../Components/Sidebar";
 
 function BOarticle073071() {
   return (
     <>
-      <Header />
-      <Sidebar />
-      <div className="berlinwrap z-20 mx-auto mt-0 grid  grid-cols-1 justify-items-center tablet:grid-cols-5 ">
-        <div className="obshead	col-span-5 col-start-1 my-8 text-center">
+      <div className="article073071 z-20 mx-[20px] mt-0 grid  grid-cols-1 justify-items-center tablet:grid-cols-5 ">
+        <div className="obshead	col-span-5 col-start-1 my-[16px] text-center">
           <img
-            className="bannerpic "
+            className="bannerpic my-[18px]"
             src="..\media\BO-Banner-main-head.jpg"
             alt="Berlin Observer Banner"
             width="592px"
