@@ -24,8 +24,4 @@ module.exports = {
     },
   },
   plugins: [require("tailwind-scrollbar")],
-  "postcss-import": {},
-  "tailwindcss/nesting": "postcss-nesting",
-  tailwindcss: {},
-  autoprefixer: {},
 };
