@@ -30,7 +30,7 @@ function BOarticle073071() {
         <button className=" col-span-5 col-start-1 mb-8  h-12 justify-self-center rounded border border-2 border-black bg-slate-500 p-3 text-white ring-purple-500 ring-offset-4 ring-offset-slate-50 dark:ring-offset-slate-900">
           <a
             href="..\media\BO PDFs\All PDF Archive Files\Berlin Obsever V27_N30_jul30 1971.pdf"
-            target="_blank"
+            target="blank"
           >
             {" "}
             See Full Edition PDF
