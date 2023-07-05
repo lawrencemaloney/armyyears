@@ -4,6 +4,6 @@ module.exports = {
     "tailwindcss/nesting": "postcss-nesting",
     autoprefixer: {},
     tailwindcss: {},
-    autoprefixer: {},
-  },
+    autoprefixer: {}
+  }
 };
