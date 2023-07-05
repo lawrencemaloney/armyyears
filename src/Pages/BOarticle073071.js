@@ -14,10 +14,10 @@ function BOarticle073071() {
             height="149"
           />
           <h2 className="mt-3 text-center  text-4xl">July 30, 1971</h2>
-          <h3 className="mt-3 text-center  text-4xl">Soldier fighting!</h3>
+          <h3 className="mt-3 text-center  text-4xl">Soldiers fighting!</h3>
         </div>
 
-        <div className="imagecontainer col-span-5 col-start-1 m-10 grid grid-cols-1 tablet:grid-cols-7">
+        <div className="imagecontainer2 col-span-5 col-start-1 m-10 grid grid-cols-1 tablet:grid-cols-7">
           <img
             className="art-box-1 col-span-3 col-start-1 "
             src="..\media\BO article  07 30 71 1st.jpg"
