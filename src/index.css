@@ -19,29 +19,16 @@
     height: 100vh;
   }
 
-  /* html {
-  width: -webkit-fill-available;
-  padding: env(safe-area-inset); 
-} */
+
 
   body {
-    /* width: 100%; */
-    /* width: -webkit-fill-available; */
     flex-grow: 1;
     margin: 0;
     padding: 0;
     font-family: "Merriweather", serif;
     background-color: rgb(255, 252, 235);
     letter-spacing: 0.02rem;
-    /* color:red; */
-    /* color: #273341; */
-    /* height: 100%; */
-    /* line-height: 27px; */
   }
-
-  /* .image-card{
-  border: 5px solid pink;
-} */
 
   .scrollbar::-webkit-scrollbar {
     width: 2vw;
@@ -63,19 +50,7 @@
     background: #777;
   }
 
-  /* 
-  h1 {
-    @apply text-2xl font-bold;
-  }
-  li {
-    @apply p-4;
-  }
 
-  p {
-    @apply mb-2 text-xl ;
-  } */
 
-  /* button {
-    @apply bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] py-3 px-7 rounded-3xl min-w-[150px];
-  } */
+
 }
